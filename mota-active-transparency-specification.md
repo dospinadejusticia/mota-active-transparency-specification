@@ -1,4 +1,4 @@
-# MOTA - Especificación de Transparencia Activa para Entidades Gubernamentales 0.1
+# MOTA - Especificación de Transparencia Activa para Entidades Gubernamentales 0.2
 Borrador de editores 29 Abril 2019
 
 Esta versión:
@@ -39,7 +39,7 @@ En la fecha de publicación se encontra en la versión 0.1.0 y estado Borrador d
 
 Aún que esta especificación sea inspirada por lo trabajo de grupos como W3C, la iniciativa MOTA y sus organizadores non són afiliados a estas organizaciones.
 
-- [MOTA - Especificación de Transparencia Activa para Entidades Gubernamentales 0.1](#mota---especificaci%C3%B3n-de-transparencia-activa-para-entidades-gubernamentales-01)
+- [MOTA - Especificación de Transparencia Activa para Entidades Gubernamentales 0.2](#mota---especificaci%C3%B3n-de-transparencia-activa-para-entidades-gubernamentales-02)
   - [Notes / TODO](#notes--todo)
   - [Abstract](#abstract)
   - [Estado y Tipologia del documento](#estado-y-tipologia-del-documento)
