@@ -82,7 +82,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
         - [5.2.2.1. Criterio de Éxito - Nivel A](#5221-criterio-de-%C3%A9xito---nivel-a)
         - [5.2.2.2. Criterio de Éxito - Nivel AA](#5222-criterio-de-%C3%A9xito---nivel-aa)
         - [5.2.2.3. Criterio de Éxito - Nivel AAA](#5223-criterio-de-%C3%A9xito---nivel-aaa)
-      - [5.2.3 - Universalidad: Patrones de Acesibilidad y Web Standards](#523---universalidad-patrones-de-acesibilidad-y-web-standards)
+      - [5.2.3 - Universalidad: Patrones de Accesibilidad y Web Standards](#523---universalidad-patrones-de-accesibilidad-y-web-standards)
         - [5.2.3.1. Criterio de Éxito - Nivel A](#5231-criterio-de-%C3%A9xito---nivel-a)
         - [5.2.3.2. Criterio de Éxito - Nivel AA](#5232-criterio-de-%C3%A9xito---nivel-aa)
         - [5.2.3.3. Criterio de Éxito - Nivel AAA](#5233-criterio-de-%C3%A9xito---nivel-aaa)
@@ -104,7 +104,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
         - [5.2.6.2. Criterio de Éxito - Nivel AA](#5262-criterio-de-%C3%A9xito---nivel-aa)
         - [5.2.6.3. Criterio de Éxito - Nivel AAA](#5263-criterio-de-%C3%A9xito---nivel-aaa)
   - [6. Información Mínima Obligatoria de Estructura](#6-informaci%C3%B3n-m%C3%ADnima-obligatoria-de-estructura)
-    - [6.1. Estructura orgánica](#61-estructura-org%C3%A1nica)
+    - [6.1. Estructura orgánica / Organigrama](#61-estructura-org%C3%A1nica--organigrama)
       - [6.1.1. Criterio de Éxito - Nivel A](#611-criterio-de-%C3%A9xito---nivel-a)
       - [6.1.2. Criterio de Éxito - Nivel AA](#612-criterio-de-%C3%A9xito---nivel-aa)
       - [6.1.3. Criterio de Éxito - Nivel AAA](#613-criterio-de-%C3%A9xito---nivel-aaa)
@@ -112,7 +112,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [6.2.1. Criterio de Éxito - Nivel A](#621-criterio-de-%C3%A9xito---nivel-a)
       - [6.2.2. Criterio de Éxito - Nivel AA](#622-criterio-de-%C3%A9xito---nivel-aa)
       - [6.2.3. Criterio de Éxito - Nivel AAA](#623-criterio-de-%C3%A9xito---nivel-aaa)
-    - [6.3. Ubicación de sus sedes y áreas](#63-ubicaci%C3%B3n-de-sus-sedes-y-%C3%A1reas)
+    - [6.3. Ubicación de sus sedes y áreas, divisiones o departamentos / Localización física, sucursales o regionales](#63-ubicaci%C3%B3n-de-sus-sedes-y-%C3%A1reas-divisiones-o-departamentos--localizaci%C3%B3n-f%C3%ADsica-sucursales-o-regionales)
       - [6.3.1. Criterio de Éxito - Nivel A](#631-criterio-de-%C3%A9xito---nivel-a)
       - [6.3.2. Criterio de Éxito - Nivel AA](#632-criterio-de-%C3%A9xito---nivel-aa)
       - [6.3.3. Criterio de Éxito - Nivel AAA](#633-criterio-de-%C3%A9xito---nivel-aaa)
@@ -124,7 +124,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [6.5.1. Criterio de Éxito - Nivel A](#651-criterio-de-%C3%A9xito---nivel-a)
       - [6.5.2. Criterio de Éxito - Nivel AA](#652-criterio-de-%C3%A9xito---nivel-aa)
       - [6.5.3. Criterio de Éxito - Nivel AAA](#653-criterio-de-%C3%A9xito---nivel-aaa)
-    - [6.6. Presupuesto](#66-presupuesto)
+    - [6.6. Presupuesto general](#66-presupuesto-general)
       - [6.6.1. Criterio de Éxito - Nivel A](#661-criterio-de-%C3%A9xito---nivel-a)
       - [6.6.2. Criterio de Éxito - Nivel AA](#662-criterio-de-%C3%A9xito---nivel-aa)
       - [6.6.3. Criterio de Éxito - Nivel AAA](#663-criterio-de-%C3%A9xito---nivel-aaa)
@@ -136,7 +136,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [6.7.1. Criterio de Éxito - Nivel A](#671-criterio-de-%C3%A9xito---nivel-a)
       - [6.7.2. Criterio de Éxito - Nivel AA](#672-criterio-de-%C3%A9xito---nivel-aa)
       - [6.7.3. Criterio de Éxito - Nivel AAA](#673-criterio-de-%C3%A9xito---nivel-aaa)
-    - [6.8. Directorio de funcionarios - Básico](#68-directorio-de-funcionarios---b%C3%A1sico)
+    - [6.8. Directorio de servidores públicos, empleados y contratistas](#68-directorio-de-servidores-p%C3%BAblicos-empleados-y-contratistas)
       - [6.8.1. Criterio de Éxito - Nivel A](#681-criterio-de-%C3%A9xito---nivel-a)
       - [6.8.2. Criterio de Éxito - Nivel AA](#682-criterio-de-%C3%A9xito---nivel-aa)
       - [6.8.3. Criterio de Éxito - Nivel AAA](#683-criterio-de-%C3%A9xito---nivel-aaa)
@@ -168,7 +168,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [6.14.1. Criterio de Éxito - Nivel A](#6141-criterio-de-%C3%A9xito---nivel-a-1)
       - [6.14.2. Criterio de Éxito - Nivel AA](#6142-criterio-de-%C3%A9xito---nivel-aa-1)
       - [6.14.3. Criterio de Éxito - Nivel AAA](#6143-criterio-de-%C3%A9xito---nivel-aaa-1)
-    - [6.15. Manuales](#615-manuales)
+    - [6.15. Políticas, lineamientos o manuales](#615-pol%C3%ADticas-lineamientos-o-manuales)
       - [6.15.1. Criterio de Éxito - Nivel A](#6151-criterio-de-%C3%A9xito---nivel-a)
       - [6.15.2. Criterio de Éxito - Nivel AA](#6152-criterio-de-%C3%A9xito---nivel-aa)
       - [6.15.3. Criterio de Éxito - Nivel AAA](#6153-criterio-de-%C3%A9xito---nivel-aaa)
@@ -176,24 +176,20 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [6.16.1. Criterio de Éxito - Nivel A](#6161-criterio-de-%C3%A9xito---nivel-a)
       - [6.16.2. Criterio de Éxito - Nivel AA](#6162-criterio-de-%C3%A9xito---nivel-aa)
       - [6.16.3. Criterio de Éxito - Nivel AAA](#6163-criterio-de-%C3%A9xito---nivel-aaa)
-    - [6.17. Resultado de Auditorías](#617-resultado-de-auditor%C3%ADas)
+    - [6.17. Indicadores de gestión y/o desempeño](#617-indicadores-de-gesti%C3%B3n-yo-desempe%C3%B1o)
       - [6.17.1. Criterio de Éxito - Nivel A](#6171-criterio-de-%C3%A9xito---nivel-a)
       - [6.17.2. Criterio de Éxito - Nivel AA](#6172-criterio-de-%C3%A9xito---nivel-aa)
       - [6.17.3. Criterio de Éxito - Nivel AAA](#6173-criterio-de-%C3%A9xito---nivel-aaa)
-    - [6.18. Indicadores de Desempeño](#618-indicadores-de-desempe%C3%B1o)
+    - [6.18. Plan Anticorrupción y de Atención al Ciudadano](#618-plan-anticorrupci%C3%B3n-y-de-atenci%C3%B3n-al-ciudadano)
       - [6.18.1. Criterio de Éxito - Nivel A](#6181-criterio-de-%C3%A9xito---nivel-a)
       - [6.18.2. Criterio de Éxito - Nivel AA](#6182-criterio-de-%C3%A9xito---nivel-aa)
       - [6.18.3. Criterio de Éxito - Nivel AAA](#6183-criterio-de-%C3%A9xito---nivel-aaa)
-    - [6.19. Plan Anticorrupción y de Atención al Ciudadano](#619-plan-anticorrupci%C3%B3n-y-de-atenci%C3%B3n-al-ciudadano)
+    - [6.19. Plan anual de compras y adquisiciones](#619-plan-anual-de-compras-y-adquisiciones)
       - [6.19.1. Criterio de Éxito - Nivel A](#6191-criterio-de-%C3%A9xito---nivel-a)
       - [6.19.2. Criterio de Éxito - Nivel AA](#6192-criterio-de-%C3%A9xito---nivel-aa)
       - [6.19.3. Criterio de Éxito - Nivel AAA](#6193-criterio-de-%C3%A9xito---nivel-aaa)
-    - [6.20. Plan de Compras y Adquisición](#620-plan-de-compras-y-adquisici%C3%B3n)
-      - [6.20.1. Criterio de Éxito - Nivel A](#6201-criterio-de-%C3%A9xito---nivel-a)
-      - [6.20.2. Criterio de Éxito - Nivel AA](#6202-criterio-de-%C3%A9xito---nivel-aa)
-      - [6.20.3. Criterio de Éxito - Nivel AAA](#6203-criterio-de-%C3%A9xito---nivel-aaa)
   - [7. Información Mínima Obligatoria respecto a Servicios, Procedimientos y Funcionamiento](#7-informaci%C3%B3n-m%C3%ADnima-obligatoria-respecto-a-servicios-procedimientos-y-funcionamiento)
-    - [7.1. Atención al ciudadano](#71-atenci%C3%B3n-al-ciudadano)
+    - [7.1. Servicios](#71-servicios)
       - [7.1.1. Criterio de Éxito - Nivel A](#711-criterio-de-%C3%A9xito---nivel-a)
       - [7.1.2. Criterio de Éxito - Nivel AA](#712-criterio-de-%C3%A9xito---nivel-aa)
       - [7.1.3. Criterio de Éxito - Nivel AAA](#713-criterio-de-%C3%A9xito---nivel-aaa)
@@ -201,7 +197,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [7.2.1. Criterio de Éxito - Nivel A](#721-criterio-de-%C3%A9xito---nivel-a)
       - [7.2.2. Criterio de Éxito - Nivel AA](#722-criterio-de-%C3%A9xito---nivel-aa)
       - [7.2.3. Criterio de Éxito - Nivel AAA](#723-criterio-de-%C3%A9xito---nivel-aaa)
-    - [7.3. Procedimientos](#73-procedimientos)
+    - [7.3. Procedimientos de toma de decisiones](#73-procedimientos-de-toma-de-decisiones)
       - [7.3.1. Criterio de Éxito - Nivel A](#731-criterio-de-%C3%A9xito---nivel-a)
       - [7.3.2. Criterio de Éxito - Nivel AA](#732-criterio-de-%C3%A9xito---nivel-aa)
       - [7.3.3. Criterio de Éxito - Nivel AAA](#733-criterio-de-%C3%A9xito---nivel-aaa)
@@ -213,11 +209,11 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [7.5.1. Criterio de Éxito - Nivel A](#751-criterio-de-%C3%A9xito---nivel-a)
       - [7.5.2. Criterio de Éxito - Nivel AA](#752-criterio-de-%C3%A9xito---nivel-aa)
       - [7.5.3. Criterio de Éxito - Nivel AAA](#753-criterio-de-%C3%A9xito---nivel-aaa)
-    - [7.4. Participación Ciudadana - Mecanismos de Presentación Directa](#74-participaci%C3%B3n-ciudadana---mecanismos-de-presentaci%C3%B3n-directa)
+    - [7.4. Mecanismos de participación ciudadana](#74-mecanismos-de-participaci%C3%B3n-ciudadana)
       - [7.4.1. Criterio de Éxito - Nivel A](#741-criterio-de-%C3%A9xito---nivel-a-1)
       - [7.4.2. Criterio de Éxito - Nivel AA](#742-criterio-de-%C3%A9xito---nivel-aa-1)
       - [7.4.3. Criterio de Éxito - Nivel AAA](#743-criterio-de-%C3%A9xito---nivel-aaa-1)
-    - [7.5. Reporte de Participación Ciudadana](#75-reporte-de-participaci%C3%B3n-ciudadana)
+    - [7.5. Informe de Participación Ciudadana](#75-informe-de-participaci%C3%B3n-ciudadana)
       - [7.5.1. Criterio de Éxito - Nivel A](#751-criterio-de-%C3%A9xito---nivel-a-1)
       - [7.5.2. Criterio de Éxito - Nivel AA](#752-criterio-de-%C3%A9xito---nivel-aa-1)
       - [7.5.3. Criterio de Éxito - Nivel AAA](#753-criterio-de-%C3%A9xito---nivel-aaa-1)
@@ -225,7 +221,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [7.6.1. Criterio de Éxito - Nivel A](#761-criterio-de-%C3%A9xito---nivel-a)
       - [7.6.2. Criterio de Éxito - Nivel AA](#762-criterio-de-%C3%A9xito---nivel-aa)
       - [7.6.3. Criterio de Éxito - Nivel AAA](#763-criterio-de-%C3%A9xito---nivel-aaa)
-    - [7.7. Informes de Gestión](#77-informes-de-gesti%C3%B3n)
+    - [7.7. Informes de gestión, evaluación y auditoría](#77-informes-de-gesti%C3%B3n-evaluaci%C3%B3n-y-auditor%C3%ADa)
       - [7.7.1. Criterio de Éxito - Nivel A](#771-criterio-de-%C3%A9xito---nivel-a)
       - [7.7.2. Criterio de Éxito - Nivel AA](#772-criterio-de-%C3%A9xito---nivel-aa)
       - [7.7.3. Criterio de Éxito - Nivel AAA](#773-criterio-de-%C3%A9xito---nivel-aaa)
@@ -237,7 +233,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [7.9.1. Criterio de Éxito - Nivel A](#791-criterio-de-%C3%A9xito---nivel-a)
       - [7.9.2. Criterio de Éxito - Nivel AA](#792-criterio-de-%C3%A9xito---nivel-aa)
       - [7.9.3. Criterio de Éxito - Nivel AAA](#793-criterio-de-%C3%A9xito---nivel-aaa)
-    - [7.10. Mecanismos Internos de Supervisión - Oficina de Control Interno](#710-mecanismos-internos-de-supervisi%C3%B3n---oficina-de-control-interno)
+    - [7.10. Mecanismos Internos de Supervisión](#710-mecanismos-internos-de-supervisi%C3%B3n)
       - [7.4.1. Criterio de Éxito - Nivel A](#741-criterio-de-%C3%A9xito---nivel-a-2)
       - [7.4.2. Criterio de Éxito - Nivel AA](#742-criterio-de-%C3%A9xito---nivel-aa-2)
       - [7.4.3. Criterio de Éxito - Nivel AAA](#743-criterio-de-%C3%A9xito---nivel-aaa-2)
@@ -245,7 +241,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [7.11.1. Criterio de Éxito - Nivel A](#7111-criterio-de-%C3%A9xito---nivel-a)
       - [7.11.2. Criterio de Éxito - Nivel AA](#7112-criterio-de-%C3%A9xito---nivel-aa)
       - [7.11.3. Criterio de Éxito - Nivel AAA](#7113-criterio-de-%C3%A9xito---nivel-aaa)
-    - [7.12. Mecanismos Notificación](#712-mecanismos-notificaci%C3%B3n)
+    - [7.12. Correo electrónico para notificaciones judiciales](#712-correo-electr%C3%B3nico-para-notificaciones-judiciales)
       - [7.12.1. Criterio de Éxito - Nivel A](#7121-criterio-de-%C3%A9xito---nivel-a)
       - [7.12.2. Criterio de Éxito - Nivel AA](#7122-criterio-de-%C3%A9xito---nivel-aa)
       - [7.12.3. Criterio de Éxito - Nivel AAA](#7123-criterio-de-%C3%A9xito---nivel-aaa)
@@ -358,7 +354,7 @@ Nota 2: No se recomienda como política general exigir el nivel de conformidad A
 (afazer: intro corta)
 
 ### 5.1 Existencia de sitio Web
-Tipo: OBLIGACIÓN
+Tipo: OBLIGACIÓN - Artículo 7 de la Ley 1712 de 2014
 
 La entidad deberá mantener un sitio web, que deberá estar disponible para acesso via una URI oficial por cualquier user-agent.
 
@@ -403,9 +399,9 @@ Registro y clave de acceso son necesarios para acceder a parte del sitio CON una
 
 ##### 5.2.2.3. Criterio de Éxito - Nivel AAA
 
-Todos los servicios son accesibles sin registro previo ni  clave de acceso.
+Todos los servicios son accesibles sin registro previo ni clave de acceso.
 
-#### 5.2.3 - Universalidad: Patrones de Acesibilidad y Web Standards
+#### 5.2.3 - Universalidad: Patrones de Accesibilidad y Web Standards
 Tipo: RECOMENDACIÓN
 
 Los sitios deben permitir acceso igualitario por:
@@ -413,23 +409,25 @@ Los sitios deben permitir acceso igualitario por:
    1) Tecnologías de asistencia como lectores de pantalla, asistentes de voz, etc;
    2) Acceso sin uso de javascript o plugins de terceros;
    3) Acceso por dispositivos variados como computadores, teléfonos inteligentes, asistentes de voz (e.g. Amazon Alexa), SmartTVs y otros dispositivos;
-   4) Acceso en condiciones variadas de conexiones (broadband y 2G/3G de baja performance), para lo cual deben seguir principios y directrices de accesibilidad conforme definidos por la recomendación WCAG2.1 y WAI-ARIA de W3C y siguiendo las mejores prácticas determinadas en The Web Standards projects para markup sin considerar metadatos o atributos semánticos (e.g. elementos HTML semánticos, sin considerar schema.org o RDF markup);
+   4) Acceso en condiciones variadas de conexiones (broadband y 2G/3G de baja performance), para lo cual deben seguir principios y directrices de accesibilidad conforme definidos por la recomendación WCAG2.1 y WAI-ARIA de W3C y siguiendo las mejores prácticas determinadas en The Web Standards projects para markup sin considerar metadatos o atributos semánticos (e.g. elementos HTML semánticos, sin considerar schema.org o RDF markup).
+
+La evaluación debe realizarse en la página de inicio (ubicación oficial) y otras 20 páginas: 10 de primer nivel, 5 páginas de segundo nivel y 5 de tercer nivel, determinadas según posición en el menú principal y / o directorios en la dirección URL después del nombre de dominio.
 
 ##### 5.2.3.1. Criterio de Éxito - Nivel A
 
-El sitio web es válido sin errores en el https://validator.w3.org siguiendo la especificación HTML5 y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, etc.)
+El sitio web es válido en el [https://validator.w3](https://validator.w3.org).org  sin errores y con no más que 50 advertencias, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
 
-[HTML5](https://w3c.github.io/html/), [schema.org](https://schema.org), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD)
+
 
 ##### 5.2.3.2. Criterio de Éxito - Nivel AA
 
-El sitio web es válido sin errores en https://validator.w3.org siguiendo la especificación HTML5 y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correcta de elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, etc.);
+El sitio web es válido en el [https://validator.w3](https://validator.w3.org).org  sin errores y con no más que 50 advertencias, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
 
 El sitio cumple con los criterios A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/)
 
 ##### 5.2.3.3. Criterio de Éxito - Nivel AAA
 
-El sitio web es válido sin errores en https://validator.w3.org siguiendo la especificación HTML5 y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correcta de elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, etc.);
+El sitio web es válido en el [https://validator.w3](https://validator.w3.org).org  sin errores y con no más que 50 advertencias, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
 
 El sitio cumple con los criterios A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/)
 
@@ -438,7 +436,7 @@ El sitio utiliza de forma adequada las prácticas [wai-aria-1.2](https://w3c.git
 #### 5.2.4 - Universalidad: Performance
 Tipo: RECOMENDACIÓN
 
-Los sitios deben permitir acceso con velocidad razonable y estable incluso en malas condiciones de acceso, como conexión por dispositivos móviles en redes de baja performance. Los sitios deben obtener grados mínimos en la herramientas [Webpagetest](http://webpagetest.org/result/190506_KG_29de3021baf30242013b8f58843cd7df/) y Pagespeed Insights, de acuerdo con lo descrito a continuación.
+Los sitios deben permitir acceso con velocidad razonable y estable incluso en malas condiciones de acceso, como conexión por dispositivos móviles en redes de bajo performance. Los sitios deben obtener grados mínimos en la herramientas [Webpagetest](http://webpagetest.org/result/190506_KG_29de3021baf30242013b8f58843cd7df/) y Pagespeed Insights, de acuerdo con lo descrito a continuación.
 
 En Webpagetest, los test son efectuados con la siguiente configuración:
     - Test Location: Android Devices - Dulles, VA, Moto G (gen 4);
@@ -525,14 +523,15 @@ API REST disponible, CON meta-datos.
 API REST disponible, CON meta-datos y en formato JSON.
 
 ## 6. Información Mínima Obligatoria de Estructura
-(afazer: intro)
 
-Informaciones sobre la estructura, de acuerdo con el artículo 9 de la ley 1712 de 2014.
+Informaciones sobre la estructura del sujeto obligado, de acuerdo con el artículo 9 de la Ley 1712 de 2014.
 
-### 6.1. Estructura orgánica
+### 6.1. Estructura orgánica / Organigrama
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal a).
+Resolución 3564 de 2015, anexo 1, punto 3.4.
 
-Descripción de la forma en que se compone y se organiza la entidad y no tan sólo la cabeza o principal órgano que lo compone.
+El sujeto obligado publica su estructura orgánica de manera gráfica y legible, en un formato accesible y usable. Así mismo, publica una descripción de la estructura orgánica, donde se de información general de cada división o dependencia.
 
 #### 6.1.1. Criterio de Éxito - Nivel A
 
@@ -560,8 +559,10 @@ Referencias:
 
 ### 6.2. Funciones y deberes
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal a).
+Resolución 3564 de 2015, anexo 1, punto 3.2.
 
-Descripción de funciones y deberes de la entidad en general y no tan sólo la cabeza o principal órgano que lo compone.
+El sujeto obligado publica sus funciones y deberes de acuerdo con su norma de creación o reestructuración. Si alguna norma le asigna funciones adicionales, éstas también están allí incluidas.
 
 #### 6.2.1. Criterio de Éxito - Nivel A
 
@@ -569,33 +570,30 @@ Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf) o d
 
 #### 6.2.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página, en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página, en HTML. (e.g. tablas o listas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
 #### 6.2.3. Criterio de Éxito - Nivel AAA
 
 Texto disponible en la página, estructurado semánticamente (e.g. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org o motaSchema. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 6.3. Ubicación de sus sedes y áreas
+### 6.3. Ubicación de sus sedes y áreas, divisiones o departamentos / Localización física, sucursales o regionales
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal a).
+Resolución 3564 de 2015, anexo 1, punto 1.2.
 
-Descripción de ubicación de sedes y áreas de la entidad en general y no tan sólo la cabeza o principal órgano que lo compone.
+Ubicación física del sujeto obligado, de sus sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, incluyendo ciudad y departamento de ubicación.
 
 #### 6.3.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf) o disponibles en la página en formato de imagen. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf) o disponibles en una página en formato de imagen. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
 #### 6.3.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página, em HTML5. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en un página, em HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página.
 
 #### 6.3.3. Criterio de Éxito - Nivel AAA
 
-Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org o motaSchema. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
-
-Referencias:
-
-  - https://schema.org/GovernmentOffice
-  - https://schema.org/GovernmentBuilding
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página, em HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página. Las informaciones también estón  disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org  [GovernmentOffice](https://schema.org/GovernmentOffice), [GovernmentBuilding](https://schema.org/GovernmentBuilding), [Organization](https://schema.org/Organization), [PostalAddress](https://schema.org/PostalAddress).
 
 ### 6.4. Divisiones o departamentos
 Tipo: OBLIGACIÓN
@@ -608,16 +606,18 @@ Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf) o d
 
 #### 6.4.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en lá página, em HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en un página, em HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
 #### 6.4.3. Criterio de Éxito - Nivel AAA
 
-Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org o motaSchema. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página, em HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página. Las informaciones también estón  disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org  [GovernmentOffice](https://schema.org/GovernmentOffice), [GovernmentBuilding](https://schema.org/GovernmentBuilding), [Organization](https://schema.org/Organization) con propriedade [department](https://schema.org/department), [PostalAddress](https://schema.org/PostalAddress).
 
 ### 6.5. Horario de Atención al Público
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal a).
+Resolución 3564 de 2015, anexo 1, punto 1.2.
 
-Informaciones sobre horarios de atención al público de la entidad y sus divisiones en diferentes medios: en la sede, teléfono, correo electrónico, etc
+Informaciones sobre horarios  y días de atención al público de la entidad y sus divisiones en diferentes medios: en la sede, teléfono, correo electrónico, etc. Enlace a los datos de contacto de las sucursales que tenga el sujeto obligado.
 
 #### 6.5.1. Criterio de Éxito - Nivel A
 
@@ -631,13 +631,15 @@ Texto disponible en página específica, accesible por elemento de navegación p
 
 Texto disponible en página específica, incluye horarios de atención de diferentes departamentos o sedes. Horarios más importante de la sede o servicio principal también disponible en pié de página de todas las páginas. En los dos casos, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org o motaSchema.
 
-### 6.6. Presupuesto
+### 6.6. Presupuesto general
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal b).
+Resolución 3564 de 2015, anexo 1, punto 5.1.
 
-El presupuesto de la entidad para la respectiva vigencia debe estar disponible para verificación del público. Puede ser el presupuesto inicial o final. Eo presupuesto debe ofrecer datos (valores, ingresos, gastos) de forma clara, organizada y debe estar desagregado conforme se describe a continuación, con encabezados o títulos acuerdo los títulos en paréntesis:
+El sujeto obligado publica su presupuesto general para cada año fiscal. Puede ser el presupuesto inicial o final. El presupuesto debe ofrecer datos (valores, ingresos, gastos) de forma clara, organizada y debe estar desagregado conforme se describe a continuación, con encabezados o títulos en paréntesis:
 
 - Ingresos presupuestarios (Ingresos);
-- gastos de personal (Gastos);
+- Gastos de personal (Gastos);
 - Bienes y servicios de consumo;
 - Adquisición de activos no financieros;
 - Edificios, mobiliarios y otros;
@@ -647,13 +649,15 @@ El presupuesto de la entidad para la respectiva vigencia debe estar disponible p
 
 En la base de patrones MOTA, presentamos un modelo de archivo Datos Presupuestales, que cumple con los requisitos y buenas prácticas aquí mencionadas.
 
+Para las entidades u organismos de la Rama Judicial, el requisito se entenderá cumplido a través de un enlace a la publicación del presupuesto general en la página web del Consejo Superior de la Judicatura.
+
 #### 6.6.1. Criterio de Éxito - Nivel A
 
 Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf) o disponibles en la página en formato de imagen. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
 #### 6.6.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página, em HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión. El archivo sigue el patrón del modelo de archivo Datos Presupuestales en la base de patrones MOTA.
+Datos disponibles en archivos del tipo hoja de cálculo, formatos abiertos (e.g. .odf) y disponibles en la página, em HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión. El archivo sigue el patrón del modelo de archivo Datos Presupuestales en la base de patrones MOTA.
 
 #### 6.6.3. Criterio de Éxito - Nivel AAA
 
@@ -662,8 +666,10 @@ Texto disponible en la página, estructurado semánticamente (i.e. elementos HTM
 
 ### 6.6. Ejecución Histórica Anual
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal b).
+Resolución 3564 de 2015, anexo 1, punto 5.2.
 
-El sitio web contiene información relativa al presupuesto ejecutado en el año en curso, que muestre cómo se está llevando a cabo la ejecución del presupuesto en la respectiva vigencia. Los datos pueden ser agregados mensualmente o trimestralmente, idealmente con porcentajes de ejecución, y deben ofrecer datos (gastos, valores, ingresos, gastos) de forma clara, organizada y encontrarse desagregados conforme se describe a continuación, con encabezados o títulos en paréntesis:
+El sujeto obligado publica la información histórica detallada de la ejecución presupuestal aprobada y ejecutada de ingresos y gastos anuales. La información que reposa debe ser al menos de los últimos dos (2) años anteriores al año en ejercicio, con corte a diciembre del período respectivo y debe ser acorde con el reporte enviado al Sistema Integrado de Información Financiera (SIIF), para lo sujetos que aplique.  Los datos pueden ser agregados mensualmente o trimestralmente, idealmente con porcentajes de ejecución, y deben ofrecer datos (gastos, valores, ingresos, gastos) de forma clara, organizada y encontrarse desagregados conforme se describe a continuación, con encabezados o títulos en paréntesis:
 
 - Ingresos presupuestarios (Ingresos);
 - Gastos de personal (Gastos);
@@ -675,6 +681,8 @@ El sitio web contiene información relativa al presupuesto ejecutado en el año 
 - Actualizado hasta el último trimestre concluido;
 
 En la base de patrones MOTA, presentamos modelos de archivo “Ejecución Presupuestal Mensual” y “Ejecución Presupuestal Trimestral”, que cumplen con los requisitos y buenas prácticas aquí mencionadas.
+
+Para las entidades u organismos de la Rama Judicial, el requisito se entenderá cumplido a través de un enlace a la publicación de la ejecución histórica anual en la página web del Consejo Superior de la Judicatura.
 
 #### 6.6.1. Criterio de Éxito - Nivel A
 
@@ -690,10 +698,16 @@ Texto disponible en la página, estructurado semánticamente (i.e. elementos HTM
 
 ### 6.7. Planes de gasto público por año fiscal
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal b).
+Resolución 3564 de 2015, anexo 1, punto 6.2.
+Ley 1474 de 2011, artículo 74.
 
-AFAZER
+
+El sujeto obligado publica su plan de gasto público para cada año fiscal, en el cual se especifican los objetivos, las estrategias, los proyectos, las metas, los responsables, los planes generales de compras y la distribución presupuestal de sus proyectos de inversión junto a los indicadores de gestión. Así mismo, el plan deberá estar acompañado del informe de gestión del año inmediatamente anterior.
 
 En la base de patrones MOTA, presentamos modelos de archivo ____________________, que cumplen con los requisitos y  buenas prácticas aquí mencionadas.
+
+Para las entidades u organismos de la Rama Judicial, el requisito se entenderá cumplido a través de un enlace a la publicación de los planes de gasto público por año fiscal en la página web del Consejo Superior de la Judicatura.
 
 #### 6.7.1. Criterio de Éxito - Nivel A
 
@@ -708,11 +722,32 @@ AFAZER
 AFAZER
 
 
-### 6.8. Directorio de funcionarios - Básico
+### 6.8. Directorio de servidores públicos, empleados y contratistas
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal c) y parágrafo 2.
+Decreto 103 de 2015, artículo 5.
+Resolución 3564 de 2015, anexo 1, punto 3.5.
 
-El sitio web contiene un directorio de funcionarios con sus informaciones básicas:
+El sujeto obligado publica en formato accesible y reutilizable, el directorio de información de los servidores públicos, empleados y contratistas, incluyendo aquellos que laboran en las sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, con la siguiente información:
 
+- Nombres y apellidos completos.
+- País, Departamento y Ciudad de nacimiento.
+- Formación académica.
+  - Títulos de pregrado y posgrado
+  - Instituciones educativas en donde obtuvo los títulos (incluye especificación de seccionales-ciudades)
+
+- Experiencia laboral y profesional.
+  - Nombres específicos de empleadores previos
+  - Cargos anteriores
+  - Fecha de inicio y fin en cada cargo
+- Empleo, cargo o actividad que desempeña (en caso de contratista, el rol que desempeña con base en el objeto contractual)
+- Dependencia en la que presta sus servicios en la entidad o institución.
+- Dirección de correo electrónico institucional.
+- Teléfono Institucional y extensión.
+- Escala salarial según las categorías para servidores públicos y/o empleados del sector privado.
+- Objeto, valor total de los honorarios, fecha de inicio y de terminación, cuando se trate contratos de prestación de servicios.
+
+Para las entidades u organismos públicos, el requisito se entenderá cumplido a través de un enlace a la publicación de la información que contiene el directorio en el Sistema de Información de Empleo Público (SIGEP).
 - Nombres y apellidos;
 - Direcciones de correo electrónico;
 - Teléfono del despacho y dependencia.
@@ -723,11 +758,15 @@ Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf) . A
 
 #### 6.8.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página, em HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página, em HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+
+En caso de que el directorio no contenga alguna de las informaciones requeridas (e.g. no hay correo electrónico), el grado de calificación será  bajado para el grado anterior. Es decir, el grado será A y no AA.
 
 #### 6.8.3. Criterio de Éxito - Nivel AAA
 
-Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+
+En caso de que el directorio no contenga alguna de las informaciones requeridas (e.g. no hay correo electrónico), el grado de calificación será  bajado para el grado anterior. Es decir, el grado será AA y no AAA.
 
 
 ### 6.9. Directorio de funcionarios - Completo
@@ -739,13 +778,8 @@ El sitio web contiene un directorio de funcionarios con sus informaciones comple
 - Direcciones de correo electrónico;
 - Teléfono del despacho y dependencia.
 - Formación académica
-  - Títulos de pregrado y posgrado
-  - Instituciones educativas en donde obtuvo los títulos (incluye especificación de seccionales-ciudades)
-- Experiencia laboral y profesional
-  - Nombres específicos de empleadores previos
-  - Cargos anteriores
-  - Fecha de inicio y fin en cada cargo
-- Sanciones aplicadas a servidores públicos
+  - Experiencia laboral y profesional
+  - Sanciones aplicadas a servidores públicos
 
  Alternativamente, un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las informaciones.
 
@@ -781,9 +815,9 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ### 6.11. Sanciones aplicadas a servidores públicos
-Tipo: OBLIGACIÓN
+Tipo: RECOMENDACIÓN
 
-Es posible encontrar informaciones sobre sanciones disciplinarias o de otro tipo que hayan sido impuestas  a funcionarios de la entidad. Hay estadísticas sobre las sanciones impuestas, actualizadas hasta el último año concluído y se encuentran desagregadas según el tipo de funcionario. e.g. en el sitio de la Fiscal General de la Nación las informaciones deben esta desagregadas entre fiscales y no fiscales.
+Es posible encontrar informaciones sobre sanciones disciplinarias o de otro tipo que hayan sido impuestas a funcionarios de la entidad. Hay estadísticas sobre las sanciones impuestas, actualizadas hasta el último año concluIdo y se encuentran desagregadas según el tipo de funcionario (e.g. en el sitio de la Fiscal General de la Nación las informaciones deben esta desagregadas entre fiscales y otros cargos).
 
 #### 6.11.1. Criterio de Éxito - Nivel A
 
@@ -854,12 +888,13 @@ Texto disponible en la página, estructurado semánticamente (i.e. elementos HTM
 
 ### 6.14. Normas generales
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal d).
+Resolución 3564 de 2015, anexo 1, punto 4.
 
-Existencia de una sección con normas y reglamentos pertinentes para la entidad: decretos, circulares, leyes, etc. relativas a creacción e reglamentos de la entidad. El documento MOTA - “Reglas Contextuales” especifica normas necesarias por entidad, o clases de entidad. Dos versiones deberán estar disponibles:
+El sujeto obligado publica la normatividad de orden constitucional o legal que lo rige, que determina su competencia y le es aplicable a su actividad.  Existencia de una sección con normas y reglamentos pertinentes para la entidad: decretos, circulares, leyes, etc. relativas a creacción e reglamentos de la entidad. El documento MOTA - “Reglas Contextuales” especifica normas necesarias por entidad, o clases de entidad. Dos versiones deberán estar disponibles:
 
-- Resumen en lenguaje sencillo, destacando secciones pertinentes de reglamentos;
-- Copias verbatim de las normas.
-  - En casos de documentos largos y cuyo alcance exceda el tema de Normas generales, está permitido copias verbatim de apenas las secciones pertinentes, pero es necesario un enlace que redirija al usuario a un archivo o recurso con el documento integral.
+- Listado de normas de orden constitucional o legal que indique nombre, fecha de expedición y una descripción corta de la misma (verbatim), organizadas de la más reciente a la más antigua.
+- n enlace que redirija al usuario a un archivo o recurso con el documento integral.
 
 #### 6.14.1. Criterio de Éxito - Nivel A
 
@@ -876,8 +911,18 @@ Resumen disponible en la página, en HTML, en lenguaje sencillo, con normas comp
 
 ### 6.14. Normas Reglamentarias
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal d).
+Resolución 3564 de 2015, anexo 1, punto 4.
 
-Existencia de información sobrenormas reglamentarias pertinentes a la entidad: resoluciones y directivas. El documento MOTA - “Reglas Contextuales” especifica normas necesarias por entidad, o clases de entidad. Dos versiones deberán estar disponibles:
+El sujeto obligado publica el decreto único reglamentario sectorial, que compila todas las normas reglamentarias vigentes del sector administrativo del que hace parte. Por medio de este decreto se debe generar el acceso a las normas compiladas a través de hipervínculos. Esta información debe ser descargable y en un formato que facilite la búsqueda del texto dentro del documento, así como su continua actualización. Así mismo el sujeto obligado agrega a través de hipervínculos la referencia a todos los actos que adicionen, modifiquen o deroguen cualquiera de las disposiciones del decreto único reglamentario sectorial, así como a las decisiones judiciales que declaren la nulidad de apartes del decreto.
+
+Además, se publican los decretos no compilados, como los de estructura, salarios, decretos que desarrollan leyes marco, entre otros. Esta información debe ser descargable.
+
+Así mismo, si existen resoluciones, circulares u otro tipo de actos administrativos de terceros o que produce el mismo sujeto obligado para el desarrollo de sus funciones, se publica en dos versiones:
+- un listado que indique el tipo de acto (resolución, circular, ordenanza, acuerdo, etc.), la fecha de expedición y una descripción corta del mismo (verbatim), organizados del más reciente al más antiguo.
+- un enlace que redirija al usuario a un archivo o recurso con el documento integral.
+
+ Existencia de información sobrenormas reglamentarias pertinentes a la entidad: resoluciones y directivas. El documento MOTA - “Reglas Contextuales” especifica normas necesarias por entidad, o clases de entidad. Dos versiones deberán estar disponibles:
 
 - Resumen en lenguaje sencillo, destacando secciones de reglamentos pertinentes;
 - Copias verbatim de las normas.
@@ -896,10 +941,24 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [ServiceChannel](https://schema.org/ServiceChannel), y [ContactPoint](https://schema.org/ContactPointOption), [DayOfWeek](https://schema.org/DayOfWeek) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 
-### 6.15. Manuales
+### 6.15. Políticas, lineamientos o manuales
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal d).
+Resolución 3564 de 2015, anexo 1, punto 6.1.
+Ley 1474 de 2011, artículo 73.
 
-(afazer)
+
+El sujeto obligado publica sus lineamientos, manuales y toda política que haya adoptado y afecte al público, junto con sus fundamentos y toda interpretación autorizada de ellas. Entre las políticas, lineamientos y manuales pueden estar (lista ilustrativa, no taxativa):
+
+- Políticas y lineamientos sectoriales e institucionales.
+- Manuales.
+- Planes estratégicos, sectoriales e institucionales.
+- Plan de rendición de cuentas.
+- Plan de servicio al ciudadano.
+- Plan anti-trámites.
+
+Si el sujeto obligado realiza un plan de acción unificado, es válido.
+
 
 #### 6.15.1. Criterio de Éxito - Nivel A
 
@@ -916,8 +975,13 @@ Texto disponible en la página, estructurado semánticamente (i.e. elementos HTM
 
 ### 6.16. Metas y Objetivos
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal d).
+Resolución 3564 de 2015, anexo 1, punto 6.4.
 
-(afazer) (video plan de acción de Fiscalía)
+
+El sujeto obligado y sus unidades administrativas publican la información relacionada con sus metas y objetivos, de conformidad con sus programas operativos y los demás planes exigidos por la normatividad.
+
+Se debe publicar su estado de avance, mínimo cada tres (3) meses.
 
 #### 6.16.1. Criterio de Éxito - Nivel A
 
@@ -932,10 +996,13 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 
-### 6.17. Resultado de Auditorías
+### 6.17. Indicadores de gestión y/o desempeño
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal d).
+Resolución 3564 de 2015, anexo 1, punto 6.4.
 
-(afazer)
+Las entidades deben proveer información sobre los indicadores de gestión y/o desempeño que utilizan y reportes con estadísticas y análisis del desempeño de la entidad en relación a sus programas operativos y los demás planes exigidos por la normatividad.
+
 #### 6.17.1. Criterio de Éxito - Nivel A
 
 Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
@@ -948,11 +1015,18 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-
-### 6.18. Indicadores de Desempeño
+### 6.18. Plan Anticorrupción y de Atención al Ciudadano
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal g).
+Ley 1474 de 2011, artículo 73.
 
-Las entidades deben proveer información sobre los indicadores de desempeño que utilizan y reportes con estadísticas y análisis del desempeño de la entidad (en relación a _________) y de sus funcionarios. Para entidades nacionales, deben contener información a nivel nacional y territorial. El documento MOTA - “Reglas Contextuales” especifica normas necesarias por entidad, o clases de entidad.
+
+El sujeto obligado publica anualmente una estrategia de lucha contra la corrupción y de atención al ciudadano. Dicha estrategia contempla, entre otras cosas:
+- el mapa de riesgos de corrupción en la respectiva entidad
+- las medidas concretas para mitigar esos riesgos
+- las estrategias antitrámites
+- los mecanismos para mejorar la atención al ciudadano.
+
 
 #### 6.18.1. Criterio de Éxito - Nivel A
 
@@ -964,64 +1038,56 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 
 #### 6.18.3. Criterio de Éxito - Nivel AAA
 
-Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [ServiceChannel](https://schema.org/ServiceChannel), y [ContactPoint](https://schema.org/ContactPointOption), [DayOfWeek](https://schema.org/DayOfWeek) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-
-### 6.19. Plan Anticorrupción y de Atención al Ciudadano
+### 6.19. Plan anual de compras y adquisiciones
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal e).
+Decreto 103 de 2015, artículo 10.
+Resolución 3564 de 2015, anexo 1, punto 8.4.
+Ley 1474 de 2011, artículo 74.
+Decreto 1510 de 2013, artículos 3, 4, 5, 6 y 7.
 
-(afazer)
+El sujeto obligado que contrata con cargo a recursos públicos publica en su página web y en el Sistema Electrónico de Contratación Pública (SECOP) su plan general de compras, entendido como un instrumento de planeación contractual que las Entidades Estatales deben diligenciar, publicar y actualizar por lo menos una vez durante su vigencia y cuando: (i) haya ajustes en los cronogramas de adquisición, valores, modalidad de selección, origen de los recursos; (ii) para incluir nuevas obras, bienes y/o servicios; (iii) excluir obras, bienes y/o servicios; o (iv) modificar el presupuesto anual de adquisiciones.. El plan debe compreender:
+
+- La lista de bienes, obras y servicios que se pretenden adquirir durante el año.
+- La necesidad ( y cuando conoce el bien, obra o servicio que satisface esa nece­sidad debe identificarlo utilizando el Clasificador de Bienes y Servicios)
+- El valor estimado del contrato
+- El tipo de recursos con cargo a los cuales la Entidad Estatal pagará el bien, obra o servicio
+- La modalidad de selección del contratista
+- La fecha aproximada en la cual la Entidad Estatal iniciará el Proceso de Contratación. - Proceso de Gestión Contractual / Procedimiento Plan Anual de Adquisiciones
+
+El documento MOTA - Reglas Contextuales especifica normas necesarias por entidad, o clases de entidad.
 
 #### 6.19.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Informaciones disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf), con links para el SECOP. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
 #### 6.19.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página, en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Contenido del Plan disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
 #### 6.19.3. Criterio de Éxito - Nivel AAA
-
-Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [ServiceChannel](https://schema.org/ServiceChannel), y [ContactPoint](https://schema.org/ContactPointOption), [DayOfWeek](https://schema.org/DayOfWeek) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
-
-### 6.20. Plan de Compras y Adquisición
-Tipo: OBLIGACIÓN
-
-La entidad debe ofrecer informaciones de su Plan de Compras Anual. El documento MOTA - Reglas Contextuales especifica normas necesarias por entidad, o clases de entidad. El plan debe compreender:
-
-- Proceso de Gestión Contractual / Procedimiento Plan Anual de Adquisiciones
-- Contrataciones adjudicadas para la correspondiente vigencia, incluso funcionamiento e inversión, obras públicas, bienes adquiridos y arrendados, estudios o investigaciones.
-- Plazos de cumplimiento de los contratos.
-- Contrataciones en curso.
-
-NOTA: Todos los contratos e ítems deben contener enlace al SECOP.
-
-En caso de entidades con múltiples divisiones (e.g. secciones territoriales), se debe utilizar un archivo o una página web para cada división.
-
-#### 6.20.1. Criterio de Éxito - Nivel A
-
-Informaciones disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf), con links para el SECOP. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
-
-#### 6.20.2. Criterio de Éxito - Nivel AA
-
-Proceso de Gestión Contractual disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados), informaciones de contratos disponibles en archivos, formatos abiertos (e.g. .odf), con links para el SECOP. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
-
-#### 6.20.3. Criterio de Éxito - Nivel AAA
 Proceso de Gestión Contractual y lista de documentos disponibles en la página, estructurados semánticamente (i.e. elementos HTML5 apropiados), informaciones de contratos disponibles en archivos, en formatos abiertos (e.g. .odf), contendo links para el SECOP. Meta-dados de la colección de documentos contienen nombre del documento, autor, data de actualización, URI y enlace para el SECOP) en sintaxis LD+JSON y vocabulario schema.org según esquema [Collection](https://schema.org/Collection), [DigitalDocument](https://schema.org/DigitalDocument) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ## 7. Información Mínima Obligatoria respecto a Servicios, Procedimientos y Funcionamiento
-(afazer: intro)
 
-Información Mínima Obligatoria respecto a Servicios, Procedimientos y Funcionamiento, acuerdo artículo 11 de la ley 1712 de 2014.
 
-### 7.1. Atención al ciudadano
+Información Mínima Obligatoria respecto a Servicios, Procedimientos y Funcionamiento, de acuerdo con el artículo 11 de la Ley 1712 de 2014.
+
+### 7.1. Servicios
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 11, literal a).
+Decreto 103 de 2015, artículo 6.
+Resolución 3564 de 2015, anexo 1, punto 9.
 
-El sitio de la entidad debe contener una o más páginas con información de los servicios que brinda directamente al público, incluyendo i) normas ii) formularios y formatos y, iii) protocolos de atención a los siguientes públicos:
-
-1 - Ciudadanos en general;
-2 - Prensa;
-3 - Públicos específicos (e.g. litigantes en Corte Constitucional, Corte Suprema de Justicia, Consejo de Estado, etc.)
+El sitio del sujeto obligado contiene una o más páginas con información de los servicios que brinda directamente al público, incluyendo:
+- La norma que los sustenta
+- Proceso a seguir
+- Costos asociados
+- Formularios y formatos requeridos
+- Protocolos de atención a los siguientes públicos: 1) Ciudadanos en general; 2) Prensa; 3) grupos de interés, según la entidad.
+- Indicación de aquellos que se encuentren disponibles en línea.
 
 El documento MOTA - “Reglas Contextuales” especifica normas necesarias por entidad, o clases de entidad.
 
@@ -1039,12 +1105,22 @@ Informaciones disponibles en una o más páginas interligadas, estructuradas sem
 
 ### 7.2. Trámites
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 11, literal b).
+Decreto 103 de 2015, artículo 6.
+Resolución 3564 de 2015, anexo 1, punto 9.
 
-El sitio de la entidad debe contener una o más páginas con informaciones de los trámites que se pueden agotar en la entidad, incluyendo i) normativa(s) relacionada(s) ii) proceso a seguir, incluso formularios y formatos y, iii) costos asociados.
+El sujeto obligado publica toda la información correspondiente a los trámites que se pueden agotar en la entidad, incluyendo:
+- La norma que los sustenta
+- Proceso a seguir
+- Costos asociados
+- Formularios y formatos requeridos
+- Indicación de aquellos que se encuentren disponibles en línea.
 
-Además de informaciones acerca cada trámite, se recomienda una tabla resumen listando costos, normativas y link para informaciones en detalles de cada trámite.
+Además de informaciones acerca cada trámite, se recomienda una tabla resumen listando costos, normativa y link para informaciones en detalles de cada trámite.
 
 Los trámites mínimos requeridos para cada entidad o clases de entidades son especificados en el documento MOTA - “Reglas Contextuales”.
+
+Este requisito se entenderá cumplido con la inscripción de los trámites en el Sistema Único de Información de Trámites y Procedimientos Administrativos (SUIT) y la relación de los nombres de los mismos en el respectivo sitio web oficial del sujeto obligado con un enlace al Portal del Estado Colombiano o el que haga sus veces.
 
 #### 7.2.1. Criterio de Éxito - Nivel A
 
@@ -1059,10 +1135,12 @@ Informaciones disponibles en una o más páginas interligadas, estructuradas sem
 
 Informaciones disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), incluso una tabla listando costos, normativas y link para informaciones en detalles de cada trámite, y modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Informaciones también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 7.3. Procedimientos
+### 7.3. Procedimientos de toma de decisiones
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 11, literal c).
+Resolución 3564 de 2015, anexo 1, punto 3.3.
 
-El sitio de la entidad debe contener una o más páginas con informaciones sobre los procedimientos que se siguen para tomar decisiones en diferentes áreas y procesos. Los procedimientos mínimos requeridos para cada entidad o clases de entidad son especificados en el documento MOTA - “Reglas Contextuales”.
+El sujeto obligado publica  la descripción de los procesos y procedimientos que se siguen para tomar decisiones en las diferentes áreas. Los procedimientos mínimos requeridos para cada entidad o clases de entidad son especificados en el documento MOTA - “Reglas Contextuales”.
 
 Ejemplo: Procedimientos mínimos Fiscalía General de la Nación:
 
@@ -1087,18 +1165,18 @@ Informaciones disponibles en una o más páginas interligadas, estructuradas sem
 
 ### 7.4. Decisiones
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 11, literal d).
 
-El sitio de la entidad debe contener una o más páginas con los contenidos de las decisiones adoptadas que afecten al público, junto con sus fundamentos e interpretaciones. Los procedimientos mínimos requeridos para cada entidad o clases de entidad son especificados en el documento MOTA - “Reglas Contextuales”.
+El sujeto obligado publica  los contenidos de las decisiones adoptadas que afecten al público, junto con sus fundamentos e interpretaciones. Los tipos de decisiones mínimos requeridos para cada entidad o clases de entidad son especificados en el documento MOTA - “Reglas Contextuales”.
 
-Ejemplo: listado de decisiones mínimas que debe contener el sitio de la Fiscalía General de la Nación:
+Ejemplo: listado de decisiones mínimas que debe contener el sitio de la Corte Constitucional:
 
-1. Decisiones sobre adopción de políticas internas de investigación
-2. afazer
-3. afazer
-4. afazer
-5. afazer
+1. Sentencias de tutela
+2. Sentencias de constitucionalidad
+3. Autos
+4. Acuerdo de Sala Plena
 
-Además de informaciones acerca cada decisión, se recomenda una tabla o listado de decisiones organizadas de forma cronológica en reversa (i.e. las decisiones más recientes al inicio de la lista).
+Además de la publicación de información acerca cada decisión, se recomienda una tabla o listado de decisiones organizadas de forma cronológica en reversa (i.e. las decisiones más recientes al inicio de la lista).
 
 #### 7.4.1. Criterio de Éxito - Nivel A
 
@@ -1141,17 +1219,20 @@ Informaciones disponibles en una o más páginas interligadas, estructuradas sem
 
 Informaciones disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A, AA y AAA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Informaciones también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 7.4. Participación Ciudadana - Mecanismos de Presentación Directa
-
+### 7.4. Mecanismos de participación ciudadana
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 11, literal h).
+Resolución 3564 de 2015, anexo 1, puntos 1.1, 2.4 y 10.9.
+Resolución 3564 de 2015, anexo 2.
 
-El sitio de la entidad debe ofrecer mecanismos de presentación directa de solicitudes, quejas y reclamos a disposición del público. Los mecanismos mínimos son:
+El sujeto obligado dispone de canales para la atención al ciudadano y para recibir peticiones, quejas, reclamos, denuncias y solicitudes de información pública, tales como:
+Teléfonos fijos y móviles, con líneas gratuitas y fax, incluyendo el indicativo nacional e internacional en el formato (+57 número del área respectiva).
+Correo electrónico institucional para la recepción de solicitudes de información.
+Correo físico o postal para la recepción de solicitudes de información.
+Link al formulario electrónico de solicitudes, peticiones, quejas, reclamos.
 
-1. Correo para información
-2. Buzón de PQRs en forma de formulário sencillo, sin obligaciones de identificación o registro.
-3. Preguntas frecuentes
+Además, el sujeto obligado ofrece una lista de preguntas frecuentes con las respectivas respuestas, relacionadas con su gestión y los servicios y trámites que presta.
 
-El buzón de PQRs y el correo para información deben ser considerados mecanismos válidos para presentación de derechos de petición y solicitudes de acceso a información pública (Transparencia Pasiva), y para hacerle seguimiento al Derecho de petición a través da generación de radicado o que escriban durante el proceso donde va la PQR. En caso de que el buzón de PQRs sea utilizado para derechos de petición, es válido solicitar un correo electrónico para respuesta y seguimiento.
 
 #### 7.4.1. Criterio de Éxito - Nivel A
 
@@ -1167,21 +1248,23 @@ En caso de un gran número de preguntas frequentes, un formulario de búsqueda d
 
 Informaciones disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A, AA y AAA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf).
 
-En caso de un gran número de preguntas frequentes, un formulario de búsquedadebe estar presente.
+En caso de un gran número de preguntas frequentes, un formulario de búsqueda debe estar presente.
 
 Informaciones también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 7.5. Reporte de Participación Ciudadana
+### 7.5. Informe de Participación Ciudadana
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 11, literal h).
+Decreto 103 de 2015, artículo 52.
+Resolución 3564 de 2015, anexo 1, punto 10.10.
 
-El sitio de la entidad debe contener una o más páginas con reportes generales y agregados de datos de quejas y reclamos de la entidad, correspondientes a la respectiva vigencia y a años anteriores.
+El sujeto obligado publica un informe de todas las peticiones, quejas, reclamos, denuncias y solicitudes de acceso a información pública recibidas, los tiempos de respuesta del sujeto obligado y un análisis resumido de este tema. Respecto de las solicitudes de acceso a información pública, el informe debe discriminar la siguiente información mínima agregada:
 
-El reporte general debe contener:
+- El número de solicitudes recibidas.
+- El número de solicitudes que fueron trasladadas a otra institución.
+- El tiempo de respuesta a cada solicitud.
+- El número de solicitudes en las que se negó el acceso a la información.
 
-- Estadísticas agregadas de solicitudes, denuncias y los tiempos de respuesta del sujeto obligado.
-- Análisis de las estadísticas, lecciones aprendidas y desafíos para el próximo año.
-
-El conjunto de datos, en formato tabla u hoja de cálculos, debe contener informaciones de todas las solicitudes recibidas, con identificador de la queja, denuncias y tiempos de respuestas del sujeto obligado, pero sin informaciones que identifiquen directamente a ciudadanos.
 
 #### 7.5.1. Criterio de Éxito - Nivel A
 
@@ -1203,8 +1286,15 @@ El conjunto de datos con todas las solicitudes, denuncias y tiempos de respuesta
 
 ### 7.6. Mecanismos de Participación Ciudadana en Formulación de Políticas
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 11, literal i).
+Decreto 103 de 2015, artículo 15.
+Resolución 3564 de 2015, anexo 1, punto 6.5.
 
-El sitio de la entidad debe contener una o más páginas describiendo los mecanismos de participación ciudadana que ofrece para la formulación de políticas o ejercicios de facultades del sujeto obligado, incluyendo publicidad de invitaciones públicas, convocatorias o procesos de participación pública.
+El sujeto obligado publica información sobre todo mecanismo o procedimiento a que deben sujetarse los ciudadanos, usuarios o interesados en participar en la formulación de la política, en el ejercicio de las facultades de ese sujeto obligado, o en el control o evaluación de la gestión institucional, indicando:
+- Los sujetos que pueden participar
+- Los medios presenciales y electrónicos
+- Las áreas responsables de la orientación y vigilancia para su cumplimiento.
+Este ítem incluye la publicidad de invitaciones públicas, convocatorias o procesos de participación pública.
 
 #### 7.6.1. Criterio de Éxito - Nivel A
 
@@ -1218,31 +1308,38 @@ Informaciones disponibles en una o más páginas interligadas, estructuradas sem
 
 Informaciones disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A, AA y AAA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Informaciones también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 7.7. Informes de Gestión
+### 7.7. Informes de gestión, evaluación y auditoría
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 10, literal d) y artículo 11, literal e).
+Resolución 3564 de 2015, anexo 1, punto 7.1.
 
-El sitio de la entidad debe contener Informes de Gestión del periodo vigente y de períodos anteriores. Los informes resumen los resultados de la entidad por un período determinado, así como la administración hecha a sus recursos, contratación, entre otros.
+El sujeto obligado pública todos los informes de gestión, evaluación y auditoría. Para los sujetos obligados que aplique, como mínimo deben publicar--dentro del mes de enviado o realizado el evento, según corresponda-- los siguientes informes:
 
-AFAZER: aclarar "Documentos ex - post: vienen después de la gestión realizada en la respectiva vigencia
+Informe enviado al Congreso / Asamblea / Consejo.
+Informe de rendición de la cuenta fiscal a la Contraloría General de la República o a las Contralorías Territoriales, según corresponda.
+Informe de rendición de cuentas a los ciudadanos, incluyendo la respuesta a las solicitudes de los ciudadanos antes y durante el ejercicio de rendición.
+Informes a organismos de inspección, vigilancia y control.
+Informe de la auditoría al ejercicio presupuestal.
+
 
 Idealmente, los informes deben ser presentarnos en páginas HTML, pero archivos también son válidos.
 
 
 #### 7.7.1. Criterio de Éxito - Nivel A
 
-El sitio contiene una página Informes de Gestión con listado o tabla de links para reportes en archivos PDF, PPT o DOC del periodo vigente y de anteriores.
+El sitio contiene una página Informes de gestión, evaluación y auditoría con listado o tabla de links para reportes en archivos PDF, PPT o DOC del periodo vigente y de anteriores.
 
 Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia.
 
 #### 7.7.2. Criterio de Éxito - Nivel AA
 
-El sitio contiene una página Informes de Gestión con listado o tabla de links para reportes en archivos PDF, PPT o DOC del periodo vigente y de anteriores.
+El sitio contiene una página Informes de gestión, evaluación y auditoría con listado o tabla de links para reportes en archivos PDF, PPT o DOC del periodo vigente y de anteriores.
 
 Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
 #### 7.7.3. Criterio de Éxito - Nivel AAA
 
-El sitio contiene una página Informes de Gestión con listado o tabla de links para reportes en archivos PDF, PPT o DOC del  período vigente y de los anteriores.
+El sitio contiene una página Informes de gestión, evaluación y auditoría con listado o tabla de links para reportes en archivos PDF, PPT o DOC del  período vigente y de los anteriores.
 
 Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencilla y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formulários y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
@@ -1308,10 +1405,16 @@ Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados
 
 Las mismas informaciones en el listado están disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
-### 7.10. Mecanismos Internos de Supervisión - Oficina de Control Interno
+### 7.10. Mecanismos Internos de Supervisión
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 10, literal d) y artículo 11, literal f).
+Resolución 3564 de 2015, anexo 1, puntos 7.2, 7.3, y 7.4.
 
-El sitio de la entidad debe contener una o más páginas con información acerca de la Oficina de Control Interno, de manera que los funcionarios o la ciudadanía tengan claro que hay una dependencia a la que se puede acudir para presentar denuncias u observaciones acerca del funcionamiento interno de la entidad. En este sentido, se puede encontrar información sobre las funciones (la misión o los objetivos), los procesos (en qué consisten los planes de mejoramiento, cómo se hace efectiva una sanción, entre otros.) o mecanismos (qué instrumentos de denuncia tienen) de la Oficina. También se vale información que explique la diferencia entre el control interno disciplinario y el control interno de gestión.
+El sujeto obligado publica información relacionada con los informes, planes de mejoramiento, entes y mecanismos de supervisión y control que existen al interior del sujeto obligado, incluyendo como mínimo:
+
+Ente de control interno que vigila al sujeto obligado:  El sitio de la entidad contiene una o más páginas con información acerca de la Oficina de Control Interno, de manera que los funcionarios o la ciudadanía tengan claro que hay una dependencia a la que se puede acudir para presentar denuncias u observaciones acerca del funcionamiento interno de la entidad. En este sentido, se puede encontrar información sobre las funciones (la misión o los objetivos), los procesos ( cómo se hace efectiva una sanción, entre otros.) o mecanismos (que instrumentos de denuncia tienen) de la Oficina. También se vale información que explique la diferencia entre el control interno disciplinario y el control interno de gestión.
+Reportes de control interno: El sujeto obligado publica como mínimo el informe pormenorizado del estado del control interno. Dicho informe se debe publicar cada cuatro (4) meses.
+Planes de mejoramiento: El sujeto obligado publica los Planes de Mejoramiento vigentes exigidos por el ente de control interno.
 
 #### 7.4.1. Criterio de Éxito - Nivel A
 
@@ -1329,10 +1432,17 @@ Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://sch
 
 ### 7.11. Mecanismos Externos de Supervisión
 Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 10, literal d) y artículo 11, literal f).
+Resolución 3564 de 2015, anexo 1, puntos 7.3 y 7.4.
 
-AFAZER: aclarear o que debemos encontrar
+El sujeto obligado publica información relacionada con los informes, planes de mejoramiento, entes y mecanismos de supervisión y control externo, incluyendo como mínimo:
 
-El sitio de la entidad debe contener una o más páginas con informaciones acerca de Mecanismos Externos de Supervisión, de manera que funcionarios o ciudadanía tengan claro a qué entidad se puede acudir para presentar denuncias u observaciones acerca del funcionamiento interno de la entidad.
+Entes de control externo que vigilan al sujeto obligado y mecanismos de supervisión:  El sujeto obligado publica la relación de todas las entidades que lo vigilan y de los mecanismos externos de supervisión, notificación y vigilancia pertinente que existen frente al sujeto obligado. Para ello se debe indicar como mínimo:
+Tipo de control que se ejecuta (e.g. fiscal, disciplinario, político, social, etc.)
+Planes de mejoramiento: El sujeto obligado publica los Planes de Mejoramiento vigentes exigidos por entes de control externo. Así mismo, cuenta con un enlace al sitio web del organismo de control en donde se encuentren los informes que éste ha elaborado sobre el respectivo sujeto obligado.
+
+Así mismo, el sujeto obligado informa sobre la manera como un particular puede comunicar una irregularidad ante los entes que ejercen supervisión y control sobre el sujeto obligado.
+
 
 #### 7.11.1. Criterio de Éxito - Nivel A
 
@@ -1348,10 +1458,11 @@ Informaciones disponibles en una o más páginas interligadas, estructuradas sem
 
 Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
-### 7.12. Mecanismos Notificación
-Tipo: OBLIGACIÓN
+### 7.12. Correo electrónico para notificaciones judiciales
+Tipo: OBLIGACIÓNResolución 3564 de 2015, anexo 1, punto 1.3.
 
-AFAZER: aclarear o que debemos encontrar
+El sujeto obligado publica la dirección de correo electrónico para notificaciones judiciales, la cual debe estar disponible en el pie de página de la página principal del sitio del sujeto obligado, así como en la sección de Atención al Ciudadano. El correo para notificaciones judiciales debe estar configurado de forma tal que envíe acuse de recibo al remitente de forma automática.
+
 
 #### 7.12.1. Criterio de Éxito - Nivel A
 
