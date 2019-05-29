@@ -22,14 +22,6 @@ Este documento tiene control de versión inspirado en el sistema de versión sem
 https://semver.org/lang/es/
 https://www.celsobessa.com.br/2016/01/05/organizando-os-arquivos/
 
-## AFAZERES en destaque
-
-- especificar LD+JSON em arquivo externo via link element com rel="alternate" e type="application/json" mime-type
-- especificar o que é um PDF acessível e melhore práticas para gerá-los. Definir se há diferença entre acessível e machine readable
-  - https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html
-  - https://webaim.org/techniques/acrobat/
-  - https://webaim.org/techniques/acrobat/converting
-
 ## Abstract
 
 Una especificación de los obligaciones y buenas prácticas para publicación y divulgación de información de transparencia activa en Colombia.
@@ -52,7 +44,6 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
 
 - [MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.2](#mota---especificaci%C3%B3n-de-transparencia-activa-para-entidades-gubernamentales-02)
   - [Notes](#notes)
-  - [AFAZERES en destaque](#afazeres-en-destaque)
   - [Abstract](#abstract)
   - [Estado y Tipología del documento](#estado-y-tipolog%C3%ADa-del-documento)
   - [1. Introducción](#1-introducci%C3%B3n)
