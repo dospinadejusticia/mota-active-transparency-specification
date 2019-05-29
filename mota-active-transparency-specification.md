@@ -155,30 +155,30 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [6.14.1. Criterio de Éxito - Nivel A](#6141-criterio-de-%C3%A9xito---nivel-a)
       - [6.14.2. Criterio de Éxito - Nivel AA](#6142-criterio-de-%C3%A9xito---nivel-aa)
       - [6.14.3. Criterio de Éxito - Nivel AAA](#6143-criterio-de-%C3%A9xito---nivel-aaa)
-    - [6.14. Normas Reglamentarias](#614-normas-reglamentarias)
-      - [6.14.1. Criterio de Éxito - Nivel A](#6141-criterio-de-%C3%A9xito---nivel-a-1)
-      - [6.14.2. Criterio de Éxito - Nivel AA](#6142-criterio-de-%C3%A9xito---nivel-aa-1)
-      - [6.14.3. Criterio de Éxito - Nivel AAA](#6143-criterio-de-%C3%A9xito---nivel-aaa-1)
-    - [6.15. Políticas, lineamientos o manuales](#615-pol%C3%ADticas-lineamientos-o-manuales)
+    - [6.15. Normas Reglamentarias](#615-normas-reglamentarias)
       - [6.15.1. Criterio de Éxito - Nivel A](#6151-criterio-de-%C3%A9xito---nivel-a)
       - [6.15.2. Criterio de Éxito - Nivel AA](#6152-criterio-de-%C3%A9xito---nivel-aa)
       - [6.15.3. Criterio de Éxito - Nivel AAA](#6153-criterio-de-%C3%A9xito---nivel-aaa)
-    - [6.16. Metas y Objetivos](#616-metas-y-objetivos)
+    - [6.16. Políticas, lineamientos o manuales](#616-pol%C3%ADticas-lineamientos-o-manuales)
       - [6.16.1. Criterio de Éxito - Nivel A](#6161-criterio-de-%C3%A9xito---nivel-a)
-      - [6.16.2. Criterio de Éxito - Nivel AA](#6162-criterio-de-%C3%A9xito---nivel-aa)
-      - [6.16.3. Criterio de Éxito - Nivel AAA](#6163-criterio-de-%C3%A9xito---nivel-aaa)
-    - [6.17. Indicadores de gestión y/o desempeño](#617-indicadores-de-gesti%C3%B3n-yo-desempe%C3%B1o)
+      - [6.15.2. Criterio de Éxito - Nivel AA](#6152-criterio-de-%C3%A9xito---nivel-aa-1)
+      - [6.15.3. Criterio de Éxito - Nivel AAA](#6153-criterio-de-%C3%A9xito---nivel-aaa-1)
+    - [6.17. Metas y Objetivos](#617-metas-y-objetivos)
       - [6.17.1. Criterio de Éxito - Nivel A](#6171-criterio-de-%C3%A9xito---nivel-a)
       - [6.17.2. Criterio de Éxito - Nivel AA](#6172-criterio-de-%C3%A9xito---nivel-aa)
       - [6.17.3. Criterio de Éxito - Nivel AAA](#6173-criterio-de-%C3%A9xito---nivel-aaa)
-    - [6.18. Plan Anticorrupción y de Atención al Ciudadano](#618-plan-anticorrupci%C3%B3n-y-de-atenci%C3%B3n-al-ciudadano)
+    - [6.18. Indicadores de gestión y/o desempeño](#618-indicadores-de-gesti%C3%B3n-yo-desempe%C3%B1o)
       - [6.18.1. Criterio de Éxito - Nivel A](#6181-criterio-de-%C3%A9xito---nivel-a)
       - [6.18.2. Criterio de Éxito - Nivel AA](#6182-criterio-de-%C3%A9xito---nivel-aa)
       - [6.18.3. Criterio de Éxito - Nivel AAA](#6183-criterio-de-%C3%A9xito---nivel-aaa)
-    - [6.19. Plan anual de compras y adquisiciones](#619-plan-anual-de-compras-y-adquisiciones)
+    - [6.19. Plan Anticorrupción y de Atención al Ciudadano](#619-plan-anticorrupci%C3%B3n-y-de-atenci%C3%B3n-al-ciudadano)
       - [6.19.1. Criterio de Éxito - Nivel A](#6191-criterio-de-%C3%A9xito---nivel-a)
       - [6.19.2. Criterio de Éxito - Nivel AA](#6192-criterio-de-%C3%A9xito---nivel-aa)
       - [6.19.3. Criterio de Éxito - Nivel AAA](#6193-criterio-de-%C3%A9xito---nivel-aaa)
+    - [6.20. Plan anual de compras y adquisiciones](#620-plan-anual-de-compras-y-adquisiciones)
+      - [6.20.1. Criterio de Éxito - Nivel A](#6201-criterio-de-%C3%A9xito---nivel-a)
+      - [6.20.2. Criterio de Éxito - Nivel AA](#6202-criterio-de-%C3%A9xito---nivel-aa)
+      - [6.20.3. Criterio de Éxito - Nivel AAA](#6203-criterio-de-%C3%A9xito---nivel-aaa)
   - [7. Información Mínima Obligatoria respecto a Servicios, Procedimientos y Funcionamiento](#7-informaci%C3%B3n-m%C3%ADnima-obligatoria-respecto-a-servicios-procedimientos-y-funcionamiento)
     - [7.1. Servicios](#71-servicios)
       - [7.1.1. Criterio de Éxito - Nivel A](#711-criterio-de-%C3%A9xito---nivel-a)
@@ -900,7 +900,7 @@ Resumen disponible en la página, em HTML, en lenguaje sencillo, con normas comp
 Resumen disponible en la página, en HTML, en lenguaje sencillo, con normas completas disponibles también en HTML en la misma página o otra página en el mismo sitio. En los dos casos, el contenido es estructurado semánticamente (i.e. elementos HTML5 apropiados) y sus meta-datos disponibles en sintaxis LD+JSON y vocabulario schema.org segundo esquema [legislation](https://schema.org/Legislation) y [LegislationObject](https://schema.org/LegislationObject). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 
-### 6.14. Normas Reglamentarias
+### 6.15. Normas Reglamentarias
 Tipo: OBLIGACIÓN
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 4.
@@ -919,20 +919,20 @@ Así mismo, si existen resoluciones, circulares u otro tipo de actos administrat
 - Copias verbatim de las normas.
   - En casos de documentos largos y cuyo alcance exceda el tema de Normas generales, está permitido copias verbatim de apenas las seccionespertinentes, pero es necesario un enlace que redirija al usuario a un archivo o recurso con el documento integral.
 
-#### 6.14.1. Criterio de Éxito - Nivel A
+#### 6.15.1. Criterio de Éxito - Nivel A
 
 Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
-#### 6.14.2. Criterio de Éxito - Nivel AA
+#### 6.15.2. Criterio de Éxito - Nivel AA
 
 Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página, en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
-#### 6.14.3. Criterio de Éxito - Nivel AAA
+#### 6.15.3. Criterio de Éxito - Nivel AAA
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [ServiceChannel](https://schema.org/ServiceChannel), y [ContactPoint](https://schema.org/ContactPointOption), [DayOfWeek](https://schema.org/DayOfWeek) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 
-### 6.15. Políticas, lineamientos o manuales
+### 6.16. Políticas, lineamientos o manuales
 Tipo: OBLIGACIÓN
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 6.1.
@@ -951,7 +951,7 @@ El sujeto obligado publica sus lineamientos, manuales y toda política que haya 
 Si el sujeto obligado realiza un plan de acción unificado, es válido.
 
 
-#### 6.15.1. Criterio de Éxito - Nivel A
+#### 6.16.1. Criterio de Éxito - Nivel A
 
 Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
@@ -964,7 +964,7 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org según esquema. [ServiceChannel](https://schema.org/ServiceChannel), y [ContactPoint](https://schema.org/ContactPointOption), [DayOfWeek](https://schema.org/DayOfWeek) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 
-### 6.16. Metas y Objetivos
+### 6.17. Metas y Objetivos
 Tipo: OBLIGACIÓN
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 6.4.
@@ -973,26 +973,6 @@ Resolución 3564 de 2015, anexo 1, punto 6.4.
 El sujeto obligado y sus unidades administrativas publican la información relacionada con sus metas y objetivos, de conformidad con sus programas operativos y los demás planes exigidos por la normatividad.
 
 Se debe publicar su estado de avance, mínimo cada tres (3) meses.
-
-#### 6.16.1. Criterio de Éxito - Nivel A
-
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
-
-#### 6.16.2. Criterio de Éxito - Nivel AA
-
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página, en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
-
-#### 6.16.3. Criterio de Éxito - Nivel AAA
-
-Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
-
-
-### 6.17. Indicadores de gestión y/o desempeño
-Tipo: OBLIGACIÓN
-Ley 1712 de 2014, artículo 9, literal d).
-Resolución 3564 de 2015, anexo 1, punto 6.4.
-
-Las entidades deben proveer información sobre los indicadores de gestión y/o desempeño que utilizan y reportes con estadísticas y análisis del desempeño de la entidad en relación a sus programas operativos y los demás planes exigidos por la normatividad.
 
 #### 6.17.1. Criterio de Éxito - Nivel A
 
@@ -1006,7 +986,27 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 6.18. Plan Anticorrupción y de Atención al Ciudadano
+
+### 6.18. Indicadores de gestión y/o desempeño
+Tipo: OBLIGACIÓN
+Ley 1712 de 2014, artículo 9, literal d).
+Resolución 3564 de 2015, anexo 1, punto 6.4.
+
+Las entidades deben proveer información sobre los indicadores de gestión y/o desempeño que utilizan y reportes con estadísticas y análisis del desempeño de la entidad en relación a sus programas operativos y los demás planes exigidos por la normatividad.
+
+#### 6.18.1. Criterio de Éxito - Nivel A
+
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+
+#### 6.18.2. Criterio de Éxito - Nivel AA
+
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página, en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+
+#### 6.18.3. Criterio de Éxito - Nivel AAA
+
+Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+
+### 6.19. Plan Anticorrupción y de Atención al Ciudadano
 Tipo: OBLIGACIÓN
 Ley 1712 de 2014, artículo 9, literal g).
 Ley 1474 de 2011, artículo 73.
@@ -1019,19 +1019,19 @@ El sujeto obligado publica anualmente una estrategia de lucha contra la corrupci
 - los mecanismos para mejorar la atención al ciudadano.
 
 
-#### 6.18.1. Criterio de Éxito - Nivel A
+#### 6.19.1. Criterio de Éxito - Nivel A
 
 Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
-#### 6.18.2. Criterio de Éxito - Nivel AA
+#### 6.19.2. Criterio de Éxito - Nivel AA
 
 Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página, en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
-#### 6.18.3. Criterio de Éxito - Nivel AAA
+#### 6.19.3. Criterio de Éxito - Nivel AAA
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [ServiceChannel](https://schema.org/ServiceChannel), y [ContactPoint](https://schema.org/ContactPointOption), [DayOfWeek](https://schema.org/DayOfWeek) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 6.19. Plan anual de compras y adquisiciones
+### 6.20. Plan anual de compras y adquisiciones
 Tipo: OBLIGACIÓN
 Ley 1712 de 2014, artículo 9, literal e).
 Decreto 103 de 2015, artículo 10.
@@ -1050,15 +1050,15 @@ El sujeto obligado que contrata con cargo a recursos públicos publica en su pá
 
 El documento MOTA - Reglas Contextuales especifica normas necesarias por entidad, o clases de entidad.
 
-#### 6.19.1. Criterio de Éxito - Nivel A
+#### 6.20.1. Criterio de Éxito - Nivel A
 
 Informaciones disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf), con links para el SECOP. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
-#### 6.19.2. Criterio de Éxito - Nivel AA
+#### 6.20.2. Criterio de Éxito - Nivel AA
 
 Contenido del Plan disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
-#### 6.19.3. Criterio de Éxito - Nivel AAA
+#### 6.20.3. Criterio de Éxito - Nivel AAA
 Proceso de Gestión Contractual y lista de documentos disponibles en la página, estructurados semánticamente (i.e. elementos HTML5 apropiados), informaciones de contratos disponibles en archivos, en formatos abiertos (e.g. .odf), contendo links para el SECOP. Meta-dados de la colección de documentos contienen nombre del documento, autor, data de actualización, URI y enlace para el SECOP) en sintaxis LD+JSON y vocabulario schema.org según esquema [Collection](https://schema.org/Collection), [DigitalDocument](https://schema.org/DigitalDocument) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ## 7. Información Mínima Obligatoria respecto a Servicios, Procedimientos y Funcionamiento
