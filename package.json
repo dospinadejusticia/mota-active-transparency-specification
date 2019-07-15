@@ -1,0 +1,34 @@
+{
+  "name": "mota-active-transparency-specification",
+  "version": "0.1.0",
+  "description": "a specification of the obligations and good practices for the publication and disclosure of information on active transparency in Colombia.",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dejusticia/mota-active-transparency-specification.git"
+  },
+  "keywords": [
+    "transparency",
+    "government",
+    "colombia",
+    "transparencia",
+    "gubierno",
+    "gobierno",
+    "gobierno-digital",
+    "digital-government"
+  ],
+  "author": "Maria Paula Ángel Arango, Celso Bessa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dejusticia/mota-active-transparency-specification/issues"
+  },
+  "homepage": "https://github.com/Dejusticia/mota-active-transparency-specification#readme"
+}
