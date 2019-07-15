@@ -1,5 +1,5 @@
 # Changelog
-Project: Especificación de Transparencia Activa para entidades Gubernamentales - Iniciativa MOTA
+Project: Especificación de Transparencia Activa para entidades Gubernamentales -- Iniciativa MOTA
 Description: especificación de los obligaciones y buenas prácticas para publicación y divulgación de información de transparencia activa en Colombia.
 Version: 0.1.0
 
