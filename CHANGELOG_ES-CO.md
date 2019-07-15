@@ -9,11 +9,11 @@ Este proyecto se adhiere a [Versionado Semántico 2.0.0](http://semver.org/), la
 
 ## No Publicado
 
-## [0.2.1] - 2019-07-14
-
 ### Reparado
 - Diversos registros de changelog perdidos
 - referencias de números de versión
+
+## [0.2.1] - 2019-07-14
 
 ### Eliminado
 - W3C RESPEC index.html

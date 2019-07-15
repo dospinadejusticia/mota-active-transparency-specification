@@ -8,11 +8,11 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 
 ## Unreleased
 
-## [0.2.1] - 2019-07-14
-
 ### Fixed
 - Missing Changelog entries
 - version number references
+
+## [0.2.1] - 2019-07-14
 
 ### Removed
 - W3C RESPEC index.html

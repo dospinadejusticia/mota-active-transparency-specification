@@ -8,11 +8,11 @@ Este projeto segue [Versionamento Semântico](http://semver.org/) e convenções
 
 ## Não Lançado
 
-## [0.2.1] - 2019-07-14
-
 ### Corrigido
 - Informações faltando no Changelog
 - referencias de números versões
+
+## [0.2.1] - 2019-07-14
 
 ## [0.2.0] - 2019-07-14
 
