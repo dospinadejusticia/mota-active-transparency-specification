@@ -1,6 +1,6 @@
 {
   "name": "mota-active-transparency-specification",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "a specification of the obligations and good practices for the publication and disclosure of information on active transparency in Colombia.",
   "main": "index.html",
   "dependencies": {},

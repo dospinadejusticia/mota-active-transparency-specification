@@ -1,6 +1,6 @@
 # Especificação de Transparência Activa para Entidades Governamentais - Iniciativa MOTA
 
-- Para español, vea el archivo [LEYAME.md](LEYAME.md).
+- **Para español (idioma oficial), vea el archivo [LEYAME.md](LEYAME.md).**
 - For english, see the [README.md](README.md) file.
 
 Especificação de Transparência Ativa para Entidades Governamentais é uma especificação das obrigações e boas práticas para publicação e divulgação de informações ativas de transparência na Colômbia.
