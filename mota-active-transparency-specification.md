@@ -1,17 +1,26 @@
-# MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.2.1
-Borrador de editores 14 Julio 2019
+# MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.2.2
+Borrador de editores 19 Julio 2019
 
 Esta versión:
-    https://github.com/Dejusticia/mota-active-transparency-specification/
+- https://github.com/Dejusticia/mota-active-transparency-specification/
+-
 Latest published version:
-    https://github.com/Dejusticia/mota-active-transparency-specification/
+- https://github.com/Dejusticia/mota-active-transparency-specification/
+-
 Latest editor's draft:
-    https://github.com/Dejusticia/mota-active-transparency-specification/
+- https://github.com/Dejusticia/mota-active-transparency-specification/
 Editores:
-    Celso Bessa (Dejusticia)
-    Maria Paula Ángel (Dejusticia)
+
+- Celso Bessa (Dejusticia)
+- Maria Paula Ángel Arango (Dejusticia)
 
 ## Notes
+
+Atajos:
+
+- [a criterios](#5-Categor%C3%ADa---Disponibilidad-de-Acceso)
+- [Tabla de contenido](#Tabla-de-contenido)
+
 
 Este documento está escrito utilizando la sintaxis Markdown:
 
@@ -24,11 +33,27 @@ https://www.celsobessa.com.br/2016/01/05/organizando-os-arquivos/
 
 ## Abstract
 
-Una especificación de los obligaciones y buenas prácticas para publicación y divulgación de información de transparencia activa en Colombia.
+Este documento especifica critérios de evaluación de las obligaciones y buenas prácticas para publicación y divulgación de información de transparencia activa en Colombia.
 
-Esta documento especifica los criterios, obligaciones legales, estándares y buenas prácticas para publicación y divulgación de información de transparencia en la web de forma más fácil y útil por parte de las entidades gubernamentales en Colombia. También provee una visión general de los objetivos y filosofía de la iniciativa MOTA--Monitoreo de Obligaciones de Transparencia Activa-- que busca incentivar el cumplimiento de la rendición de cuentas en la lucha contra corrupción en Colombia, a saber: la transparencia de la información en formatos abiertos, patronizados y fácilmente legibles por máquinas en los sitios web de los sujetos obligados (información mínima obligatoria de los arts. 9, 10 y 11 de la Ley 1712 de 2014) y la claridad de los procesos de toma de decisiones que allí se exponen.
+**Su principal y primer objectivo** és reunir las partes interessadas y involucradas en la transparencia publicas en un processo público, participativo y recurrente de estandarización de la publicación y divulgación de información de transparencia en la web sea más comum, fácil, resiliente, rica y eficiente por parte de las entidades gubernamentales en Colombia. Este objectivo emergió de dos creencias:
 
-De hecho, esta especificación es utilizada por otros componentes de la iniciativa, como el robot evaluador de sitios gubernamentales, que por su vez alimenta una base de datos con los resultados de evaluación,  la webapp de evaluación de sitios web gubernamentales y una biblioteca de insumos (ejemplos de códigos, patrones de diseño, modelos de textos, etc). Interdisciplinar -- cubriendo legislación, tecnología, diseño, redacción, ciencia de la información, entre otros --  esta especificación es construida  sobre otras especificaciones, patrones, leyes y otros conjuntos de buenas prácticas incluso, [HTML5](https://w3c.github.io/html/), [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/) [wai-aria-1.2](https://w3c.github.io/aria/), [schema.org](https://schema.org), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD) y, como un continuo trabajo en progreso, está sujeta a cambios, perfeccionamientos y extensión. Aunque los principios y criterios principales están bien definidos, criterios secundarios, casos especiales e implementaciones específicas todavía no están adecuadamente escritos o deben ser definidos en otros documentos.
+i) que la sociedad civil tome parte en los procesos que le afecta afectan a si
+ii) que las discussiones y consultas de la sociedad civil sobre transparencia tenga lugar en público (transparencia acerca de transparencia)
+iii) és necessario que las parte interessadas -- és decir, la sociedad civil (i.e. ciudadania) y poder público -- tengan una base común, un vocabulário para debates y ajustes de expectativas.
+
+Por estas razones, aunque la especificación es originalmente un proyecto creado por el Centro de Estudios de Derechos, Sociedade y Justicia - Dejusticia, la intención es que las organizaciones públicas y privadas, académicos, ciudadanos se apropien y participen en su desarrollo. **La especificación es, por lo tanto, también un llamado a la construcción colectiva** de la política y la práctica de la transparencia pública en Colombia.
+
+Cabe destacar que **en Colombia ya existen varios instrumentos e iniciativas de transparencia y datos abiertos muy buenas**. Mientras que, por un lado, vemos oportunidades de mejora en algunas de estas iniciativas, por el otro, vemos un enorme potencial de mejora y colaboración. Por lo tanto, l**a iniciativa MOTA no reemplaza estas iniciativas, sino que agrega y complementa** estas iniciativas, además de buscar ser un punto focal para el debate y la planificación de las mejoras y actualizaciones necesarias, ya que la tecnología y la sociedad cambian constantemente.
+
+**El segundo objectivo** és proveer una visión general de los objetivos y filosofía de la iniciativa MOTA--Monitoreo de Obligaciones de Transparencia Activa-- que busca incentivar el cumplimiento de la rendición de cuentas en la lucha contra corrupción en Colombia, a saber: la transparencia de la información en formatos abiertos, patronizados y fácilmente legibles por máquinas en los sitios web de los sujetos obligados (información mínima obligatoria de los arts. 9, 10 y 11 de la Ley 1712 de 2014) y la claridad de los procesos de toma de decisiones que allí se exponen.
+
+**El tercero e igualmente importante objectivo** es reunir y explicar de forma aterrisada y practica, en un solo documento, las obligaciones legales, estándares, metodologias y buenas prácticas descriptas en diversas fuentes,
+
+Al mismo tiempo, busca permitir que desarrolladores web en entidades públicas puedan encontrar facilmente las informaciones, estándares y referencias necessarias para ejecución del noble trabajo de informar la ciudadania.
+
+Destaca-se que
+
+De hecho, esta especificación es utilizada por otros componentes de la iniciativa, como el robot evaluador de sitios gubernamentales, que por su vez alimenta una base de datos con los resultados de evaluación,  la webapp de evaluación de sitios web gubernamentales y una biblioteca de insumos (ejemplos de códigos, patrones de diseño, modelos de textos, etc). Interdisciplinar -- cubriendo legislación, tecnología, diseño, redacción, ciencia de la información, entre otros --  esta especificación es construida sobre otras especificaciones, patrones, leyes y otros conjuntos de buenas prácticas incluso, resolución [HTML5](https://w3c.github.io/html/), [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), [wai-aria-1.2](https://w3c.github.io/aria/), [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/), [schema.org](https://schema.org), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD) y, como un continuo trabajo en progreso, está sujeta a cambios, perfeccionamientos y extensión. Aunque los principios y criterios principales están bien definidos, criterios secundarios, casos especiales e implementaciones específicas todavía tal vez no están adecuadamente escritos o deben ser definidos en otros documentos.
 
 NOTA: Este documento contiene un número grande de informaciones introductorias y contextuales. Tal vez es posible que desee seguir directamente los criterios y ejemplos. Si desea contribuir, vea la sección Cómo Contribuir.
 
@@ -38,14 +63,17 @@ Palabras clave: Rendición de cuentas, Transparencia
 
 Este documento sigue la metodología [Versionado Semántico (SEMVER)](https://semver.org/lang/es/) para control de versión. También utiliza los valores de la variable [specStatus](https://github.com/w3c/respec/wiki/specStatus) de la herramienta [ReSpec de W3C](https://github.com/w3c/respec/) para determinar el tipo/estado de la especificación.
 
-En la fecha de publicación se encontrará en la versión 0.1.0 y estado Borrador de Editores (ED - Editor's Draft).
+En la fecha de publicación se encontrará en la versión 0.2.2 y estado Borrador de Editores (ED - Editor's Draft).
 
 Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la iniciativa MOTA y sus organizadores no  afiliados a estas organizaciones.
 
-- [MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.2.1](#MOTA---Especificaci%C3%B3n-de-Transparencia-Activa-para-entidades-Gubernamentales-021)
+## Tabla de contenido
+
+- [MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.2.2](#MOTA---Especificaci%C3%B3n-de-Transparencia-Activa-para-entidades-Gubernamentales-022)
   - [Notes](#Notes)
   - [Abstract](#Abstract)
   - [Estado y Tipología del documento](#Estado-y-Tipolog%C3%ADa-del-documento)
+  - [Tabla de contenido](#Tabla-de-contenido)
   - [1. Introducción](#1-Introducci%C3%B3n)
     - [1.1 Transparencia, Rendición de Cuentas y lucha contra la corrupción](#11-Transparencia-Rendici%C3%B3n-de-Cuentas-y-lucha-contra-la-corrupci%C3%B3n)
     - [1.2 Público objetivo](#12-P%C3%BAblico-objetivo)
@@ -270,7 +298,6 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [8.3.2. Criterio de Éxito - Nivel AA](#832-Criterio-de-%C3%89xito---Nivel-AA-2)
       - [8.3.3. Criterio de Éxito - Nivel AAA](#833-Criterio-de-%C3%89xito---Nivel-AAA-2)
 
-
 ## 1. Introducción
 
 Esta sección no es normativa
@@ -400,7 +427,7 @@ Los sitios deben permitir acceso igualitario por:
    1) Tecnologías de asistencia como lectores de pantalla, asistentes de voz, etc;
    2) Acceso sin uso de javascript o plugins de terceros;
    3) Acceso por dispositivos variados como computadores, teléfonos inteligentes, asistentes de voz (e.g. Amazon Alexa), SmartTVs y otros dispositivos;
-   4) Acceso en condiciones variadas de conexiones (broadband y 2G/3G de baja performance), para lo cual deben seguir principios y directrices de accesibilidad conforme definidos por la recomendación WCAG2.1 y WAI-ARIA de W3C y siguiendo las mejores prácticas determinadas en The Web Standards projects para markup sin considerar metadatos o atributos semánticos (e.g. elementos HTML semánticos, sin considerar schema.org o RDF markup).
+   4) Acceso en condiciones variadas de conexiones (broadband y 2G/3G de baja performance), para lo cual deben seguir principios y directrices de accesibilidad conforme definidos por la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/), recomendación WCAG2.1 y WAI-ARIA de W3C  y siguiendo las mejores prácticas determinadas en The Web Standards projects para markup sin considerar metadatos o atributos semánticos (e.g. elementos HTML semánticos, sin considerar schema.org o RDF markup).
 
 La evaluación debe realizarse en la página de inicio (ubicación oficial) y otras 20 páginas: 10 de primer nivel, 5 páginas de segundo nivel y 5 de tercer nivel, determinadas según posición en el menú principal y / o directorios en la dirección URL después del nombre de dominio.
 
@@ -414,7 +441,7 @@ El sitio web es válido en el [https://validator.w3](https://validator.w3.org).o
 
 El sitio web es válido en el [https://validator.w3](https://validator.w3.org).org  sin errores y con no más que 50 advertencias, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
 
-El sitio cumple con los criterios A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/)
+El sitio cumple con los criterios A y AA de la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/)
 
 ##### 5.2.3.3. Criterio de Éxito - Nivel AAA
 
@@ -443,9 +470,9 @@ En Webpagetest, los test son efectuados con la siguiente configuración:
 Los sitios deben obtener los siguientes grados máximos:
 
 ###### WebPagetest
-    - Time to First Byte: 3.500s
-    - First Interactive (beta): 10.000s
-    - Speed Index: 11.000s
+    - Time to First Byte: 7.000s
+    - First Interactive (beta): 30.000s
+    - Speed Index: 16.000s
     - Bytes in: 2.048kb
     - Cost: $$$
 
@@ -458,9 +485,9 @@ Los sitios deben obtener los siguientes grados máximos:
 Los sitios deben obtener los siguientes grados máximos:
 
 ###### WebPagetest
-    - Time to First Byte: 3.000s
-    - First Interactive (beta): 8.000s
-    - Speed Index: 7.000s
+    - Time to First Byte: 5.000s
+    - First Interactive (beta): 20.000s
+    - Speed Index: 11.000s
     - Bytes in: 1.536kb
     - Cost: $$$
 
@@ -473,9 +500,9 @@ Los sitios deben obtener los siguientes grados máximos:
 Los sitios deben obtener los siguientes grados máximos:
 
 ###### WebPagetest
-    - Time to First Byte: 2.500s
-    - First Interactive (beta): 6.000s
-    - Speed Index: 5.000s
+    - Time to First Byte: 3.500s
+    - First Interactive (beta): 15.000s
+    - Speed Index: 7.000s
     - Bytes in: 1.024kb
     - Cost: $$
 
@@ -1339,8 +1366,7 @@ Las mismas informaciones en el listado están disponibles como meta-datos en sin
 ### 7.8. Informes de Evaluación
 Tipo: OBLIGACIÓN
 
-
-AFAZER: aclarar o que és estes ítem.
+AFAZER: aclarar
 
 El sitio de la entidad debe contener Informes de Evaluación del periodo vigente y de los períodos anteriores. contratación, entre otros.
 
@@ -1370,7 +1396,7 @@ Las mismas informaciones en el listado están disponibles como meta-datos en sin
 Tipo: OBLIGACIÓN
 
 
-AFAZER: aclarar o que és estes ítem.
+AFAZER: aclarar
 
 El sitio de la entidad debe contener Informes de Auditoría del período vigente y de los anteriores. contratación, entre otros.
 
@@ -1472,7 +1498,7 @@ Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://sch
 ### 7.13. Mecanismos de Vigilancia
 Tipo: OBLIGACIÓN
 
-AFAZER: aclarear o que debemos encontrar
+AFAZER
 
 #### 7.13.1. Criterio de Éxito - Nivel A
 
@@ -1491,7 +1517,7 @@ Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://sch
 ### 7.14. Procedimientos y Lineamientos de Contratación
 Tipo: OBLIGACIÓN
 
-AFAZER: aclarear o que són documento ex-ante, por ejemplo
+AFAZER
 
 El sitio de la entidad debe contener una o más páginas con los procedimientos y lineamientos de contratación.
 
@@ -1514,7 +1540,7 @@ Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://sch
 ### 7.15. Políticas en materia de adquisiciones y compras
 Tipo: OBLIGACIÓN
 
-AFAZER: aclarear este íten. Ejemplo, esto no el mismo que Plan de Compras (ítem 6.20)?
+AFAZER: aclarar
 
 La entidad debe ofrecer informaciones de su Plan de adquisiciones. El documento MOTA - Reglas Contextuales especifica normas necesarias por entidad, o clases de entidad. El plan debe compreender:
 
@@ -1573,7 +1599,7 @@ Los mismos datos de la tabla son encontrado como datos estructurados en sintaxis
 ### 8.2. Programa de Gestión Documental
 Tipo: OBLIGACIÓN
 
-AFAZER: aclarear este ítem. Que ejemplos de información teríamos aqui?
+AFAZER: aclarar
 
 El sitio de la entidad debe contener una o más páginas con informaciones de Programa de Gestión Documental, publicadas en una página denominada "Gestión Documental" e informar "procedimientos y lineamientos necesarios para la producción, distribución, organización, consulta y conservación de los documentos públicos". Comprende la vida del documento desde su creación hasta su disposición final.
 
@@ -1602,7 +1628,7 @@ Los meta-datos de la página y cualquier documento o archivo accesorio son encon
 ### 8.3. Tablas De Retención Documental
 Tipo: OBLIGACIÓN
 
-AFAZER: aclarear este ítem. Que queremos aqui? que ejemplos de información teríamos aqui?
+AFAZER: aclarar
 
 #### 8.3.1. Criterio de Éxito - Nivel A
 

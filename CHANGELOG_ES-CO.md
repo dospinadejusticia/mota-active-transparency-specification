@@ -1,7 +1,7 @@
 # Changelog
 Project: Especificación de Transparencia Activa para entidades Gubernamentales -- Iniciativa MOTA
 Description: especificación de los obligaciones y buenas prácticas para publicación y divulgación de información de transparencia activa en Colombia.
-Version: 0.2.1
+Version: 0.2.2
 
 Todos los cambios notables a este proyecto serán documentados en este archivo.
 
@@ -9,9 +9,21 @@ Este proyecto se adhiere a [Versionado Semántico 2.0.0](http://semver.org/), la
 
 ## No Publicado
 
-### Reparado
+## [0.2.2] - 2019-07-19
+
+### Cambiado
+- Mejoras en secciones introductórias, incluso ABSTRACT
+- Mejoras en el criterio 5.2.3 - Universalidad: Patrones de Accesibilidad y Web Standards
+- Mejoras en el criterio 5.2.4 - Universalidad: Performance
+- Mejoras diversas menores
+
+### Fixed
 - Diversos registros de changelog perdidos
 - referencias de números de versión
+- Referencias y enlaces a [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/)
+- Tabla de Contenido
+
+### Reparado
 
 ## [0.2.1] - 2019-07-14
 
