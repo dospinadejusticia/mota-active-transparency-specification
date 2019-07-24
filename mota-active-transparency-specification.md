@@ -3,12 +3,13 @@ Borrador de editores 19 Julio 2019
 
 Esta versión:
 - https://github.com/Dejusticia/mota-active-transparency-specification/
--
+
 Latest published version:
 - https://github.com/Dejusticia/mota-active-transparency-specification/
--
+
 Latest editor's draft:
 - https://github.com/Dejusticia/mota-active-transparency-specification/
+
 Editores:
 
 - Celso Bessa (Dejusticia)
