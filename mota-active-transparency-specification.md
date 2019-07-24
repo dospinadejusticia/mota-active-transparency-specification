@@ -433,21 +433,27 @@ La evaluación debe realizarse en la página de inicio (ubicación oficial) y ot
 
 ##### 5.2.3.1. Criterio de Éxito - Nivel A
 
-El sitio web es válido en el [https://validator.w3.org/unicorn/](https://validator.w3.org/unicorn/) sin errores y con no más que 100 advertencias, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
+El sitio web es válido en el [https://validator.w3.org/unicorn/](https://validator.w3.org/unicorn/) con no más que 50 errores, siguiendo la especificación [HTML5](https://w3c.github.io/html/). **Temporalmente**, la recomendación [XHTML 1.1](https://www.w3.org/TR/xhtml11/) también es aceptada por MOTA.
 
+###### Sobre la aceptación de XHTML
 
+**Temporalmente, debido a la necessidad de compatibilidad con versiones anteriores de sistemas de gerenciamento de contenido**, la recomendación [XHTML 1.1](https://www.w3.org/TR/xhtml11/) también es aceptada por MOTA.
+
+Sin embargo, observamos que XHTML no es la recomendación más reciente y más efectiva para los sitios web para públicos en general. Además El estándar HTML5 proporciona medios para crear documentos que son válidos como HTML5 y XML. De hecho, el dicho XHTML5 és un documento HTML5 enviado con lo MIME Type `application/xhtml+xml` y, preferiblemente, siguiendo el concepto de marcado de texto políglota. Por lo que solo se aceptará la versión 1.0 de la especificación MOTA o julio de 2020 (lo que ocurra más adelante).
+
+ Más información acerca XML+HTML5 se puede encontrar en inglés en [WHATWG](https://html.spec.whatwg.org/multipage/introduction.html#html-vs-xhtml), [W3C](https://dev.w3.org/html5/html-polyglot/) y [Wikipedia](https://en.wikipedia.org/wiki/Polyglot_markup#Polyglot_HTML_requirements)
 
 ##### 5.2.3.2. Criterio de Éxito - Nivel AA
 
-El sitio web es válido en el [https://validator.w3.org/unicorn/](https://validator.w3.org/unicorn/)  sin errores y con no más que 50 advertencias, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
+El sitio web es válido en el [https://validator.w3.org/unicorn/](https://validator.w3.org/unicorn/) con no más que 50 errores, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
 
-El sitio cumple con los criterios A y AA de la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/)
+El sitio cumple con los criterios A de la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/)
 
 ##### 5.2.3.3. Criterio de Éxito - Nivel AAA
 
 El sitio web es válido en el [https://validator.w3.org/unicorn/](https://validator.w3.org/unicorn/)  sin errores y con no más que 50 advertencias, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
 
-El sitio cumple con los criterios A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/)
+El sitio cumple con los criterios A y AA de la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/)
 
 El sitio utiliza de forma adequada las prácticas [wai-aria-1.2](https://w3c.github.io/aria/);
 
@@ -473,7 +479,7 @@ Los sitios deben obtener los siguientes grados máximos:
     - Time to First Byte: 3.500s
     - First Interactive (beta): 30.000s
     - Speed Index: 21.000s
-    - Bytes in: 2.048kb
+    - Bytes in: 4.096kb
 
 ###### Pagespeed Insights
     - Ordenador: 70
@@ -487,7 +493,7 @@ Los sitios deben obtener los siguientes grados máximos:
     - Time to First Byte: 2.500s
     - First Interactive (beta): 25.000s
     - Speed Index: 14.000s
-    - Bytes in: 1.536kb
+    - Bytes in: 2.048kb
 
 ###### Pagespeed Insights
     - Ordenador: 85
@@ -501,7 +507,7 @@ Los sitios deben obtener los siguientes grados máximos:
     - Time to First Byte: 1.500s
     - First Interactive (beta): 15.000s
     - Speed Index: 7.000s
-    - Bytes in: 1.024kb
+    - Bytes in: 1.536kb
 
 ###### Pagespeed Insights
     - Ordenador: 95
