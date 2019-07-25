@@ -85,6 +85,10 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
     - [1.7 Colaboración](#17-colaboraci%c3%b3n)
   - [2. Uso de la especificación](#2-uso-de-la-especificaci%c3%b3n)
   - [3. Conformidad](#3-conformidad)
+      - [Información disponible en archivo](#informaci%c3%b3n-disponible-en-archivo)
+      - [Información disponible para personas disponibles en la misma página](#informaci%c3%b3n-disponible-para-personas-disponibles-en-la-misma-p%c3%a1gina)
+      - [Información disponible como meta-datos estructurados legible por máquina](#informaci%c3%b3n-disponible-como-meta-datos-estructurados-legible-por-m%c3%a1quina)
+    - [Observaciones sobre Criterios de Éxito](#observaciones-sobre-criterios-de-%c3%89xito)
     - [Herramientas para examen de conformidad](#herramientas-para-examen-de-conformidad)
       - [WCAG2.1](#wcag21)
     - [3.1 Conformidad de Dependencias](#31-conformidad-de-dependencias)
@@ -312,7 +316,6 @@ Los objetivos de esta especificación incluyen:
 
 ### 1.2 Público objetivo
 
-
 (a fazer)
 
 ### 1.3 Filosofía y Presupuestos
@@ -330,21 +333,60 @@ Los objetivos de esta especificación incluyen:
 
 This section is non-normative.
 
+
+
 ## 3. Conformidad
 
 Además de las secciones marcadas como no normativas, todos los diagramas, ejemplos y notas en esta especificación son no normativos (excepto cuando marcados en contrario). Todo el resto en esta especificación es normativo.
 
 The key words MAY, MUST, MUST NOT, OPTIONAL, RECOMMENDED, REQUIRED, SHALL, SHALL NOT, SHOULD, and SHOULD NOT are to be interpreted as described in [RFC2119]. Además, clasificamos cada criterio como OBLIGACIÓN o RECOMENDACIÒN.
 
+### 3.1 - Nivel de Éxito - Categorias
+
 Para que una página web esté conforme con esta especificación, debe satisfacer todos y cada uno de los siguientes requisitos de conformidad:
 
-1. Nivel de conformidad: Uno de los siguientes niveles de conformidad se satisface por completo.
+**1. Nivel de conformidad:** Uno de los siguientes niveles de conformidad se satisface por completo.
 
-    Nivel A: Para el nivel A de conformidad (el mínimo nivel de conformidad), el sitio web satisface todos los criterios de éxito de nivel A, o se proporciona una versión alternativa conforme.
+    **Nivel A:** Para el nivel A de conformidad (el mínimo nivel de conformidad), el sitio web satisface todos los criterios de éxito de nivel A, o se proporciona una versión alternativa conforme al nivel A. Si la guía no especifica una puntuación diferente, el cumplimiento del criterio A equivale a **30 puntos**.
 
-    Nivel AA: Para el nivel AA de conformidad, el sitio web satisface todos los criterios de éxito de nivel A y AA, o se proporciona una versión alternativa conforme al nivel AA.
+    Este és el nivel mínimo aceptable dentro de las condiciones y contextos de las entidades colombianas a partir de julio de 2019
 
-    Nivel AAA: Para el nivel AAA de conformidad, el sitio web satisface todos los criterios de éxito de nivel A, AA y AAA, o se proporciona una versión alternativa conforme al nivel AAA.
+    **Nivel AA:** Para el nivel AA de conformidad, el sitio web satisface todos los criterios de éxito de nivel A y AA, o se proporciona una versión alternativa conforme al nivel AA. Si la guía no especifica una puntuación diferente, el cumplimiento del criterio A equivale a **50 puntos**.
+
+    Este és el nivel deseado de forma inmediata o a corto plazo, considerando las condiciones y contextos de las entidades colombianas en julio de 2019.
+
+    **Nivel AAA:** Para el nivel AAA de conformidad, el sitio web satisface todos los criterios de éxito de nivel A, AA y AAA, o se proporciona una versión alternativa conforme al nivel AAA. Si la guía no especifica una puntuación diferente, el cumplimiento del criterio A equivale a **20 puntos**.
+
+    Este és el nivel ideal, ell objectivo a medio y largo plazo a partir de agosto de 2019.
+
+### 3.2 - Escala de Puntos: diretrizes de disponibilidad de informacción
+
+Las directrizes relacionados a la disponibilidad de informacción adoptan una escala de puntos más abrangente quebasada en la disponibilidad o no de la informacion; la forma y/o ubicación en que la información está disponible; la adopción de las mejores prácticas de datos abiertos, etc.
+
+La escala de puntos varía de 0 a 100, con las siguientes reglas de puntuación base.
+
+#### Información disponible en archivo
+   - en formato propietario (docx, xlsx, pdf): 10 puntos
+   - en formato abierto, pero no legible/acesible por máquina (e.g. texto o tabla digitalizado): 20 puntos
+   - en formato abierto y datos estructurados (e.g. en caso de tablas) legible/acesible por máquina: 30 puntos
+
+**Importante: si los datos eston solamente en otros sítios (e.g. SICOP, datos.gov.co), la pontuación es reduzida por la metade**
+
+#### Información disponible para personas disponibles en la misma página
+
+   - en formato HTML en la misma página: 30 puntos
+   - en HTML5 estructurado, semántico, en la misma página: 50 puntos
+   - ejemplo: tabla para datos estructurados; H2, h3,  etc para subtítulos)
+
+#### Información disponible como meta-datos estructurados legible por máquina
+
+   - datos estructurados (schema.org, json, meta-datos, etc) en la misma página: 20 puntos
+
+Los puntos **deben ser ligeramente modificadas según el contexto**. Si la información está disponible para el usuario en una página sin descargar archivos, **debe agregarse la puntuación del criterio eliminado (archivo abierto).**
+
+Para directrizes no relacionadas a la disponibilidad de informacción, como performance, ademas de cambiar os pesos de critérios (abajo) debemos cambiar la puntuación según sea necesario, solo SI es necesario.
+
+### Observaciones sobre Criterios de Éxito
 
 Nota 1: A pesar de que la conformidad sólo puede lograrse en los niveles indicados, se anima a los autores a notificar en sus declaraciones cualquier progreso que se realice para satisfacer los criterios de éxito de todo nivel más allá del nivel de conformidad alcanzado.
 
@@ -358,13 +400,12 @@ Nota 2: No se recomienda como política general exigir el nivel de conformidad A
 
 ### 3.1 Conformidad de Dependencias
 
-(a fazer) como se define conformidad de otras especificaciones, técnicas, etc?
+(a fazer) como se define conformidad de otras especificaciones, técnicas, etc.
 
 ### 3.4 Conformance Checkers
 (a fazer)
 
 ## 4. Términos importantes (vocabulario)
-
 (a fazer)
 
 
@@ -530,7 +571,7 @@ El sitio es accesible en conexión encriptada (SSL/TLS) y solamente por conexió
 #### 5.2.6 - Dados Abiertos: Acceso vía API REST
 Tipo: RECOMENDACIÓN
 
-Los contenidos del sitio son accesibles por una API REST con datos estructurados, incluso meta-dados.
+Los contenidos del sitio como página, noticias, secciones son accesibles por una API REST con datos estructurados, incluso meta-dados.
 
 ##### 5.2.6.1. Criterio de Éxito - Nivel AA
 
