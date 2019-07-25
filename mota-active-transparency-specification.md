@@ -1,4 +1,4 @@
-# MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.3.0
+# MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.3.1
 Borrador de editores 19 Julio 2019
 
 Esta versión:
@@ -64,13 +64,13 @@ Palabras clave: Rendición de cuentas, Transparencia
 
 Este documento sigue la metodología [Versionado Semántico (SEMVER)](https://semver.org/lang/es/) para control de versión. También utiliza los valores de la variable [specStatus](https://github.com/w3c/respec/wiki/specStatus) de la herramienta [ReSpec de W3C](https://github.com/w3c/respec/) para determinar el tipo/estado de la especificación.
 
-En la fecha de publicación se encontrará en la versión 0.3.0 y estado Borrador de Editores (ED - Editor's Draft).
+En la fecha de publicación se encontrará en la versión 0.3.1 y estado Borrador de Editores (ED - Editor's Draft).
 
 Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la iniciativa MOTA y sus organizadores no  afiliados a estas organizaciones.
 
 ## Tabla de contenido
 
-- [MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.3.0](#mota---especificaci%c3%b3n-de-transparencia-activa-para-entidades-gubernamentales-030)
+- [MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.3.1](#mota---especificaci%c3%b3n-de-transparencia-activa-para-entidades-gubernamentales-031)
   - [Notes](#notes)
   - [Abstract](#abstract)
   - [Estado y Tipología del documento](#estado-y-tipolog%c3%ada-del-documento)
