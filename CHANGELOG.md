@@ -1,7 +1,7 @@
 # Changelog
 Project: Active Transparency for Governmental Entities Specification - MOTA Initiative
 Description: a specification of the obligations and good practices for the publication and disclosure of information on active transparency in Colombia.
-Version: 0.2.2
+Version: 0.3.0
 
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) convention and is also available in [spanish](CHANGELOG_ES-CO.md) and [portuguese](CHANGELOG_PT-BR.md).
