@@ -1,12 +1,27 @@
 # Changelog
 Project: Active Transparency for Governmental Entities Specification - MOTA Initiative
 Description: a specification of the obligations and good practices for the publication and disclosure of information on active transparency in Colombia.
-Version: 0.2.2
+Version: 0.3.0
 
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) convention and is also available in [spanish](CHANGELOG_ES-CO.md) and [portuguese](CHANGELOG_PT-BR.md).
 
 ## Unreleased
+
+## [0.3.0] - 2019-07-24
+
+### Changed
+
+- Webstandards compliance (guideline 5.2.3) is easier to obtain on all levels:
+-- dropped requirement for WCAG 2.1, changed to Norma Técnica Colombiana (NTC) 5854;
+-- XHTML temporarily accepted for web standards checking;
+-- increased number of accpeted warning and/or errors;
+-- a few errors are now accepted on level A
+- Performance compliance (guideline 5.2.4) is easier to obtain (work in progress)
+-- tweaked some requirements
+- Changes conformity level and criteria
+-- Normalize success criteria (closes #9)
+- Clarify criteria 5.2.6 - Dados Abiertos: Acceso vía API REST (closes #6)
 
 ## [0.2.2] - 2019-07-19
 

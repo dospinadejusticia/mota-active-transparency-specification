@@ -1,14 +1,15 @@
-# MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.2.2
+# MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.3.0
 Borrador de editores 19 Julio 2019
 
 Esta versión:
 - https://github.com/Dejusticia/mota-active-transparency-specification/
--
+
 Latest published version:
 - https://github.com/Dejusticia/mota-active-transparency-specification/
--
+
 Latest editor's draft:
 - https://github.com/Dejusticia/mota-active-transparency-specification/
+
 Editores:
 
 - Celso Bessa (Dejusticia)
@@ -53,7 +54,7 @@ Al mismo tiempo, busca permitir que desarrolladores web en entidades públicas p
 
 Destaca-se que
 
-De hecho, esta especificación es utilizada por otros componentes de la iniciativa, como el robot evaluador de sitios gubernamentales, que por su vez alimenta una base de datos con los resultados de evaluación,  la webapp de evaluación de sitios web gubernamentales y una biblioteca de insumos (ejemplos de códigos, patrones de diseño, modelos de textos, etc). Interdisciplinar -- cubriendo legislación, tecnología, diseño, redacción, ciencia de la información, entre otros --  esta especificación es construida sobre otras especificaciones, patrones, leyes y otros conjuntos de buenas prácticas incluso, resolución [HTML5](https://w3c.github.io/html/), [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), [wai-aria-1.2](https://w3c.github.io/aria/), [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/), [schema.org](https://schema.org), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD) y, como un continuo trabajo en progreso, está sujeta a cambios, perfeccionamientos y extensión. Aunque los principios y criterios principales están bien definidos, criterios secundarios, casos especiales e implementaciones específicas todavía tal vez no están adecuadamente escritos o deben ser definidos en otros documentos.
+De hecho, esta especificación es utilizada por otros componentes de la iniciativa, como el robot evaluador de sitios gubernamentales, que por su vez alimenta una base de datos con los resultados de evaluación, la webapp de evaluación de sitios web gubernamentales y una biblioteca de insumos (ejemplos de códigos, patrones de diseño, modelos de textos, etc). Interdisciplinar -- cubriendo legislación, tecnología, diseño, redacción, ciencia de la información, entre otros --  esta especificación es construida sobre otras especificaciones, patrones, leyes y otros conjuntos de buenas prácticas incluso, resolución [HTML5](https://w3c.github.io/html/), [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), [wai-aria-1.2](https://w3c.github.io/aria/), [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/), [schema.org](https://schema.org), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD) y, como un continuo trabajo en progreso, está sujeta a cambios, perfeccionamientos y extensión. Aunque los principios y criterios principales están bien definidos, criterios secundarios, casos especiales e implementaciones específicas todavía tal vez no están adecuadamente escritos o deben ser definidos en otros documentos.
 
 NOTA: Este documento contiene un número grande de informaciones introductorias y contextuales. Tal vez es posible que desee seguir directamente los criterios y ejemplos. Si desea contribuir, vea la sección Cómo Contribuir.
 
@@ -63,240 +64,244 @@ Palabras clave: Rendición de cuentas, Transparencia
 
 Este documento sigue la metodología [Versionado Semántico (SEMVER)](https://semver.org/lang/es/) para control de versión. También utiliza los valores de la variable [specStatus](https://github.com/w3c/respec/wiki/specStatus) de la herramienta [ReSpec de W3C](https://github.com/w3c/respec/) para determinar el tipo/estado de la especificación.
 
-En la fecha de publicación se encontrará en la versión 0.2.2 y estado Borrador de Editores (ED - Editor's Draft).
+En la fecha de publicación se encontrará en la versión 0.3.0 y estado Borrador de Editores (ED - Editor's Draft).
 
 Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la iniciativa MOTA y sus organizadores no  afiliados a estas organizaciones.
 
 ## Tabla de contenido
 
-- [MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.2.2](#MOTA---Especificaci%C3%B3n-de-Transparencia-Activa-para-entidades-Gubernamentales-022)
-  - [Notes](#Notes)
-  - [Abstract](#Abstract)
-  - [Estado y Tipología del documento](#Estado-y-Tipolog%C3%ADa-del-documento)
-  - [Tabla de contenido](#Tabla-de-contenido)
-  - [1. Introducción](#1-Introducci%C3%B3n)
-    - [1.1 Transparencia, Rendición de Cuentas y lucha contra la corrupción](#11-Transparencia-Rendici%C3%B3n-de-Cuentas-y-lucha-contra-la-corrupci%C3%B3n)
-    - [1.2 Público objetivo](#12-P%C3%BAblico-objetivo)
-    - [1.3 Filosofía y Presupuestos](#13-Filosof%C3%ADa-y-Presupuestos)
-    - [1.4 Interdisciplinaridad](#14-Interdisciplinaridad)
-    - [1.5 Regulación](#15-Regulaci%C3%B3n)
-    - [1.6 Documentos de Apoyo](#16-Documentos-de-Apoyo)
-    - [1.7 Colaboración](#17-Colaboraci%C3%B3n)
-  - [2. Uso de la especificación](#2-Uso-de-la-especificaci%C3%B3n)
-  - [3. Conformidad](#3-Conformidad)
-    - [Herramientas para examen de conformidad](#Herramientas-para-examen-de-conformidad)
-      - [WCAG2.1](#WCAG21)
-    - [3.1 Conformidad de Dependencias](#31-Conformidad-de-Dependencias)
-    - [3.4 Conformance Checkers](#34-Conformance-Checkers)
-  - [4. Términos importantes (vocabulario)](#4-T%C3%A9rminos-importantes-vocabulario)
-  - [5. Categoría - Disponibilidad de Acceso](#5-Categor%C3%ADa---Disponibilidad-de-Acceso)
-    - [5.1 Existencia de sitio Web](#51-Existencia-de-sitio-Web)
-      - [5.1.1. Disponibilidad](#511-Disponibilidad)
-      - [5.1.1.1 Criterio de Éxito - Nivel AAA](#5111-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [5.2 Régimen de Acceso](#52-R%C3%A9gimen-de-Acceso)
-      - [5.2.1. Gratuidad](#521-Gratuidad)
-        - [5.2.1.1. Criterio de Éxito - Nivel AA](#5211-Criterio-de-%C3%89xito---Nivel-AA)
-        - [5.2.1.2. Criterio de Éxito - Nivel AAA](#5212-Criterio-de-%C3%89xito---Nivel-AAA)
-      - [5.2.2 - Universalidad: Acceso Directo](#522---Universalidad-Acceso-Directo)
-        - [5.2.2.1. Criterio de Éxito - Nivel A](#5221-Criterio-de-%C3%89xito---Nivel-A)
-        - [5.2.2.2. Criterio de Éxito - Nivel AA](#5222-Criterio-de-%C3%89xito---Nivel-AA)
-        - [5.2.2.3. Criterio de Éxito - Nivel AAA](#5223-Criterio-de-%C3%89xito---Nivel-AAA)
-      - [5.2.3 - Universalidad: Patrones de Accesibilidad y Web Standards](#523---Universalidad-Patrones-de-Accesibilidad-y-Web-Standards)
-        - [5.2.3.1. Criterio de Éxito - Nivel A](#5231-Criterio-de-%C3%89xito---Nivel-A)
-        - [5.2.3.2. Criterio de Éxito - Nivel AA](#5232-Criterio-de-%C3%89xito---Nivel-AA)
-        - [5.2.3.3. Criterio de Éxito - Nivel AAA](#5233-Criterio-de-%C3%89xito---Nivel-AAA)
-      - [5.2.4 - Universalidad: Performance](#524---Universalidad-Performance)
-        - [5.2.4.1. Criterio de Éxito - Nivel A](#5241-Criterio-de-%C3%89xito---Nivel-A)
-          - [WebPagetest](#WebPagetest)
-          - [Pagespeed Insights](#Pagespeed-Insights)
-        - [5.2.4.2. Criterio de Éxito - Nivel AA](#5242-Criterio-de-%C3%89xito---Nivel-AA)
-          - [WebPagetest](#WebPagetest-1)
-          - [Pagespeed Insights](#Pagespeed-Insights-1)
-        - [5.2.4.3. Criterio de Éxito - Nivel AAA](#5243-Criterio-de-%C3%89xito---Nivel-AAA)
-          - [WebPagetest](#WebPagetest-2)
-          - [Pagespeed Insights](#Pagespeed-Insights-2)
-      - [5.2.5 - Seguridad: Conexión Encriptada](#525---Seguridad-Conexi%C3%B3n-Encriptada)
-        - [5.2.5.1. Criterio de Éxito - Nivel AA](#5251-Criterio-de-%C3%89xito---Nivel-AA)
-        - [5.2.5.2. Criterio de Éxito - Nivel AAA](#5252-Criterio-de-%C3%89xito---Nivel-AAA)
-      - [5.2.6 - Dados Abiertos: Acceso vía API REST](#526---Dados-Abiertos-Acceso-v%C3%ADa-API-REST)
-        - [5.2.6.1. Criterio de Éxito - Nivel AA](#5261-Criterio-de-%C3%89xito---Nivel-AA)
-        - [5.2.6.2. Criterio de Éxito - Nivel AA](#5262-Criterio-de-%C3%89xito---Nivel-AA)
-        - [5.2.6.3. Criterio de Éxito - Nivel AAA](#5263-Criterio-de-%C3%89xito---Nivel-AAA)
-  - [6. Información Mínima Obligatoria de Estructura](#6-Informaci%C3%B3n-M%C3%ADnima-Obligatoria-de-Estructura)
-    - [6.1. Estructura orgánica / Organigrama](#61-Estructura-org%C3%A1nica--Organigrama)
-      - [6.1.1. Criterio de Éxito - Nivel A](#611-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.1.2. Criterio de Éxito - Nivel AA](#612-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.1.3. Criterio de Éxito - Nivel AAA](#613-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.2. Funciones y deberes](#62-Funciones-y-deberes)
-      - [6.2.1. Criterio de Éxito - Nivel A](#621-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.2.2. Criterio de Éxito - Nivel AA](#622-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.2.3. Criterio de Éxito - Nivel AAA](#623-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.3. Ubicación de sus sedes y áreas, divisiones o departamentos / Localización física, sucursales o regionales](#63-Ubicaci%C3%B3n-de-sus-sedes-y-%C3%A1reas-divisiones-o-departamentos--Localizaci%C3%B3n-f%C3%ADsica-sucursales-o-regionales)
-      - [6.3.1. Criterio de Éxito - Nivel A](#631-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.3.2. Criterio de Éxito - Nivel AA](#632-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.3.3. Criterio de Éxito - Nivel AAA](#633-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.4. Divisiones o departamentos](#64-Divisiones-o-departamentos)
-      - [6.4.1. Criterio de Éxito - Nivel A](#641-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.4.2. Criterio de Éxito - Nivel AA](#642-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.4.3. Criterio de Éxito - Nivel AAA](#643-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.5. Horario de Atención al Público](#65-Horario-de-Atenci%C3%B3n-al-P%C3%BAblico)
-      - [6.5.1. Criterio de Éxito - Nivel A](#651-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.5.2. Criterio de Éxito - Nivel AA](#652-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.5.3. Criterio de Éxito - Nivel AAA](#653-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.6. Presupuesto general](#66-Presupuesto-general)
-      - [6.6.1. Criterio de Éxito - Nivel A](#661-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.6.2. Criterio de Éxito - Nivel AA](#662-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.6.3. Criterio de Éxito - Nivel AAA](#663-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.6. Ejecución Histórica Anual](#66-Ejecuci%C3%B3n-Hist%C3%B3rica-Anual)
-      - [6.6.1. Criterio de Éxito - Nivel A](#661-Criterio-de-%C3%89xito---Nivel-A-1)
-      - [6.6.2. Criterio de Éxito - Nivel AA](#662-Criterio-de-%C3%89xito---Nivel-AA-1)
-      - [6.6.3. Criterio de Éxito - Nivel AAA](#663-Criterio-de-%C3%89xito---Nivel-AAA-1)
-    - [6.7. Planes de gasto público por año fiscal](#67-Planes-de-gasto-p%C3%BAblico-por-a%C3%B1o-fiscal)
-      - [6.7.1. Criterio de Éxito - Nivel A](#671-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.7.2. Criterio de Éxito - Nivel AA](#672-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.7.3. Criterio de Éxito - Nivel AAA](#673-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.8. Directorio de servidores públicos, empleados y contratistas](#68-Directorio-de-servidores-p%C3%BAblicos-empleados-y-contratistas)
-      - [6.8.1. Criterio de Éxito - Nivel A](#681-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.8.2. Criterio de Éxito - Nivel AA](#682-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.8.3. Criterio de Éxito - Nivel AAA](#683-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.9. Directorio de funcionarios - Completo](#69-Directorio-de-funcionarios---Completo)
-      - [6.9.1. Criterio de Éxito - Nivel A](#691-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.9.2. Criterio de Éxito - Nivel AA](#692-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.9.3. Criterio de Éxito - Nivel AAA](#693-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.10. Escalas salariales](#610-Escalas-salariales)
-      - [6.10.1. Criterio de Éxito - Nivel A](#6101-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.10.2. Criterio de Éxito - Nivel AA](#6102-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.10.3. Criterio de Éxito - Nivel AAA](#6103-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.11. Sanciones aplicadas a servidores públicos](#611-Sanciones-aplicadas-a-servidores-p%C3%BAblicos)
-      - [6.11.1. Criterio de Éxito - Nivel A](#6111-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.11.2. Criterio de Éxito - Nivel AA](#6112-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.11.3. Criterio de Éxito - Nivel AAA](#6113-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.12. Directorio con Informaciones de Contratos de Contratistas - Básico](#612-Directorio-con-Informaciones-de-Contratos-de-Contratistas---B%C3%A1sico)
-      - [6.12.1. Criterio de Éxito - Nivel A](#6121-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.12.2. Criterio de Éxito - Nivel AA](#6122-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.12.3. Criterio de Éxito - Nivel AAA](#6123-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.13. Directorio con Informaciones de Contratos de Contratistas - Completo](#613-Directorio-con-Informaciones-de-Contratos-de-Contratistas---Completo)
-      - [6.13.1. Criterio de Éxito - Nivel A](#6131-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.13.2. Criterio de Éxito - Nivel AA](#6132-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.13.3. Criterio de Éxito - Nivel AAA](#6133-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.14. Normas generales](#614-Normas-generales)
-      - [6.14.1. Criterio de Éxito - Nivel A](#6141-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.14.2. Criterio de Éxito - Nivel AA](#6142-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.14.3. Criterio de Éxito - Nivel AAA](#6143-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.15. Normas Reglamentarias](#615-Normas-Reglamentarias)
-      - [6.15.1. Criterio de Éxito - Nivel A](#6151-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.15.2. Criterio de Éxito - Nivel AA](#6152-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.15.3. Criterio de Éxito - Nivel AAA](#6153-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.16. Políticas, lineamientos o manuales](#616-Pol%C3%ADticas-lineamientos-o-manuales)
-      - [6.16.1. Criterio de Éxito - Nivel A](#6161-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.15.2. Criterio de Éxito - Nivel AA](#6152-Criterio-de-%C3%89xito---Nivel-AA-1)
-      - [6.15.3. Criterio de Éxito - Nivel AAA](#6153-Criterio-de-%C3%89xito---Nivel-AAA-1)
-    - [6.17. Metas y Objetivos](#617-Metas-y-Objetivos)
-      - [6.17.1. Criterio de Éxito - Nivel A](#6171-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.17.2. Criterio de Éxito - Nivel AA](#6172-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.17.3. Criterio de Éxito - Nivel AAA](#6173-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.18. Indicadores de gestión y/o desempeño](#618-Indicadores-de-gesti%C3%B3n-yo-desempe%C3%B1o)
-      - [6.18.1. Criterio de Éxito - Nivel A](#6181-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.18.2. Criterio de Éxito - Nivel AA](#6182-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.18.3. Criterio de Éxito - Nivel AAA](#6183-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.19. Plan Anticorrupción y de Atención al Ciudadano](#619-Plan-Anticorrupci%C3%B3n-y-de-Atenci%C3%B3n-al-Ciudadano)
-      - [6.19.1. Criterio de Éxito - Nivel A](#6191-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.19.2. Criterio de Éxito - Nivel AA](#6192-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.19.3. Criterio de Éxito - Nivel AAA](#6193-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [6.20. Plan anual de compras y adquisiciones](#620-Plan-anual-de-compras-y-adquisiciones)
-      - [6.20.1. Criterio de Éxito - Nivel A](#6201-Criterio-de-%C3%89xito---Nivel-A)
-      - [6.20.2. Criterio de Éxito - Nivel AA](#6202-Criterio-de-%C3%89xito---Nivel-AA)
-      - [6.20.3. Criterio de Éxito - Nivel AAA](#6203-Criterio-de-%C3%89xito---Nivel-AAA)
-  - [7. Información Mínima Obligatoria respecto a Servicios, Procedimientos y Funcionamiento](#7-Informaci%C3%B3n-M%C3%ADnima-Obligatoria-respecto-a-Servicios-Procedimientos-y-Funcionamiento)
-    - [7.1. Servicios](#71-Servicios)
-      - [7.1.1. Criterio de Éxito - Nivel A](#711-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.1.2. Criterio de Éxito - Nivel AA](#712-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.1.3. Criterio de Éxito - Nivel AAA](#713-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.2. Trámites](#72-Tr%C3%A1mites)
-      - [7.2.1. Criterio de Éxito - Nivel A](#721-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.2.2. Criterio de Éxito - Nivel AA](#722-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.2.3. Criterio de Éxito - Nivel AAA](#723-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.3. Procedimientos de toma de decisiones](#73-Procedimientos-de-toma-de-decisiones)
-      - [7.3.1. Criterio de Éxito - Nivel A](#731-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.3.2. Criterio de Éxito - Nivel AA](#732-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.3.3. Criterio de Éxito - Nivel AAA](#733-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.4. Decisiones](#74-Decisiones)
-      - [7.4.1. Criterio de Éxito - Nivel A](#741-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.4.2. Criterio de Éxito - Nivel AA](#742-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.4.3. Criterio de Éxito - Nivel AAA](#743-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.5. Políticas](#75-Pol%C3%ADticas)
-      - [7.5.1. Criterio de Éxito - Nivel A](#751-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.5.2. Criterio de Éxito - Nivel AA](#752-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.5.3. Criterio de Éxito - Nivel AAA](#753-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.4. Mecanismos de participación ciudadana](#74-Mecanismos-de-participaci%C3%B3n-ciudadana)
-      - [7.4.1. Criterio de Éxito - Nivel A](#741-Criterio-de-%C3%89xito---Nivel-A-1)
-      - [7.4.2. Criterio de Éxito - Nivel AA](#742-Criterio-de-%C3%89xito---Nivel-AA-1)
-      - [7.4.3. Criterio de Éxito - Nivel AAA](#743-Criterio-de-%C3%89xito---Nivel-AAA-1)
-    - [7.5. Informe de Participación Ciudadana](#75-Informe-de-Participaci%C3%B3n-Ciudadana)
-      - [7.5.1. Criterio de Éxito - Nivel A](#751-Criterio-de-%C3%89xito---Nivel-A-1)
-      - [7.5.2. Criterio de Éxito - Nivel AA](#752-Criterio-de-%C3%89xito---Nivel-AA-1)
-      - [7.5.3. Criterio de Éxito - Nivel AAA](#753-Criterio-de-%C3%89xito---Nivel-AAA-1)
-    - [7.6. Mecanismos de Participación Ciudadana en Formulación de Políticas](#76-Mecanismos-de-Participaci%C3%B3n-Ciudadana-en-Formulaci%C3%B3n-de-Pol%C3%ADticas)
-      - [7.6.1. Criterio de Éxito - Nivel A](#761-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.6.2. Criterio de Éxito - Nivel AA](#762-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.6.3. Criterio de Éxito - Nivel AAA](#763-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.7. Informes de gestión, evaluación y auditoría](#77-Informes-de-gesti%C3%B3n-evaluaci%C3%B3n-y-auditor%C3%ADa)
-      - [7.7.1. Criterio de Éxito - Nivel A](#771-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.7.2. Criterio de Éxito - Nivel AA](#772-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.7.3. Criterio de Éxito - Nivel AAA](#773-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.8. Informes de Evaluación](#78-Informes-de-Evaluaci%C3%B3n)
-      - [7.8.1. Criterio de Éxito - Nivel A](#781-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.8.2. Criterio de Éxito - Nivel AA](#782-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.8.3. Criterio de Éxito - Nivel AAA](#783-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.9. Informes de Auditoría](#79-Informes-de-Auditor%C3%ADa)
-      - [7.9.1. Criterio de Éxito - Nivel A](#791-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.9.2. Criterio de Éxito - Nivel AA](#792-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.9.3. Criterio de Éxito - Nivel AAA](#793-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.10. Mecanismos Internos de Supervisión](#710-Mecanismos-Internos-de-Supervisi%C3%B3n)
-      - [7.4.1. Criterio de Éxito - Nivel A](#741-Criterio-de-%C3%89xito---Nivel-A-2)
-      - [7.4.2. Criterio de Éxito - Nivel AA](#742-Criterio-de-%C3%89xito---Nivel-AA-2)
-      - [7.4.3. Criterio de Éxito - Nivel AAA](#743-Criterio-de-%C3%89xito---Nivel-AAA-2)
-    - [7.11. Mecanismos Externos de Supervisión](#711-Mecanismos-Externos-de-Supervisi%C3%B3n)
-      - [7.11.1. Criterio de Éxito - Nivel A](#7111-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.11.2. Criterio de Éxito - Nivel AA](#7112-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.11.3. Criterio de Éxito - Nivel AAA](#7113-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.12. Correo electrónico para notificaciones judiciales](#712-Correo-electr%C3%B3nico-para-notificaciones-judiciales)
-      - [7.12.1. Criterio de Éxito - Nivel A](#7121-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.12.2. Criterio de Éxito - Nivel AA](#7122-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.12.3. Criterio de Éxito - Nivel AAA](#7123-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.13. Mecanismos de Vigilancia](#713-Mecanismos-de-Vigilancia)
-      - [7.13.1. Criterio de Éxito - Nivel A](#7131-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.13.2. Criterio de Éxito - Nivel AA](#7132-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.13.3. Criterio de Éxito - Nivel AAA](#7133-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.14. Procedimientos y Lineamientos de Contratación](#714-Procedimientos-y-Lineamientos-de-Contrataci%C3%B3n)
-      - [7.14.1. Criterio de Éxito - Nivel A](#7141-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.14.2. Criterio de Éxito - Nivel AA](#7142-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.14.3. Criterio de Éxito - Nivel AAA](#7143-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [7.15. Políticas en materia de adquisiciones y compras](#715-Pol%C3%ADticas-en-materia-de-adquisiciones-y-compras)
-      - [7.15.1. Criterio de Éxito - Nivel A](#7151-Criterio-de-%C3%89xito---Nivel-A)
-      - [7.15.2. Criterio de Éxito - Nivel AA](#7152-Criterio-de-%C3%89xito---Nivel-AA)
-      - [7.15.3. Criterio de Éxito - Nivel AAA](#7153-Criterio-de-%C3%89xito---Nivel-AAA)
-  - [8. Instrumentos De Gestión De la Información Pública](#8-Instrumentos-De-Gesti%C3%B3n-De-la-Informaci%C3%B3n-P%C3%BAblica)
-    - [8.1. Esquemas de Publicación de información](#81-Esquemas-de-Publicaci%C3%B3n-de-informaci%C3%B3n)
-      - [8.1.1. Criterio de Éxito - Nivel A](#811-Criterio-de-%C3%89xito---Nivel-A)
-      - [8.1.2. Criterio de Éxito - Nivel AA](#812-Criterio-de-%C3%89xito---Nivel-AA)
-      - [8.1.3. Criterio de Éxito - Nivel AAA](#813-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [8.2. Programa de Gestión Documental](#82-Programa-de-Gesti%C3%B3n-Documental)
-      - [8.2.1. Criterio de Éxito - Nivel A](#821-Criterio-de-%C3%89xito---Nivel-A)
-      - [8.2.2. Criterio de Éxito - Nivel AA](#822-Criterio-de-%C3%89xito---Nivel-AA)
-      - [8.2.3. Criterio de Éxito - Nivel AAA](#823-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [8.3. Tablas De Retención Documental](#83-Tablas-De-Retenci%C3%B3n-Documental)
-      - [8.3.1. Criterio de Éxito - Nivel A](#831-Criterio-de-%C3%89xito---Nivel-A)
-      - [8.3.2. Criterio de Éxito - Nivel AA](#832-Criterio-de-%C3%89xito---Nivel-AA)
-      - [8.3.3. Criterio de Éxito - Nivel AAA](#833-Criterio-de-%C3%89xito---Nivel-AAA)
-    - [8.4. Información Publicada Antes De La Ley 1712 De 2014](#84-Informaci%C3%B3n-Publicada-Antes-De-La-Ley-1712-De-2014)
-      - [8.3.1. Criterio de Éxito - Nivel A](#831-Criterio-de-%C3%89xito---Nivel-A-1)
-      - [8.3.2. Criterio de Éxito - Nivel AA](#832-Criterio-de-%C3%89xito---Nivel-AA-1)
-      - [8.3.3. Criterio de Éxito - Nivel AAA](#833-Criterio-de-%C3%89xito---Nivel-AAA-1)
-    - [8.5. Respuestas A Solicitudes De Información Recibidas](#85-Respuestas-A-Solicitudes-De-Informaci%C3%B3n-Recibidas)
-      - [8.3.1. Criterio de Éxito - Nivel A](#831-Criterio-de-%C3%89xito---Nivel-A-2)
-      - [8.3.2. Criterio de Éxito - Nivel AA](#832-Criterio-de-%C3%89xito---Nivel-AA-2)
-      - [8.3.3. Criterio de Éxito - Nivel AAA](#833-Criterio-de-%C3%89xito---Nivel-AAA-2)
+- [MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.3.0](#mota---especificaci%c3%b3n-de-transparencia-activa-para-entidades-gubernamentales-030)
+  - [Notes](#notes)
+  - [Abstract](#abstract)
+  - [Estado y Tipología del documento](#estado-y-tipolog%c3%ada-del-documento)
+  - [Tabla de contenido](#tabla-de-contenido)
+  - [1. Introducción](#1-introducci%c3%b3n)
+    - [1.1 Transparencia, Rendición de Cuentas y lucha contra la corrupción](#11-transparencia-rendici%c3%b3n-de-cuentas-y-lucha-contra-la-corrupci%c3%b3n)
+    - [1.2 Público objetivo](#12-p%c3%bablico-objetivo)
+    - [1.3 Filosofía y Presupuestos](#13-filosof%c3%ada-y-presupuestos)
+    - [1.4 Interdisciplinaridad](#14-interdisciplinaridad)
+    - [1.5 Regulación](#15-regulaci%c3%b3n)
+    - [1.6 Documentos de Apoyo](#16-documentos-de-apoyo)
+    - [1.7 Colaboración](#17-colaboraci%c3%b3n)
+  - [2. Uso de la especificación](#2-uso-de-la-especificaci%c3%b3n)
+  - [3. Conformidad](#3-conformidad)
+      - [Información disponible en archivo](#informaci%c3%b3n-disponible-en-archivo)
+      - [Información disponible para personas disponibles en la misma página](#informaci%c3%b3n-disponible-para-personas-disponibles-en-la-misma-p%c3%a1gina)
+      - [Información disponible como meta-datos estructurados legible por máquina](#informaci%c3%b3n-disponible-como-meta-datos-estructurados-legible-por-m%c3%a1quina)
+    - [Observaciones sobre Criterios de Éxito](#observaciones-sobre-criterios-de-%c3%89xito)
+    - [Herramientas para examen de conformidad](#herramientas-para-examen-de-conformidad)
+      - [WCAG2.1](#wcag21)
+    - [3.1 Conformidad de Dependencias](#31-conformidad-de-dependencias)
+    - [3.4 Conformance Checkers](#34-conformance-checkers)
+  - [4. Términos importantes (vocabulario)](#4-t%c3%a9rminos-importantes-vocabulario)
+  - [5. Categoría - Disponibilidad de Acceso](#5-categor%c3%ada---disponibilidad-de-acceso)
+    - [5.1 Existencia de sitio Web](#51-existencia-de-sitio-web)
+      - [5.1.1. Disponibilidad](#511-disponibilidad)
+      - [5.1.1.1 Criterio de Éxito - Nivel AAA](#5111-criterio-de-%c3%89xito---nivel-aaa)
+    - [5.2 Régimen de Acceso](#52-r%c3%a9gimen-de-acceso)
+      - [5.2.1. Gratuidad](#521-gratuidad)
+        - [5.2.1.1. Criterio de Éxito - Nivel AA](#5211-criterio-de-%c3%89xito---nivel-aa)
+        - [5.2.1.2. Criterio de Éxito - Nivel AAA](#5212-criterio-de-%c3%89xito---nivel-aaa)
+      - [5.2.2 - Universalidad: Acceso Directo](#522---universalidad-acceso-directo)
+        - [5.2.2.1. Criterio de Éxito - Nivel A](#5221-criterio-de-%c3%89xito---nivel-a)
+        - [5.2.2.2. Criterio de Éxito - Nivel AA](#5222-criterio-de-%c3%89xito---nivel-aa)
+        - [5.2.2.3. Criterio de Éxito - Nivel AAA](#5223-criterio-de-%c3%89xito---nivel-aaa)
+      - [5.2.3 - Universalidad: Patrones de Accesibilidad y Web Standards](#523---universalidad-patrones-de-accesibilidad-y-web-standards)
+        - [5.2.3.1. Criterio de Éxito - Nivel A](#5231-criterio-de-%c3%89xito---nivel-a)
+        - [5.2.3.2. Criterio de Éxito - Nivel AA](#5232-criterio-de-%c3%89xito---nivel-aa)
+        - [5.2.3.3. Criterio de Éxito - Nivel AAA](#5233-criterio-de-%c3%89xito---nivel-aaa)
+      - [5.2.4 - Universalidad: Performance](#524---universalidad-performance)
+        - [5.2.4.1. Criterio de Éxito - Nivel A](#5241-criterio-de-%c3%89xito---nivel-a)
+          - [WebPagetest](#webpagetest)
+          - [Pagespeed Insights](#pagespeed-insights)
+        - [5.2.4.2. Criterio de Éxito - Nivel AA](#5242-criterio-de-%c3%89xito---nivel-aa)
+          - [WebPagetest](#webpagetest-1)
+          - [Pagespeed Insights](#pagespeed-insights-1)
+        - [5.2.4.3. Criterio de Éxito - Nivel AAA](#5243-criterio-de-%c3%89xito---nivel-aaa)
+          - [WebPagetest](#webpagetest-2)
+          - [Pagespeed Insights](#pagespeed-insights-2)
+      - [5.2.5 - Seguridad: Conexión Encriptada](#525---seguridad-conexi%c3%b3n-encriptada)
+        - [5.2.5.1. Criterio de Éxito - Nivel AA](#5251-criterio-de-%c3%89xito---nivel-aa)
+        - [5.2.5.2. Criterio de Éxito - Nivel AAA](#5252-criterio-de-%c3%89xito---nivel-aaa)
+      - [5.2.6 - Dados Abiertos: Acceso vía API REST](#526---dados-abiertos-acceso-v%c3%ada-api-rest)
+        - [5.2.6.1. Criterio de Éxito - Nivel AA](#5261-criterio-de-%c3%89xito---nivel-aa)
+        - [5.2.6.2. Criterio de Éxito - Nivel AA](#5262-criterio-de-%c3%89xito---nivel-aa)
+        - [5.2.6.3. Criterio de Éxito - Nivel AAA](#5263-criterio-de-%c3%89xito---nivel-aaa)
+  - [6. Información Mínima Obligatoria de Estructura](#6-informaci%c3%b3n-m%c3%adnima-obligatoria-de-estructura)
+    - [6.1. Estructura orgánica / Organigrama](#61-estructura-org%c3%a1nica--organigrama)
+      - [6.1.1. Criterio de Éxito - Nivel A (datos)](#611-criterio-de-%c3%89xito---nivel-a-datos)
+      - [6.1.2. Criterio de Éxito - Nivel AA](#612-criterio-de-%c3%89xito---nivel-aa)
+      - [6.1.3. Criterio de Éxito - Nivel AAA](#613-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.2. Funciones y deberes](#62-funciones-y-deberes)
+      - [6.2.1. Criterio de Éxito - Nivel A](#621-criterio-de-%c3%89xito---nivel-a)
+      - [6.2.2. Criterio de Éxito - Nivel AA](#622-criterio-de-%c3%89xito---nivel-aa)
+      - [6.2.3. Criterio de Éxito - Nivel AAA](#623-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.3. Ubicación de sus sedes y áreas, divisiones o departamentos / Localización física, sucursales o regionales](#63-ubicaci%c3%b3n-de-sus-sedes-y-%c3%a1reas-divisiones-o-departamentos--localizaci%c3%b3n-f%c3%adsica-sucursales-o-regionales)
+      - [6.3.1. Criterio de Éxito - Nivel A](#631-criterio-de-%c3%89xito---nivel-a)
+      - [6.3.2. Criterio de Éxito - Nivel AA](#632-criterio-de-%c3%89xito---nivel-aa)
+      - [6.3.3. Criterio de Éxito - Nivel AAA](#633-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.4. Divisiones o departamentos](#64-divisiones-o-departamentos)
+      - [6.4.1. Criterio de Éxito - Nivel A](#641-criterio-de-%c3%89xito---nivel-a)
+      - [6.4.2. Criterio de Éxito - Nivel AA](#642-criterio-de-%c3%89xito---nivel-aa)
+      - [6.4.3. Criterio de Éxito - Nivel AAA](#643-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.5. Horario de Atención al Público](#65-horario-de-atenci%c3%b3n-al-p%c3%bablico)
+      - [6.5.1. Criterio de Éxito - Nivel A](#651-criterio-de-%c3%89xito---nivel-a)
+      - [6.5.2. Criterio de Éxito - Nivel AA](#652-criterio-de-%c3%89xito---nivel-aa)
+      - [6.5.3. Criterio de Éxito - Nivel AAA](#653-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.6. Presupuesto general](#66-presupuesto-general)
+      - [6.6.1. Criterio de Éxito - Nivel A](#661-criterio-de-%c3%89xito---nivel-a)
+      - [6.6.2. Criterio de Éxito - Nivel AA](#662-criterio-de-%c3%89xito---nivel-aa)
+      - [6.6.3. Criterio de Éxito - Nivel AAA](#663-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.6. Ejecución Histórica Anual](#66-ejecuci%c3%b3n-hist%c3%b3rica-anual)
+      - [6.6.1. Criterio de Éxito - Nivel A](#661-criterio-de-%c3%89xito---nivel-a-1)
+      - [6.6.2. Criterio de Éxito - Nivel AA](#662-criterio-de-%c3%89xito---nivel-aa-1)
+      - [6.6.3. Criterio de Éxito - Nivel AAA](#663-criterio-de-%c3%89xito---nivel-aaa-1)
+    - [6.7. Planes de gasto público por año fiscal](#67-planes-de-gasto-p%c3%bablico-por-a%c3%b1o-fiscal)
+      - [6.7.1. Criterio de Éxito - Nivel A](#671-criterio-de-%c3%89xito---nivel-a)
+      - [6.7.2. Criterio de Éxito - Nivel AA](#672-criterio-de-%c3%89xito---nivel-aa)
+      - [6.7.3. Criterio de Éxito - Nivel AAA](#673-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.8. Directorio de servidores públicos, empleados y contratistas](#68-directorio-de-servidores-p%c3%bablicos-empleados-y-contratistas)
+      - [6.8.1. Criterio de Éxito - Nivel A](#681-criterio-de-%c3%89xito---nivel-a)
+      - [6.8.2. Criterio de Éxito - Nivel AA](#682-criterio-de-%c3%89xito---nivel-aa)
+      - [6.8.3. Criterio de Éxito - Nivel AAA](#683-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.9. Directorio de funcionarios - Completo](#69-directorio-de-funcionarios---completo)
+      - [6.9.1. Criterio de Éxito - Nivel A](#691-criterio-de-%c3%89xito---nivel-a)
+      - [6.9.2. Criterio de Éxito - Nivel AA](#692-criterio-de-%c3%89xito---nivel-aa)
+      - [6.9.3. Criterio de Éxito - Nivel AAA](#693-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.10. Escalas salariales](#610-escalas-salariales)
+      - [6.10.1. Criterio de Éxito - Nivel A](#6101-criterio-de-%c3%89xito---nivel-a)
+      - [6.10.2. Criterio de Éxito - Nivel AA](#6102-criterio-de-%c3%89xito---nivel-aa)
+      - [6.10.3. Criterio de Éxito - Nivel AAA](#6103-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.11. Sanciones aplicadas a servidores públicos](#611-sanciones-aplicadas-a-servidores-p%c3%bablicos)
+      - [6.11.1. Criterio de Éxito - Nivel A](#6111-criterio-de-%c3%89xito---nivel-a)
+      - [6.11.2. Criterio de Éxito - Nivel AA](#6112-criterio-de-%c3%89xito---nivel-aa)
+      - [6.11.3. Criterio de Éxito - Nivel AAA](#6113-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.12. Directorio con Informaciones de Contratos de Contratistas - Básico](#612-directorio-con-informaciones-de-contratos-de-contratistas---b%c3%a1sico)
+      - [6.12.1. Criterio de Éxito - Nivel A](#6121-criterio-de-%c3%89xito---nivel-a)
+      - [6.12.2. Criterio de Éxito - Nivel AA](#6122-criterio-de-%c3%89xito---nivel-aa)
+      - [6.12.3. Criterio de Éxito - Nivel AAA](#6123-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.13. Directorio con Informaciones de Contratos de Contratistas - Completo](#613-directorio-con-informaciones-de-contratos-de-contratistas---completo)
+      - [6.13.1. Criterio de Éxito - Nivel A](#6131-criterio-de-%c3%89xito---nivel-a)
+      - [6.13.2. Criterio de Éxito - Nivel AA](#6132-criterio-de-%c3%89xito---nivel-aa)
+      - [6.13.3. Criterio de Éxito - Nivel AAA](#6133-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.14. Normas generales](#614-normas-generales)
+      - [6.14.1. Criterio de Éxito - Nivel A](#6141-criterio-de-%c3%89xito---nivel-a)
+      - [6.14.2. Criterio de Éxito - Nivel AA](#6142-criterio-de-%c3%89xito---nivel-aa)
+      - [6.14.3. Criterio de Éxito - Nivel AAA](#6143-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.15. Normas Reglamentarias](#615-normas-reglamentarias)
+      - [6.15.1. Criterio de Éxito - Nivel A](#6151-criterio-de-%c3%89xito---nivel-a)
+      - [6.15.2. Criterio de Éxito - Nivel AA](#6152-criterio-de-%c3%89xito---nivel-aa)
+      - [6.15.3. Criterio de Éxito - Nivel AAA](#6153-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.16. Políticas, lineamientos o manuales](#616-pol%c3%adticas-lineamientos-o-manuales)
+      - [6.16.1. Criterio de Éxito - Nivel A](#6161-criterio-de-%c3%89xito---nivel-a)
+      - [6.15.2. Criterio de Éxito - Nivel AA](#6152-criterio-de-%c3%89xito---nivel-aa-1)
+      - [6.15.3. Criterio de Éxito - Nivel AAA](#6153-criterio-de-%c3%89xito---nivel-aaa-1)
+    - [6.17. Metas y Objetivos](#617-metas-y-objetivos)
+      - [6.17.1. Criterio de Éxito - Nivel A](#6171-criterio-de-%c3%89xito---nivel-a)
+      - [6.17.2. Criterio de Éxito - Nivel AA](#6172-criterio-de-%c3%89xito---nivel-aa)
+      - [6.17.3. Criterio de Éxito - Nivel AAA](#6173-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.18. Indicadores de gestión y/o desempeño](#618-indicadores-de-gesti%c3%b3n-yo-desempe%c3%b1o)
+      - [6.18.1. Criterio de Éxito - Nivel A](#6181-criterio-de-%c3%89xito---nivel-a)
+      - [6.18.2. Criterio de Éxito - Nivel AA](#6182-criterio-de-%c3%89xito---nivel-aa)
+      - [6.18.3. Criterio de Éxito - Nivel AAA](#6183-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.19. Plan Anticorrupción y de Atención al Ciudadano](#619-plan-anticorrupci%c3%b3n-y-de-atenci%c3%b3n-al-ciudadano)
+      - [6.19.1. Criterio de Éxito - Nivel A](#6191-criterio-de-%c3%89xito---nivel-a)
+      - [6.19.2. Criterio de Éxito - Nivel AA](#6192-criterio-de-%c3%89xito---nivel-aa)
+      - [6.19.3. Criterio de Éxito - Nivel AAA](#6193-criterio-de-%c3%89xito---nivel-aaa)
+    - [6.20. Plan anual de compras y adquisiciones](#620-plan-anual-de-compras-y-adquisiciones)
+      - [6.20.1. Criterio de Éxito - Nivel A](#6201-criterio-de-%c3%89xito---nivel-a)
+      - [6.20.2. Criterio de Éxito - Nivel AA](#6202-criterio-de-%c3%89xito---nivel-aa)
+      - [6.20.3. Criterio de Éxito - Nivel AAA](#6203-criterio-de-%c3%89xito---nivel-aaa)
+  - [7. Información Mínima Obligatoria respecto a Servicios, Procedimientos y Funcionamiento](#7-informaci%c3%b3n-m%c3%adnima-obligatoria-respecto-a-servicios-procedimientos-y-funcionamiento)
+    - [7.1. Servicios](#71-servicios)
+      - [7.1.1. Criterio de Éxito - Nivel A](#711-criterio-de-%c3%89xito---nivel-a)
+      - [7.1.2. Criterio de Éxito - Nivel AA](#712-criterio-de-%c3%89xito---nivel-aa)
+      - [7.1.3. Criterio de Éxito - Nivel AAA](#713-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.2. Trámites](#72-tr%c3%a1mites)
+      - [7.2.1. Criterio de Éxito - Nivel A](#721-criterio-de-%c3%89xito---nivel-a)
+      - [7.2.2. Criterio de Éxito - Nivel AA](#722-criterio-de-%c3%89xito---nivel-aa)
+      - [7.2.3. Criterio de Éxito - Nivel AAA](#723-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.3. Procedimientos de toma de decisiones](#73-procedimientos-de-toma-de-decisiones)
+      - [7.3.1. Criterio de Éxito - Nivel A](#731-criterio-de-%c3%89xito---nivel-a)
+      - [7.3.2. Criterio de Éxito - Nivel AA](#732-criterio-de-%c3%89xito---nivel-aa)
+      - [7.3.3. Criterio de Éxito - Nivel AAA](#733-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.4. Decisiones](#74-decisiones)
+      - [7.4.1. Criterio de Éxito - Nivel A](#741-criterio-de-%c3%89xito---nivel-a)
+      - [7.4.2. Criterio de Éxito - Nivel AA](#742-criterio-de-%c3%89xito---nivel-aa)
+      - [7.4.3. Criterio de Éxito - Nivel AAA](#743-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.5. Políticas](#75-pol%c3%adticas)
+      - [7.5.1. Criterio de Éxito - Nivel A](#751-criterio-de-%c3%89xito---nivel-a)
+      - [7.5.2. Criterio de Éxito - Nivel AA](#752-criterio-de-%c3%89xito---nivel-aa)
+      - [7.5.3. Criterio de Éxito - Nivel AAA](#753-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.4. Mecanismos de participación ciudadana](#74-mecanismos-de-participaci%c3%b3n-ciudadana)
+      - [7.4.1. Criterio de Éxito - Nivel A](#741-criterio-de-%c3%89xito---nivel-a-1)
+      - [7.4.2. Criterio de Éxito - Nivel AA](#742-criterio-de-%c3%89xito---nivel-aa-1)
+      - [7.4.3. Criterio de Éxito - Nivel AAA](#743-criterio-de-%c3%89xito---nivel-aaa-1)
+    - [7.5. Informe de Participación Ciudadana](#75-informe-de-participaci%c3%b3n-ciudadana)
+      - [7.5.1. Criterio de Éxito - Nivel A](#751-criterio-de-%c3%89xito---nivel-a-1)
+      - [7.5.2. Criterio de Éxito - Nivel AA](#752-criterio-de-%c3%89xito---nivel-aa-1)
+      - [7.5.3. Criterio de Éxito - Nivel AAA](#753-criterio-de-%c3%89xito---nivel-aaa-1)
+    - [7.6. Mecanismos de Participación Ciudadana en Formulación de Políticas](#76-mecanismos-de-participaci%c3%b3n-ciudadana-en-formulaci%c3%b3n-de-pol%c3%adticas)
+      - [7.6.1. Criterio de Éxito - Nivel A](#761-criterio-de-%c3%89xito---nivel-a)
+      - [7.6.2. Criterio de Éxito - Nivel AA](#762-criterio-de-%c3%89xito---nivel-aa)
+      - [7.6.3. Criterio de Éxito - Nivel AAA](#763-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.7. Informes de gestión, evaluación y auditoría](#77-informes-de-gesti%c3%b3n-evaluaci%c3%b3n-y-auditor%c3%ada)
+      - [7.7.1. Criterio de Éxito - Nivel A](#771-criterio-de-%c3%89xito---nivel-a)
+      - [7.7.2. Criterio de Éxito - Nivel AA](#772-criterio-de-%c3%89xito---nivel-aa)
+      - [7.7.3. Criterio de Éxito - Nivel AAA](#773-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.8. Informes de Evaluación](#78-informes-de-evaluaci%c3%b3n)
+      - [7.8.1. Criterio de Éxito - Nivel A](#781-criterio-de-%c3%89xito---nivel-a)
+      - [7.8.2. Criterio de Éxito - Nivel AA](#782-criterio-de-%c3%89xito---nivel-aa)
+      - [7.8.3. Criterio de Éxito - Nivel AAA](#783-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.9. Informes de Auditoría](#79-informes-de-auditor%c3%ada)
+      - [7.9.1. Criterio de Éxito - Nivel A](#791-criterio-de-%c3%89xito---nivel-a)
+      - [7.9.2. Criterio de Éxito - Nivel AA](#792-criterio-de-%c3%89xito---nivel-aa)
+      - [7.9.3. Criterio de Éxito - Nivel AAA](#793-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.10. Mecanismos Internos de Supervisión](#710-mecanismos-internos-de-supervisi%c3%b3n)
+      - [7.4.1. Criterio de Éxito - Nivel A](#741-criterio-de-%c3%89xito---nivel-a-2)
+      - [7.4.2. Criterio de Éxito - Nivel AA](#742-criterio-de-%c3%89xito---nivel-aa-2)
+      - [7.4.3. Criterio de Éxito - Nivel AAA](#743-criterio-de-%c3%89xito---nivel-aaa-2)
+    - [7.11. Mecanismos Externos de Supervisión](#711-mecanismos-externos-de-supervisi%c3%b3n)
+      - [7.11.1. Criterio de Éxito - Nivel A](#7111-criterio-de-%c3%89xito---nivel-a)
+      - [7.11.2. Criterio de Éxito - Nivel AA](#7112-criterio-de-%c3%89xito---nivel-aa)
+      - [7.11.3. Criterio de Éxito - Nivel AAA](#7113-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.12. Correo electrónico para notificaciones judiciales](#712-correo-electr%c3%b3nico-para-notificaciones-judiciales)
+      - [7.12.1. Criterio de Éxito - Nivel A](#7121-criterio-de-%c3%89xito---nivel-a)
+      - [7.12.2. Criterio de Éxito - Nivel AA](#7122-criterio-de-%c3%89xito---nivel-aa)
+      - [7.12.3. Criterio de Éxito - Nivel AAA](#7123-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.13. Mecanismos de Vigilancia](#713-mecanismos-de-vigilancia)
+      - [7.13.1. Criterio de Éxito - Nivel A](#7131-criterio-de-%c3%89xito---nivel-a)
+      - [7.13.2. Criterio de Éxito - Nivel AA](#7132-criterio-de-%c3%89xito---nivel-aa)
+      - [7.13.3. Criterio de Éxito - Nivel AAA](#7133-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.14. Procedimientos y Lineamientos de Contratación](#714-procedimientos-y-lineamientos-de-contrataci%c3%b3n)
+      - [7.14.1. Criterio de Éxito - Nivel A](#7141-criterio-de-%c3%89xito---nivel-a)
+      - [7.14.2. Criterio de Éxito - Nivel AA](#7142-criterio-de-%c3%89xito---nivel-aa)
+      - [7.14.3. Criterio de Éxito - Nivel AAA](#7143-criterio-de-%c3%89xito---nivel-aaa)
+    - [7.15. Políticas en materia de adquisiciones y compras](#715-pol%c3%adticas-en-materia-de-adquisiciones-y-compras)
+      - [7.15.1. Criterio de Éxito - Nivel A](#7151-criterio-de-%c3%89xito---nivel-a)
+      - [7.15.2. Criterio de Éxito - Nivel AA](#7152-criterio-de-%c3%89xito---nivel-aa)
+      - [7.15.3. Criterio de Éxito - Nivel AAA](#7153-criterio-de-%c3%89xito---nivel-aaa)
+  - [8. Instrumentos De Gestión De la Información Pública](#8-instrumentos-de-gesti%c3%b3n-de-la-informaci%c3%b3n-p%c3%bablica)
+    - [8.1. Esquemas de Publicación de información](#81-esquemas-de-publicaci%c3%b3n-de-informaci%c3%b3n)
+      - [8.1.1. Criterio de Éxito - Nivel A](#811-criterio-de-%c3%89xito---nivel-a)
+      - [8.1.2. Criterio de Éxito - Nivel AA](#812-criterio-de-%c3%89xito---nivel-aa)
+      - [8.1.3. Criterio de Éxito - Nivel AAA](#813-criterio-de-%c3%89xito---nivel-aaa)
+    - [8.2. Programa de Gestión Documental](#82-programa-de-gesti%c3%b3n-documental)
+      - [8.2.1. Criterio de Éxito - Nivel A](#821-criterio-de-%c3%89xito---nivel-a)
+      - [8.2.2. Criterio de Éxito - Nivel AA](#822-criterio-de-%c3%89xito---nivel-aa)
+      - [8.2.3. Criterio de Éxito - Nivel AAA](#823-criterio-de-%c3%89xito---nivel-aaa)
+    - [8.3. Tablas De Retención Documental](#83-tablas-de-retenci%c3%b3n-documental)
+      - [8.3.1. Criterio de Éxito - Nivel A](#831-criterio-de-%c3%89xito---nivel-a)
+      - [8.3.2. Criterio de Éxito - Nivel AA](#832-criterio-de-%c3%89xito---nivel-aa)
+      - [8.3.3. Criterio de Éxito - Nivel AAA](#833-criterio-de-%c3%89xito---nivel-aaa)
+    - [8.4. Información Publicada Antes De La Ley 1712 De 2014](#84-informaci%c3%b3n-publicada-antes-de-la-ley-1712-de-2014)
+      - [8.3.1. Criterio de Éxito - Nivel A](#831-criterio-de-%c3%89xito---nivel-a-1)
+      - [8.3.2. Criterio de Éxito - Nivel AA](#832-criterio-de-%c3%89xito---nivel-aa-1)
+      - [8.3.3. Criterio de Éxito - Nivel AAA](#833-criterio-de-%c3%89xito---nivel-aaa-1)
+    - [8.5. Respuestas A Solicitudes De Información Recibidas](#85-respuestas-a-solicitudes-de-informaci%c3%b3n-recibidas)
+      - [8.3.1. Criterio de Éxito - Nivel A](#831-criterio-de-%c3%89xito---nivel-a-2)
+      - [8.3.2. Criterio de Éxito - Nivel AA](#832-criterio-de-%c3%89xito---nivel-aa-2)
+      - [8.3.3. Criterio de Éxito - Nivel AAA](#833-criterio-de-%c3%89xito---nivel-aaa-2)
 
 ## 1. Introducción
 
@@ -310,7 +315,6 @@ Los objetivos de esta especificación incluyen:
 (a fazer)
 
 ### 1.2 Público objetivo
-
 
 (a fazer)
 
@@ -329,21 +333,60 @@ Los objetivos de esta especificación incluyen:
 
 This section is non-normative.
 
+
+
 ## 3. Conformidad
 
 Además de las secciones marcadas como no normativas, todos los diagramas, ejemplos y notas en esta especificación son no normativos (excepto cuando marcados en contrario). Todo el resto en esta especificación es normativo.
 
 The key words MAY, MUST, MUST NOT, OPTIONAL, RECOMMENDED, REQUIRED, SHALL, SHALL NOT, SHOULD, and SHOULD NOT are to be interpreted as described in [RFC2119]. Además, clasificamos cada criterio como OBLIGACIÓN o RECOMENDACIÒN.
 
+### 3.1 - Nivel de Éxito - Categorias
+
 Para que una página web esté conforme con esta especificación, debe satisfacer todos y cada uno de los siguientes requisitos de conformidad:
 
-1. Nivel de conformidad: Uno de los siguientes niveles de conformidad se satisface por completo.
+**1. Nivel de conformidad:** Uno de los siguientes niveles de conformidad se satisface por completo.
 
-    Nivel A: Para el nivel A de conformidad (el mínimo nivel de conformidad), el sitio web satisface todos los criterios de éxito de nivel A, o se proporciona una versión alternativa conforme.
+    **Nivel A:** Para el nivel A de conformidad (el mínimo nivel de conformidad), el sitio web satisface todos los criterios de éxito de nivel A, o se proporciona una versión alternativa conforme al nivel A. Si la guía no especifica una puntuación diferente, el cumplimiento del criterio A equivale a **30 puntos**.
 
-    Nivel AA: Para el nivel AA de conformidad, el sitio web satisface todos los criterios de éxito de nivel A y AA, o se proporciona una versión alternativa conforme al nivel AA.
+    Este és el nivel mínimo aceptable dentro de las condiciones y contextos de las entidades colombianas a partir de julio de 2019
 
-    Nivel AAA: Para el nivel AAA de conformidad, el sitio web satisface todos los criterios de éxito de nivel A, AA y AAA, o se proporciona una versión alternativa conforme al nivel AAA.
+    **Nivel AA:** Para el nivel AA de conformidad, el sitio web satisface todos los criterios de éxito de nivel A y AA, o se proporciona una versión alternativa conforme al nivel AA. Si la guía no especifica una puntuación diferente, el cumplimiento del criterio A equivale a **50 puntos**.
+
+    Este és el nivel deseado de forma inmediata o a corto plazo, considerando las condiciones y contextos de las entidades colombianas en julio de 2019.
+
+    **Nivel AAA:** Para el nivel AAA de conformidad, el sitio web satisface todos los criterios de éxito de nivel A, AA y AAA, o se proporciona una versión alternativa conforme al nivel AAA. Si la guía no especifica una puntuación diferente, el cumplimiento del criterio A equivale a **20 puntos**.
+
+    Este és el nivel ideal, ell objectivo a medio y largo plazo a partir de agosto de 2019.
+
+### 3.2 - Escala de Puntos: diretrizes de disponibilidad de informacción
+
+Las directrizes relacionados a la disponibilidad de informacción adoptan una escala de puntos más abrangente quebasada en la disponibilidad o no de la informacion; la forma y/o ubicación en que la información está disponible; la adopción de las mejores prácticas de datos abiertos, etc.
+
+La escala de puntos varía de 0 a 100, con las siguientes reglas de puntuación base.
+
+#### Información disponible en archivo
+   - en formato propietario (docx, xlsx, pdf): 10 puntos
+   - en formato abierto, pero no legible/acesible por máquina (e.g. texto o tabla digitalizado): 20 puntos
+   - en formato abierto y datos estructurados (e.g. en caso de tablas) legible/acesible por máquina: 30 puntos
+
+**Importante: si los datos eston solamente en otros sítios (e.g. SICOP, datos.gov.co), la pontuación es reduzida por la metade**
+
+#### Información disponible para personas disponibles en la misma página
+
+   - en formato HTML en la misma página: 30 puntos
+   - en HTML5 estructurado, semántico, en la misma página: 50 puntos
+   - ejemplo: tabla para datos estructurados; H2, h3,  etc para subtítulos)
+
+#### Información disponible como meta-datos estructurados legible por máquina
+
+   - datos estructurados (schema.org, json, meta-datos, etc) en la misma página: 20 puntos
+
+Los puntos **deben ser ligeramente modificadas según el contexto**. Si la información está disponible para el usuario en una página sin descargar archivos, **debe agregarse la puntuación del criterio eliminado (archivo abierto).**
+
+Para directrizes no relacionadas a la disponibilidad de informacción, como performance, ademas de cambiar os pesos de critérios (abajo) debemos cambiar la puntuación según sea necesario, solo SI es necesario.
+
+### Observaciones sobre Criterios de Éxito
 
 Nota 1: A pesar de que la conformidad sólo puede lograrse en los niveles indicados, se anima a los autores a notificar en sus declaraciones cualquier progreso que se realice para satisfacer los criterios de éxito de todo nivel más allá del nivel de conformidad alcanzado.
 
@@ -357,13 +400,12 @@ Nota 2: No se recomienda como política general exigir el nivel de conformidad A
 
 ### 3.1 Conformidad de Dependencias
 
-(a fazer) como se define conformidad de otras especificaciones, técnicas, etc?
+(a fazer) como se define conformidad de otras especificaciones, técnicas, etc.
 
 ### 3.4 Conformance Checkers
 (a fazer)
 
 ## 4. Términos importantes (vocabulario)
-
 (a fazer)
 
 
@@ -433,21 +475,27 @@ La evaluación debe realizarse en la página de inicio (ubicación oficial) y ot
 
 ##### 5.2.3.1. Criterio de Éxito - Nivel A
 
-El sitio web es válido en el [https://validator.w3](https://validator.w3.org).org  sin errores y con no más que 50 advertencias, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
+El sitio web es válido en el [https://validator.w3.org/unicorn/](https://validator.w3.org/unicorn/) con no más que 50 errores, siguiendo la especificación [HTML5](https://w3c.github.io/html/). **Temporalmente**, la recomendación [XHTML 1.1](https://www.w3.org/TR/xhtml11/) también es aceptada por MOTA.
 
+###### Sobre la aceptación de XHTML
 
+**Temporalmente, debido a la necessidad de compatibilidad con versiones anteriores de sistemas de gerenciamento de contenido**, la recomendación [XHTML 1.1](https://www.w3.org/TR/xhtml11/) también es aceptada por MOTA.
+
+Sin embargo, observamos que XHTML no es la recomendación más reciente y más efectiva para los sitios web para públicos en general. Además El estándar HTML5 proporciona medios para crear documentos que son válidos como HTML5 y XML. De hecho, el dicho XHTML5 és un documento HTML5 enviado con lo MIME Type `application/xhtml+xml` y, preferiblemente, siguiendo el concepto de marcado de texto políglota. Por lo que solo se aceptará la versión 1.0 de la especificación MOTA o julio de 2020 (lo que ocurra más adelante).
+
+ Más información acerca XML+HTML5 se puede encontrar en inglés en [WHATWG](https://html.spec.whatwg.org/multipage/introduction.html#html-vs-xhtml), [W3C](https://dev.w3.org/html5/html-polyglot/) y [Wikipedia](https://en.wikipedia.org/wiki/Polyglot_markup#Polyglot_HTML_requirements)
 
 ##### 5.2.3.2. Criterio de Éxito - Nivel AA
 
-El sitio web es válido en el [https://validator.w3](https://validator.w3.org).org  sin errores y con no más que 50 advertencias, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
+El sitio web es válido en el [https://validator.w3.org/unicorn/](https://validator.w3.org/unicorn/) con no más que 50 errores, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
 
-El sitio cumple con los criterios A y AA de la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/)
+El sitio cumple con los criterios A de la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/)
 
 ##### 5.2.3.3. Criterio de Éxito - Nivel AAA
 
-El sitio web es válido en el [https://validator.w3](https://validator.w3.org).org  sin errores y con no más que 50 advertencias, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
+El sitio web es válido en el [https://validator.w3.org/unicorn/](https://validator.w3.org/unicorn/)  sin errores y con no más que 50 advertencias, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los e elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.)
 
-El sitio cumple con los criterios A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/)
+El sitio cumple con los criterios A y AA de la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/)
 
 El sitio utiliza de forma adequada las prácticas [wai-aria-1.2](https://w3c.github.io/aria/);
 
@@ -470,11 +518,10 @@ En Webpagetest, los test son efectuados con la siguiente configuración:
 Los sitios deben obtener los siguientes grados máximos:
 
 ###### WebPagetest
-    - Time to First Byte: 7.000s
+    - Time to First Byte: 3.500s
     - First Interactive (beta): 30.000s
-    - Speed Index: 16.000s
-    - Bytes in: 2.048kb
-    - Cost: $$$
+    - Speed Index: 21.000s
+    - Bytes in: 4.096kb
 
 ###### Pagespeed Insights
     - Ordenador: 70
@@ -485,11 +532,10 @@ Los sitios deben obtener los siguientes grados máximos:
 Los sitios deben obtener los siguientes grados máximos:
 
 ###### WebPagetest
-    - Time to First Byte: 5.000s
-    - First Interactive (beta): 20.000s
-    - Speed Index: 11.000s
-    - Bytes in: 1.536kb
-    - Cost: $$$
+    - Time to First Byte: 2.500s
+    - First Interactive (beta): 25.000s
+    - Speed Index: 14.000s
+    - Bytes in: 2.048kb
 
 ###### Pagespeed Insights
     - Ordenador: 85
@@ -500,11 +546,10 @@ Los sitios deben obtener los siguientes grados máximos:
 Los sitios deben obtener los siguientes grados máximos:
 
 ###### WebPagetest
-    - Time to First Byte: 3.500s
+    - Time to First Byte: 1.500s
     - First Interactive (beta): 15.000s
     - Speed Index: 7.000s
-    - Bytes in: 1.024kb
-    - Cost: $$
+    - Bytes in: 1.536kb
 
 ###### Pagespeed Insights
     - Ordenador: 95
@@ -526,7 +571,7 @@ El sitio es accesible en conexión encriptada (SSL/TLS) y solamente por conexió
 #### 5.2.6 - Dados Abiertos: Acceso vía API REST
 Tipo: RECOMENDACIÓN
 
-Los contenidos del sitio son accesibles por una API REST con datos estructurados, incluso meta-dados.
+Los contenidos del sitio como página, noticias, secciones son accesibles por una API REST con datos estructurados, incluso meta-dados.
 
 ##### 5.2.6.1. Criterio de Éxito - Nivel AA
 
@@ -551,7 +596,7 @@ Resolución 3564 de 2015, anexo 1, punto 3.4.
 
 El sujeto obligado publica su estructura orgánica de manera gráfica y legible, en un formato accesible y usable. Así mismo, publica una descripción de la estructura orgánica, donde se de información general de cada división o dependencia.
 
-#### 6.1.1. Criterio de Éxito - Nivel A
+#### 6.1.1. Criterio de Éxito - Nivel A (datos)
 
 Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx), pdf no-accesible, o disponibles en la página en formato de imagen. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
@@ -559,9 +604,13 @@ Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx), pdf no-
 
 Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página, en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
 
+Cumplimiento alternativos:
+
+Además de lo critério de Éxito
+
 #### 6.1.3. Criterio de Éxito - Nivel AAA
 
-Texto disponible en la página, estructurado semánticamente (e.g. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org o motaSchema. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Texto disponible en la página, estructurado semánticamente (e.g. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 Referencias:
 
@@ -592,7 +641,7 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en 
 
 #### 6.2.3. Criterio de Éxito - Nivel AAA
 
-Texto disponible en la página, estructurado semánticamente (e.g. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org o motaSchema. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Texto disponible en la página, estructurado semánticamente (e.g. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ### 6.3. Ubicación de sus sedes y áreas, divisiones o departamentos / Localización física, sucursales o regionales
 Tipo: OBLIGACIÓN
@@ -647,7 +696,7 @@ Texto disponible en página específica, accesible por elemento de navegación p
 
 #### 6.5.3. Criterio de Éxito - Nivel AAA
 
-Texto disponible en página específica, incluye horarios de atención de diferentes departamentos o sedes. Horarios más importante de la sede o servicio principal también disponible en pié de página de todas las páginas. En los dos casos, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org o motaSchema.
+Texto disponible en página específica, incluye horarios de atención de diferentes departamentos o sedes. Horarios más importante de la sede o servicio principal también disponible en pié de página de todas las páginas. En los dos casos, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org.
 
 ### 6.6. Presupuesto general
 Tipo: OBLIGACIÓN
@@ -712,7 +761,7 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 
 #### 6.6.3. Criterio de Éxito - Nivel AAA
 
-Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org o motaSchema. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ### 6.7. Planes de gasto público por año fiscal
 Tipo: OBLIGACIÓN
@@ -973,7 +1022,7 @@ El sujeto obligado publica sus lineamientos, manuales y toda política que haya 
 - Planes estratégicos, sectoriales e institucionales.
 - Plan de rendición de cuentas.
 - Plan de servicio al ciudadano.
-- Plan anti-trámites.
+- Plan anticorrupción.
 
 Si el sujeto obligado realiza un plan de acción unificado, es válido.
 
@@ -1042,7 +1091,7 @@ Ley 1474 de 2011, artículo 73.
 El sujeto obligado publica anualmente una estrategia de lucha contra la corrupción y de atención al ciudadano. Dicha estrategia contempla, entre otras cosas:
 - el mapa de riesgos de corrupción en la respectiva entidad
 - las medidas concretas para mitigar esos riesgos
-- las estrategias antitrámites
+- las estrategias anticorrupción
 - los mecanismos para mejorar la atención al ciudadano.
 
 
