@@ -1,5 +1,5 @@
 # MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.3.1
-Borrador de editores 19 Julio 2019
+Borrador de editores 19 de Julio de 2019
 
 Esta versión:
 - https://github.com/Dejusticia/mota-active-transparency-specification/
