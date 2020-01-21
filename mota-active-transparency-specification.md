@@ -1,5 +1,5 @@
 # MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.3.1
-Borrador de editores 19 de Julio de 2019
+Borrador de editores 21 de enero de 2020
 
 Esta versión:
 - https://github.com/Dejusticia/mota-active-transparency-specification/
@@ -14,59 +14,9 @@ Editores:
 
 - Celso Bessa (Dejusticia)
 - Maria Paula Ángel Arango (Dejusticia)
-
-## Notes
-
-Atajos:
-
-- [a criterios](#5-Categor%C3%ADa---Disponibilidad-de-Acceso)
-- [Tabla de contenido](#Tabla-de-contenido)
+- Daniel Ospina Celis (Dejusticia)
 
 
-Este documento está escrito utilizando la sintaxis Markdown:
-
-https://www.markdownguide.org/getting-started
-https://www.markdownguide.org/basic-syntax
-
-Este documento tiene control de versión inspirado en el sistema de versión semántico de software:
-https://semver.org/lang/es/
-https://www.celsobessa.com.br/2016/01/05/organizando-os-arquivos/
-
-## Abstract
-
-Este documento especifica critérios de evaluación de las obligaciones y buenas prácticas para publicación y divulgación de información de transparencia activa en Colombia.
-
-**Su principal y primer objectivo** és reunir las partes interessadas y involucradas en la transparencia publicas en un processo público, participativo y recurrente de estandarización de la publicación y divulgación de información de transparencia en la web sea más comum, fácil, resiliente, rica y eficiente por parte de las entidades gubernamentales en Colombia. Este objectivo emergió de dos creencias:
-
-i) que la sociedad civil tome parte en los procesos que le afecta afectan a si
-ii) que las discussiones y consultas de la sociedad civil sobre transparencia tenga lugar en público (transparencia acerca de transparencia)
-iii) és necessario que las parte interessadas -- és decir, la sociedad civil (i.e. ciudadania) y poder público -- tengan una base común, un vocabulário para debates y ajustes de expectativas.
-
-Por estas razones, aunque la especificación es originalmente un proyecto creado por el Centro de Estudios de Derechos, Sociedade y Justicia - Dejusticia, la intención es que las organizaciones públicas y privadas, académicos, ciudadanos se apropien y participen en su desarrollo. **La especificación es, por lo tanto, también un llamado a la construcción colectiva** de la política y la práctica de la transparencia pública en Colombia.
-
-Cabe destacar que **en Colombia ya existen varios instrumentos e iniciativas de transparencia y datos abiertos muy buenas**. Mientras que, por un lado, vemos oportunidades de mejora en algunas de estas iniciativas, por el otro, vemos un enorme potencial de mejora y colaboración. Por lo tanto, l**a iniciativa MOTA no reemplaza estas iniciativas, sino que agrega y complementa** estas iniciativas, además de buscar ser un punto focal para el debate y la planificación de las mejoras y actualizaciones necesarias, ya que la tecnología y la sociedad cambian constantemente.
-
-**El segundo objectivo** és proveer una visión general de los objetivos y filosofía de la iniciativa MOTA--Monitoreo de Obligaciones de Transparencia Activa-- que busca incentivar el cumplimiento de la rendición de cuentas en la lucha contra corrupción en Colombia, a saber: la transparencia de la información en formatos abiertos, patronizados y fácilmente legibles por máquinas en los sitios web de los sujetos obligados (información mínima obligatoria de los arts. 9, 10 y 11 de la Ley 1712 de 2014) y la claridad de los procesos de toma de decisiones que allí se exponen.
-
-**El tercero e igualmente importante objectivo** es reunir y explicar de forma aterrisada y practica, en un solo documento, las obligaciones legales, estándares, metodologias y buenas prácticas descriptas en diversas fuentes,
-
-Al mismo tiempo, busca permitir que desarrolladores web en entidades públicas puedan encontrar facilmente las informaciones, estándares y referencias necessarias para ejecución del noble trabajo de informar la ciudadania.
-
-Destaca-se que
-
-De hecho, esta especificación es utilizada por otros componentes de la iniciativa, como el robot evaluador de sitios gubernamentales, que por su vez alimenta una base de datos con los resultados de evaluación, la webapp de evaluación de sitios web gubernamentales y una biblioteca de insumos (ejemplos de códigos, patrones de diseño, modelos de textos, etc). Interdisciplinar -- cubriendo legislación, tecnología, diseño, redacción, ciencia de la información, entre otros --  esta especificación es construida sobre otras especificaciones, patrones, leyes y otros conjuntos de buenas prácticas incluso, resolución [HTML5](https://w3c.github.io/html/), [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), [wai-aria-1.2](https://w3c.github.io/aria/), [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/), [schema.org](https://schema.org), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD) y, como un continuo trabajo en progreso, está sujeta a cambios, perfeccionamientos y extensión. Aunque los principios y criterios principales están bien definidos, criterios secundarios, casos especiales e implementaciones específicas todavía tal vez no están adecuadamente escritos o deben ser definidos en otros documentos.
-
-NOTA: Este documento contiene un número grande de informaciones introductorias y contextuales. Tal vez es posible que desee seguir directamente los criterios y ejemplos. Si desea contribuir, vea la sección Cómo Contribuir.
-
-Palabras clave: Rendición de cuentas, Transparencia
-
-## Estado y Tipología del documento
-
-Este documento sigue la metodología [Versionado Semántico (SEMVER)](https://semver.org/lang/es/) para control de versión. También utiliza los valores de la variable [specStatus](https://github.com/w3c/respec/wiki/specStatus) de la herramienta [ReSpec de W3C](https://github.com/w3c/respec/) para determinar el tipo/estado de la especificación.
-
-En la fecha de publicación se encontrará en la versión 0.3.1 y estado Borrador de Editores (ED - Editor's Draft).
-
-Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la iniciativa MOTA y sus organizadores no  afiliados a estas organizaciones.
 
 ## Tabla de contenido
 
@@ -1752,3 +1702,18 @@ El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 aprop
 También es aceptable un archivo de formato abierto (.odf) o **.pdf accesible**, que contiene AFAZER similar a el ejemplo en AFAZER.
 
 Los mismos datos son encontrado como datos estructurados en sintaxis LD+JSON y vocabulario schema.org AFAZER: definir schemas requeridos.
+
+Atajos:
+
+- [a criterios](#5-Categor%C3%ADa---Disponibilidad-de-Acceso)
+- [Tabla de contenido](#Tabla-de-contenido)
+
+
+Este documento está escrito utilizando la sintaxis Markdown:
+
+https://www.markdownguide.org/getting-started
+https://www.markdownguide.org/basic-syntax
+
+Este documento tiene control de versión inspirado en el sistema de versión semántico de software:
+https://semver.org/lang/es/
+https://www.celsobessa.com.br/2016/01/05/organizando-os-arquivos/
