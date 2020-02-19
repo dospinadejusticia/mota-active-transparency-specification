@@ -5,6 +5,8 @@ Estamos agradecidos que queira ajudar a melhorar este projeto. A seguir tem algu
 * Por favor, seja clara, concisa e civilizada.
 * Nós preferimos [espanhol](CONTRIBUYENDO.md), mas você pode usar [inglés](CONTRIBUTING.md) e [português](CONTRIBUINDO.md) também
 
+**Sempre faça suas alterações no ramo develop**
+
 
 ## Avisando de um bug, sugerindo melhoria e correções
 
@@ -12,7 +14,7 @@ Primeiro, por favor, **certifique-se que o bug ainda não foi reportado**, busca
 
 Se não existem um ítem ainda, você pode crar um. **Por favor, não esqueça e incluir o seguinte:**
 
-1. Um tñitulo claro e descritivo (i.e. "Um bug" **não** é um bom título).
+1. Um título claro e descritivo (i.e. "Um bug" **não** é um bom título).
 2. Uma descrição clara e assertiva do problema ou sugestão.
 3. O navegador e OS que você usa.
 

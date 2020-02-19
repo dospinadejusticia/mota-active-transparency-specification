@@ -5,6 +5,7 @@ Estamos agradecidos de que quieras ayudar a mejorar este proyecto. Estas son alg
 * Por favor, sea claro, conciso y civilizado.
 * Preferimos [español](CONTRIBUYENDO.md), pero también puede usar [inglés](CONTRIBUTING.md) y [portugués](CONTRIBUINDO.md).
 
+**Siempre haga sus cambios en la rama develop**
 
 ## Reportar un error, sugiriendo mejoras y correcciones
 

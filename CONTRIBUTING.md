@@ -5,6 +5,7 @@ We are thankful you want to help make this project better. These are a few guide
 * Please, be clear, concise and civilized.
 * We do prefer [spanish](CONTRIBUYENDO.md), but you may use english and [portuguese](CONTRIBUINDO.md) as well.
 
+** Please, always make your change in the develop branch **
 
 ## Reporting a bug, suggesting improvements and corrections
 

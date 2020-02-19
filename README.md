@@ -1,4 +1,4 @@
-# Active Transparency for Governmental Entities Specification - MOTA Initiative 0.3.1
+# Active Transparency for Governmental Entities Specification - MOTA Initiative 0.3.2
 
 - **Para español (idioma oficial), vea el archivo [LEYAME.md](LEYAME.md).**
 - Para português, veja o arquivo [LEIAME.md](LEIAME.md).
