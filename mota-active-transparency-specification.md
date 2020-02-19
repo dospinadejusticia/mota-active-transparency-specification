@@ -1,4 +1,4 @@
-# MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.3.2
+# MOTA - Especificación de transparencia activa para entidades gubernamentales 0.4.0
 Borrador de editores 19 de febrero de 2020
 
 Esta versión:
@@ -15,12 +15,55 @@ Editores:
 - Celso Bessa (Dejusticia)
 - Maria Paula Ángel Arango (Dejusticia)
 - Daniel Ospina Celis (Dejusticia)
+- Juan Carlos Upegui (Dejusticia)
+
+## Abstract
+
+Este documento especifica los criterios de evaluación de obligaciones y de buenas prácticas para la publicación y divulgación de la información pública en Internet, por parte de entidades gubernamentales en Colombia (obligaciones de transparencia activa).
+
+Su principal y primer objetivo es servir de foro para reunir a las partes interesadas en la transparencia activa en Colombia, al habilitar un proceso público, participativo y recurrente de estandarización de las obligaciones y de las buenas prácticas sobre publicación y divulgación de información pública en Internet. Esto con el propósito de que la transparencia activa desplegada por las entidades gubernamentales en Colombia sea lo más completa y eficiente posible.
+
+Por estas razones, aunque esta especificación es originalmente un proyecto creado por el Centro de Estudios de Derecho, Sociedad y Justicia - Dejusticia, la intención es que las organizaciones públicas y privadas, académicos y ciudadanos en general se apropien y participen en su desarrollo.
+
+Esta especificación es, por lo tanto, también un llamado a la construcción colectiva de la política y la práctica y evaluación de la transparencia activa gubernamental en Colombia.
+
+Cabe destacar que en Colombia ya existen varios instrumentos e iniciativas de transparencia y datos abiertos muy buenas. La iniciativa MOTA no reemplaza estas iniciativas; busca sumarse a ellas y complementarlas. Además, busca ser un punto de encuentro para el debate y la actualización de la forma de caracterizar las obligaciones de transparencia activa y sobre todo de medir su concreción. Esto, ante el hecho innegable de que la tecnología y la sociedad están en constante transformación.
+
+El segundo objetivo es ofrecer una visión general de los objetivos y de la filosofía de la iniciativa MOTA--Monitoreo de Obligaciones de Transparencia Activa--.  La iniciativa MOTA busca incentivar el cumplimiento de las obligaciones de transparencia activa de las entidades gubernamentales, con la esperanza de que esto redunde en una mejor rendición de cuentas de las entidades gubernamentales, y sirva como una herramienta más en la lucha contra corrupción.  Esto, a través de incentivar ejercicios de transparencia activa de la información en formatos abiertos, estandarizados y fácilmente legibles por máquinas en los sitios web de los sujetos obligados (información mínima obligatoria de los arts. 9, 10 y 11 de la Ley 1712 de 2014).
+
+El tercero objetivo es reunir y explicar de forma aterrizada y práctica, en un solo documento, las obligaciones legales, estándares, metodologíaas y buenas prácticas en materia de transparencia activa de las entidades gubernamentales, que suelen estar dispersas en diversas fuentes.
+
+Al mismo tiempo, busca permitir que los desarrolladores web de las entidades públicas puedan encontrar facilmente las informaciones, estándares y referencias necesarias para la ejecución del noble trabajo de informar a la ciudadanía.
+
+Es de destacar que esta especificación es utilizada por otros componentes de la iniciativa, como el robot evaluador de sitios gubernamentales, que a su vez alimenta una base de datos con los resultados de evaluación, la webapp de evaluación de sitios web gubernamentales y una biblioteca de insumos (ejemplos de códigos, patrones de diseño, modelos de textos, etc).
+
+También resaltamos el carácter interdisciplinar de la especificación, en tanto la misma comprende aproximaciones desde las ciencias del derecho, de la ingeniería, del diseño y de la información, entre otros.
+
+Esta especificación ha sido construida sobre otras especificaciones, patrones, leyes y otros conjuntos de buenas prácticas incluso, resolución [HTML5](https://w3c.github.io/html/), [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), [wai-aria-1.2](https://w3c.github.io/aria/), [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/), [schema.org](https://schema.org), [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD).
 
 
+Entendida como un continuo trabajo en progreso está sujeta a cambios, mejoras, adiciones y extensiones.  Aunque los principios y criterios primarios están bien definidos, los criterios secundarios, los casos especiales y las implementaciones específicas todavía tal vez no están adecuadamente escritos o deban ser definidos en otros documentos.
+
+NOTA:
+Este documento contiene un número grande de informaciones introductorias y contextuales. Tal vez es posible que desee seguir directamente a los criterios y ejemplos.
+
+Si desea contribuir, vaya al archivo [CONTRIBUYENDO.md].
+
+Palabras clave: Transparencia activa, rendición de cuentas
+
+## Estado y tipología del documento
+
+Este documento sigue la metodología [Versionado Semántico (SEMVER)](https://semver.org/lang/es/) para control de versión. También utiliza los valores de la variable [specStatus](https://github.com/w3c/respec/wiki/specStatus) de la herramienta [ReSpec de W3C](https://github.com/w3c/respec/) de W3C para determinar el tipo/estado de la especificación.
+
+En la fecha de publicación se encontrará en la versión 0.4.0 y estado Borrador de Editores (ED - Editor's Draft).
+
+Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la iniciativa MOTA y sus organizadores no son ni están afiliados a estas organizaciones.
 
 ## Tabla de contenido
 
-- [MOTA - Especificación de Transparencia Activa para entidades Gubernamentales 0.3.2](#mota---especificaci%c3%b3n-de-transparencia-activa-para-entidades-gubernamentales-032)
+- [MOTA - Especificación de transparencia activa para entidades gubernamentales 0.4.0](#mota---especificaci%c3%b3n-de-transparencia-activa-para-entidades-gubernamentales-040)
+  - [Abstract](#abstract)
+  - [Estado y tipología del documento](#estado-y-tipolog%c3%ada-del-documento)
   - [Tabla de contenido](#tabla-de-contenido)
   - [1. Introducción](#1-introducci%c3%b3n)
     - [1.1 Transparencia, Rendición de Cuentas y lucha contra la corrupción](#11-transparencia-rendici%c3%b3n-de-cuentas-y-lucha-contra-la-corrupci%c3%b3n)
@@ -254,23 +297,62 @@ Editores:
 
 Esta sección no es normativa
 
-Los objetivos de esta especificación incluyen:
-(a fazer)
+Esta especificación tiene el propósito de generar una herramienta (que sea a la vez un foro público) sobre la forma de categorizar y de evaluar la transparencia activa de las entidades gubernamentales en Colombia.
 
+Su objetivo general se enmarca en apuntalar el rol de la sociedad civil en el control y seguimiento de la política pública en materia de transparencia del Estado colombiano, a partir de la expedición de la Ley 1712 de 2014.
+
+Alineada con la filosofía de esta ley, esta especificación busca servir de insumo para fomentar la transparencia activa, la rendición de cuentas de los sujetos obligados y aportar a la ingente tarea de la lucha contra la corrupción.
+
+Su público objetivo es doble, por un lado, la ciudadanía (activistas, académicos, ingenieros) interesada en los temas de transparencia estatatal; y por otra parte, las entidades gubernamentales, entendidas como "sujetos obligados", y como las primeras llamadas a satisfacer las demandas de transparencia activa, por tanto, entendidas como sujetos de monitoreo y evaluación por parte de la herramienta.
+
+Esta especificación está pensada para generar un lugar de debate y de mejora sobre la adecuación de las prácticas de transparencia activa, a partir del uso de las páginas web de las entidades gubernamentales, la adecuación de las mismas, su funcionalidad y su constante mejora, a partir de la identificación de las obligaciones generales de transparencia, pero también de la inclusión de recomendaciones o de mejores prácticas en la materia.
 
 ### 1.1 Transparencia, Rendición de Cuentas y lucha contra la corrupción
-(a fazer)
+
+Esta especificación está alineada con los principios de la Ley 1712 de 2014, en materia de transparencia y acceso a la información pública.  Toma nota de las demandas de distintos actores, tanto nacionales, como internacionales, del público especializado y de la ciudadanía en general sobre la importancia de optimizar los recursos y la funcion de las entidades gubernamentales.  Ya desde los foros que afinan las mejores prácticas de la gobernanza del sector público, como desde aquellos que claman por políticas eficaces de lucha contra la corrupción. Esta especificación intenta ser un modesto aporte en estas materias.
+
+Esta especificación tiene como propósito concretar las demandas sobre transparencia activa mediante la definición de ciertas categorías y de ciertos criterios que puedan ser empleados para la medición del cumplimiento de las obligaciones de transparencia activa por parte de las entidades estatales en el entorno digital a través de las páginas web o los sitios web oficiales de dichas entidades en la Internet.
+
+Esta especificación presupone que, entre más transparencia de la actividad estatal, que se pueda concretar y medir, seria y periodicamente, mejor será la rendición de cuentas de los servidores públicos.  Y si esto es así, mejores serán las prácticas en el uso del poder y en la asignación de los recursos públicos, mejores las posibilidades de control por parte de las agencias especializadas, de la prensa y de la ciudadanía. Y por tanto, mejores serán las condiciones para luchar contra el complejo fenómeno de la corrupción.
+
 
 ### 1.2 Público objetivo
 
-(a fazer)
+El público objetivo de esta especificación es todo aquel interesado en la categorización y la medición de las obligaciones de transparencia activa de las entidades gubernamentales.
+Por un lado tenemos a la ciudadanía interesada: académicos, investigadores, periodistas, activistas, miembros de la sociedad civil.  En especial, aquellos que cuenten con algún nivel de conocimiento sobre los pormenores técnicos, científicos, jurídicos y políticos de las herramientas para categorizar y evaluar las obligaciones de transparencia activa de las entidades gubernamentales.
+Por el otro, tenemos a las entidades gubernamentales, en cabeza de sus órganos directivos, funcionarios  y contratistas especializados en las áreas de transparencia y diseño de las páginas web de las entidades gubernamentales.
 
 ### 1.3 Filosofía y Presupuestos
 
+La filosofía de esta especificación es la del trabajo colaborativo.  Está orientada por la idea de habilitar un foro público de discusión en materia de categorización de las obligaciones de transparencia activa en Colombia, y en materia de evaluación del desempeño de las entidades gubernamentales.
+
+Esta especificación está concebida como un permanente trabajo en progreso. En donde distintos actores son bienvenidos para sugerir mejoras, cambios, adiciones, revisiones sobre la mejor funcionalidad, pertinencia y adecuación de la misma.  No es ni pretende ser un trabajo acabado sobre la forma de categorizar y evaluar las obligaciones de transparencia activa de las entidades gubernamentales en Colombia.
+
+Esta especificación parte de los siguientes presupuestos:
+
+i) que la sociedad civil ha de tomar parte en los procesos que la afectan, y en especial, debe tomar parte en la agenda de transparentar el Estado y de llamarlo a rendir cuentas
+
+ii) que las discusiones de la sociedad civil sobre transparencia activa han de tener lugar en público (transparencia acerca de transparencia) y aprovechar todas las ventajas que los desarrollos tecnológicos permiten.
+
+iii) que es necesario que las parte interesadas -- la sociedad civil (i.e. ciudadanía, investigadores, académicos) y las entidades gubernamentales-- tengan una base común, sobre el vocabulario técnico, las categorías de análisis y los criterios de evaluación, que permita evaluar los desempeños y ajustar las expectativas en materia de transparencia activa.
+
+iv) que en la medida en que se estandaricen y se concerten mecanismos de evaluación de desempeño de las políticas de transparencia activa, será más fácil medir los resultados, identificar los avances o los retrocesos, y llamar a cuentas a los responsables dentro de las entidades gubernamentales
+
 ### 1.4 Interdisciplinaridad
 
+Conforme con su filosofía, esta especificación ha sido construida a partir de la concurrencia de distintos saberes, desde la ciencias de la información, pasando por la ciencia de la administración pública y la disciplina jurídica, hasta las propias de la programación, la ingeniería de sistemas y el diseño.
+
+Esta especificación está abierta a la participación y a la colaboración de distintos actores (desde diversas disciplinas) que compartan la filosofía y finalidad de la especificación.
+
 ### 1.5 Regulación
-(a fazer) lista de regulación (leyes, reglamentos, etc), tal vez con una breve análisis de la doctrina legal y/o algunos puntos importantes (e.g. jurisprudencia ambigua, etc)
+
+La identificación de las categorías y de los criterios de investigación de esta regulación se basan principalmente en los mandatos de la Ley 1712 de 2014, *"Por medio de la cual se crea la Ley de Transparencia y del Derecho de Acceso a la Información Pública Nacional y se dictan otras disposiciones."* Tal y como fue interpretada por la Corte Constitucional en la Sentencias C-274 de 2013, MP María Victoria Calle.
+
+En los contenidos del Decreto 103 de 2015, *"Por el cual se reglamenta parcialmente la Ley 1712 de 2014 y se dictan otras disposiciones"*, que a su vez fue incorporado al Decreto 1078 de 2015, *"Por medio del cual se expide el Decreto Reglamentario Único del Sector Presidencia de la República"*. En especial, en sus artículo Artículos 1.1.1.1 a 3.1.2.
+
+En los contenidos de la Resolución 3564 de 2015 2015 *"Por la cual se reglamentan aspectos relacionados con la Ley de Transparencia y Acceso a la Información Pública"*.
+
+Asimismo, incluye obligaciones específicas que han sido incluidas o precisadas en distintas fuentes normativas, como la Ley 1474 DE 2011 *"Por la cual se dictan normas orientadas a fortalecer los mecanismos de prevención, investigación y sanción de actos de corrupción y la efectividad del control de la gestión pública"* y el Decreto Nacional 1510 de 2013 *"Por el cual se reglamenta el sistema de compras y contratación pública"*, entre otras.
 
 ### 1.6 Documentos de Apoyo
 
@@ -693,7 +775,7 @@ El sujeto obligado publica la información histórica detallada de la ejecución
 - Programas informáticos;
 - Actualizado hasta el último trimestre concluido;
 
-En la base de patrones MOTA, presentamos modelos de archivo “Ejecución Presupuestal Mensual” y “Ejecución Presupuestal Trimestral”, que cumplen con los requisitos y buenas prácticas aquí mencionadas.
+En la base de patrones MOTA, presentamos modelos de archivo "Ejecución Presupuestal Mensual" y "Ejecución Presupuestal Trimestral", que cumplen con los requisitos y buenas prácticas aquí mencionadas.
 
 Para las entidades u organismos de la Rama Judicial, el requisito se entenderá cumplido a través de un enlace a la publicación de la ejecución histórica anual en la página web del Consejo Superior de la Judicatura.
 
@@ -703,7 +785,7 @@ Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf) o d
 
 #### 6.6.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión. El archivo sigue el patrón de los modelos de archivo “Ejecución Presupuestal Mensual” y “Ejecución Presupuestal Trimestral” en la base de patrones MOTA.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión. El archivo sigue el patrón de los modelos de archivo "Ejecución Presupuestal Mensual" y "Ejecución Presupuestal Trimestral" en la base de patrones MOTA.
 
 #### 6.6.3. Criterio de Éxito - Nivel AAA
 
@@ -902,7 +984,7 @@ Tipo: OBLIGACIÓN
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 4.
 
-El sujeto obligado publica la normatividad de orden constitucional o legal que lo rige, que determina su competencia y le es aplicable a su actividad. Existencia de una sección con normas y reglamentos pertinentes para la entidad: decretos, circulares, leyes, etc., relativas a creacción de reglamentos de la entidad. El documento MOTA “Reglas Contextuales” especifica cuáles son las normas necesarias por entidad o clases de entidad. Dos versiones están disponibles:
+El sujeto obligado publica la normatividad de orden constitucional o legal que lo rige, que determina su competencia y le es aplicable a su actividad. Existencia de una sección con normas y reglamentos pertinentes para la entidad: decretos, circulares, leyes, etc., relativas a creacción de reglamentos de la entidad. El documento MOTA "Reglas Contextuales" especifica cuáles son las normas necesarias por entidad o clases de entidad. Dos versiones están disponibles:
 
 - Listado de normas de orden constitucional o legal que indique nombre, fecha de expedición y una descripción corta de la misma, organizadas de la más reciente a la más antigua.
 - Un enlace que redirija al usuario a un archivo o recurso con el documento integral.
@@ -933,7 +1015,7 @@ Así mismo, si existen resoluciones, circulares u otro tipo de actos administrat
 - un listado que indique el tipo de acto (resolución, circular, ordenanza, acuerdo, etc.), la fecha de expedición y una descripción corta del mismo (verbatim), organizados del más reciente al más antiguo.
 - un enlace que redirija al usuario a un archivo o recurso con el documento integral.
 
- Existencia de información sobre normas reglamentarias pertinentes a la entidad: resoluciones y directivas. El documento MOTA “Reglas Contextuales” especifica cuáles son las normas necesarias por entidad o clases de entidad. Dos están disponibles:
+ Existencia de información sobre normas reglamentarias pertinentes a la entidad: resoluciones y directivas. El documento MOTA "Reglas Contextuales" especifica cuáles son las normas necesarias por entidad o clases de entidad. Dos están disponibles:
 
 - Resumen en lenguaje sencillo, destacando secciones de reglamentos pertinentes;
 - Copias literales de las normas.
@@ -1098,7 +1180,7 @@ El sitio del sujeto obligado contiene una o más páginas con información de lo
 - Protocolos de atención a los siguientes públicos: 1) Ciudadanos en general; 2) Prensa; 3) grupos de interés, según la entidad.
 - Indicación de aquellos que se encuentren disponibles en línea.
 
-El documento MOTA “Reglas Contextuales” especifica cuáles son las normas necesarias por entidad o clases de entidad.
+El documento MOTA "Reglas Contextuales" especifica cuáles son las normas necesarias por entidad o clases de entidad.
 
 #### 7.1.1. Criterio de Éxito - Nivel A
 
@@ -1127,7 +1209,7 @@ El sujeto obligado publica toda la información correspondiente a los trámites 
 
 Además de informaciones acerca cada trámite, se recomienda una tabla resumen listando costos, normativa y link para informaciones en detalles de cada trámite.
 
-Los trámites mínimos requeridos para cada entidad o clases de entidades se encuentran en el documento MOTA “Reglas Contextuales”.
+Los trámites mínimos requeridos para cada entidad o clases de entidades se encuentran en el documento MOTA "Reglas Contextuales".
 
 Este requisito se entenderá cumplido con la inscripción de los trámites en el Sistema Único de Información de Trámites y Procedimientos Administrativos (SUIT) y la relación de los nombres de los mismos en el respectivo sitio web oficial del sujeto obligado con un enlace al portal del Estado Colombiano o el que haga sus veces.
 
@@ -1149,7 +1231,7 @@ Tipo: OBLIGACIÓN
 Ley 1712 de 2014, artículo 11, literal c).
 Resolución 3564 de 2015, anexo 1, punto 3.3.
 
-El sujeto obligado publica la descripción de los procesos y procedimientos que se siguen para tomar decisiones en las diferentes áreas. Los procedimientos mínimos requeridos para cada entidad o clases de entidad se encuentran en el documento MOTA “Reglas Contextuales”.
+El sujeto obligado publica la descripción de los procesos y procedimientos que se siguen para tomar decisiones en las diferentes áreas. Los procedimientos mínimos requeridos para cada entidad o clases de entidad se encuentran en el documento MOTA "Reglas Contextuales".
 
 Ejemplo: Procedimientos mínimos Fiscalía General de la Nación:
 
@@ -1176,7 +1258,7 @@ Información disponible en una o más páginas interligadas, estructuradas semá
 Tipo: OBLIGACIÓN
 Ley 1712 de 2014, artículo 11, literal d).
 
-El sujeto obligado publica los contenidos de las decisiones adoptadas que afecten al público, junto con sus fundamentos e interpretaciones. Los tipos de decisiones mínimos requeridos para cada entidad o clases de entidad se encuentran en el documento MOTA “Reglas Contextuales”.
+El sujeto obligado publica los contenidos de las decisiones adoptadas que afecten al público, junto con sus fundamentos e interpretaciones. Los tipos de decisiones mínimos requeridos para cada entidad o clases de entidad se encuentran en el documento MOTA "Reglas Contextuales".
 
 Ejemplo: listado de decisiones mínimas que debe contener el sitio de la Corte Constitucional:
 
@@ -1202,7 +1284,7 @@ Información disponible en una o más páginas interligadas, estructuradas semá
 ### 7.5. Políticas
 Tipo: OBLIGACIÓN
 
-El sitio de la entidad debe contener una o más páginas con los contenidos de las políticas adoptadas que afecten al público, junto con sus fundamentos e interpretaciones. Los procedimientos mínimos requeridos para cada entidad o clases de entidad se encuentran en el documento MOTA “Reglas Contextuales”.
+El sitio de la entidad debe contener una o más páginas con los contenidos de las políticas adoptadas que afecten al público, junto con sus fundamentos e interpretaciones. Los procedimientos mínimos requeridos para cada entidad o clases de entidad se encuentran en el documento MOTA "Reglas Contextuales".
 
 Ejemplo: listado de políticas mínimas que debe contener el sitio de la Fiscalía General de la Nación:
 

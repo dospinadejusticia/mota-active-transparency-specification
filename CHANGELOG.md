@@ -8,6 +8,16 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 
 ## Unreleased
 
+### Added
+- text for section 1.1 Transparencia, Rendición de Cuentas y lucha contra la corrupción;
+- text for section 1.2 Público objetivo
+- text for section 1.3 Filosofía y Presupuestos
+- text for section 1.4 Interdisciplinaridad
+- text for section 1.5 Regulación
+
+### Fixed
+- fixed spanish copy with several spelling, syntax and grammar errors (revised by Juan Carlos Upegui)
+
 ## [0.3.2] - 2020-02-19
 
 ### Changed

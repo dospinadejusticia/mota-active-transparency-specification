@@ -2,6 +2,10 @@
 
 We are thankful you want to help make this project better. These are a few guidelines to make you contribution easier and help everyone involved.
 
+The best way to do this is to create a message in the "issues" session in the [official Github repository] (https://github.com/Dejusticia/mota-active-transparency-specification/) or, if you already have experience collaborating on open source projects in Github, making a "fork", changing to the `develop` branch, editing the files, and then presenting through a "pull request ". That way, it facilitates contribution and it helps all users.
+
+Another way is to send a message to cbessa (at) dejusticia punto org. But because of the volume of messages, we cannot guarantee quick responses. Therefore, we recommend sending a message in the repository, thus ensuring that your message is read by all members of the project development team and other users who can respond more quickly and collaboratively.
+
 * Please, be clear, concise and civilized.
 * We do prefer [spanish](CONTRIBUYENDO.md), but you may use english and [portuguese](CONTRIBUINDO.md) as well.
 
