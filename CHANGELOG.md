@@ -15,8 +15,11 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 - text for section 1.4 Interdisciplinaridad
 - text for section 1.5 Regulación
 
+### Changed
+- added some missing information (by Juan Carlos Upegui);
+
 ### Fixed
-- fixed spanish copy with several spelling, syntax and grammar errors (revised by Juan Carlos Upegui)
+- revised copy and fixed several spelling, syntax and grammar errors (revised by Juan Carlos Upegui)
 
 ## [0.3.2] - 2020-02-19
 

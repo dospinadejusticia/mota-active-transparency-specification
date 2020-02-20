@@ -8,6 +8,19 @@ Este projeto segue [Versionamento Semântico](http://semver.org/) e convenções
 
 ## Não Lançado
 
+### Adicionado
+- texto para a seção 1.1 Transparencia, Rendición de Cuentas y lucha contra la corrupción;
+- texto para a seção 1.2 Público objetivo
+- texto para a seção 1.3 Filosofía y Presupuestos
+- texto para a seção 1.4 Interdisciplinaridad
+- texto para a seção 1.5 Regulación
+
+### Modificado
+- adicionadas informações diversas (Juan Carlos Upegui);
+
+### Corrigido
+- texto revisado e corrigido diversos erros de grafia, sintáticos e de gramática (revised by Juan Carlos Upegui)
+
 ## [0.3.2] - 2020-02-19
 
 ### Corrigido
