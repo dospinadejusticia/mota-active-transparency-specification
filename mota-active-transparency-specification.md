@@ -1,5 +1,5 @@
 # MOTA - Especificación de transparencia activa para entidades gubernamentales 0.4.0
-Borrador de editores 19 de febrero de 2020
+Borrador de editores 20 de febrero de 2020
 
 Esta versión:
 - https://github.com/Dejusticia/mota-active-transparency-specification/
@@ -74,16 +74,16 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
     - [1.6 Documentos de Apoyo](#16-documentos-de-apoyo)
     - [1.7 Colaboración](#17-colaboraci%c3%b3n)
   - [2. Uso de la especificación](#2-uso-de-la-especificaci%c3%b3n)
-  - [3. Conformidad](#3-conformidad)
-    - [3.2 - Escala de Puntos: diretrices de disponibilidad de información](#32---escala-de-puntos-diretrices-de-disponibilidad-de-informaci%c3%b3n)
-      - [Información disponible en archivo](#informaci%c3%b3n-disponible-en-archivo)
-      - [Información disponible para personas disponibles en la misma página](#informaci%c3%b3n-disponible-para-personas-disponibles-en-la-misma-p%c3%a1gina)
+  - [3. Conformidad y Categorias de Éxito](#3-conformidad-y-categorias-de-%c3%89xito)
+    - [3.1 Conformidad](#31-conformidad)
+    - [3.2. OBLIGACIÓN y RECOMENDACIÓN](#32-obligaci%c3%93n-y-recomendaci%c3%93n)
+    - [3.4 - Escala de Puntos: diretrices de disponibilidad de información](#34---escala-de-puntos-diretrices-de-disponibilidad-de-informaci%c3%b3n)
+      - [Nivel A: Información disponible en archivo](#nivel-a-informaci%c3%b3n-disponible-en-archivo)
+      - [Nivel AA: Información disponible para personas disponibles en la misma página](#nivel-aa-informaci%c3%b3n-disponible-para-personas-disponibles-en-la-misma-p%c3%a1gina)
       - [Información disponible como meta-datos estructurados legible por máquina](#informaci%c3%b3n-disponible-como-meta-datos-estructurados-legible-por-m%c3%a1quina)
-    - [Observaciones sobre Criterios de Éxito](#observaciones-sobre-criterios-de-%c3%89xito)
-    - [Herramientas para examen de conformidad](#herramientas-para-examen-de-conformidad)
+        - [Observaciones sobre Criterios de Éxito](#observaciones-sobre-criterios-de-%c3%89xito)
+    - [3.1 Herramientas para examen de conformidad](#31-herramientas-para-examen-de-conformidad)
       - [WCAG2.1 y Acessibilidad](#wcag21-y-acessibilidad)
-    - [3.1 Conformidad de Dependencias](#31-conformidad-de-dependencias)
-    - [3.4 Conformance Checkers](#34-conformance-checkers)
   - [4. Términos importantes (vocabulario)](#4-t%c3%a9rminos-importantes-vocabulario)
   - [5. Categoría - Disponibilidad de Acceso](#5-categor%c3%ada---disponibilidad-de-acceso)
     - [5.1 Existencia de sitio Web](#51-existencia-de-sitio-web)
@@ -363,79 +363,96 @@ Asimismo, incluye obligaciones específicas que han sido incluidas o precisadas 
 
 This section is non-normative.
 
+## 3. Conformidad y Categorias de Éxito
+
+Además de las secciones marcadas como "no normativas", todos los diagramas, ejemplos y notas en esta especificación son no normativos (excepto cuando marcados en contrario). El resto de esta especificación es normativo.
+
+Las palabras clave ("DEBE"), ("NO DEBE"), ("REQUERIDO"), ("DEBERÍA"), ("NO DEBERÍA"), ("DEBERÁ"), ("NO DEBERÁ"), ("RECOMENDADO"), ("PUEDE") y ("OPCIONAL") en este documento serán interpretadas tal como se describe en [RFC2119](https://tools.ietf.org/html/rfc2119). Sin embargo, por razones de legibilidad, estas palabras no aparecen en mayúsculas en esta especificación.
+
+### 3.1 Conformidad
+
+Para que un sitio web esté en conformidad con esta especificación, debe cumplir con todos y cada uno de los critérios de evaluación en, cada uno de los criterios en al menos el nivel A. La categoria de conformidad (A, AA o AAA) es determinada de acuerdo con los grados obtenidos en la evaluación. Es decir, un sitio web obtiene Conformidad A si ha obtenido el grado A en todos los criterios de evaluación. Del mismo modo, cumple con AA solo si obtiene la calificación AA en todos los criterios, etc.
+
+Para que un sitio web esté en conformidad con esta especificación, debe cumplir con todos y cada uno de los critérios de evaluación en, cada uno de los criterios en al menos el nivel A y obtner ao menos 50 puntos en la escala de conformidad general, cuyos valores varían entre 0 y 100:
+
+- 90-100 (Conformidad)
+- 50-89 (Conformidad parcial)
+- 20-49 (Insuficiente)
+- 1-19 (Deficiente)
+- 0 (No conformidad)
 
 
-## 3. Conformidad
+### 3.2. OBLIGACIÓN y RECOMENDACIÓN
 
+Clasificamos cada criterio como OBLIGACIÓN o RECOMENDACIÓN. El primero significa que el criterio de evaluación es obligatorio y DEBE ser implementado, pués es REQUERIDO de acuerdo con el marco legal colombiano. Mientras que el segundo significa que el criterio no es OPCIONAL, y el sujeto obligado DEBERÍA implementarlo para que i) el acceso y la comprensión de la información sean efectivos y/o ii) se mejore la experiencia del usuario, especialmente aquellos en condiciones donde el acceso a la información es más difícil debido a discapacidades físicas, cognitivas, neuronales o condiciones técnicas y económicas tales como acceso restringido a conexiones de datos, o baja velocidad de conexiones, o dispositivos con capacidades de procesamiento más bajas.
 
-Además de las secciones marcadas como no normativas, todos los diagramas, ejemplos y notas en esta especificación son no normativos (excepto cuando marcados en contrario). El resto de esta especificación es normativo.
-The key words MAY, MUST, MUST NOT, OPTIONAL, RECOMMENDED, REQUIRED, SHALL, SHALL NOT, SHOULD, and SHOULD NOT are to be interpreted as described in [RFC2119](https://tools.ietf.org/html/rfc2119). Además, clasificamos cada criterio como OBLIGACIÓN o RECOMENDACIÓN.
+### 3.3 - Nivel de Éxito en Critérios de Evaluación
 
+**Nivel A:** el sitio web satisface lo especificado para nivel A en cada criterio de evaluación adelante. Si el criterio de evaluación no especifica una puntuación diferente, el cumplimiento del criterio en nivel A equivale a **50 puntos**.
 
-### 3.1 - Nivel de Éxito - Categorias
+Este es el nivel mínimo aceptable dentro en el contexto de las entidades públicas colombianas a partir de julio de 2019.
 
-Para que una página web esté conforme con esta especificación, debe satisfacer todos y cada uno de los siguientes requisitos de conformidad:
+**Nivel AA:** el sitio web satisface lo especificado para nivel AA y A en cada criterio de evaluación adelante. Si el criterio de evaluación no especifica una puntuación diferente, el cumplimiento del criterio en nivel A equivale a **80 puntos**, no cumulativos con los pontos del nivel A.
 
-**1. Nivel de conformidad:** Uno de los siguientes niveles de conformidad se satisface por completo.
+Este es el nivel deseado de forma inmediata o a corto plazo, considerando el contexto de las entidades públicas colombianas en julio de 2019.
 
-    **Nivel A:** Para el nivel A de conformidad (el mínimo nivel de conformidad), el sitio web satisface todos los criterios de éxito de nivel A o se proporciona una versión alternativa conforme al nivel A. Si la guía no especifica una puntuación diferente, el cumplimiento del criterio A equivale a **30 puntos**.
+**Nivel AAA:** el sitio web satisface *lo especificado para nivel AAA y también DEBE satisfacer lo especificado en nivel AA y A* en cada criterio de evaluación adelante. Si el criterio de evaluación no especifica una puntuación diferente, el cumplimiento del criterio en nivel A equivale a **100 puntos**, no cumulativos con los pontos del nivel A.
 
-    Este es el nivel mínimo aceptable dentro en el contexto de las entidades públicas colombianas a partir de julio de 2019.
+Este es el nivel ideal, el objetivo a medio y largo plazo a partir de agosto de 2019.
 
-    **Nivel AA:** Para el nivel AA de conformidad, el sitio web satisface todos los criterios de éxito de nivel A y AA o se proporciona una versión alternativa conforme al nivel AA. Si la guía no especifica una puntuación diferente, el cumplimiento del criterio A equivale a **50 puntos**.
+Un sitio web que no cumple com todos con todos y cada uno de los critérios de evaluación, se considera no conforme.
 
-    Este es el nivel deseado de forma inmediata o a corto plazo, considerando el contexto de las entidades públicas colombianas en julio de 2019.
+### 3.4 - Escala de Puntos: diretrices de disponibilidad de información
 
-    **Nivel AAA:** Para el nivel AAA de conformidad, el sitio web satisface todos los criterios de éxito de nivel A, AA y AAA o se proporciona una versión alternativa conforme al nivel AAA. Si la guía no especifica una puntuación diferente, el cumplimiento del criterio AAA equivale a **20 puntos**.
-
-    Este es el nivel ideal, el objetivo a medio y largo plazo a partir de agosto de 2019.
-
-### 3.2 - Escala de Puntos: diretrices de disponibilidad de información
-
-Las directrices relacionadas con la disponibilidad de información adoptan una escala de puntos más comprensiva que aquella basada en la disponibilidad o no de la informacion.
+Las directrices relacionadas con la disponibilidad de información adoptan una escala de puntos más detallada que aquella basada en la disponibilidad o no de la informacion.
 
 La escala de puntos varía de 0 a 100, con las siguientes reglas base de puntuación.
 
-#### Información disponible en archivo
-   - en formato propietario (docx, xlsx, pdf): 10 puntos
-   - en formato abierto, pero no legible/acesible por máquina (e.g. texto o tabla digitalizado): 20 puntos
-   - en formato abierto y datos estructurados (e.g. en caso de tablas) legible/acesible por máquina: 30 puntos
+#### Nivel A: Información disponible en archivo
 
-**Importante: si los datos están solamente en otros sitios (e.g. SICOP, datos.gov.co), la puntuación es reducida a la mitad.**
+Las informaciones están disponibles en archivo, acuerdo una de las opciones a seguir:
 
-#### Información disponible para personas disponibles en la misma página
+   - en formato propietario (docx, xlsx, pdf): 20 puntos
+   - en formato abierto y libre, pero no legible/acesible por máquina (e.g. texto o tabla digitalizado): 35 puntos
+   - en formato abierto y libre, con datos estructurados (e.g. en caso de tablas) y legible/acesible por máquina: 50 puntos
 
-   - en formato HTML en la misma página: 30 puntos
-   - en HTML5 estructurado, semántico y en la misma página: 50 puntos
+Los puntos no son acumulativos.
+
+**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
+
+
+#### Nivel AA: Información disponible para personas disponibles en la misma página
+
+Las informaciones están disponibles en la página web, acuerdo una de las opciones a seguir:
+
+   - en formato HTML en la misma página: 15 puntos
+   - en HTML5 estructurado, semántico y en la misma página: 30 puntos
      - ejemplo: tabla para datos estructurados; H2, h3, etc para subtítulos
+
+Los puntos se pueden acumular con los puntos del nivel A.
 
 #### Información disponible como meta-datos estructurados legible por máquina
 
+Además de conformidad con el nivel AA, las informaciones están disponible como meta-datos estructurados legible por máquina.
+
    - datos estructurados (schema.org, json, meta-datos, etc) en la misma página: 20 puntos
 
-Los puntajes **pueden ser ligeramente modificadas según el contexto**. Si la información está disponible para el usuario en una página sin descargar archivos, **debe agregarse la puntuación del criterio eliminado (archivo abierto).**
+Los puntos se pueden acumular con los puntos del nivel AA.
 
 Para directrices no relacionadas con la disponibilidad de informacción, como por ejemplo, el desempeño de la página y la facilidad para acceder a la información, además de cambiar los pesos de los criterios (abajo) debemos cambiar la puntuación según sea necesario, solo SI es necesario.
 
-### Observaciones sobre Criterios de Éxito
+##### Observaciones sobre Criterios de Éxito
 
 Nota 1: A pesar de que la conformidad sólo puede lograrse en los niveles indicados, se anima a los autores a notificar en sus declaraciones cualquier progreso que se realice para satisfacer los criterios de éxito de todo nivel más allá del nivel de conformidad alcanzado.\
 
-Nota 2: No se recomienda como política general exigir el nivel de conformidad AAA para sitios enteros porque no es posible que algunos contenidos puedan satisfacer todos los criterios de éxito de nivel AAA.
+Nota 2: No se recomienda como política general exigir el nivel de conformidad AAA para sitios enteros porque es posible casos de sitios que no puedan satisfacer todos los criterios de éxito de nivel AAA.
 
-### Herramientas para examen de conformidad
+### 3.1 Herramientas para examen de conformidad
 
 #### WCAG2.1 y Acessibilidad
 
 - Functional Accessibility Evaluator: https://fae.disability.illinois.edu
 - Taw Web accessibility test: [https://www.tawdis.net/index](https://www.tawdis.net/index)
-
-### 3.1 Conformidad de Dependencias
-
-(a fazer) como se define conformidad de otras especificaciones, técnicas, etc.
-
-### 3.4 Conformance Checkers
-(a fazer)
 
 ## 4. Términos importantes (vocabulario)
 (a fazer)
