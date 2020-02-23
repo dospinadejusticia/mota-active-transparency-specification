@@ -1,9 +1,10 @@
 # Como Contribuir
 
-Estamos agradecidos que queira ajudar a melhorar este projeto. A seguir tem algumas diretrizes para tornar sua contribuição mais fácil e ajudar todos os envolvidos.
+Agradecemos que você queira ajudar a melhorar este projeto. A melhor maneira de fazer isso é criar uma mensagem na sessão "issues" no [repositório oficial do Github] (https://github.com/Dejusticia/mota-active-active-transparency-specification/). Assim facilita sua contribuição e ajuda todos os usuários. Se você tem experiência em contribuir para projetos de código aberto, pode clonar o repositório oficial, editar os arquivos na ramificação de desenvolvimento e enviar um "pull request".
 
-* Por favor, seja clara, concisa e civilizada.
-* Nós preferimos [espanhol](CONTRIBUYENDO.md), mas você pode usar [inglés](CONTRIBUTING.md) e [português](CONTRIBUINDO.md) também
+Outra maneira é enviar uma mensagem a cbessa (at) dejusticia punto org. No entanto, devido ao volume de mensagens, não podemos garantir respostas rápidas. Por esse motivo, recomendamos o envio de mensagens no repositório, pois isso garante que suas mensagens sejam lidas por todos os membros da equipe de desenvolvimento do projeto e outros usuários que possam responder de forma mais rápida e colaborativa.
+
+Por favor, seja claro, conciso e civilizado. Nós preferimos [espanhol](CONTRIBUYENDO.md), mas você pode usar [inglés](CONTRIBUTING.md) e [português](CONTRIBUINDO.md) também.
 
 **Sempre faça suas alterações no ramo develop**
 
