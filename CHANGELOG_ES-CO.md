@@ -1,7 +1,7 @@
 # Changelog
 Project: Especificación de Transparencia Activa para entidades Gubernamentales -- Iniciativa MOTA
 Description: especificación de los obligaciones y buenas prácticas para publicación y divulgación de información de transparencia activa en Colombia.
-Version: 0.3.2
+Version: 0.4.0
 
 Todos los cambios notables a este proyecto serán documentados en este archivo.
 
@@ -9,12 +9,29 @@ Este proyecto se adhiere a [Versionado Semántico 2.0.0](http://semver.org/), la
 
 ## No Publicado
 
+## [0.4.0] - 2020-02-23
+Publicación retroactiva
+
+### Añadido
+- texto para la seccion 1.1 Transparencia, Rendición de Cuentas y lucha contra la corrupción;
+- texto para la seccion 1.2 Público objetivo
+- texto para la seccion 1.3 Filosofía y Presupuestos
+- texto para la seccion 1.4 Interdisciplinaridad
+- texto para la seccion 1.5 Regulación
+
+### Cambiado
+- adicionadas diversas informaciones (Juan Carlos Upegui);
+- cambio or aclareamento de algunas rieglas;
+
+### Reparado
+- texto revisado e corrigido diversos erros de grafia, sintáticos e de gramática (revised by Juan Carlos Upegui)
+
 ## [0.3.2] - 2020-02-19
 
-### Changed
-- updated [CONTRIBUTING.md] and variations files;
+### Cambiado
+- cambiando [CONTRIBUTING.md] y variaciones;
 
-### Corrigido
+### Reparado
 - codificación de caracteres errada (debe ser UTF8);
 - errores en texto en español: errores de ortografía, sintaxis y gramática (revisado por Daniel Ospina)
 - cambio de versión
@@ -22,7 +39,7 @@ Este proyecto se adhiere a [Versionado Semántico 2.0.0](http://semver.org/), la
 
 ## [0.3.1] - 2019-07-24
 
-### Corrigido
+### Reparado
 - CHANGELOG para español y portugues
 
 ### Cambiado
@@ -51,13 +68,11 @@ Este proyecto se adhiere a [Versionado Semántico 2.0.0](http://semver.org/), la
 - Mejoras en el criterio 5.2.4 - Universalidad: Performance
 - Mejoras diversas menores
 
-### Fixed
+### Reparado
 - Diversos registros de changelog perdidos
 - referencias de números de versión
 - Referencias y enlaces a [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/)
 - Tabla de Contenido
-
-### Reparado
 
 ## [0.2.1] - 2019-07-14
 
