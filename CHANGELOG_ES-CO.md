@@ -1,13 +1,16 @@
 # Changelog
 Project: Especificación de Transparencia Activa para entidades Gubernamentales -- Iniciativa MOTA
 Description: especificación de los obligaciones y buenas prácticas para publicación y divulgación de información de transparencia activa en Colombia.
-Version: 0.3.2
+Version: 0.4.0
 
 Todos los cambios notables a este proyecto serán documentados en este archivo.
 
 Este proyecto se adhiere a [Versionado Semántico 2.0.0](http://semver.org/), las convenciones de [Mantenga un Changelog](https://keepachangelog.com/es-ES/1.0.0/) y también está disponible en [inglés](CHANGELOG.md) and [portuguese](CHANGELOG_PT-BR.md).
 
 ## No Publicado
+
+## [0.4.0] - 2020-02-23
+Publicación retroactiva
 
 ### Añadido
 - texto para la seccion 1.1 Transparencia, Rendición de Cuentas y lucha contra la corrupción;
@@ -18,6 +21,7 @@ Este proyecto se adhiere a [Versionado Semántico 2.0.0](http://semver.org/), la
 
 ### Cambiado
 - adicionadas diversas informaciones (Juan Carlos Upegui);
+- cambio or aclareamento de algunas rieglas;
 
 ### Reparado
 - texto revisado e corrigido diversos erros de grafia, sintáticos e de gramática (revised by Juan Carlos Upegui)
@@ -25,7 +29,7 @@ Este proyecto se adhiere a [Versionado Semántico 2.0.0](http://semver.org/), la
 ## [0.3.2] - 2020-02-19
 
 ### Cambiado
-- updated [CONTRIBUTING.md] and variations files;
+- cambiando [CONTRIBUTING.md] y variaciones;
 
 ### Reparado
 - codificación de caracteres errada (debe ser UTF8);

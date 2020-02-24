@@ -1,4 +1,4 @@
-# Especificación de Transparencia Activa para entidades Gubernamentales - Iniciativa MOTA 0.3.2
+# Especificación de Transparencia Activa para entidades Gubernamentales - Iniciativa MOTA 0.4.0
 
 Especificación de Transparencia Activa para entidades Gubernamentales: obligaciones y buenas prácticas para la publicación y divulgación de información pública en Colombia.
 

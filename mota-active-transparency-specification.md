@@ -1,5 +1,5 @@
 # MOTA - Especificación de transparencia activa para entidades gubernamentales 0.4.0
-Borrador de editores 19 de febrero de 2020
+Borrador de editores 20 de febrero de 2020
 
 Esta versión:
 - https://github.com/Dejusticia/mota-active-transparency-specification/
@@ -44,11 +44,6 @@ Esta especificación ha sido construida sobre otras especificaciones, patrones, 
 
 Entendida como un continuo trabajo en progreso está sujeta a cambios, mejoras, adiciones y extensiones.  Aunque los principios y criterios primarios están bien definidos, los criterios secundarios, los casos especiales y las implementaciones específicas todavía tal vez no están adecuadamente escritos o deban ser definidos en otros documentos.
 
-NOTA:
-Este documento contiene un número grande de informaciones introductorias y contextuales. Tal vez es posible que desee seguir directamente a los criterios y ejemplos.
-
-Si desea contribuir, vaya al archivo [CONTRIBUYENDO.md].
-
 Palabras clave: Transparencia activa, rendición de cuentas
 
 ## Estado y tipología del documento
@@ -74,50 +69,48 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
     - [1.6 Documentos de Apoyo](#16-documentos-de-apoyo)
     - [1.7 Colaboración](#17-colaboraci%c3%b3n)
   - [2. Uso de la especificación](#2-uso-de-la-especificaci%c3%b3n)
-  - [3. Conformidad](#3-conformidad)
-    - [3.2 - Escala de Puntos: diretrices de disponibilidad de información](#32---escala-de-puntos-diretrices-de-disponibilidad-de-informaci%c3%b3n)
-      - [Información disponible en archivo](#informaci%c3%b3n-disponible-en-archivo)
-      - [Información disponible para personas disponibles en la misma página](#informaci%c3%b3n-disponible-para-personas-disponibles-en-la-misma-p%c3%a1gina)
-      - [Información disponible como meta-datos estructurados legible por máquina](#informaci%c3%b3n-disponible-como-meta-datos-estructurados-legible-por-m%c3%a1quina)
-    - [Observaciones sobre Criterios de Éxito](#observaciones-sobre-criterios-de-%c3%89xito)
-    - [Herramientas para examen de conformidad](#herramientas-para-examen-de-conformidad)
+  - [3. Conformidad y Categorias de Éxito](#3-conformidad-y-categorias-de-%c3%89xito)
+    - [3.1 Conformidad](#31-conformidad)
+    - [3.2. OBLIGACIÓN y RECOMENDACIÓN](#32-obligaci%c3%93n-y-recomendaci%c3%93n)
+    - [3.4 - Escala de Puntos: diretrices de disponibilidad de información](#34---escala-de-puntos-diretrices-de-disponibilidad-de-informaci%c3%b3n)
+      - [Nivel A: Información disponible en archivo](#nivel-a-informaci%c3%b3n-disponible-en-archivo)
+      - [Nivel AA: Información disponible para personas disponibles en la misma página](#nivel-aa-informaci%c3%b3n-disponible-para-personas-disponibles-en-la-misma-p%c3%a1gina)
+      - [Nível AAA: Información disponible como meta-datos estructurados legible por máquina](#n%c3%advel-aaa-informaci%c3%b3n-disponible-como-meta-datos-estructurados-legible-por-m%c3%a1quina)
+        - [Observaciones sobre Criterios de Éxito](#observaciones-sobre-criterios-de-%c3%89xito)
+    - [3.1 Herramientas para examen de conformidad](#31-herramientas-para-examen-de-conformidad)
       - [WCAG2.1 y Acessibilidad](#wcag21-y-acessibilidad)
-    - [3.1 Conformidad de Dependencias](#31-conformidad-de-dependencias)
-    - [3.4 Conformance Checkers](#34-conformance-checkers)
   - [4. Términos importantes (vocabulario)](#4-t%c3%a9rminos-importantes-vocabulario)
   - [5. Categoría - Disponibilidad de Acceso](#5-categor%c3%ada---disponibilidad-de-acceso)
     - [5.1 Existencia de sitio Web](#51-existencia-de-sitio-web)
-      - [5.1.1. Disponibilidad](#511-disponibilidad)
-      - [5.1.1.1 Criterio de Éxito - Nivel AAA](#5111-criterio-de-%c3%89xito---nivel-aaa)
-    - [5.2 Régimen de Acceso](#52-r%c3%a9gimen-de-acceso)
-      - [5.2.1. Gratuidad](#521-gratuidad)
-        - [5.2.1.1. Criterio de Éxito - Nivel AA](#5211-criterio-de-%c3%89xito---nivel-aa)
-        - [5.2.1.2. Criterio de Éxito - Nivel AAA](#5212-criterio-de-%c3%89xito---nivel-aaa)
-      - [5.2.2 - Universalidad: Acceso directo](#522---universalidad-acceso-directo)
-        - [5.2.2.1. Criterio de Éxito - Nivel A](#5221-criterio-de-%c3%89xito---nivel-a)
-        - [5.2.2.2. Criterio de Éxito - Nivel AA](#5222-criterio-de-%c3%89xito---nivel-aa)
-        - [5.2.2.3. Criterio de Éxito - Nivel AAA](#5223-criterio-de-%c3%89xito---nivel-aaa)
-      - [5.2.3 - Universalidad: Patrones de accesibilidad y web standards](#523---universalidad-patrones-de-accesibilidad-y-web-standards)
-        - [5.2.3.1. Criterio de Éxito - Nivel A](#5231-criterio-de-%c3%89xito---nivel-a)
-        - [5.2.3.2. Criterio de Éxito - Nivel AA](#5232-criterio-de-%c3%89xito---nivel-aa)
-        - [5.2.3.3. Criterio de Éxito - Nivel AAA](#5233-criterio-de-%c3%89xito---nivel-aaa)
-      - [5.2.4 - Universalidad: Rendimiento](#524---universalidad-rendimiento)
-        - [5.2.4.1. Criterio de Éxito - Nivel A](#5241-criterio-de-%c3%89xito---nivel-a)
+      - [5.1.1 Criterio de Éxito - Nivel AAA](#511-criterio-de-%c3%89xito---nivel-aaa)
+      - [5.2. Gratuidad](#52-gratuidad)
+        - [5.2.1. Criterio de Éxito - Nivel AA](#521-criterio-de-%c3%89xito---nivel-aa)
+        - [5.2.2. Criterio de Éxito - Nivel AAA](#522-criterio-de-%c3%89xito---nivel-aaa)
+      - [5.3. - Universalidad: Acceso directo](#53---universalidad-acceso-directo)
+        - [5.3.1. Criterio de Éxito - Nivel A](#531-criterio-de-%c3%89xito---nivel-a)
+        - [5.3.2. Criterio de Éxito - Nivel AA](#532-criterio-de-%c3%89xito---nivel-aa)
+        - [5.3.3. Criterio de Éxito - Nivel AAA](#533-criterio-de-%c3%89xito---nivel-aaa)
+      - [5.4 - Universalidad: Patrones de accesibilidad y web standards](#54---universalidad-patrones-de-accesibilidad-y-web-standards)
+        - [5.4.1. Criterio de Éxito - Nivel A](#541-criterio-de-%c3%89xito---nivel-a)
+        - [5.4.2. Criterio de Éxito - Nivel AA](#542-criterio-de-%c3%89xito---nivel-aa)
+        - [5.4.3. Criterio de Éxito - Nivel AAA](#543-criterio-de-%c3%89xito---nivel-aaa)
+      - [5.5 - Universalidad: Rendimiento](#55---universalidad-rendimiento)
+        - [5.5.1. Criterio de Éxito - Nivel A](#551-criterio-de-%c3%89xito---nivel-a)
           - [WebPagetest](#webpagetest)
           - [Pagespeed Insights](#pagespeed-insights)
-        - [5.2.4.2. Criterio de Éxito - Nivel AA](#5242-criterio-de-%c3%89xito---nivel-aa)
+        - [5.5.2. Criterio de Éxito - Nivel AA](#552-criterio-de-%c3%89xito---nivel-aa)
           - [WebPagetest](#webpagetest-1)
           - [Pagespeed Insights](#pagespeed-insights-1)
-        - [5.2.4.3. Criterio de Éxito - Nivel AAA](#5243-criterio-de-%c3%89xito---nivel-aaa)
+        - [5.5.3. Criterio de Éxito - Nivel AAA](#553-criterio-de-%c3%89xito---nivel-aaa)
           - [WebPagetest](#webpagetest-2)
           - [Pagespeed Insights](#pagespeed-insights-2)
-      - [5.2.5 - Seguridad: Conexión encriptada](#525---seguridad-conexi%c3%b3n-encriptada)
-        - [5.2.5.1. Criterio de Éxito - Nivel AA](#5251-criterio-de-%c3%89xito---nivel-aa)
-        - [5.2.5.2. Criterio de Éxito - Nivel AAA](#5252-criterio-de-%c3%89xito---nivel-aaa)
-      - [5.2.6 - Dados Abiertos: Acceso vía API REST](#526---dados-abiertos-acceso-v%c3%ada-api-rest)
-        - [5.2.6.1. Criterio de Éxito - Nivel AA](#5261-criterio-de-%c3%89xito---nivel-aa)
-        - [5.2.6.2. Criterio de Éxito - Nivel AA](#5262-criterio-de-%c3%89xito---nivel-aa)
-        - [5.2.6.3. Criterio de Éxito - Nivel AAA](#5263-criterio-de-%c3%89xito---nivel-aaa)
+      - [5.6 - Seguridad: Conexión encriptada](#56---seguridad-conexi%c3%b3n-encriptada)
+        - [5.6.1. Criterio de Éxito - Nivel AA](#561-criterio-de-%c3%89xito---nivel-aa)
+        - [5.6.2. Criterio de Éxito - Nivel AAA](#562-criterio-de-%c3%89xito---nivel-aaa)
+      - [5.7 - Dados Abiertos: Acceso vía API REST](#57---dados-abiertos-acceso-v%c3%ada-api-rest)
+        - [5.7.1. Criterio de Éxito - Nivel AA](#571-criterio-de-%c3%89xito---nivel-aa)
+        - [5.7.2. Criterio de Éxito - Nivel AA](#572-criterio-de-%c3%89xito---nivel-aa)
+        - [5.7.3. Criterio de Éxito - Nivel AAA](#573-criterio-de-%c3%89xito---nivel-aaa)
   - [6. Información Mínima Obligatoria sobre la Estructura](#6-informaci%c3%b3n-m%c3%adnima-obligatoria-sobre-la-estructura)
     - [6.1. Estructura orgánica / Organigrama](#61-estructura-org%c3%a1nica--organigrama)
       - [6.1.1. Criterio de Éxito - Nivel A (datos)](#611-criterio-de-%c3%89xito---nivel-a-datos)
@@ -151,55 +144,51 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [6.8.1. Criterio de Éxito - Nivel A](#681-criterio-de-%c3%89xito---nivel-a)
       - [6.8.2. Criterio de Éxito - Nivel AA](#682-criterio-de-%c3%89xito---nivel-aa)
       - [6.8.3. Criterio de Éxito - Nivel AAA](#683-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.9. Directorio de servidores públicos, empleados y contratistas](#69-directorio-de-servidores-p%c3%bablicos-empleados-y-contratistas)
+    - [6.9. Directorio de servidores públicos, empleados (i.e. funcionários)](#69-directorio-de-servidores-p%c3%bablicos-empleados-ie-funcion%c3%a1rios)
       - [6.9.1. Criterio de Éxito - Nivel A](#691-criterio-de-%c3%89xito---nivel-a)
       - [6.9.2. Criterio de Éxito - Nivel AA](#692-criterio-de-%c3%89xito---nivel-aa)
       - [6.9.3. Criterio de Éxito - Nivel AAA](#693-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.10. Directorio de funcionarios - Completo](#610-directorio-de-funcionarios---completo)
+    - [6.10. Directorio de servidores públicos contratistas](#610-directorio-de-servidores-p%c3%bablicos-contratistas)
       - [6.10.1. Criterio de Éxito - Nivel A](#6101-criterio-de-%c3%89xito---nivel-a)
       - [6.10.2. Criterio de Éxito - Nivel AA](#6102-criterio-de-%c3%89xito---nivel-aa)
       - [6.10.3. Criterio de Éxito - Nivel AAA](#6103-criterio-de-%c3%89xito---nivel-aaa)
     - [6.11. Escalas salariales](#611-escalas-salariales)
-      - [6.11.1. Criterio de Éxito - Nivel A](#6111-criterio-de-%c3%89xito---nivel-a)
-      - [6.11.2. Criterio de Éxito - Nivel AA](#6112-criterio-de-%c3%89xito---nivel-aa)
-      - [6.11.3. Criterio de Éxito - Nivel AAA](#6113-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.12. Sanciones aplicadas a servidores públicos](#612-sanciones-aplicadas-a-servidores-p%c3%bablicos)
       - [6.12.1. Criterio de Éxito - Nivel A](#6121-criterio-de-%c3%89xito---nivel-a)
       - [6.12.2. Criterio de Éxito - Nivel AA](#6122-criterio-de-%c3%89xito---nivel-aa)
       - [6.12.3. Criterio de Éxito - Nivel AAA](#6123-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.13. Directorio con información de contratos de contratistas - Básico](#613-directorio-con-informaci%c3%b3n-de-contratos-de-contratistas---b%c3%a1sico)
+    - [6.13. Sanciones aplicadas a servidores públicos](#613-sanciones-aplicadas-a-servidores-p%c3%bablicos)
       - [6.13.1. Criterio de Éxito - Nivel A](#6131-criterio-de-%c3%89xito---nivel-a)
       - [6.13.2. Criterio de Éxito - Nivel AA](#6132-criterio-de-%c3%89xito---nivel-aa)
       - [6.13.3. Criterio de Éxito - Nivel AAA](#6133-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.14. Directorio con Informaciones de Contratos de Contratistas - Completo](#614-directorio-con-informaciones-de-contratos-de-contratistas---completo)
+    - [6.14. Directorio con información de contratos de contratistas](#614-directorio-con-informaci%c3%b3n-de-contratos-de-contratistas)
       - [6.14.1. Criterio de Éxito - Nivel A](#6141-criterio-de-%c3%89xito---nivel-a)
       - [6.14.2. Criterio de Éxito - Nivel AA](#6142-criterio-de-%c3%89xito---nivel-aa)
       - [6.14.3. Criterio de Éxito - Nivel AAA](#6143-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.15. Normas generales](#615-normas-generales)
+    - [6.14. Normas generales](#614-normas-generales)
       - [6.15.1. Criterio de Éxito - Nivel A](#6151-criterio-de-%c3%89xito---nivel-a)
       - [6.15.2. Criterio de Éxito - Nivel AA](#6152-criterio-de-%c3%89xito---nivel-aa)
       - [6.15.3. Criterio de Éxito - Nivel AAA](#6153-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.16. Normas Reglamentarias](#616-normas-reglamentarias)
+    - [6.15. Normas Reglamentarias](#615-normas-reglamentarias)
       - [6.16.1. Criterio de Éxito - Nivel A](#6161-criterio-de-%c3%89xito---nivel-a)
       - [6.16.2. Criterio de Éxito - Nivel AA](#6162-criterio-de-%c3%89xito---nivel-aa)
       - [6.16.3. Criterio de Éxito - Nivel AAA](#6163-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.17. Políticas, lineamientos o manuales](#617-pol%c3%adticas-lineamientos-o-manuales)
+    - [6.16. Políticas, lineamientos o manuales](#616-pol%c3%adticas-lineamientos-o-manuales)
       - [6.17.1. Criterio de Éxito - Nivel A](#6171-criterio-de-%c3%89xito---nivel-a)
-      - [6.17.2. Criterio de Éxito - Nivel AA](#6172-criterio-de-%c3%89xito---nivel-aa)
-      - [6.17.3. Criterio de Éxito - Nivel AAA](#6173-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.18. Metas y Objetivos](#618-metas-y-objetivos)
+      - [6.16.2. Criterio de Éxito - Nivel AA](#6162-criterio-de-%c3%89xito---nivel-aa-1)
+      - [6.16.3. Criterio de Éxito - Nivel AAA](#6163-criterio-de-%c3%89xito---nivel-aaa-1)
+    - [6.17. Metas y Objetivos](#617-metas-y-objetivos)
       - [6.18.1. Criterio de Éxito - Nivel A](#6181-criterio-de-%c3%89xito---nivel-a)
       - [6.18.2. Criterio de Éxito - Nivel AA](#6182-criterio-de-%c3%89xito---nivel-aa)
       - [6.18.3. Criterio de Éxito - Nivel AAA](#6183-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.19. Indicadores de gestión y/o desempeño](#619-indicadores-de-gesti%c3%b3n-yo-desempe%c3%b1o)
+    - [6.18. Indicadores de gestión y/o desempeño](#618-indicadores-de-gesti%c3%b3n-yo-desempe%c3%b1o)
       - [6.19.1. Criterio de Éxito - Nivel A](#6191-criterio-de-%c3%89xito---nivel-a)
       - [6.19.2. Criterio de Éxito - Nivel AA](#6192-criterio-de-%c3%89xito---nivel-aa)
       - [6.19.3. Criterio de Éxito - Nivel AAA](#6193-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.20. Plan anticorrupción y de atención al ciudadano](#620-plan-anticorrupci%c3%b3n-y-de-atenci%c3%b3n-al-ciudadano)
+    - [6.19. Plan anticorrupción y de atención al ciudadano](#619-plan-anticorrupci%c3%b3n-y-de-atenci%c3%b3n-al-ciudadano)
       - [6.20.1. Criterio de Éxito - Nivel A](#6201-criterio-de-%c3%89xito---nivel-a)
       - [6.20.2. Criterio de Éxito - Nivel AA](#6202-criterio-de-%c3%89xito---nivel-aa)
       - [6.20.3. Criterio de Éxito - Nivel AAA](#6203-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.21. Plan anual de compras y adquisiciones](#621-plan-anual-de-compras-y-adquisiciones)
+    - [6.20. Plan anual de compras y adquisiciones](#620-plan-anual-de-compras-y-adquisiciones)
       - [6.21.1. Criterio de Éxito - Nivel A](#6211-criterio-de-%c3%89xito---nivel-a)
       - [6.21.2. Criterio de Éxito - Nivel AA](#6212-criterio-de-%c3%89xito---nivel-aa)
       - [6.21.3. Criterio de Éxito - Nivel AAA](#6213-criterio-de-%c3%89xito---nivel-aaa)
@@ -359,141 +348,164 @@ Asimismo, incluye obligaciones específicas que han sido incluidas o precisadas 
 
 ### 1.7 Colaboración
 
+La mejor manera de colaborar esto es creando un mensagje en la sessión "issues" en el [repositorio oficial en Github](https://github.com/Dejusticia/mota-active-transparency-specification/). Así, facilita su contribución y ayuda a todos los usuarios. Si tiene experiencia contribuyendo a proyectos de código abierto, puede bifurcar el repositorio oficial, editar los archivos en la rama develop y luego enviar un "pull request".
+
+Una otra forma es enviar un mensaje al correo cbessa (arroba) dejusticia punto org. Pero en razón del volumen de mensajes, no podemos garantizar respuestas rápidas. Por esto, recomendamos enviar mensaje en el repositorio, asi garantiza que su mensaje sea leído por todos los miembros del equipo de desarrollo del proyecto y otros usuarios que podrán responder más rápidamente y colaborativamente.
+
+Por favor, sea claro, conciso y civilizado. Preferimos [español](CONTRIBUYENDO.md), pero también puede usar [inglés](CONTRIBUTING.md) y [portugués](CONTRIBUINDO.md).
+
+Mas informaciones pueden ser encontradas en documento [CONTRIBUYENDO.md](CONTRIBUYENDO.md).
+
 ## 2. Uso de la especificación
 
-This section is non-normative.
+Esta sección no es normativa.
 
+## 3. Conformidad y Categorias de Éxito
 
+Además de las secciones marcadas como "no normativas", todos los diagramas, ejemplos y notas en esta especificación son no normativos (excepto cuando marcados en contrario). El resto de esta especificación es normativo.
 
-## 3. Conformidad
+Las palabras clave ("DEBE"), ("NO DEBE"), ("REQUERIDO"), ("DEBERÍA"), ("NO DEBERÍA"), ("DEBERÁ"), ("NO DEBERÁ"), ("RECOMENDADO"), ("PUEDE") y ("OPCIONAL") en este documento serán interpretadas tal como se describe en [RFC2119](https://tools.ietf.org/html/rfc2119). Sin embargo, por razones de legibilidad, estas palabras no aparecen en mayúsculas en esta especificación.
 
+### 3.1 Conformidad
 
-Además de las secciones marcadas como no normativas, todos los diagramas, ejemplos y notas en esta especificación son no normativos (excepto cuando marcados en contrario). El resto de esta especificación es normativo.
-The key words MAY, MUST, MUST NOT, OPTIONAL, RECOMMENDED, REQUIRED, SHALL, SHALL NOT, SHOULD, and SHOULD NOT are to be interpreted as described in [RFC2119](https://tools.ietf.org/html/rfc2119). Además, clasificamos cada criterio como OBLIGACIÓN o RECOMENDACIÓN.
+Para que un sitio web esté en conformidad con esta especificación, debe cumplir con todos y cada uno de los critérios de evaluación en, cada uno de los criterios en al menos el nivel A. La categoria de conformidad (A, AA o AAA) es determinada de acuerdo con los grados obtenidos en la evaluación. Es decir, un sitio web obtiene Conformidad A si ha obtenido el grado A en todos los criterios de evaluación. Del mismo modo, cumple con AA solo si obtiene la calificación AA en todos los criterios, etc.
 
+Para que un sitio web esté en conformidad con esta especificación, debe cumplir con todos y cada uno de los critérios de evaluación en, cada uno de los criterios en al menos el nivel A y obtner ao menos 50 puntos en la escala de conformidad general, cuyos valores varían entre 0 y 100:
 
-### 3.1 - Nivel de Éxito - Categorias
+- 90-100 (Conformidad)
+- 50-89 (Conformidad parcial)
+- 20-49 (Insuficiente)
+- 1-19 (Deficiente)
+- 0 (No conformidad)
 
-Para que una página web esté conforme con esta especificación, debe satisfacer todos y cada uno de los siguientes requisitos de conformidad:
+Un sitio web que no cumple com al menos 1 los critérios de evaluación, se considera en no conformidad.
 
-**1. Nivel de conformidad:** Uno de los siguientes niveles de conformidad se satisface por completo.
+### 3.2. OBLIGACIÓN y RECOMENDACIÓN
 
-    **Nivel A:** Para el nivel A de conformidad (el mínimo nivel de conformidad), el sitio web satisface todos los criterios de éxito de nivel A o se proporciona una versión alternativa conforme al nivel A. Si la guía no especifica una puntuación diferente, el cumplimiento del criterio A equivale a **30 puntos**.
+Clasificamos cada criterio como OBLIGACIÓN o RECOMENDACIÓN. El primero significa que el criterio de evaluación es obligatorio y DEBE ser implementado, pués es REQUERIDO de acuerdo con el marco legal colombiano. Mientras que el segundo significa que el criterio no es OPCIONAL, y el sujeto obligado DEBERÍA implementarlo para que i) el acceso y la comprensión de la información sean efectivos y/o ii) se mejore la experiencia del usuario, especialmente aquellos en condiciones donde el acceso a la información es más difícil debido a discapacidades físicas, cognitivas, neuronales o condiciones técnicas y económicas tales como acceso restringido a conexiones de datos, o baja velocidad de conexiones, o dispositivos con capacidades de procesamiento más bajas.
 
-    Este es el nivel mínimo aceptable dentro en el contexto de las entidades públicas colombianas a partir de julio de 2019.
+### 3.3 - Nivel de Éxito en Critérios de Evaluación
 
-    **Nivel AA:** Para el nivel AA de conformidad, el sitio web satisface todos los criterios de éxito de nivel A y AA o se proporciona una versión alternativa conforme al nivel AA. Si la guía no especifica una puntuación diferente, el cumplimiento del criterio A equivale a **50 puntos**.
+**Nivel A:** el sitio web satisface lo especificado para nivel A en cada criterio de evaluación adelante. Si el criterio de evaluación no especifica una puntuación diferente, el cumplimiento del criterio en nivel A equivale a **50 puntos**.
 
-    Este es el nivel deseado de forma inmediata o a corto plazo, considerando el contexto de las entidades públicas colombianas en julio de 2019.
+Este es el nivel mínimo aceptable dentro en el contexto de las entidades públicas colombianas a partir de julio de 2019.
 
-    **Nivel AAA:** Para el nivel AAA de conformidad, el sitio web satisface todos los criterios de éxito de nivel A, AA y AAA o se proporciona una versión alternativa conforme al nivel AAA. Si la guía no especifica una puntuación diferente, el cumplimiento del criterio AAA equivale a **20 puntos**.
+**Nivel AA:** el sitio web satisface lo especificado para nivel AA y A en cada criterio de evaluación adelante. Si el criterio de evaluación no especifica una puntuación diferente, el cumplimiento del criterio en nivel A equivale a **80 puntos**, no cumulativos con los pontos del nivel A.
 
-    Este es el nivel ideal, el objetivo a medio y largo plazo a partir de agosto de 2019.
+Este es el nivel deseado de forma inmediata o a corto plazo, considerando el contexto de las entidades públicas colombianas en julio de 2019.
 
-### 3.2 - Escala de Puntos: diretrices de disponibilidad de información
+**Nivel AAA:** el sitio web satisface *lo especificado para nivel AAA y también DEBE satisfacer lo especificado en nivel AA y A* en cada criterio de evaluación adelante. Si el criterio de evaluación no especifica una puntuación diferente, el cumplimiento del criterio en nivel A equivale a **100 puntos**, no cumulativos con los pontos del nivel A.
 
-Las directrices relacionadas con la disponibilidad de información adoptan una escala de puntos más comprensiva que aquella basada en la disponibilidad o no de la informacion.
+Este es el nivel ideal, el objetivo a medio y largo plazo a partir de agosto de 2019.
+
+**Incumplimiento:** Si el sitio no cumple con el mínimo determinado en el nivel A del criterio de evaluación, recibe un puntaje cero y se considera que está en incumplimiento con el criterio.
+
+### 3.4 - Escala de Puntos: diretrices de disponibilidad de información
+
+Las directrices relacionadas con la disponibilidad de información adoptan una escala de puntos más detallada que aquella basada en la disponibilidad o no de la informacion.
 
 La escala de puntos varía de 0 a 100, con las siguientes reglas base de puntuación.
 
-#### Información disponible en archivo
-   - en formato propietario (docx, xlsx, pdf): 10 puntos
-   - en formato abierto, pero no legible/acesible por máquina (e.g. texto o tabla digitalizado): 20 puntos
-   - en formato abierto y datos estructurados (e.g. en caso de tablas) legible/acesible por máquina: 30 puntos
+#### Nivel A: Información disponible en archivo
 
-**Importante: si los datos están solamente en otros sitios (e.g. SICOP, datos.gov.co), la puntuación es reducida a la mitad.**
+Las informaciones están disponibles en archivo, acuerdo una de las opciones a seguir:
 
-#### Información disponible para personas disponibles en la misma página
+   - en formato propietario (docx, xlsx, pdf): 20 puntos
+   - en formato abierto y libre, pero no legible/acesible por máquina (e.g. texto o tabla digitalizado): 35 puntos
+   - en formato abierto y libre, con datos estructurados (e.g. en caso de tablas) y legible/acesible por máquina: 50 puntos
 
-   - en formato HTML en la misma página: 30 puntos
-   - en HTML5 estructurado, semántico y en la misma página: 50 puntos
+Los puntos no son acumulativos.
+
+**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
+
+
+#### Nivel AA: Información disponible para personas disponibles en la misma página
+
+Las informaciones están disponibles en la página web, acuerdo una de las opciones a seguir:
+
+   - en formato HTML en la misma página: 15 puntos
+   - en HTML5 estructurado, semántico y en la misma página: 30 puntos
      - ejemplo: tabla para datos estructurados; H2, h3, etc para subtítulos
 
-#### Información disponible como meta-datos estructurados legible por máquina
+Los puntos se pueden acumular con los puntos del nivel A.
+
+#### Nível AAA: Información disponible como meta-datos estructurados legible por máquina
+
+Además de conformidad con el nivel AA, las informaciones están disponible como meta-datos estructurados legible por máquina.
 
    - datos estructurados (schema.org, json, meta-datos, etc) en la misma página: 20 puntos
 
-Los puntajes **pueden ser ligeramente modificadas según el contexto**. Si la información está disponible para el usuario en una página sin descargar archivos, **debe agregarse la puntuación del criterio eliminado (archivo abierto).**
+Los puntos se pueden acumular con los puntos del nivel AA.
 
 Para directrices no relacionadas con la disponibilidad de informacción, como por ejemplo, el desempeño de la página y la facilidad para acceder a la información, además de cambiar los pesos de los criterios (abajo) debemos cambiar la puntuación según sea necesario, solo SI es necesario.
 
-### Observaciones sobre Criterios de Éxito
+##### Observaciones sobre Criterios de Éxito
 
 Nota 1: A pesar de que la conformidad sólo puede lograrse en los niveles indicados, se anima a los autores a notificar en sus declaraciones cualquier progreso que se realice para satisfacer los criterios de éxito de todo nivel más allá del nivel de conformidad alcanzado.\
 
-Nota 2: No se recomienda como política general exigir el nivel de conformidad AAA para sitios enteros porque no es posible que algunos contenidos puedan satisfacer todos los criterios de éxito de nivel AAA.
+Nota 2: No se recomienda como política general exigir el nivel de conformidad AAA para sitios enteros porque es posible casos de sitios que no puedan satisfacer todos los criterios de éxito de nivel AAA.
 
-### Herramientas para examen de conformidad
+### 3.1 Herramientas para examen de conformidad
 
 #### WCAG2.1 y Acessibilidad
 
 - Functional Accessibility Evaluator: https://fae.disability.illinois.edu
 - Taw Web accessibility test: [https://www.tawdis.net/index](https://www.tawdis.net/index)
 
-### 3.1 Conformidad de Dependencias
-
-(a fazer) como se define conformidad de otras especificaciones, técnicas, etc.
-
-### 3.4 Conformance Checkers
-(a fazer)
-
 ## 4. Términos importantes (vocabulario)
-(a fazer)
+({PORHACER})
 
 
 ## 5. Categoría - Disponibilidad de Acceso
 
-({PORHACER}: intro corta)
+Esta categoría reúne criterios de evaluación sobre la disponibilidad de acceso al sitio web del sujeto obligado. Incluye obligaciones y recomendaciones básicas como la existencia de un sitio web, acceso gratuito, uso de contraseñas para acceder y seguimiento de buenas prácticas de accesibilidad que permiten el acceso a personas con discapacidades físicas, cognitivas o que no tienen conexiones o dispositivos rápidos baja capacidad.
 
 ### 5.1 Existencia de sitio Web
 Tipo: OBLIGACIÓN. - Artículo 7 de la Ley 1712 de 2014
 
 La entidad deberá mantener un sitio web, que deberá estar disponible para acesso via una URI oficial por cualquier usuario.
 
-#### 5.1.1. Disponibilidad
+Este critério de evaluación tiene solo un nivel de exito (AAA).
 
-El sitio está disponible para acceso vía una URI oficial por cualquier usuario.
-
-#### 5.1.1.1 Criterio de Éxito - Nivel AAA
+#### 5.1.1 Criterio de Éxito - Nivel AAA
 
 El sitio retorna páginas con códigos HTTP 200 o 314 en su URI oficial, cuando es accedido por cualquier usuario.
 
-### 5.2 Régimen de Acceso
-Tipo: MIXTO
+Nota: se aceptan redireccionamientos con códigos HTTP 301 y 302, siempre que i) no exceda de 2 redireccionamientos y ii) conduzca a páginas que retornen los códigos HTTP 200 y 314.
 
-({PORHACER}: intro)
-
-#### 5.2.1. Gratuidad
+#### 5.2. Gratuidad
 Tipo: OBLIGACIÓN.
 
 El sitio debe tener acceso gratuito a los servicios informáticos que presta la entidad excepto para casos previstos en ley o en los reglamentos.
 
-##### 5.2.1.1. Criterio de Éxito - Nivel AA
+Este critério de evaluación tiene solo dos niveles de exito (AA y AAA).
+
+##### 5.2.1. Criterio de Éxito - Nivel AA
 
 Algunos servicios solo son accesibles por contraseña u otro identificador obtenidos a partir de botones y/o otros métodos de pago detectados en el sitio.
 
-##### 5.2.1.2. Criterio de Éxito - Nivel AAA
+##### 5.2.2. Criterio de Éxito - Nivel AAA
 
 Todos los servicios son accesibles sin contrapartida financiera, botones u otros métodos de pago.
 
-#### 5.2.2 - Universalidad: Acceso directo
+#### 5.3. - Universalidad: Acceso directo
 Tipo: RECOMENDACIÓN
 
 Los servicios informáticos que presta la entidad deben ser abiertos a todo el público que desee acceder a ellos y no deben estar restringidos a ciertos usuarios previo registro y recepción de una clave de acceso.
 
-##### 5.2.2.1. Criterio de Éxito - Nivel A
+##### 5.3.1. Criterio de Éxito - Nivel A
 
 Registro y clave de acceso son necesarios para acceder a una parte del sitio sin una justificación adecuada (e.g. privacidad de datos personales o seguridad).
 
-##### 5.2.2.2. Criterio de Éxito - Nivel AA
+##### 5.3.2. Criterio de Éxito - Nivel AA
 
 Registro y clave de acceso son necesarios para acceder a una parte del sitio con una justificación adecuada (e.g. privacidad de datos personales o seguridad).
 
-##### 5.2.2.3. Criterio de Éxito - Nivel AAA
+##### 5.3.3. Criterio de Éxito - Nivel AAA
 
 Todos los servicios son accesibles sin registro previo ni clave de acceso.
 
-#### 5.2.3 - Universalidad: Patrones de accesibilidad y web standards
+#### 5.4 - Universalidad: Patrones de accesibilidad y web standards
 Tipo: RECOMENDACIÓN
 
 Los sitios deben permitir acceso igualitario por:
@@ -501,11 +513,11 @@ Los sitios deben permitir acceso igualitario por:
    1) Tecnologías de asistencia como lectores de pantalla, asistentes de voz, etc;
    2) Acceso sin uso de javascript o plugins de terceros;
    3) Acceso por dispositivos variados como computadores, teléfonos inteligentes, asistentes de voz (e.g. Amazon Alexa), SmartTVs y otros dispositivos;
-   4) Acceso  con distintos tipos de conexiones (banda ancha y 2G/3G de bajo rendimiento), para lo cual deben seguir principios y directrices de accesibilidad conforme a los definidos por la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/), recomendación WCAG2.1 y WAI-ARIA de W3C y siguiendo las mejores prácticas determinadas en The Web Standards projects para markup sin considerar metadatos o atributos semánticos (e.g. elementos HTML semánticos, sin considerar schema.org o RDF markup).
+   4) Acceso  con distintos tipos de conexiones (banda ancha,5G, 4G y 3G de bajo rendimiento), para lo cual deben seguir principios y directrices de accesibilidad conforme a los definidos por la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/), recomendación WCAG2.1 y WAI-ARIA de W3C y siguiendo las mejores prácticas determinadas en The Web Standards projects para markup sin considerar metadatos o atributos semánticos (e.g. elementos HTML semánticos, sin considerar schema.org o RDF markup).
 
 La evaluación se realizó sobre la página de inicio (ubicación oficial) y otras 20 páginas: 10 de primer nivel, 5 páginas de segundo nivel y 5 de tercer nivel, determinadas según posición en el menú principal y/o directorios en la dirección URL después del nombre de dominio.
 
-##### 5.2.3.1. Criterio de Éxito - Nivel A
+##### 5.4.1. Criterio de Éxito - Nivel A
 
 El sitio web es válido en el [https://validator.w3.org/unicorn/](https://validator.w3.org/unicorn/) con no más que 50 errores, siguiendo la especificación [HTML5](https://w3c.github.io/html/). **Temporalmente**, la recomendación [XHTML 1.1](https://www.w3.org/TR/xhtml11/) también es aceptada por MOTA.
 
@@ -517,24 +529,24 @@ Sin embargo, observamos que XHTML no es la recomendación más reciente y más e
 
  Más información acerca XML+HTML5 se puede encontrar en inglés en [WHATWG](https://html.spec.whatwg.org/multipage/introduction.html#html-vs-xhtml), [W3C](https://dev.w3.org/html5/html-polyglot/) y [Wikipedia](https://en.wikipedia.org/wiki/Polyglot_markup#Polyglot_HTML_requirements)
 
-##### 5.2.3.2. Criterio de Éxito - Nivel AA
+##### 5.4.2. Criterio de Éxito - Nivel AA
 
 El sitio web es válido en el [https://validator.w3.org/unicorn/](https://validator.w3.org/unicorn/) con no más que 50 errores, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilizando correctamente los elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.).
 
-El sitio cumple con los criterios A de la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/).
+El sitio cumple con los criterios A de la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/) o su equivalente [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/) (en inglés).
 
-##### 5.2.3.3. Criterio de Éxito - Nivel AAA
+##### 5.4.3. Criterio de Éxito - Nivel AAA
 
 El sitio web es válido en el [https://validator.w3.org/unicorn/](https://validator.w3.org/unicorn/)  sin errores y con no más que 50 advertencias, siguiendo la especificación [HTML5](https://w3c.github.io/html/) y utilizando los elementos de la especificación de forma semántica. Es decir, utilización correctamente los elementos HTML de acuerdo a su función (e.g. H1 para encabezado más importante o título, UL para lista de elementos, nav para elemento de navegación etc.).
 
-El sitio cumple con los criterios A y AA de la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/).
+El sitio cumple con los criterios A y AA de la [Norma Técnica Colombiana (NTC) 5854](https://ntc5854.accesibilidadweb.co/) o su equivalente [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/) (en inglés).
 
-El sitio utiliza de forma adequada las prácticas [wai-aria-1.2](https://w3c.github.io/aria/);
+El sitio utiliza de forma adequada las prácticas [wai-aria-1.2](https://w3c.github.io/aria/) (en inglés);
 
-#### 5.2.4 - Universalidad: Rendimiento
+#### 5.5 - Universalidad: Rendimiento
 Tipo: RECOMENDACIÓN
 
-Los sitios deben permitir acceso con velocidad razonable y estable incluso en malas condiciones de acceso, como conexión por dispositivos móviles en redes de bajo rendimiento. Los sitios deben obtener grados mínimos en la herramientas [Webpagetest](http://webpagetest.org/result/190506_KG_29de3021baf30242013b8f58843cd7df/) y Pagespeed Insights, de acuerdo con lo descrito a continuación.
+Los sitios deben permitir acceso con velocidad razonable y estable incluso en malas condiciones de acceso, como conexión por dispositivos móviles en redes de bajo rendimiento. Los sitios deben obtener grados mínimos en la herramientas [Webpagetest](http://webpagetest.org/result/190506_KG_29de3021baf30242013b8f58843cd7df/) y [Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/), de acuerdo con lo descrito a continuación.
 
 En Webpagetest, los test son efectuados con la siguiente configuración:
     - Test Location: Android Devices - Dulles, VA, Moto G (gen 4);
@@ -545,7 +557,7 @@ En Webpagetest, los test son efectuados con la siguiente configuración:
     - Capture Video: marcado
     - Ignore SSL Certificate Errors: marcado
 
-##### 5.2.4.1. Criterio de Éxito - Nivel A
+##### 5.5.1. Criterio de Éxito - Nivel A
 
 Los sitios deben obtener los siguientes grados máximos:
 
@@ -556,10 +568,10 @@ Los sitios deben obtener los siguientes grados máximos:
     - Bytes in: 4.096kb
 
 ###### Pagespeed Insights
-    - Ordenador: 70
-    - Móvil: 50
+    - Ordenador: 60
+    - Móvil: 30
 
-##### 5.2.4.2. Criterio de Éxito - Nivel AA
+##### 5.5.2. Criterio de Éxito - Nivel AA
 
 Los sitios deben obtener los siguientes grados máximos:
 
@@ -570,10 +582,10 @@ Los sitios deben obtener los siguientes grados máximos:
     - Bytes in: 2.048kb
 
 ###### Pagespeed Insights
-    - Ordenador: 85
-    - Móvil: 60
+    - Ordenador: 75
+    - Móvil: 50
 
-##### 5.2.4.3. Criterio de Éxito - Nivel AAA
+##### 5.5.3. Criterio de Éxito - Nivel AAA
 
 Los sitios deben obtener los siguientes grados máximos:
 
@@ -584,38 +596,38 @@ Los sitios deben obtener los siguientes grados máximos:
     - Bytes in: 1.536kb
 
 ###### Pagespeed Insights
-    - Ordenador: 95
+    - Ordenador: 90
     - Móvil: 75
 
-#### 5.2.5 - Seguridad: Conexión encriptada
+#### 5.6 - Seguridad: Conexión encriptada
 Tipo: RECOMENDACIÓN
 
 El sitio es accesible en conexión encriptada (SSL/TLS).
 
-##### 5.2.5.1. Criterio de Éxito - Nivel AA
+##### 5.6.1. Criterio de Éxito - Nivel AA
 
 El sitio es accesible en conexión encriptada (SSL/TLS) opcional.
 
-##### 5.2.5.2. Criterio de Éxito - Nivel AAA
+##### 5.6.2. Criterio de Éxito - Nivel AAA
 
 El sitio es accesible en conexión encriptada (SSL/TLS) y solamente por conexión encriptada.
 
-#### 5.2.6 - Dados Abiertos: Acceso vía API REST
+#### 5.7 - Dados Abiertos: Acceso vía API REST
 Tipo: RECOMENDACIÓN
 
-Los contenidos del sitio como páginas, noticias o secciones son accesibles por una API REST con datos estructurados, incluso meta-dados.
+Los contenidos del sitio como páginas, noticias o secciones son accesibles por máquinas utilizando [API](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) [REST](https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional) [web](https://es.wikipedia.org/wiki/Web_API) con [datos estructurados](https://es.wikipedia.org/wiki/Modelo_de_datos), incluso [meta-dados](https://es.wikipedia.org/wiki/Metadatos).
 
-##### 5.2.6.1. Criterio de Éxito - Nivel AA
+##### 5.7.1. Criterio de Éxito - Nivel AA
 
-API REST disponible, pero sin meta-datos.
+API REST disponible, con datos estructurados, en formato XML o JSON, pero sin meta-datos
 
-##### 5.2.6.2. Criterio de Éxito - Nivel AA
+##### 5.7.2. Criterio de Éxito - Nivel AA
 
-API REST disponible, con meta-datos.
+API REST disponible, con datos estructurados y meta-datos, en formato XML o JSON.
 
-##### 5.2.6.3. Criterio de Éxito - Nivel AAA
+##### 5.7.3. Criterio de Éxito - Nivel AAA
 
-API REST disponible, con meta-datos y en formato JSON.
+API REST disponible, con datos estructurados y meta-datos y en formato JSON.
 
 ## 6. Información Mínima Obligatoria sobre la Estructura
 
@@ -624,17 +636,17 @@ Información sobre la estructura del sujeto obligado, de acuerdo con el artícul
 ### 6.1. Estructura orgánica / Organigrama
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal a).
-Resolución 3564 de 2015, anexo 1, punto 3.4.
+Resolución 3564 de 201 5, anexo 1, punto 3.4.
 
 El sujeto obligado publica su estructura orgánica de manera gráfica y legible, en un formato accesible y usable. Asimismo, publica una descripción de la estructura orgánica, donde se ofrezca información general de cada división o dependencia.
 
 #### 6.1.1. Criterio de Éxito - Nivel A (datos)
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx), pdf no-accesible, o disponibles en la página en formato de imagen. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx), pdf no-accesible, o disponibles en la página en formato de imagen. Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.1.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 Cumplimiento alternativos:
 
@@ -669,7 +681,7 @@ Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf) o
 
 #### 6.2.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página en HTML. (e.g. tablas o listas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página en HTML. (e.g. tablas o listas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.2.3. Criterio de Éxito - Nivel AAA
 
@@ -684,15 +696,15 @@ Ubicación física del sujeto obligado, de sus sedes, áreas, divisiones, depart
 
 #### 6.3.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf) o disponibles en una página en formato de imagen. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf) o disponibles en una página en formato de imagen. Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.3.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en un página en HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en un página en HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página.
 
 #### 6.3.3. Criterio de Éxito - Nivel AAA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página en HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página. Las informaciones también están  disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org  [GovernmentOffice](https://schema.org/GovernmentOffice), [GovernmentBuilding](https://schema.org/GovernmentBuilding), [Organization](https://schema.org/Organization), [PostalAddress](https://schema.org/PostalAddress).
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página en HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página. Las informaciones también están  disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org  [GovernmentOffice](https://schema.org/GovernmentOffice), [GovernmentBuilding](https://schema.org/GovernmentBuilding), [Organization](https://schema.org/Organization), [PostalAddress](https://schema.org/PostalAddress).
 
 ### 6.4. Divisiones o departamentos
 Tipo: OBLIGACIÓN.
@@ -701,15 +713,15 @@ Informaciones sobre la totalidad de divisiones territoriales. Para considerar co
 
 #### 6.4.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf) o disponibles en la página en formato de imagen. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf) o disponibles en la página en formato de imagen. Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.4.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en un página, en HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en un página, en HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.4.3. Criterio de Éxito - Nivel AAA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página, en HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página. Las informaciones también están  disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org  [GovernmentOffice](https://schema.org/GovernmentOffice), [GovernmentBuilding](https://schema.org/GovernmentBuilding), [Organization](https://schema.org/Organization) con propriedad [department](https://schema.org/department), [PostalAddress](https://schema.org/PostalAddress).
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página, en HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página. Las informaciones también están  disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org  [GovernmentOffice](https://schema.org/GovernmentOffice), [GovernmentBuilding](https://schema.org/GovernmentBuilding), [Organization](https://schema.org/Organization) con propriedad [department](https://schema.org/department), [PostalAddress](https://schema.org/PostalAddress).
 
 ### 6.5. Horario de Atención al Público
 Tipo: OBLIGACIÓN.
@@ -752,11 +764,11 @@ Para las entidades u organismos de la Rama Judicial, el requisito se entenderá 
 
 #### 6.6.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf) o disponibles en la página en formato de imagen. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf) o disponibles en la página en formato de imagen. Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.6.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos del tipo hoja de cálculo, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión. El archivo sigue el patrón del modelo de archivo Datos Presupuestales disponible en la base de patrones MOTA.
+Datos disponibles en archivos del tipo hoja de cálculo, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. El archivo sigue el patrón del modelo de archivo Datos Presupuestales disponible en la base de patrones MOTA.
 
 #### 6.6.3. Criterio de Éxito - Nivel AAA
 
@@ -785,15 +797,15 @@ Para las entidades u organismos de la Rama Judicial, el requisito se entenderá 
 
 #### 6.7.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf) o disponibles en la página en formato de imagen. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.7.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión. El archivo sigue el patrón de los modelos de archivo "Ejecución Presupuestal Mensual" y "Ejecución Presupuestal Trimestral" en la base de patrones MOTA.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.7.3. Criterio de Éxito - Nivel AAA
 
-Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Informaciones disponibles en la página, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ### 6.8. Planes de gasto público por año fiscal
 Tipo: OBLIGACIÓN.
@@ -803,30 +815,28 @@ Ley 1474 de 2011, artículo 74.
 
 El sujeto obligado publica su plan de gasto público para cada año fiscal, en el cual se especifican los objetivos, las estrategias, los proyectos, las metas, los responsables, los planes generales de compras y la distribución presupuestal de sus proyectos de inversión junto a los indicadores de gestión. Asimismo, el plan deberá estar acompañado del informe de gestión del año inmediatamente anterior.
 
-En la base de patrones MOTA, presentamos modelos de archivo ____________________, que cumplen con los requisitos y  buenas prácticas aquí mencionadas.
-
 Para las entidades u organismos de la Rama Judicial, el requisito se entenderá cumplido a través de un enlace a la publicación de los planes de gasto público por año fiscal en la página web del Consejo Superior de la Judicatura.
 
 #### 6.8.1. Criterio de Éxito - Nivel A
 
-{PORHACER}
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.8.2. Criterio de Éxito - Nivel AA
 
-{PORHACER}
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.8.3. Criterio de Éxito - Nivel AAA
 
-{PORHACER}
+Informaciones disponibles en la página, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 
-### 6.9. Directorio de servidores públicos, empleados y contratistas
+### 6.9. Directorio de servidores públicos, empleados (i.e. funcionários)
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal c) y parágrafo 2.
 Decreto 103 de 2015, artículo 5.
 Resolución 3564 de 2015, anexo 1, punto 3.5.
 
-El sujeto obligado publica en formato accesible y reutilizable el directorio de información de los servidores públicos, empleados y contratistas, incluyendo aquellos que laboran en las sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, con la siguiente información:
+El sujeto obligado publica en formato accesible y reutilizable el directorio de información de los servidores públicos empleados, incluyendo aquellos que laboran en las sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, con la siguiente información:
 
 - Nombres y apellidos completos
 - País, Departamento y Ciudad de nacimiento
@@ -837,25 +847,21 @@ El sujeto obligado publica en formato accesible y reutilizable el directorio de 
   - Nombres específicos de empleadores previos
   - Cargos anteriores
   - Fecha de inicio y fin en cada cargo
-- Empleo, cargo o actividad que desempeña (en caso de contratista, el rol que desempeña con base en el objeto contractual)
+- Empleo, cargo o actividad que desempeña
 - Dependencia en la que presta sus servicios en la entidad o institución
 - Dirección de correo electrónico institucional
 - Teléfono institucional y extensión
-- Escala salarial según las categorías para servidores públicos y/o empleados del sector privado
-- Objeto, valor total de los honorarios, fecha de inicio y de terminación, cuando se trate contratos de prestación de servicios
-
-Para las entidades u organismos públicos, el requisito se entenderá cumplido a través de un enlace a la publicación de la información que contiene el directorio en el Sistema de Información de Empleo Público (SIGEP).
-- Nombres y apellidos;
-- Direcciones de correo electrónico;
-- Teléfono del despacho y dependencia.
+- Escala salarial según las categorías para servidores públicos
 
 #### 6.9.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf) . Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf) . Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
+
+Alternativamente el requisito se entenderá cumplido a través de un enlace a la página de la información que contiene el directorio en el Sistema de Información de Empleo Público (SIGEP).
 
 #### 6.9.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 En caso de que el directorio no contenga alguna de las informaciones requeridas (e.g. no hay correo electrónico), el grado de calificación será disminuido al grado anterior. Es decir, el puntaje obtenido será A y no AA.
 
@@ -863,34 +869,55 @@ En caso de que el directorio no contenga alguna de las informaciones requeridas 
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-En caso de que el directorio no contenga alguna de las informaciones requeridas (e.g. no hay correo electrónico), el grado de calificación será disminuido al grado anterior. Es decir, el puntaje obtenido será A y no AA.
+En caso de que el directorio no contenga alguna de las informaciones requeridas (e.g. no hay correo electrónico), el grado de calificación será disminuido al grado anterior. Es decir, el puntaje obtenido será AA y no AAA.
 
 
-### 6.10. Directorio de funcionarios - Completo
+### 6.10. Directorio de servidores públicos contratistas
 Tipo: OBLIGACIÓN.
+Ley 1712 de 2014, artículo 9, literal c) y parágrafo 2.
+Decreto 103 de 2015, artículo 5.
+Resolución 3564 de 2015, anexo 1, punto 3.5.
 
-El sitio web contiene un directorio de funcionarios con sus informaciones completas.
+El sujeto obligado publica en formato accesible y reutilizable el directorio de información de los servidores públicos contratistas, incluyendo aquellos que laboran en las sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, con la siguiente información:
 
+- Nombres y apellidos completos
+- País, Departamento y Ciudad de nacimiento
+- Formación académica
+  - Títulos de pregrado y posgrado
+  - Instituciones educativas en donde obtuvo los títulos (incluye especificación de seccionales-ciudades)
+- Experiencia laboral y profesional
+  - Nombres específicos de empleadores previos
+  - Cargos anteriores
+  - Fecha de inicio y fin en cada cargo
+- Cargo y el rol que desempeña con base en el objeto contractual
+- Dependencia en la que presta sus servicios en la entidad o institución
+- Dirección de correo electrónico institucional
+- Teléfono institucional y extensión
+- Escala salarial según las categorías para empleados del sector privado
+- Objeto, valor total de los honorarios, fecha de inicio y de terminación de contratos de prestación de servicios
+
+Para las entidades u organismos públicos, el requisito se entenderá cumplido a través de un enlace a la publicación de la información que contiene el directorio en el Sistema de Información de Empleo Público (SIGEP).
 - Nombres y apellidos;
 - Direcciones de correo electrónico;
 - Teléfono del despacho y dependencia.
-- Formación académica
-  - Experiencia laboral y profesional
-  - Sanciones aplicadas a servidores públicos
-
- Alternativamente, un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las informaciones.
 
 #### 6.10.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión; alternativamente, un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las informaciones.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf) . Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
+
+Alternativamente el requisito se entenderá cumplido a través de un enlace a la página de la información que contiene el directorio en el Sistema de Información de Empleo Público (SIGEP).
 
 #### 6.10.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
+
+En caso de que el directorio no contenga alguna de las informaciones requeridas (e.g. no hay correo electrónico), el grado de calificación será disminuido al grado anterior. Es decir, el puntaje obtenido será A y no AA.
 
 #### 6.10.3. Criterio de Éxito - Nivel AAA
 
-Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+
+En caso de que el directorio no contenga alguna de las informaciones requeridas (e.g. no hay correo electrónico), el grado de calificación será disminuido al grado anterior. Es decir, el puntaje obtenido será AA y no AAA.
 
 ### 6.11. Escalas salariales
 Tipo: OBLIGACIÓN.
@@ -899,91 +926,53 @@ Es posible encontrar una tabla con los rangos de salarios de la entidad, identif
 
 La tabla debe estar actualizada al menos al último año concluido y contener información sobre el salario base por jerarquía y/o categoría ocupacional, de acuerdo con la categoría, tipo y otras especificidades de la entidad. Ejemplo, en el sitio de la Fiscalía General de la Nación se espera encontrar datos separados por jerarquía y/o categoría de fiscales y también por jerarquía y/o categoría ocupacional de otros funcionarios no fiscales.
 
-#### 6.11.1. Criterio de Éxito - Nivel A
+#### 6.12.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión; alternativamente, un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión; alternativamente, un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las
 
-#### 6.11.2. Criterio de Éxito - Nivel AA
+#### 6.12.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
-#### 6.11.3. Criterio de Éxito - Nivel AAA
+#### 6.12.3. Criterio de Éxito - Nivel AAA
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 6.12. Sanciones aplicadas a servidores públicos
+### 6.13. Sanciones aplicadas a servidores públicos
 Tipo: RECOMENDACIÓN
 
 Es posible encontrar informaciones sobre sanciones disciplinarias o de otro tipo que hayan sido impuestas a funcionarios de la entidad. Hay estadísticas sobre las sanciones impuestas, actualizadas hasta el último año concluido y se encuentran desagregadas según el tipo de funcionario (e.g. en el sitio de la Fiscalía General de la Nación las informaciones deben estar desagregadas entre fiscales y otros cargos).
 
-#### 6.12.1. Criterio de Éxito - Nivel A
-
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
-
-#### 6.12.2. Criterio de Éxito - Nivel AA
-
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
-
-#### 6.12.3. Criterio de Éxito - Nivel AAA
-
-Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquemas [Report](https://schema.org/Report), [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
-
-### 6.13. Directorio con información de contratos de contratistas - Básico
-Tipo: OBLIGACIÓN.
-
-Es posible encontrar informaciones sobre los contratos de contratistas en formatos abiertos. Alternativamente, un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las informaciones.
-
-- Nombres y apellidos;
-- Direcciones de correo;
-- Teléfono del despacho y dependencia;
-- Objeto del contrato.
-
 #### 6.13.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión; alternativamente, un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las informaciones.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.13.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.13.3. Criterio de Éxito - Nivel AAA
 
-Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquemas [Report](https://schema.org/Report), [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 6.14. Directorio con Informaciones de Contratos de Contratistas - Completo
+### 6.14. Directorio con información de contratos de contratistas
 Tipo: OBLIGACIÓN.
 
-El sitio web contiene un directorio de funcionarios de sus informaciones completas.
-
-- Nombres y apellidos;
-- Direcciones de correo;
-- Teléfono del despacho y dependencia.
-- Objeto del contrato
-- Formación académica
-  - Títulos de pregrado y posgrado
-  - Instituciones educativas en donde obtuvo los títulos (incluye especificación de seccionales-ciudades).
-  - Por formación académica se entiende, al menos, el grado académico que ostenta, la profesión que tiene y la institución académica por la que fue otorgada.
-- Experiencia laboral y profesional. Por experiencia laboral, se entiende, al menos, aquella vinculada a la profesión que tiene, o en el evento de que no aparezca su profesión, las actividades laborales relacionadas con el cargo, área o institución en la que se desempeña.
-  - Nombres específicos de empleadores previos.
-  - Cargos anteriores.
-  - Fecha de inicio y fin en cada cargo.
-- Sanciones aplicadas a servidores públicos.
-
- Alternativamente, un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las informaciones
+Es posible encontrar informaciones sobre los contratos de contratistas en formatos abiertos. Alternativamente, un enlace al SIGEP es válido.
 
 #### 6.14.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión; alternativamente, un enlace al SIGEP es válido sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las informaciones.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión; alternativamente, un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las informaciones.
 
 #### 6.14.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.14.3. Criterio de Éxito - Nivel AAA
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 6.15. Normas generales
+### 6.14. Normas generales
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 4.
@@ -995,18 +984,18 @@ El sujeto obligado publica la normatividad de orden constitucional o legal que l
 
 #### 6.15.1. Criterio de Éxito - Nivel A
 
-Resumen disponible en la página en HTML. Con normas disponibles para bajar en formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Resumen disponible en la página en HTML. Con normas disponibles para bajar en formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.15.2. Criterio de Éxito - Nivel AA
 
-Resumen disponible en la página en HTML, en lenguaje sencillo, con normas completas disponibles también en HTML en la misma página o en otra página en el mismo sitio. Para las normas completas, archivos en formatos abiertos (e.g. odf) accesibles en el mismo sitio y dominio es válido. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Resumen disponible en la página en HTML, en lenguaje sencillo, con normas completas disponibles también en HTML en la misma página o en otra página en el mismo sitio. Para las normas completas, archivos en formatos abiertos (e.g. odf) accesibles en el mismo sitio y dominio es válido. Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.15.3. Criterio de Éxito - Nivel AAA
 
 Resumen disponible en la página, en HTML, en lenguaje sencillo, con normas completas disponibles también en HTML en la misma página o en otra página en el mismo sitio. En los dos casos, el contenido es estructurado semánticamente (i.e. elementos HTML5 apropiados) y sus meta-datos disponibles en sintaxis LD+JSON y vocabulario schema.org segundo esquema [legislation](https://schema.org/Legislation) y [LegislationObject](https://schema.org/LegislationObject). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 
-### 6.16. Normas Reglamentarias
+### 6.15. Normas Reglamentarias
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 4.
@@ -1027,18 +1016,18 @@ Asimismo, si existen resoluciones, circulares u otro tipo de actos administrativ
 
 #### 6.16.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.16.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.16.3. Criterio de Éxito - Nivel AAA
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [ServiceChannel](https://schema.org/ServiceChannel), y [ContactPoint](https://schema.org/ContactPointOption), [DayOfWeek](https://schema.org/DayOfWeek) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 
-### 6.17. Políticas, lineamientos o manuales
+### 6.16. Políticas, lineamientos o manuales
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 6.1.
@@ -1059,18 +1048,18 @@ Si el sujeto obligado realiza un plan de acción unificado, es válido.
 
 #### 6.17.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
-#### 6.17.2. Criterio de Éxito - Nivel AA
+#### 6.16.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
-#### 6.17.3. Criterio de Éxito - Nivel AAA
+#### 6.16.3. Criterio de Éxito - Nivel AAA
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org según esquema. [ServiceChannel](https://schema.org/ServiceChannel), y [ContactPoint](https://schema.org/ContactPointOption), [DayOfWeek](https://schema.org/DayOfWeek) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 
-### 6.18. Metas y Objetivos
+### 6.17. Metas y Objetivos
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 6.4.
@@ -1082,18 +1071,18 @@ Se debe publicar su estado de avance, mínimo cada tres (3) meses.
 
 #### 6.18.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.18.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.18.3. Criterio de Éxito - Nivel AAA
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 
-### 6.19. Indicadores de gestión y/o desempeño
+### 6.18. Indicadores de gestión y/o desempeño
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 6.4.
@@ -1102,17 +1091,17 @@ Las entidades deben proveer información sobre los indicadores de gestión y/o d
 
 #### 6.19.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.19.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.19.3. Criterio de Éxito - Nivel AAA
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 6.20. Plan anticorrupción y de atención al ciudadano
+### 6.19. Plan anticorrupción y de atención al ciudadano
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal g).
 Ley 1474 de 2011, artículo 73.
@@ -1126,17 +1115,17 @@ El sujeto obligado publica anualmente una estrategia de lucha contra la corrupci
 
 #### 6.20.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.20.2. Criterio de Éxito - Nivel AA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.20.3. Criterio de Éxito - Nivel AAA
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [ServiceChannel](https://schema.org/ServiceChannel), y [ContactPoint](https://schema.org/ContactPointOption), [DayOfWeek](https://schema.org/DayOfWeek) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 6.21. Plan anual de compras y adquisiciones
+### 6.20. Plan anual de compras y adquisiciones
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal e).
 Decreto 103 de 2015, artículo 10.
@@ -1157,11 +1146,11 @@ El documento MOTA "Reglas Contextuales" especifica cuáles son las normas necesa
 
 #### 6.21.1. Criterio de Éxito - Nivel A
 
-Información disponible en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf), con links al SECOP. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf), con links al SECOP. Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.21.2. Criterio de Éxito - Nivel AA
 
-Contenido del Plan disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Contenido del Plan disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 6.21.3. Criterio de Éxito - Nivel AAA
 Proceso de Gestión Contractual y lista de documentos disponibles en la página, estructurados semánticamente (i.e. elementos HTML5 apropiados), información de contratos disponible en archivos, en formatos abiertos (e.g. .odf), incluyendo links para el SECOP. Meta-dados de la colección de documentos contienen nombre del documento, autor, data de actualización, URI y enlace para el SECOP) en sintaxis LD+JSON y vocabulario schema.org según esquema [Collection](https://schema.org/Collection), [DigitalDocument](https://schema.org/DigitalDocument) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
@@ -1188,11 +1177,11 @@ El documento MOTA "Reglas Contextuales" especifica cuáles son las normas necesa
 
 #### 7.1.1. Criterio de Éxito - Nivel A
 
-Informaciones disponibles en una o más páginas interligadas, en HTML, con modelos de formularios y formatos disponibles en archivos (e.g. .pdf, .xlsx, o .docx). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Informaciones disponibles en una o más páginas interligadas, en HTML, con modelos de formularios y formatos disponibles en archivos (e.g. .pdf, .xlsx, o .docx). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.1.2. Criterio de Éxito - Nivel AA
 
-Informaciones disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Informaciones disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.1.3. Criterio de Éxito - Nivel AAA
 
@@ -1219,12 +1208,12 @@ Este requisito se entenderá cumplido con la inscripción de los trámites en el
 
 #### 7.2.1. Criterio de Éxito - Nivel A
 
-Información disponible en una o más páginas interligadas, en HTML, con modelos de formularios y formatos disponibles en archivos (e.g. .pdf, xlsx, o .docx). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, en HTML, con modelos de formularios y formatos disponibles en archivos (e.g. .pdf, xlsx, o .docx). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 
 #### 7.2.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), incluso una tabla listando costos, normativas y links para información en detalle de cada trámite. Incluye modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), incluso una tabla listando costos, normativas y links para información en detalle de cada trámite. Incluye modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.2.3. Criterio de Éxito - Nivel AAA
 
@@ -1248,11 +1237,11 @@ Ejemplo: Procedimientos mínimos Fiscalía General de la Nación:
 
 #### 7.3.1. Criterio de Éxito - Nivel A
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con descripciones textuales en lenguaje sencillo. Si apoyos visuales son necesario, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con descripciones textuales en lenguaje sencillo. Si apoyos visuales son necesario, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.3.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.3.3. Criterio de Éxito - Nivel AAA
 
@@ -1276,11 +1265,11 @@ Además de la publicación de información acerca cada decisión, se recomienda 
 
 #### 7.4.1. Criterio de Éxito - Nivel A
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con descripciones textuales en lenguaje sencillo. Si los apoyos visuales son necesarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con descripciones textuales en lenguaje sencillo. Si los apoyos visuales son necesarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.4.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.4.3. Criterio de Éxito - Nivel AAA
 
@@ -1305,11 +1294,11 @@ Además de la información acerca cada política, se recomienda una tabla o list
 
 #### 7.5.1. Criterio de Éxito - Nivel A
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con descripciones textuales en lenguaje sencillp. Si los apoyos visuales son necesarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con descripciones textuales en lenguaje sencillp. Si los apoyos visuales son necesarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.5.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.5.3. Criterio de Éxito - Nivel AAA
 
@@ -1329,11 +1318,11 @@ Además, el sujeto obligado ofrece una lista de preguntas frecuentes con las res
 
 #### 7.6.1. Criterio de Éxito - Nivel A
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con descripciones textuales en lenguaje sencillo. Si los apoyos visuales son necesarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con descripciones textuales en lenguaje sencillo. Si los apoyos visuales son necesarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.6.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 En caso de un gran número de preguntas frequentes, un formulario de búsqueda debe estar presente.
 
@@ -1361,19 +1350,19 @@ El sujeto obligado publica un informe de todas las peticiones, quejas, reclamos,
 
 #### 7.7.1. Criterio de Éxito - Nivel A
 
-Estadísticas agregadas y análisis disponibles en una o más páginas estructuradas semánticamente (i.e. elementos HTML5 apropiados), con descripciones textuales en lenguaje sencillo. Si los apoyos visuales son necesarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Estadísticas agregadas y análisis disponibles en una o más páginas estructuradas semánticamente (i.e. elementos HTML5 apropiados), con descripciones textuales en lenguaje sencillo. Si los apoyos visuales son necesarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 El conjunto de datos con todas las solicitudes, denuncias y tiempos de respuesta está disponible en un archivo .xls o .xlsx.
 
 #### 7.7.2. Criterio de Éxito - Nivel AA
 
-Estadísticas agregadas y análisis disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con descripciones textuales en lenguaje sencillo. Si los apoyos visuales son necessarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Estadísticas agregadas y análisis disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con descripciones textuales en lenguaje sencillo. Si los apoyos visuales son necessarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 El conjunto de datos con todas las solicitudes, denuncias y tiempos de respuesta está disponible en archivos con formatos abiertos (.csv o .odf).
 
 #### 7.7.3. Criterio de Éxito - Nivel AAA
 
-Estadísticas agregadas y análisis disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con descripciónes textuales en lenguaje sencillo. Si los apoyos visuales son necesarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Estadísticas agregadas y análisis disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con descripciónes textuales en lenguaje sencillo. Si los apoyos visuales son necesarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 El conjunto de datos con todas las solicitudes, denuncias y tiempos de respuesta está disponible en archivos con formatos abiertos (.csv o .odf) y también como meta-datos en sintaxis LD+JSON y vocabulario schema.org.
 
@@ -1391,11 +1380,11 @@ Este ítem incluye la publicidad de invitaciones públicas, convocatorias o proc
 
 #### 7.8.1. Criterio de Éxito - Nivel A
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con descripciones textuales en lenguaje sencillo. Si los apoyos visuales son necesarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con descripciones textuales en lenguaje sencillo. Si los apoyos visuales son necesarios, estos deben estar en formato de imagen (.jpg o .png). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.8.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formulários y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formulários y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.8.3. Criterio de Éxito - Nivel AAA
 
@@ -1419,19 +1408,19 @@ Idealmente, los informes deben ser presentados en páginas HTML. Archivos tambi�
 
 El sitio contiene una página de informes de gestión, evaluación y auditoría con listado o tabla de links para descargar los reportes en archivos PDF, PPT o DOC del periodo vigente y de anteriores.
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia.
+Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia.
 
 #### 7.9.2. Criterio de Éxito - Nivel AA
 
 El sitio contiene una página Informes de gestión, evaluación y auditoría con listado o tabla de links para descargar los reportes en archivos PDF, PPT o DOC del periodo vigente y de anteriores.
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.9.3. Criterio de Éxito - Nivel AAA
 
 El sitio contiene una página Informes de gestión, evaluación y auditoría con listado o tabla de links para descargar los reportes en archivos PDF, PPT o DOC del  período vigente y de los anteriores.
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencilla y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencilla y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 La misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
@@ -1448,19 +1437,19 @@ Idealmente, los informes deben ser presentarnos en páginas HTML, pero archivos 
 
 El sitio contiene una página de informes de evaluación con listado o tabla de links para descargar los reportes en archivos PDF, PPT o DOC del periodo vigente y de los anteriores.
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia.
+Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia.
 
 #### 7.10.2. Criterio de Éxito - Nivel AA
 
 El sitio contiene una página de informes de evaluación con listado o tabla de links para descargar los reportes en archivos PDF, PPT o DOC del periodo vigente y de los anteriores.
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.10.3. Criterio de Éxito - Nivel AAA
 
 El sitio contiene una página de informes de evaluación con listado o tabla de links para descargar los reportes en archivos PDF, PPT o DOC del período vigente y de los anteriores.
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 La misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
@@ -1478,19 +1467,19 @@ Idealmente, los informes deben ser presentados en páginas HTML, pero archivos t
 
 El sitio contiene una página de informes de auditoría con listado o tabla de links para reportes en archivos PDF, PPT o DOC del periodo vigente y de los anteriores.
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia.
+Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia.
 
 #### 7.11.2. Criterio de Éxito - Nivel AA
 
 El sitio contiene una página de informes de auditoría con listado o tabla de links para reportes en archivos PDF, PPT o DOC del periodo vigente y de los anteriores.
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.11.3. Criterio de Éxito - Nivel AAA
 
 El sitio contiene una página de informes de auditoría con listado o tabla de links para reportes en archivos PDF, PPT o DOC del periodo vigente y de los anteriores.
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencilla y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión.
+Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencilla y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 La misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
@@ -1507,15 +1496,15 @@ Reportes de control interno: el sujeto obligado publica como mínimo el informe 
 
 #### 7.12.1. Criterio de Éxito - Nivel A
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf non-accesible.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf non-accesible.
 
 #### 7.12.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 #### 7.12.3. Criterio de Éxito - Nivel AAA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
@@ -1535,15 +1524,15 @@ El sujeto obligado informa sobre la manera como un particular puede comunicar un
 
 #### 7.13.1. Criterio de Éxito - Nivel A
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf non-accesible.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf non-accesible.
 
 #### 7.13.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 #### 7.13.3. Criterio de Éxito - Nivel AAA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
@@ -1556,15 +1545,15 @@ El sujeto obligado publica la dirección de correo electrónico para notificacio
 
 #### 7.14.1. Criterio de Éxito - Nivel A
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf non-accesible.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf non-accesible.
 
 #### 7.14.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 #### 7.14.3. Criterio de Éxito - Nivel AAA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
@@ -1575,15 +1564,15 @@ Tipo: OBLIGACIÓN.
 
 #### 7.15.1. Criterio de Éxito - Nivel A
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf non-accesible.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf non-accesible.
 
 #### 7.15.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 #### 7.15.3. Criterio de Éxito - Nivel AAA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
@@ -1596,15 +1585,15 @@ Documentos ex-ante (de planeación o tipo manual) que den guía sobre cómo se v
 
 #### 7.16.1. Criterio de Éxito - Nivel A
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf non-accesible.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf non-accesible.
 
 #### 7.16.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 #### 7.16.3. Criterio de Éxito - Nivel AAA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
@@ -1621,15 +1610,15 @@ La entidad debe ofrecer información de su plan de adquisiciones. El documento M
 
 #### 7.17.1. Criterio de Éxito - Nivel A
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf no-accesible.Información disponible en archivos, formatos propietarios (e.g. .docx, xlsx), pdf no-accesible, con links para SECOP. Accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión;
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf no-accesible.Información disponible en archivos, formatos propietarios (e.g. .docx, xlsx), pdf no-accesible, con links para SECOP. Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión;
 
 #### 7.17.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 #### 7.17.3. Criterio de Éxito - Nivel AAA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [DigitalDocument](https://schema.org/DigitalDocument), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
@@ -1649,19 +1638,19 @@ Un ejemplo de esquema de publicación, en archivo xls, se encuentra en el enlace
 
 #### 8.1.1. Criterio de Éxito - Nivel A
 
-El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 apropiados) con el título “acceso a información pública”, accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y link para un archivo de formato propietario (.doc, .ppt) o .pdf no-accesible. Este archivo contiene una tabla describiendo esquema de publicación de información similar all ejemplo en https://www.funcionpublica.gov.co/documents/418537/506991/Esquema+Publicaci%C3%B3n+2014.pdf/c64f12c8-dda2-451b-82d5-b58cba9b14f2.
+El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 apropiados) con el título “acceso a información pública”, Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y link para un archivo de formato propietario (.doc, .ppt) o .pdf no-accesible. Este archivo contiene una tabla describiendo esquema de publicación de información similar all ejemplo en https://www.funcionpublica.gov.co/documents/418537/506991/Esquema+Publicaci%C3%B3n+2014.pdf/c64f12c8-dda2-451b-82d5-b58cba9b14f2.
 
 
 #### 8.1.2. Criterio de Éxito - Nivel AA
 
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título "acceso a información pública", accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y una tabla en HTML5 describiendo esquema de publicación de información similar al ejemplo en https://www.funcionpublica.gov.co/documents/418537/506991/Esquema+Publicaci%C3%B3n+2014.pdf/c64f12c8-dda2-451b-82d5-b58cba9b14f2.
+El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título "acceso a información pública", Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y una tabla en HTML5 describiendo esquema de publicación de información similar al ejemplo en https://www.funcionpublica.gov.co/documents/418537/506991/Esquema+Publicaci%C3%B3n+2014.pdf/c64f12c8-dda2-451b-82d5-b58cba9b14f2.
 
 También es aceptable, para la tabla, un archivo de formato abierto (.odf) o **.pdf accesible**, que contiene una tabla describiendo esquema de publicación de información similar al ejemplo en https://www.funcionpublica.gov.co/documents/418537/506991/Esquema+Publicaci%C3%B3n+2014.pdf/c64f12c8-dda2-451b-82d5-b58cba9b14f2.
 
 
 #### 8.1.3. Criterio de Éxito - Nivel AAA
 
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título "acceso a información pública", accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y una tabla en HTML5 describiendo esquema de publicación de información similar al ejemplo disponible en https://www.funcionpublica.gov.co/documents/418537/506991/Esquema+Publicaci%C3%B3n+2014.pdf/c64f12c8-dda2-451b-82d5-b58cba9b14f2.
+El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título "acceso a información pública", Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y una tabla en HTML5 describiendo esquema de publicación de información similar al ejemplo disponible en https://www.funcionpublica.gov.co/documents/418537/506991/Esquema+Publicaci%C3%B3n+2014.pdf/c64f12c8-dda2-451b-82d5-b58cba9b14f2.
 
 También es aceptable, para publicar la tabla, un archivo de formato abierto (.odf) o **.pdf accesible**, que contenga una tabla describiendo el esquema de publicación de información similar al ejemplo disponible en https://www.funcionpublica.gov.co/documents/418537/506991/Esquema+Publicaci%C3%B3n+2014.pdf/c64f12c8-dda2-451b-82d5-b58cba9b14f2.
 
@@ -1678,19 +1667,19 @@ Un ejemplo de Programa de Gestión Documental se encuentra en el enlace: http://
 
 #### 8.2.1. Criterio de Éxito - Nivel A
 
-El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 apropiados) con el título "Gestión Documental", accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y link para un archivo de formato propietario (.doc, .ppt) o .pdf no-accesible. Este archivo de procedimientos y lineamientos necesarios para la producción, distribución, organización, consulta y conservación de los documentos públicos es similar al ejemplo disponible en http://www.mintic.gov.co/portal/604/articles-7077_Programa_Gestion_Documental.pdf
+El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 apropiados) con el título "Gestión Documental", Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y link para un archivo de formato propietario (.doc, .ppt) o .pdf no-accesible. Este archivo de procedimientos y lineamientos necesarios para la producción, distribución, organización, consulta y conservación de los documentos públicos es similar al ejemplo disponible en http://www.mintic.gov.co/portal/604/articles-7077_Programa_Gestion_Documental.pdf
 
 
 #### 8.2.2. Criterio de Éxito - Nivel AA
 
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y deconformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título "acceso a información pública", accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y una tabla en HTML5 describiendo esquema de publicación de información similar al ejemplo en http://www.mintic.gov.co/portal/604/articles-7077_Programa_Gestion_Documental.pdf
+El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y deconformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título "acceso a información pública", Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y una tabla en HTML5 describiendo esquema de publicación de información similar al ejemplo en http://www.mintic.gov.co/portal/604/articles-7077_Programa_Gestion_Documental.pdf
 
 También es aceptable para los procedimientos y lineamientos un archivo de formato abierto (.odf) o **.pdf accesible**.
 
 
 #### 8.2.3. Criterio de Éxito - Nivel AAA
 
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título "acceso a información pública", accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y una tabla en HTML5 describiendo el esquema de publicación de información similar al ejemplo disponible en http://www.mintic.gov.co/portal/604/articles-7077_Programa_Gestion_Documental.pdf
+El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título "acceso a información pública", Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y una tabla en HTML5 describiendo el esquema de publicación de información similar al ejemplo disponible en http://www.mintic.gov.co/portal/604/articles-7077_Programa_Gestion_Documental.pdf
 
 También es aceptable para los procedimiento y lineamientos un archivo de formato abierto (.odf) o **.pdf accesible**.
 
@@ -1703,19 +1692,19 @@ Tipo: OBLIGACIÓN.
 
 #### 8.3.1. Criterio de Éxito - Nivel A
 
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados) con el título "Tabla de retención documental", accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y un link para un archivo de formato propietario (.doc, .ppt) o .pdf no-accesible. Este archivo contiene una tabla describiendo el esquema de publicación de información similar al ejemplo en {PORHACER}.
+El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados) con el título "Tabla de retención documental", Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y un link para un archivo de formato propietario (.doc, .ppt) o .pdf no-accesible. Este archivo contiene una tabla describiendo el esquema de publicación de información similar al ejemplo en {PORHACER}.
 
 
 #### 8.3.2. Criterio de Éxito - Nivel AA
 
-El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título “Tabla de retención documental”, accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
+El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título “Tabla de retención documental”, Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
 
 También es aceptable un archivo de formato abierto (.odf) o **.pdf accesible**, que contiene {PORHACER} similar a el ejemplo en {PORHACER}.
 
 
 #### 8.3.3. Criterio de Éxito - Nivel AAA
 
-El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y en conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título “Tabla de retención documental”, accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
+El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y en conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título “Tabla de retención documental”, Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
 
 También es aceptable un archivo de formato abierto (.odf) o **.pdf accesible**, que contiene {PORHACER} similar a el ejemplo en {PORHACER}.
 
@@ -1730,19 +1719,19 @@ Tipo: OBLIGACIÓN.
 
 #### 8.4.1. Criterio de Éxito - Nivel A
 
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados) con el título "{PORHACER}", accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y link para un archivo de formato propietario (.doc, .ppt) o .pdf non-accesible. Este archivo contiene una tabla describiendo esquema de publicación de información similar a el ejemplo en {PORHACER}.
+El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados) accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y link para un archivo de formato propietario (.doc, .ppt) o .pdf non-accesible. Este archivo contiene una tabla describiendo esquema de publicación de información similar a el ejemplo en {PORHACER}.
 
 
 #### 8.4.2. Criterio de Éxito - Nivel AA
 
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título {PORHACER}, accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
+El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título {PORHACER}, Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
 
 También es aceptable un archivo de formato abierto (.odf) o **.pdf accesible**, que contiene {PORHACER} similar a el ejemplo en {PORHACER}.
 
 
 #### 8.4.3. Criterio de Éxito - Nivel AAA
 
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título {PORHACER}, accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
+El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título {PORHACER}, Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
 
 También es aceptable archivo de formato abierto (.odf) o **.pdf accesible**, que contiene {PORHACER} similar a el ejemplo en {PORHACER}.
 
@@ -1757,35 +1746,20 @@ Tipo: OBLIGACIÓN.
 
 #### 8.5.1. Criterio de Éxito - Nivel A
 
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados) con el título "{PORHACER}", accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y link para un archivo de formato propietario (.doc, .ppt) o .pdf non-accesible. Este archivo contiene una tabla describiendo esquema de publicación de información similar all ejemplo en {PORHACER}.
+El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados) ,accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y link para un archivo de formato propietario (.doc, .ppt) o .pdf non-accesible. Este archivo contiene una tabla describiendo esquema de publicación de información similar all ejemplo en {PORHACER}.
 
 
 #### 8.5.2. Criterio de Éxito - Nivel AA
 
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título {PORHACER}, accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
+El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia.
 
-También es aceptable archivo de formato abierto (.odf) o **.pdf accesible**, que contiene {PORHACER} similar a el ejemplo en {PORHACER}.
+También es aceptable archivo de formato abierto (.odf) o **.pdf accesible**.
 
 
 #### 8.5.3. Criterio de Éxito - Nivel AAA
 
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título {PORHACER}, accesible por elemento de navegación secundario o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
+El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/) accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia.
 
-También es aceptable un archivo de formato abierto (.odf) o **.pdf accesible**, que contiene {PORHACER} similar a el ejemplo en {PORHACER}.
+También es aceptable un archivo de formato abierto (.odf) o **.pdf accesible**.
 
-Los mismos datos son encontrado como datos estructurados en sintaxis LD+JSON y vocabulario schema.org {PORHACER}: definir schemas requeridos.
-
-Atajos:
-
-- [a criterios](#5-Categor%C3%ADa---Disponibilidad-de-Acceso)
-- [Tabla de contenido](#Tabla-de-contenido)
-
-
-Este documento está escrito utilizando la sintaxis Markdown:
-
-https://www.markdownguide.org/getting-started
-https://www.markdownguide.org/basic-syntax
-
-Este documento tiene control de versión inspirado en el sistema de versión semántico de software:
-https://semver.org/lang/es/
-https://www.celsobessa.com.br/2016/01/05/organizando-os-arquivos/
+Los mismos datos son encontrado como datos estructurados en sintaxis LD+JSON y vocabulario schema.org.

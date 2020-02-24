@@ -8,6 +8,9 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 
 ## Unreleased
 
+## [0.4.0] - 2020-02-23
+retroactive commit
+
 ### Added
 - text for section 1.1 Transparencia, Rendición de Cuentas y lucha contra la corrupción;
 - text for section 1.2 Público objetivo
@@ -17,6 +20,7 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 
 ### Changed
 - added some missing information (by Juan Carlos Upegui);
+- change and or clarification of some rules;
 
 ### Fixed
 - revised copy and fixed several spelling, syntax and grammar errors (revised by Juan Carlos Upegui)

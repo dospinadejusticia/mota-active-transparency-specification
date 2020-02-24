@@ -1,13 +1,10 @@
 # Como Contribuir
 
-Estamos agradecidos que queira ajudar a melhorar este projeto. A seguir tem algumas diretrizes para tornar sua contribuição mais fácil e ajudar todos os envolvidos.
+Agradecemos que você queira ajudar a melhorar este projeto. A melhor maneira de fazer isso é criar uma mensagem na sessão "issues" no [repositório oficial do Github] (https://github.com/Dejusticia/mota-active-active-transparency-specification/). Assim facilita sua contribuição e ajuda todos os usuários. Se você tem experiência em contribuir para projetos de código aberto, pode clonar o repositório oficial, editar os arquivos na ramificação de desenvolvimento e enviar um "pull request".
 
-A melhor maneira de ajudar é criando uma mensagem na seção "issues" no [repositório oficial no Github](https://github.com/Dejusticia/mota-active-transparency-specification/) ou, se já tem experiência colaboran do em projetos de código aberto no Github, fazendo um "for", e editando os arquivos no ramo `develop` e depois enviar sua colaboração agtravés de um "pull request". Assim, facilita sua contribuição e ajuda a todas as outras usuárias.
+Outra maneira é enviar uma mensagem a cbessa (arroba) dejusticia ponto org. No entanto, devido ao volume de mensagens, não podemos garantir respostas rápidas. Por esse motivo, recomendamos o envio de mensagens no repositório, pois isso garante que suas mensagens sejam lidas por todos os membros da equipe de desenvolvimento do projeto e outros usuários que possam responder de forma mais rápida e colaborativa.
 
-Uma outra forma é enviar uma mensagem para o email  cbessa (arroba) dejusticia punto org. Em razõ do grande número de mensagens, não podemos garantir respostas rápidas. Por isto, recomendamos enviar mensagem pelo respositório, assim garante que sua mensagem será lida por todos os membros da equip do projeto e por outros usuários que talvez poderão responder mais rapida e colaborativamente
-
-* Por favor, seja clara, concisa e civilizada.
-* Nós preferimos [espanhol](CONTRIBUYENDO.md), mas você pode usar [inglés](CONTRIBUTING.md) e [português](CONTRIBUINDO.md) também
+Por favor, seja claro, conciso e civilizado. Nós preferimos [espanhol](CONTRIBUYENDO.md), mas você pode usar [inglés](CONTRIBUTING.md) e [português](CONTRIBUINDO.md) também.
 
 **Sempre faça suas alterações no ramo develop**
 
