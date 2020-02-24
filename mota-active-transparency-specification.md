@@ -91,7 +91,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
     - [3.4 - Escala de Puntos: diretrices de disponibilidad de información](#34---escala-de-puntos-diretrices-de-disponibilidad-de-informaci%c3%b3n)
       - [Nivel A: Información disponible en archivo](#nivel-a-informaci%c3%b3n-disponible-en-archivo)
       - [Nivel AA: Información disponible para personas disponibles en la misma página](#nivel-aa-informaci%c3%b3n-disponible-para-personas-disponibles-en-la-misma-p%c3%a1gina)
-      - [Información disponible como meta-datos estructurados legible por máquina](#informaci%c3%b3n-disponible-como-meta-datos-estructurados-legible-por-m%c3%a1quina)
+      - [Nível AAA: Información disponible como meta-datos estructurados legible por máquina](#n%c3%advel-aaa-informaci%c3%b3n-disponible-como-meta-datos-estructurados-legible-por-m%c3%a1quina)
         - [Observaciones sobre Criterios de Éxito](#observaciones-sobre-criterios-de-%c3%89xito)
     - [3.1 Herramientas para examen de conformidad](#31-herramientas-para-examen-de-conformidad)
       - [WCAG2.1 y Acessibilidad](#wcag21-y-acessibilidad)
@@ -394,6 +394,7 @@ Para que un sitio web esté en conformidad con esta especificación, debe cumpli
 - 1-19 (Deficiente)
 - 0 (No conformidad)
 
+Un sitio web que no cumple com al menos 1 los critérios de evaluación, se considera en no conformidad.
 
 ### 3.2. OBLIGACIÓN y RECOMENDACIÓN
 
@@ -413,7 +414,7 @@ Este es el nivel deseado de forma inmediata o a corto plazo, considerando el con
 
 Este es el nivel ideal, el objetivo a medio y largo plazo a partir de agosto de 2019.
 
-Un sitio web que no cumple com todos con todos y cada uno de los critérios de evaluación, se considera no conforme.
+**Incumplimiento:** Si el sitio no cumple con el mínimo determinado en el nivel A del criterio de evaluación, recibe un puntaje cero y se considera que está en incumplimiento con el criterio.
 
 ### 3.4 - Escala de Puntos: diretrices de disponibilidad de información
 
@@ -444,7 +445,7 @@ Las informaciones están disponibles en la página web, acuerdo una de las opcio
 
 Los puntos se pueden acumular con los puntos del nivel A.
 
-#### Información disponible como meta-datos estructurados legible por máquina
+#### Nível AAA: Información disponible como meta-datos estructurados legible por máquina
 
 Además de conformidad con el nivel AA, las informaciones están disponible como meta-datos estructurados legible por máquina.
 
