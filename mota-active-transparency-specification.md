@@ -33,7 +33,7 @@ El segundo objetivo es ofrecer una visión general de los objetivos y de la filo
 
 El tercero objetivo es reunir y explicar de forma aterrizada y práctica, en un solo documento, las obligaciones legales, estándares, metodologíaas y buenas prácticas en materia de transparencia activa de las entidades gubernamentales, que suelen estar dispersas en diversas fuentes.
 
-Al mismo tiempo, busca permitir que los desarrolladores web de las entidades públicas puedan encontrar facilmente las informaciones, estándares y referencias necesarias para la ejecución del noble trabajo de informar a la ciudadanía.
+Al mismo tiempo, busca permitir que los desarrolladores web de las entidades públicas puedan encontrar facilmente la información, estándares y referencias necesarias para la ejecución del noble trabajo de informar a la ciudadanía.
 
 Es de destacar que esta especificación es utilizada por otros componentes de la iniciativa, como el robot evaluador de sitios gubernamentales, que a su vez alimenta una base de datos con los resultados de evaluación, la webapp de evaluación de sitios web gubernamentales y una biblioteca de insumos (ejemplos de códigos, patrones de diseño, modelos de textos, etc).
 
@@ -160,7 +160,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [6.13.1. Criterio de Éxito - Nivel A](#6131-criterio-de-%c3%89xito---nivel-a)
       - [6.13.2. Criterio de Éxito - Nivel AA](#6132-criterio-de-%c3%89xito---nivel-aa)
       - [6.13.3. Criterio de Éxito - Nivel AAA](#6133-criterio-de-%c3%89xito---nivel-aaa)
-    - [6.14. Directorio con información de contratos de contratistas](#614-directorio-con-informaci%c3%b3n-de-contratos-de-contratistas)
+    - [6.14. Directorio con información de contratistas](#614-directorio-con-informaci%c3%b3n-de-contratos-de-contratistas)
       - [6.14.1. Criterio de Éxito - Nivel A](#6141-criterio-de-%c3%89xito---nivel-a)
       - [6.14.2. Criterio de Éxito - Nivel AA](#6142-criterio-de-%c3%89xito---nivel-aa)
       - [6.14.3. Criterio de Éxito - Nivel AAA](#6143-criterio-de-%c3%89xito---nivel-aaa)
@@ -274,11 +274,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [8.3.1. Criterio de Éxito - Nivel A](#831-criterio-de-%c3%89xito---nivel-a)
       - [8.3.2. Criterio de Éxito - Nivel AA](#832-criterio-de-%c3%89xito---nivel-aa)
       - [8.3.3. Criterio de Éxito - Nivel AAA](#833-criterio-de-%c3%89xito---nivel-aaa)
-    - [8.4. Información Publicada Antes De La Ley 1712 De 2014](#84-informaci%c3%b3n-publicada-antes-de-la-ley-1712-de-2014)
-      - [8.4.1. Criterio de Éxito - Nivel A](#841-criterio-de-%c3%89xito---nivel-a)
-      - [8.4.2. Criterio de Éxito - Nivel AA](#842-criterio-de-%c3%89xito---nivel-aa)
-      - [8.4.3. Criterio de Éxito - Nivel AAA](#843-criterio-de-%c3%89xito---nivel-aaa)
-    - [8.5. Respuestas a solicitudes de información recibidas](#85-respuestas-a-solicitudes-de-informaci%c3%b3n-recibidas)
+    - [8.4. Respuestas a solicitudes de información recibidas](#85-respuestas-a-solicitudes-de-informaci%c3%b3n-recibidas)
       - [8.5.1. Criterio de Éxito - Nivel A](#851-criterio-de-%c3%89xito---nivel-a)
       - [8.5.2. Criterio de Éxito - Nivel AA](#852-criterio-de-%c3%89xito---nivel-aa)
       - [8.5.3. Criterio de Éxito - Nivel AAA](#853-criterio-de-%c3%89xito---nivel-aaa)
@@ -354,7 +350,7 @@ Una otra forma es enviar un mensaje al correo cbessa (arroba) dejusticia punto o
 
 Por favor, sea claro, conciso y civilizado. Preferimos [español](CONTRIBUYENDO.md), pero también puede usar [inglés](CONTRIBUTING.md) y [portugués](CONTRIBUINDO.md).
 
-Mas informaciones pueden ser encontradas en documento [CONTRIBUYENDO.md](CONTRIBUYENDO.md).
+Más información puede encontrarse en el documento [CONTRIBUYENDO.md](CONTRIBUYENDO.md).
 
 ## 2. Uso de la especificación
 
@@ -408,7 +404,7 @@ La escala de puntos varía de 0 a 100, con las siguientes reglas base de puntuac
 
 #### Nivel A: Información disponible en archivo
 
-Las informaciones están disponibles en archivo, acuerdo una de las opciones a seguir:
+La información está disponible en archivo, de acuerdo a una de las opciones a seguir:
 
    - en formato propietario (docx, xlsx, pdf): 20 puntos
    - en formato abierto y libre, pero no legible/acesible por máquina (e.g. texto o tabla digitalizado): 35 puntos
@@ -421,7 +417,7 @@ Los puntos no son acumulativos.
 
 #### Nivel AA: Información disponible para personas disponibles en la misma página
 
-Las informaciones están disponibles en la página web, acuerdo una de las opciones a seguir:
+La información está disponibles en la página web, de acuerdo a una de las opciones a seguir:
 
    - en formato HTML en la misma página: 15 puntos
    - en HTML5 estructurado, semántico y en la misma página: 30 puntos
@@ -431,7 +427,7 @@ Los puntos se pueden acumular con los puntos del nivel A.
 
 #### Nível AAA: Información disponible como meta-datos estructurados legible por máquina
 
-Además de conformidad con el nivel AA, las informaciones están disponible como meta-datos estructurados legible por máquina.
+Además de conformidad con el nivel AA, la información está disponible como meta-datos estructurados legible por máquina.
 
    - datos estructurados (schema.org, json, meta-datos, etc) en la misma página: 20 puntos
 
@@ -704,12 +700,14 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en 
 
 #### 6.3.3. Criterio de Éxito - Nivel AAA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página en HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página. Las informaciones también están  disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org  [GovernmentOffice](https://schema.org/GovernmentOffice), [GovernmentBuilding](https://schema.org/GovernmentBuilding), [Organization](https://schema.org/Organization), [PostalAddress](https://schema.org/PostalAddress).
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página en HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página. La información también está  disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org  [GovernmentOffice](https://schema.org/GovernmentOffice), [GovernmentBuilding](https://schema.org/GovernmentBuilding), [Organization](https://schema.org/Organization), [PostalAddress](https://schema.org/PostalAddress).
 
 ### 6.4. Divisiones o departamentos
 Tipo: OBLIGACIÓN.
+Ley 1712 de 2014, artículo 9, literal a).
+Resolución 3564 de 2015, anexo 1, punto 1.2.
 
-Informaciones sobre la totalidad de divisiones territoriales. Para considerar como positiva esta pauta, basta con que la información sea general (indicación de cuales son, direcciones, etc.) y no es necesario que todo el contenido del sitio sea el mismo para todas las divisiones territoriales.
+Información sobre la totalidad de divisiones territoriales. Para considerar como positiva esta pauta, basta con que la información sea general (indicación de cuales son, direcciones, etc.) y no es necesario que todo el contenido del sitio sea el mismo para todas las divisiones territoriales.
 
 #### 6.4.1. Criterio de Éxito - Nivel A
 
@@ -721,7 +719,7 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en 
 
 #### 6.4.3. Criterio de Éxito - Nivel AAA
 
-Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página, en HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página. Las informaciones también están  disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org  [GovernmentOffice](https://schema.org/GovernmentOffice), [GovernmentBuilding](https://schema.org/GovernmentBuilding), [Organization](https://schema.org/Organization) con propriedad [department](https://schema.org/department), [PostalAddress](https://schema.org/PostalAddress).
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y/o disponibles en la página, en HTML5. (e.g. lista , elemento address, etc). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. Al menos una ubicación disponible en pie de página. La información también está  disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org  [GovernmentOffice](https://schema.org/GovernmentOffice), [GovernmentBuilding](https://schema.org/GovernmentBuilding), [Organization](https://schema.org/Organization) con propriedad [department](https://schema.org/department), [PostalAddress](https://schema.org/PostalAddress).
 
 ### 6.5. Horario de Atención al Público
 Tipo: OBLIGACIÓN.
@@ -805,7 +803,7 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 
 #### 6.7.3. Criterio de Éxito - Nivel AAA
 
-Informaciones disponibles en la página, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Información disponibles en la página, estructurada semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ### 6.8. Planes de gasto público por año fiscal
 Tipo: OBLIGACIÓN.
@@ -827,7 +825,7 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 
 #### 6.8.3. Criterio de Éxito - Nivel AAA
 
-Informaciones disponibles en la página, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y disponibles como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Información disponibles en la página, estructurada semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 
 ### 6.9. Directorio de servidores públicos, empleados (i.e. funcionários)
@@ -921,8 +919,10 @@ En caso de que el directorio no contenga alguna de las informaciones requeridas 
 
 ### 6.11. Escalas salariales
 Tipo: OBLIGACIÓN.
+Ley 1712 de 2014, artículo 9, literal c).
+Resolución 3564 de 2015, anexo 1, punto 3.5.
 
-Es posible encontrar una tabla con los rangos de salarios de la entidad, identificado por el título "Rangos de salario por nivel", y el decreto de asignaciones salariales de la entidad en un lugar visible. Un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las informaciones.
+Es posible encontrar una tabla con los rangos de salarios de la entidad, identificado por el título "Rangos de salario por nivel", y el decreto de asignaciones salariales de la entidad en un lugar visible. Un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con la información disponible.
 
 La tabla debe estar actualizada al menos al último año concluido y contener información sobre el salario base por jerarquía y/o categoría ocupacional, de acuerdo con la categoría, tipo y otras especificidades de la entidad. Ejemplo, en el sitio de la Fiscalía General de la Nación se espera encontrar datos separados por jerarquía y/o categoría de fiscales y también por jerarquía y/o categoría ocupacional de otros funcionarios no fiscales.
 
@@ -941,7 +941,7 @@ Texto disponible en la página, estructurado semánticamente (i.e. elementos HTM
 ### 6.13. Sanciones aplicadas a servidores públicos
 Tipo: RECOMENDACIÓN
 
-Es posible encontrar informaciones sobre sanciones disciplinarias o de otro tipo que hayan sido impuestas a funcionarios de la entidad. Hay estadísticas sobre las sanciones impuestas, actualizadas hasta el último año concluido y se encuentran desagregadas según el tipo de funcionario (e.g. en el sitio de la Fiscalía General de la Nación las informaciones deben estar desagregadas entre fiscales y otros cargos).
+Es posible encontrar información sobre sanciones disciplinarias o de otro tipo que hayan sido impuestas a funcionarios de la entidad. Hay estadísticas sobre las sanciones impuestas, actualizadas hasta el último año concluido y se encuentran desagregadas según el tipo de funcionario (e.g. en el sitio de la Fiscalía General de la Nación la información debe estar desagregadas entre fiscales y otros cargos).
 
 #### 6.13.1. Criterio de Éxito - Nivel A
 
@@ -955,14 +955,16 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquemas [Report](https://schema.org/Report), [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 6.14. Directorio con información de contratos de contratistas
+### 6.14. Directorio con información de contratistas
 Tipo: OBLIGACIÓN.
+Ley 1712 de 2014, artículo 9, literal c).
+Resolución 3564 de 2015, anexo 1, punto 3.5.
 
-Es posible encontrar informaciones sobre los contratos de contratistas en formatos abiertos. Alternativamente, un enlace al SIGEP es válido.
+Es posible encontrar información sobre los contratos en formatos abiertos. Alternativamente, un enlace al SIGEP es válido.
 
 #### 6.14.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión; alternativamente, un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las informaciones.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión; alternativamente, un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con la información disponible.
 
 #### 6.14.2. Criterio de Éxito - Nivel AA
 
@@ -1063,7 +1065,6 @@ Texto disponible en la página, estructurado semánticamente (i.e. elementos HTM
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 6.4.
-
 
 El sujeto obligado y sus unidades administrativas publican la información relacionada con sus metas y objetivos, de conformidad con sus programas operativos y los demás planes exigidos por la normatividad.
 
@@ -1177,15 +1178,15 @@ El documento MOTA "Reglas Contextuales" especifica cuáles son las normas necesa
 
 #### 7.1.1. Criterio de Éxito - Nivel A
 
-Informaciones disponibles en una o más páginas interligadas, en HTML, con modelos de formularios y formatos disponibles en archivos (e.g. .pdf, .xlsx, o .docx). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
+Información disponibles en una o más páginas interligadas, en HTML, con modelos de formularios y formatos disponibles en archivos (e.g. .pdf, .xlsx, o .docx). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.1.2. Criterio de Éxito - Nivel AA
 
-Informaciones disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
+Información disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.1.3. Criterio de Éxito - Nivel AAA
 
-Informaciones disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Informaciones también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Información disponibles en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Información también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ### 7.2. Trámites
 Tipo: OBLIGACIÓN.
@@ -1200,7 +1201,7 @@ El sujeto obligado publica toda la información correspondiente a los trámites 
 - Formularios y formatos requeridos
 - Indicación de aquellos que se encuentren disponibles en línea.
 
-Además de informaciones acerca cada trámite, se recomienda una tabla resumen listando costos, normativa y link para informaciones en detalles de cada trámite.
+Además de la información de cada trámite, se recomienda una tabla resumen en la que se enlisten costos, normatividad aplicable y links que detallen cada trámite.
 
 Los trámites mínimos requeridos para cada entidad o clases de entidades se encuentran en el documento MOTA "Reglas Contextuales".
 
@@ -1213,11 +1214,11 @@ Información disponible en una o más páginas interligadas, en HTML, con modelo
 
 #### 7.2.2. Criterio de Éxito - Nivel AA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), incluso una tabla listando costos, normativas y links para información en detalle de cada trámite. Incluye modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), incluso una tabla resumen en la que se enlisten costos, normatividad aplicable y links que detallen cada trámite. Incluye modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
 #### 7.2.3. Criterio de Éxito - Nivel AAA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), incluso una tabla listando costos, normativas y link para informaciones en detalles de cada trámite, y modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Informaciones también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), incluso una tabla resumen en la que se enlisten costos, normatividad aplicable y links que detallen cada trámite, y modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Información también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ### 7.3. Procedimientos de toma de decisiones
 Tipo: OBLIGACIÓN.
@@ -1245,7 +1246,7 @@ Información disponible en una o más páginas interligadas, estructuradas semá
 
 #### 7.3.3. Criterio de Éxito - Nivel AAA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A, AA y AAA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Informaciones también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A, AA y AAA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Información también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ### 7.4. Decisiones
 Tipo: OBLIGACIÓN.
@@ -1273,10 +1274,12 @@ Información disponible en una o más páginas interligadas, estructuradas semá
 
 #### 7.4.3. Criterio de Éxito - Nivel AAA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A, AA y AAA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Informaciones también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A, AA y AAA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Información también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ### 7.5. Políticas
 Tipo: OBLIGACIÓN.
+Ley 1712 de 2014, artículo 11, literal d).
+Resolución 3564 de 2015, anexo 1, punto 6.1.
 
 El sitio de la entidad debe contener una o más páginas con los contenidos de las políticas adoptadas que afecten al público, junto con sus fundamentos e interpretaciones. Los procedimientos mínimos requeridos para cada entidad o clases de entidad se encuentran en el documento MOTA "Reglas Contextuales".
 
@@ -1302,10 +1305,12 @@ Información disponible en una o más páginas interligadas, estructuradas semá
 
 #### 7.5.3. Criterio de Éxito - Nivel AAA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A, AA y AAA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Informaciones también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A, AA y AAA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Información también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ### 7.6. Mecanismos de participación ciudadana
-Tipo: OBLIGACIÓN. Ley 1712 de 2014, artículo 11, literal h). Resolución 3564 de 2015, anexo 1, puntos 1.1, 2.4 y 10.9, y anexo 2.
+Tipo: OBLIGACIÓN. 
+Ley 1712 de 2014, artículo 11, literal h). 
+Resolución 3564 de 2015, anexo 1, puntos 1.1, 2.4 y 10.9, y anexo 2.
 
 El sujeto obligado dispone de canales para la atención al ciudadano y para recibir peticiones, quejas, reclamos, denuncias y solicitudes de información pública, tales como:
 Teléfonos fijos y móviles, con líneas gratuitas y fax, incluyendo el indicativo nacional e internacional en el formato (+57 número del área respectiva).
@@ -1388,11 +1393,11 @@ Información disponible en una o más páginas interligadas, estructuradas semá
 
 #### 7.8.3. Criterio de Éxito - Nivel AAA
 
-Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A, AA y AAA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos formatos abiertos (e.g. .odf). Informaciones también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
+Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A, AA y AAA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos formatos abiertos (e.g. .odf). Información también disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ### 7.9. Informes de gestión, evaluación y auditoría
 Tipo: OBLIGACIÓN.
-Ley 1712 de 2014, artículo 10, literal d) y artículo 11, literal e).
+Ley 1712 de 2014, artículo 11, literal e).
 Resolución 3564 de 2015, anexo 1, punto 7.1.
 
 El sujeto obligado publica todos los informes de gestión, evaluación y auditoría. Para los sujetos obligados que aplique. Como mínimo, deben publicar -dentro del mes en el que se envió o realizó el evento, según corresponda- los siguientes informes:
@@ -1426,8 +1431,8 @@ La misma información disponible en el listado está disponible como meta-datos 
 
 ### 7.10. Informes de evaluación
 Tipo: OBLIGACIÓN.
-
-{PORHACER}: aclarar
+Ley 1712 de 2014, artículo 11, literal e).
+Resolución 3564 de 2015, anexo 1, punto 7.1.
 
 El sitio de la entidad debe contener Informes de Evaluación del periodo vigente y de los períodos anteriores, sobre contratación, entre otros.
 
@@ -1455,9 +1460,8 @@ La misma información disponible en el listado está disponible como meta-datos 
 
 ### 7.11. Informes de Auditoría
 Tipo: OBLIGACIÓN.
-
-
-{PORHACER}: aclarar
+Ley 1712 de 2014, artículo 11, literal e).
+Resolución 3564 de 2015, anexo 1, punto 7.1.
 
 El sitio de la entidad debe contener Informes de Auditoría del período vigente y de los anteriores, sobre contratación, entre otros.
 
@@ -1559,8 +1563,10 @@ Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://sch
 
 ### 7.15. Mecanismos de Vigilancia
 Tipo: OBLIGACIÓN.
+Ley 1712 de 2014, artículo 11, literal f).
+Resolución 3564 de 2015, anexo 1, punto 7.4.
 
-{PORHACER}
+El sujeto obligado publica la relación de todas las entidades que lo vigilan y los mecanismos internos y externos de supervisión, notificación y vigilancia pertinente del sujeto obligado.
 
 #### 7.15.1. Criterio de Éxito - Nivel A
 
@@ -1578,6 +1584,8 @@ Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://sch
 
 ### 7.16. Procedimientos y Lineamientos de Contratación
 Tipo: OBLIGACIÓN.
+Ley 1712 de 2014, artículo 11, literal g).
+Resolución 3564 de 2015, anexo 1, punto 8.3.
 
 El sitio de la entidad debe contener una o más páginas con los procedimientos y lineamientos de contratación.
 
@@ -1599,8 +1607,8 @@ Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://sch
 
 ### 7.17. Políticas en materia de adquisiciones y compras
 Tipo: OBLIGACIÓN.
-
-{PORHACER}: aclarar
+Ley 1712 de 2014, artículo 11, literal g).
+Resolución 3564 de 2015, anexo 1, punto 8.4.
 
 La entidad debe ofrecer información de su plan de adquisiciones. El documento MOTA "Reglas Contextuales" especifica cuáles son las normas necesarias por entidad o clases de entidad. El plan debe compreender:
 
@@ -1623,16 +1631,14 @@ Información disponible en una o más páginas interligadas, estructuradas semá
 Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [DigitalDocument](https://schema.org/DigitalDocument), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
 ## 8. Instrumentos De Gestión De la Información Pública
-({PORHACER}: intro)
 
 Información respecto a instrumentos de gestión de la información pública requeridos por la Ley 1712 de 2014.
 
 ### 8.1. Esquemas de publicación de información
 Tipo: OBLIGACIÓN.
+Ley 1712 de 2014, artículo 12.
 
-{PORHACER}: aclarear este ítem. Que ejemplos de información teríamos aqui?
-
-El sitio de la entidad debe contener una o más páginas con informaciones de Esquemas de Publicación de información, publicadas en una página denominada “Acceso a información pública”  que incluya: i) qué tipo de información está publicada en el sitio web ii) qué información se publicará de manera proactiva iii) formatos de publicación iv) idioma v) responsable de la producción de información vi) la periodicidad en la divulgación, entre otros.
+El sitio de la entidad debe contener una o más páginas con información de Esquemas de Publicación de información, publicadas en una página denominada “Acceso a información pública”  que incluya: i) qué tipo de información está publicada en el sitio web ii) qué información se publicará de manera proactiva iii) formatos de publicación iv) idioma v) responsable de la producción de información vi) la periodicidad en la divulgación, entre otros.
 
 Un ejemplo de esquema de publicación, en archivo xls, se encuentra en el enlace: https://www.funcionpublica.gov.co/documents/418537/506991/Esquema+Publicaci%C3%B3n+2014.pdf/c64f12c8-dda2-451b-82d5-b58cba9b14f2
 
@@ -1658,8 +1664,8 @@ Los mismos datos de la tabla son encontrado como datos estructurados en sintaxis
 
 ### 8.2. Programa de Gestión Documental
 Tipo: OBLIGACIÓN.
-
-{PORHACER}: aclarar
+Ley 1712 de 2014, artículo 15.
+Resolución 3564 de 2015, anexo 1, punto 10.5.
 
 El sitio de la entidad debe contener una o más páginas con información acerca del Programa de Gestión Documental, publicadas en una página denominada "Gestión Documental" e informar "procedimientos y lineamientos necesarios para la producción, distribución, organización, consulta y conservación de los documentos públicos". Comprende la vida del documento desde su creación hasta su disposición final.
 
@@ -1687,8 +1693,10 @@ Los meta-datos de la página y cualquier documento o archivo accesorio son encon
 
 ### 8.3. Tablas de retención documental
 Tipo: OBLIGACIÓN.
+Ley 1712 de 2014, artículo 13.
+Resolución 3564 de 2015, anexo 1, punto 10.6.
 
-{PORHACER}: aclarar
+El sitio de la entidad debe contener una o más páginas con información acerca de las Tablas de Retención Documental, en una sección identificada con el nombre "Transparencia y acceso a información pública".
 
 #### 8.3.1. Criterio de Éxito - Nivel A
 
@@ -1710,53 +1718,26 @@ También es aceptable un archivo de formato abierto (.odf) o **.pdf accesible**,
 
 Los mismos datos son encontrado como datos estructurados en sintaxis LD+JSON y vocabulario schema.org {PORHACER}: definir schemas requeridos.
 
-### 8.4. Información Publicada Antes De La Ley 1712 De 2014
+
+### 8.4. Respuestas a solicitudes de información recibidas
 Tipo: OBLIGACIÓN.
+Ley 1712 de 2014, artículo 14
 
-{PORHACER}: aclarear este ítem. Que ejemplos de información teríamos aqui?
-
-{PORHACER}: aclarear este ítem. Que queremos aqui? que ejemplos de información teríamos aqui?
+Cuando se dé respuesta a una de las solicitudes de acceso a información pública anterior a la entrada en vigencia de la Ley 1712 de 2014, esta deberá hacerse pública de manera proactiva en el sitio web del sujeto obligado.
 
 #### 8.4.1. Criterio de Éxito - Nivel A
-
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados) accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y link para un archivo de formato propietario (.doc, .ppt) o .pdf non-accesible. Este archivo contiene una tabla describiendo esquema de publicación de información similar a el ejemplo en {PORHACER}.
-
-
-#### 8.4.2. Criterio de Éxito - Nivel AA
-
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título {PORHACER}, Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
-
-También es aceptable un archivo de formato abierto (.odf) o **.pdf accesible**, que contiene {PORHACER} similar a el ejemplo en {PORHACER}.
-
-
-#### 8.4.3. Criterio de Éxito - Nivel AAA
-
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título {PORHACER}, Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
-
-También es aceptable archivo de formato abierto (.odf) o **.pdf accesible**, que contiene {PORHACER} similar a el ejemplo en {PORHACER}.
-
-Los mismos datos son encontrados como datos estructurados en sintaxis LD+JSON y vocabulario schema.org {PORHACER}: definir schemas requeridos.
-
-### 8.5. Respuestas a solicitudes de información recibidas
-Tipo: OBLIGACIÓN.
-
-{PORHACER}: aclarear este ítem. Que ejemplos de información teríamos aqui?
-
-{PORHACER}: aclarear este ítem. Que queremos aqui? que ejemplos de información teríamos aqui?
-
-#### 8.5.1. Criterio de Éxito - Nivel A
 
 El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados) ,accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y link para un archivo de formato propietario (.doc, .ppt) o .pdf non-accesible. Este archivo contiene una tabla describiendo esquema de publicación de información similar all ejemplo en {PORHACER}.
 
 
-#### 8.5.2. Criterio de Éxito - Nivel AA
+#### 8.4.2. Criterio de Éxito - Nivel AA
 
 El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia.
 
 También es aceptable archivo de formato abierto (.odf) o **.pdf accesible**.
 
 
-#### 8.5.3. Criterio de Éxito - Nivel AAA
+#### 8.4.3. Criterio de Éxito - Nivel AAA
 
 El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/) accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia.
 
