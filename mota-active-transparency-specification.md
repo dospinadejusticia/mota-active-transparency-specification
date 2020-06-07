@@ -350,7 +350,7 @@ Asimismo, incluye obligaciones específicas que han sido incluidas o precisadas 
 
 La mejor manera de colaborar esto es creando un mensagje en la sessión "issues" en el [repositorio oficial en Github](https://github.com/Dejusticia/mota-active-transparency-specification/). Así, facilita su contribución y ayuda a todos los usuarios. Si tiene experiencia contribuyendo a proyectos de código abierto, puede bifurcar el repositorio oficial, editar los archivos en la rama develop y luego enviar un "pull request".
 
-Una otra forma es enviar un mensaje al correo cbessa (arroba) dejusticia punto org. Pero en razón del volumen de mensajes, no podemos garantizar respuestas rápidas. Por esto, recomendamos enviar mensaje en el repositorio, asi garantiza que su mensaje sea leído por todos los miembros del equipo de desarrollo del proyecto y otros usuarios que podrán responder más rápidamente y colaborativamente.
+Una otra forma es enviar un mensaje al correo mota (arroba) dejusticia punto org. Pero en razón del volumen de mensajes, no podemos garantizar respuestas rápidas. Por esto, recomendamos enviar mensaje en el repositorio, asi garantiza que su mensaje sea leído por todos los miembros del equipo de desarrollo del proyecto y otros usuarios que podrán responder más rápidamente y colaborativamente.
 
 Por favor, sea claro, conciso y civilizado. Preferimos [español](CONTRIBUYENDO.md), pero también puede usar [inglés](CONTRIBUTING.md) y [portugués](CONTRIBUINDO.md).
 
