@@ -105,8 +105,9 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
           - [WebPagetest](#webpagetest-2)
           - [Pagespeed Insights](#pagespeed-insights-2)
       - [5.6 - Seguridad: Conexión encriptada](#56---seguridad-conexión-encriptada)
-        - [5.6.1. Criterio de Éxito - Nivel AA](#561-criterio-de-éxito---nivel-aa)
-        - [5.6.2. Criterio de Éxito - Nivel AAA](#562-criterio-de-éxito---nivel-aaa)
+        - [5.6.1. Criterio de Éxito - Nivel A](#561-criterio-de-éxito---nivel-a)
+        - [5.6.2. Criterio de Éxito - Nivel AA](#562-criterio-de-éxito---nivel-aa)
+        - [5.6.3. Criterio de Éxito - Nivel AAA](#563-criterio-de-éxito---nivel-aaa)
       - [5.7 - Dados Abiertos: Acceso vía API REST](#57---dados-abiertos-acceso-vía-api-rest)
         - [5.7.1. Criterio de Éxito - Nivel AA](#571-criterio-de-éxito---nivel-aa)
         - [5.7.2. Criterio de Éxito - Nivel AA](#572-criterio-de-éxito---nivel-aa)
@@ -400,7 +401,9 @@ Este es el nivel ideal, el objetivo a medio y largo plazo a partir de agosto de 
 
 Las directrices relacionadas con la disponibilidad de información adoptan una escala de puntos más detallada que aquella basada en la disponibilidad o no de la informacion.
 
-La escala de puntos varía de 0 a 100, con las siguientes reglas base de puntuación.
+Como regla general, mide el cumplimiento de las mejores prácticas delineadas por Open Knowledge Foundation en El manual de Open Data [(Open Data Handbook)](http://opendatahandbook.org/guide/es/) y las recomendaciones de W3C en [publicación de datos de gobierno abierto](https://www.w3.org/TR/gov-data/).
+
+La escala de puntos varía de 0 a 100, y se correlaciona con el marco [5 estrellas para Datos Abiertos](https://5stardata.info/es/), con las siguientes reglas base de puntuación.
 
 #### Nivel A: Información disponible en archivo
 
@@ -411,6 +414,8 @@ La información está disponible en archivo, de acuerdo a una de las opciones a 
    - en formato abierto y libre, con datos estructurados (e.g. en caso de tablas) y legible/acesible por máquina: 50 puntos
 
 Los puntos no son acumulativos.
+
+> *Observación**: aproximadamente igual a los grados 2 o 3 estrellas en el marco [5 estrellas para Datos Abiertos](https://5stardata.info/es/).
 
 **Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
 
@@ -435,6 +440,8 @@ Los puntos se pueden acumular con los puntos del nivel AA.
 
 Para directrices no relacionadas con la disponibilidad de informacción, como por ejemplo, el desempeño de la página y la facilidad para acceder a la información, además de cambiar los pesos de los criterios (abajo) debemos cambiar la puntuación según sea necesario, solo SI es necesario.
 
+> **Observación**: aproximadamente igual a grado 4 estrellas en el marco [4 estrellas para Datos Abiertos](https://5stardata.info/es/).
+
 ##### Observaciones sobre Criterios de Éxito
 
 Nota 1: A pesar de que la conformidad sólo puede lograrse en los niveles indicados, se anima a los autores a notificar en sus declaraciones cualquier progreso que se realice para satisfacer los criterios de éxito de todo nivel más allá del nivel de conformidad alcanzado.\
@@ -457,9 +464,11 @@ Nota 2: No se recomienda como política general exigir el nivel de conformidad A
 Esta categoría reúne criterios de evaluación sobre la disponibilidad de acceso al sitio web del sujeto obligado. Incluye obligaciones y recomendaciones básicas como la existencia de un sitio web, acceso gratuito, uso de contraseñas para acceder y seguimiento de buenas prácticas de accesibilidad que permiten el acceso a personas con discapacidades físicas, cognitivas o que no tienen conexiones o dispositivos rápidos baja capacidad.
 
 ### 5.1 Existencia de sitio Web
-Tipo: OBLIGACIÓN. - Artículo 7 de la Ley 1712 de 2014
+<span class="criteria-type">Tipo: OBLIGACIÓN. - Artículo 7 de la Ley 1712 de 2014</span>
 
-La entidad deberá mantener un sitio web, que deberá estar disponible para acesso via una URI oficial por cualquier usuario.
+> **Resumen:** Para fomentar la transparencia activa y la participación ciudadana, y cumplir con las obligaciones legales colombianas, la entidade deberá mantener um sítio web, que deberá estar disponible para acesso via una URL oficial por personas y sistemas automáticos (e.g. robots).
+
+Para fomentar la transparencia activa y la participación ciudadana, y cumplir con las obligaciones legales colombianas, la entidade deberá mantener um sítio web, que deberá estar disponible para acesso via una URL oficial por personas y sistemas automáticos (e.g. robots).
 
 Este critério de evaluación tiene solo un nivel de exito (AAA).
 
@@ -471,6 +480,8 @@ Nota: se aceptan redireccionamientos con códigos HTTP 301 y 302, siempre que i)
 
 #### 5.2. Gratuidad
 Tipo: OBLIGACIÓN.
+
+> **Resumen:** El sítio debe tener aceso gratuito a los servicios judiciales informáticos que presta la entidad, exceto para casos previstos en ley e reglamentos.
 
 El sitio debe tener acceso gratuito a los servicios informáticos que presta la entidad excepto para casos previstos en ley o en los reglamentos.
 
@@ -487,7 +498,9 @@ Todos los servicios son accesibles sin contrapartida financiera, botones u otros
 #### 5.3. - Universalidad: Acceso directo
 Tipo: RECOMENDACIÓN
 
-Los servicios informáticos que presta la entidad deben ser abiertos a todo el público que desee acceder a ellos y no deben estar restringidos a ciertos usuarios previo registro y recepción de una clave de acceso.
+> **Resumen:** El sitio debe tener aceso gratuito a los servicios judiciales informáticos que presta la entidad, y no deben estar restringidos a ciertos usuarios previo registro y recepción de una clave de acceso, exceto para casos previstos en ley e reglamentos.
+
+Los servicios informáticos que presta la Corte en su sitio web deben ser abiertos a todo el público que desee acceder a ellos y no deben estar restringidos a ciertos usuarios previo registro y recepción de una clave de acceso, exceto para casos previstos en ley e reglamentos.
 
 ##### 5.3.1. Criterio de Éxito - Nivel A
 
@@ -503,6 +516,8 @@ Todos los servicios son accesibles sin registro previo ni clave de acceso.
 
 #### 5.4 - Universalidad: Patrones de accesibilidad y web standards
 Tipo: RECOMENDACIÓN
+
+> **Resumen:** Para garantizar el acceso a la mayor cantidad posible de ciudadanos, independientemente de sus circunstancias físicas, cognitivas, sociales o económicas, los sitios web deben desarrollarse siguiendo los estándares web y las mejores prácticas de accesibilidadlos sitios deben permitir acesso tecnologias asistivas como lectores de tela, asistentes por voz, etc; Así como desde dispositivos de baja capacidad y conexión de baja velocidad.
 
 Los sitios deben permitir acceso igualitario por:
 
@@ -541,6 +556,8 @@ El sitio utiliza de forma adequada las prácticas [wai-aria-1.2](https://w3c.git
 
 #### 5.5 - Universalidad: Rendimiento
 Tipo: RECOMENDACIÓN
+
+> **Resumen:** Para garantizar el acceso del mayor número de ciudadanos, incluidos aquellos con dispositivos de baja capacidad y conexiones de baja velocidad, los sitios web deben desarrollarse siguiendo los estándares web y con velocidade rasonable y estable mismo em malas condiciones de aceso, como conexión por dispositivos móbiles en conexión de baja velocidad o inestables.
 
 Los sitios deben permitir acceso con velocidad razonable y estable incluso en malas condiciones de acceso, como conexión por dispositivos móviles en redes de bajo rendimiento. Los sitios deben obtener grados mínimos en la herramientas [Webpagetest](http://webpagetest.org/result/190506_KG_29de3021baf30242013b8f58843cd7df/) y [Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/), de acuerdo con lo descrito a continuación.
 
@@ -598,20 +615,28 @@ Los sitios deben obtener los siguientes grados máximos:
 #### 5.6 - Seguridad: Conexión encriptada
 Tipo: RECOMENDACIÓN
 
-El sitio es accesible en conexión encriptada (SSL/TLS).
+> **Resumen:** Para garantizar una mayor privacidad y seguridad de la información de los ciudadanos, los sitios web deben ofrecer acceso encriptado, utilizando certificados de seguridad y versiones modernas del protocolo TLS.
 
-##### 5.6.1. Criterio de Éxito - Nivel AA
+Para garantizar una mayor privacidad y seguridad de la información de los ciudadanos, los sitios web deben ofrecer acceso encriptado, utilizando certificados de seguridad válidos generados por autoridades de certificación internacionalmente reconocidas y versiones modernas del protocolo TLS (1.3, preferencialmente).
 
-El sitio es accesible en conexión encriptada (SSL/TLS) opcional.
+##### 5.6.1. Criterio de Éxito - Nivel A
 
-##### 5.6.2. Criterio de Éxito - Nivel AAA
+El sitio es accesible en conexión encriptada opcional, utilizando protocolos 1.2 o 1.3.
 
-El sitio es accesible en conexión encriptada (SSL/TLS) y solamente por conexión encriptada.
+##### 5.6.2. Criterio de Éxito - Nivel AA
+
+El sitio es accesible solo en conexión encriptada, utilizando protocolos 1.2.
+
+##### 5.6.3. Criterio de Éxito - Nivel AAA
+
+El sitio es accesible solo en conexión encriptada, utilizando protocolos 1.3.
 
 #### 5.7 - Dados Abiertos: Acceso vía API REST
 Tipo: RECOMENDACIÓN
 
-Los contenidos del sitio como páginas, noticias o secciones son accesibles por máquinas utilizando [API](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) [REST](https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional) [web](https://es.wikipedia.org/wiki/Web_API) con [datos estructurados](https://es.wikipedia.org/wiki/Modelo_de_datos), incluso [meta-dados](https://es.wikipedia.org/wiki/Metadatos).
+> **Resumen:** Los contenidos del sitio son acesibles por una API REST con datos estructurados, incluso meta-dados. Esta recomendación busca facilitar acesso a información por robots y sistemas automatizados, aumentando las capacidades de veeduría ciudadana.
+
+Para facilitar acesso a información por robots y sistemas automatizados, aumentando las capacidades de veeduría ciudadana, los contenidos del sitio como páginas, noticias o secciones son accesibles por máquinas utilizando [API](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) [REST](https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional) [web](https://es.wikipedia.org/wiki/Web_API) con [datos estructurados](https://es.wikipedia.org/wiki/Modelo_de_datos), incluso [meta-dados](https://es.wikipedia.org/wiki/Metadatos), seguindo las mejores prácticas de datos abiertos como delineados por Open Knowledge Foundation en El manual de Open Data [(Open Data Handbook)](http://opendatahandbook.org/guide/es/) y las recomendaciones de W3C en [publicación de datos de gobierno abierto](https://www.w3.org/TR/gov-data/) para que cumplan com los requisitos del grado 4 estrellas del marco [5 estrellas para Datos Abiertos](https://5stardata.info/es/).
 
 ##### 5.7.1. Criterio de Éxito - Nivel AA
 
@@ -634,7 +659,9 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal a).
 Resolución 3564 de 201 5, anexo 1, punto 3.4.
 
-El sujeto obligado publica su estructura orgánica de manera gráfica y legible, en un formato accesible y usable. Asimismo, publica una descripción de la estructura orgánica, donde se ofrezca información general de cada división o dependencia.
+> **Resumen:** Para que la ciudadanía conozca la jerarquía de empleados y departamentos disponibles en la entidad, esta publica su estructura orgánica de manera gráfica (ejemplo: organigrama), y tambíen publica una descripción de la estructura orgánica, donde se ofrezca información general de cada división o dependencia, y no tan sólo la cabeza o principal órgano que se trate.
+
+El sujeto obligado publica su estructura orgánica de manera gráfica y legible (ejemplo: organigrama), en un formato accesible y usable. Asimismo, publica una descripción de la estructura orgánica, donde se ofrezca información general de cada división o dependencia. Para que la ciudadanía conozca la jerarquía de empleados y departamentos disponibles en la entidad, y pueda llevar a cabo procedimientos de manera asertiva, el sitio web del sujeito obligado debe contener descripción de la forma en que se compone y se organiza la entidade y no tan sólo la cabeza o principal órgano que se trate.
 
 #### 6.1.1. Criterio de Éxito - Nivel A (datos)
 
@@ -669,7 +696,9 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal a).
 Resolución 3564 de 2015, anexo 1, punto 3.2.
 
-El sujeto obligado publica sus funciones y deberes de acuerdo con su norma de creación o reestructuración. Si alguna norma le asigna funciones adicionales, éstas también están incluidas.
+> **Resumen:** Para que la población tenga claridad sobre el papel y qué esperar de la entidad, el sujeto obligado publica una descripción de funciones y deberes de la entidad en general y no tan sólo la cabeza o principal órgano que lo compone.
+
+Para que la población tenga claridad sobre el papel y qué esperar de la entidad, el sujeto obligado publica una descripción de funciones y deberes de la entidad en general y no tan sólo la cabeza o principal órgano que lo compone. El sujeto obligado publica sus funciones y deberes de acuerdo con su norma de creación o reestructuración. Si alguna norma le asigna funciones adicionales, éstas también están incluidas.
 
 #### 6.2.1. Criterio de Éxito - Nivel A
 
@@ -687,6 +716,8 @@ Texto disponible en la página, estructurado semánticamente (e.g. elementos HTM
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal a).
 Resolución 3564 de 2015, anexo 1, punto 1.2.
+
+> **Resumen:** Ubicación física del sujeto obligado, de sus sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, incluyendo ciudad y departamento de ubicación.
 
 Ubicación física del sujeto obligado, de sus sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, incluyendo ciudad y departamento de ubicación.
 
@@ -707,6 +738,8 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal a).
 Resolución 3564 de 2015, anexo 1, punto 1.2.
 
+> **Resumen:** Información general sobre las divisiones territoriales de el sujeto obligado: indicación de cuales son las divisiones, direcciones, etc.
+
 Información sobre la totalidad de divisiones territoriales. Para considerar como positiva esta pauta, basta con que la información sea general (indicación de cuales son, direcciones, etc.) y no es necesario que todo el contenido del sitio sea el mismo para todas las divisiones territoriales.
 
 #### 6.4.1. Criterio de Éxito - Nivel A
@@ -726,7 +759,9 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal a).
 Resolución 3564 de 2015, anexo 1, punto 1.2.
 
-Información sobre horarios y días de atención al público de la entidad y sus divisiones en diferentes medios: en la sede, teléfono, correo electrónico, etc. Enlace a los datos de contacto de las sucursales que tenga el sujeto obligado.
+> **Resumen**: La entidade debe publicar información sobre horarios y días de atención al público de la entidad y sus divisiones o sucursales en diferentes medios: en la sede, teléfono, correo electrónico, etc.
+
+La entidade debe publica información sobre horarios y días de atención al público de la entidad y sus divisiones en diferentes medios: en la sede, teléfono, correo electrónico, etc. Enlace a los datos de contacto de las sucursales que tenga el sujeto obligado.
 
 #### 6.5.1. Criterio de Éxito - Nivel A
 
