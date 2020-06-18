@@ -161,11 +161,11 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [6.13.1. Criterio de Éxito - Nivel A](#6131-criterio-de-éxito---nivel-a)
       - [6.13.2. Criterio de Éxito - Nivel AA](#6132-criterio-de-éxito---nivel-aa)
       - [6.13.3. Criterio de Éxito - Nivel AAA](#6133-criterio-de-éxito---nivel-aaa)
-    - [6.14. Directorio con información de contratistas](#614-directorio-con-información-de-contratistas)
+    - [6.14. Información de contratos](#614-información-de-contratos)
       - [6.14.1. Criterio de Éxito - Nivel A](#6141-criterio-de-éxito---nivel-a)
       - [6.14.2. Criterio de Éxito - Nivel AA](#6142-criterio-de-éxito---nivel-aa)
       - [6.14.3. Criterio de Éxito - Nivel AAA](#6143-criterio-de-éxito---nivel-aaa)
-    - [6.14. Normas generales](#614-normas-generales)
+    - [6.15. Normas generales](#615-normas-generales)
       - [6.15.1. Criterio de Éxito - Nivel A](#6151-criterio-de-éxito---nivel-a)
       - [6.15.2. Criterio de Éxito - Nivel AA](#6152-criterio-de-éxito---nivel-aa)
       - [6.15.3. Criterio de Éxito - Nivel AAA](#6153-criterio-de-éxito---nivel-aaa)
@@ -780,6 +780,8 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal b).
 Resolución 3564 de 2015, anexo 1, punto 5.1.
 
+> **Resumen:** El presupuesto de la entidad para la respectiva vigencia debe estar disponible para verificación del público. Puede ser el presupuesto inicial o final. Eo presupuesto debe ofrecer datos (valores, ingresos, gastos) de forma clara, organizada y desagregado.
+
 El sujeto obligado publica su presupuesto general para cada año fiscal. Puede ser el presupuesto inicial o final. El presupuesto debe ofrecer datos (valores, ingresos, gastos) de forma clara, organizada y debe estar desagregado conforme se describe a continuación, con encabezados o títulos en paréntesis:
 
 - Ingresos presupuestarios (Ingresos);
@@ -791,9 +793,7 @@ El sujeto obligado publica su presupuesto general para cada año fiscal. Puede s
 - Programas informáticos;
 - Actualizado hasta el último trimestre concluido;
 
-En la base de patrones MOTA, presentamos un modelo de archivo de Datos Presupuestales que cumple con los requisitos y buenas prácticas aquí mencionadas.
-
-Para las entidades u organismos de la Rama Judicial, el requisito se entenderá cumplido a través de un enlace a la publicación del presupuesto general en la página web del Consejo Superior de la Judicatura.
+Para las entidades u organismos de la Rama Judicial, el requisito tambíen se entenderá cumplido si los requisitos descritos anteriormente están disponibles, a través de un enlace directo, en el sitio web del Consejo Superior de la Judicatura.
 
 #### 6.6.1. Criterio de Éxito - Nivel A
 
@@ -813,6 +813,8 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal b).
 Resolución 3564 de 2015, anexo 1, punto 5.2.
 
+> **Resumen:** El sujeto obligado publica la información histórica detallada de la ejecución presupuestal aprobada y ejecutada de ingresos y gastos anuales, idealmente con porcentajes de ejecución, y deben ofrecer datos (gastos, valores, ingresos) de forma clara, organizada.
+
 El sujeto obligado publica la información histórica detallada de la ejecución presupuestal aprobada y ejecutada de ingresos y gastos anuales. La información que reposa debe ser al menos de los últimos dos (2) años anteriores al año en ejercicio, con corte a diciembre del período respectivo y debe ser acorde con el reporte enviado al Sistema Integrado de Información Financiera (SIIF), para lo sujetos que aplique.  Los datos pueden ser agregados mensualmente o trimestralmente, idealmente con porcentajes de ejecución, y deben ofrecer datos (gastos, valores, ingresos) de forma clara, organizada y encontrarse desagregados conforme se describe a continuación, con encabezados o títulos en paréntesis:
 
 - Ingresos presupuestarios (Ingresos);
@@ -826,7 +828,7 @@ El sujeto obligado publica la información histórica detallada de la ejecución
 
 En la base de patrones MOTA, presentamos modelos de archivo "Ejecución Presupuestal Mensual" y "Ejecución Presupuestal Trimestral", que cumplen con los requisitos y buenas prácticas aquí mencionadas.
 
-Para las entidades u organismos de la Rama Judicial, el requisito se entenderá cumplido a través de un enlace a la publicación de la ejecución histórica anual en la página web del Consejo Superior de la Judicatura.
+Para las entidades u organismos de la Rama Judicial, el requisito tambíen se entenderá cumplido si los requisitos descritos anteriormente están disponibles, a través de un enlace directo, en el sitio web del Consejo Superior de la Judicatura.
 
 #### 6.7.1. Criterio de Éxito - Nivel A
 
@@ -846,9 +848,11 @@ Ley 1712 de 2014, artículo 9, literal b).
 Resolución 3564 de 2015, anexo 1, punto 6.2.
 Ley 1474 de 2011, artículo 74.
 
+> **Resumem:** El sujeto obligado publica su plan de gasto público para cada año fiscal, en el cual se especifican los objetivos, las estrategias, los proyectos, las metas, los responsables, los planes generales de compras y la distribución presupuestal de sus proyectos de inversión junto a los indicadores de gestión.
+
 El sujeto obligado publica su plan de gasto público para cada año fiscal, en el cual se especifican los objetivos, las estrategias, los proyectos, las metas, los responsables, los planes generales de compras y la distribución presupuestal de sus proyectos de inversión junto a los indicadores de gestión. Asimismo, el plan deberá estar acompañado del informe de gestión del año inmediatamente anterior.
 
-Para las entidades u organismos de la Rama Judicial, el requisito se entenderá cumplido a través de un enlace a la publicación de los planes de gasto público por año fiscal en la página web del Consejo Superior de la Judicatura.
+Para las entidades u organismos de la Rama Judicial, el requisito tambíen se entenderá cumplido si los requisitos descritos anteriormente están disponibles, a través de un enlace directo, en el sitio web del Consejo Superior de la Judicatura.
 
 #### 6.8.1. Criterio de Éxito - Nivel A
 
@@ -868,6 +872,8 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal c) y parágrafo 2.
 Decreto 103 de 2015, artículo 5.
 Resolución 3564 de 2015, anexo 1, punto 3.5.
+
+> **Resumen:** El sujeto obligado publica en formato accesible y reutilizable el directorio de información de los servidores públicos empleados, incluyendo aquellos que laboran en las sedes, áreas, divisiones, departamentos y/o regionales.
 
 El sujeto obligado publica en formato accesible y reutilizable el directorio de información de los servidores públicos empleados, incluyendo aquellos que laboran en las sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, con la siguiente información:
 
@@ -911,6 +917,8 @@ Ley 1712 de 2014, artículo 9, literal c) y parágrafo 2.
 Decreto 103 de 2015, artículo 5.
 Resolución 3564 de 2015, anexo 1, punto 3.5.
 
+> **Resumen:** El sujeto obligado publica en formato accesible y reutilizable el directorio de información de los servidores públicos contratistas(incluyendo el objeto del contrato), incluyendo aquellos que laboran en las sedes, áreas, divisiones, departamentos y/o regionales.
+
 El sujeto obligado publica en formato accesible y reutilizable el directorio de información de los servidores públicos contratistas, incluyendo aquellos que laboran en las sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, con la siguiente información:
 
 - Nombres y apellidos completos
@@ -929,16 +937,11 @@ El sujeto obligado publica en formato accesible y reutilizable el directorio de 
 - Escala salarial según las categorías para empleados del sector privado
 - Objeto, valor total de los honorarios, fecha de inicio y de terminación de contratos de prestación de servicios
 
-Para las entidades u organismos públicos, el requisito se entenderá cumplido a través de un enlace a la publicación de la información que contiene el directorio en el Sistema de Información de Empleo Público (SIGEP).
-- Nombres y apellidos;
-- Direcciones de correo electrónico;
-- Teléfono del despacho y dependencia.
+**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
 
 #### 6.10.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf) . Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
-
-Alternativamente el requisito se entenderá cumplido a través de un enlace a la página de la información que contiene el directorio en el Sistema de Información de Empleo Público (SIGEP).
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. Alternativamente, un enlace al SIGEP es válido, pero i) sólo si se especifica que ahí se puede entrar y encontrar esta información ii) y cuando se abre el enlace, se abre directamente la tabla con la información disponible.
 
 #### 6.10.2. Criterio de Éxito - Nivel AA
 
@@ -957,13 +960,19 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal c).
 Resolución 3564 de 2015, anexo 1, punto 3.5.
 
-Es posible encontrar una tabla con los rangos de salarios de la entidad, identificado por el título "Rangos de salario por nivel", y el decreto de asignaciones salariales de la entidad en un lugar visible. Un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con la información disponible.
+> **Resumen:* Es posible encontrar una tabla con los rangos de salarios de la entidad, identificado por el título "Rangos de salario por nivel", y el decreto de asignaciones salariales de la entidad en un lugar visible.
+
+Es posible encontrar una tabla con los rangos de salarios de la entidad, identificado por el título "Rangos de salario por nivel", y el decreto de asignaciones salariales de la entidad en un lugar visible.
 
 La tabla debe estar actualizada al menos al último año concluido y contener información sobre el salario base por jerarquía y/o categoría ocupacional, de acuerdo con la categoría, tipo y otras especificidades de la entidad. Ejemplo, en el sitio de la Fiscalía General de la Nación se espera encontrar datos separados por jerarquía y/o categoría de fiscales y también por jerarquía y/o categoría ocupacional de otros funcionarios no fiscales.
 
+**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
+
 #### 6.12.1. Criterio de Éxito - Nivel A
 
-Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión; alternativamente, un enlace al SIGEP es válido, pero sólo si se especifica que ahí se puede entrar y encontrar esta información y cuando se abre el enlace, se abre directamente la tabla con las
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión; alternativamente, un enlace al SIGEP es válido, pero i) sólo si se especifica que ahí se puede entrar y encontrar esta información ii) y cuando se abre el enlace, se abre directamente la tabla con la información disponible.
+
+**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
 
 #### 6.12.2. Criterio de Éxito - Nivel AA
 
@@ -975,6 +984,8 @@ Texto disponible en la página, estructurado semánticamente (i.e. elementos HTM
 
 ### 6.13. Sanciones aplicadas a servidores públicos
 Tipo: RECOMENDACIÓN
+
+> **Resumen:** Es posible encontrar información sobre sanciones disciplinarias o de otro tipo que hayan sido impuestas a funcionarios de la entidad, así como estadísticas sobre las sanciones impuestas.
 
 Es posible encontrar información sobre sanciones disciplinarias o de otro tipo que hayan sido impuestas a funcionarios de la entidad. Hay estadísticas sobre las sanciones impuestas, actualizadas hasta el último año concluido y se encuentran desagregadas según el tipo de funcionario (e.g. en el sitio de la Fiscalía General de la Nación la información debe estar desagregadas entre fiscales y otros cargos).
 
@@ -990,12 +1001,16 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquemas [Report](https://schema.org/Report), [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 6.14. Directorio con información de contratistas
+### 6.14. Información de contratos
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal c).
 Resolución 3564 de 2015, anexo 1, punto 3.5.
 
-Es posible encontrar información sobre los contratos en formatos abiertos. Alternativamente, un enlace al SIGEP es válido.
+> **Resumen:** Es posible encontrar información sobre los contratos realizados por la entidad, disponible en formatos abiertos.
+
+Es posible encontrar información sobre los contratos realizados por la entidad, disponible en formatos abiertos. Alternativamente, un enlace al SIGEP es válido, pero i) sólo si se especifica que ahí se puede entrar y encontrar esta información ii) y cuando se abre el enlace, se abre directamente la tabla con la información disponible.
+
+**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
 
 #### 6.14.1. Criterio de Éxito - Nivel A
 
@@ -1005,11 +1020,15 @@ Datos disponibles en archivos, formatos propietarios (e.g. .docx, xlsx, pdf). Ac
 
 Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
+**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
+
 #### 6.14.3. Criterio de Éxito - Nivel AAA
 
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-### 6.14. Normas generales
+**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
+
+### 6.15. Normas generales
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 4.

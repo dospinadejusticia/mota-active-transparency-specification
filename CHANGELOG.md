@@ -8,6 +8,9 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Ch
 
 ## Unreleased
 
+### Changed
+- Merged `Directorio de funcionarios - Básico` and `Directorio de funcionarios - Completo` rules into `Directorio de servidores públicos, empleados (i.e. funcionários)`, originally created to allow more flexibility for obligated entities, because of its potential to generate confusion and discourage the compliance to the legal rule (i.e. a full directory with complete information).
+
 ## [0.4.3] - 2020-06-07
 Retroactive commit
 
