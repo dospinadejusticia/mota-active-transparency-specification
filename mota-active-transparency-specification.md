@@ -227,25 +227,30 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [7.8.2. Criterio de Éxito - Nivel AA](#782-criterio-de-éxito---nivel-aa)
       - [7.8.3. Criterio de Éxito - Nivel AAA](#783-criterio-de-éxito---nivel-aaa)
     - [7.9. Informes de gestión, evaluación y auditoría](#79-informes-de-gestión-evaluación-y-auditoría)
-      - [7.9.1. Criterio de Éxito - Nivel A](#791-criterio-de-éxito---nivel-a)
-      - [7.9.2. Criterio de Éxito - Nivel AA](#792-criterio-de-éxito---nivel-aa)
-      - [7.9.3. Criterio de Éxito - Nivel AAA](#793-criterio-de-éxito---nivel-aaa)
-    - [7.10. Informes de evaluación](#710-informes-de-evaluación)
+    - [7.9.1 Informes de gestión](#791-informes-de-gestión)
+      - [7.9.1.1 Criterio de Éxito - Nivel A](#7911-criterio-de-éxito---nivel-a)
+      - [7.9.1.2 Criterio de Éxito - Nivel AA](#7912-criterio-de-éxito---nivel-aa)
+      - [7.9.1.3 Criterio de Éxito - Nivel AAA](#7913-criterio-de-éxito---nivel-aaa)
+    - [7.9.2.1 Informe de rendición de la cuenta fiscal](#7921-informe-de-rendición-de-la-cuenta-fiscal)
+      - [7.9.2.1 Criterio de Éxito - Nivel A](#7921-criterio-de-éxito---nivel-a)
+      - [7.9.2.2 Criterio de Éxito - Nivel AA](#7922-criterio-de-éxito---nivel-aa)
+      - [7.9.2.3 Criterio de Éxito - Nivel AAA](#7923-criterio-de-éxito---nivel-aaa)
+    - [7.9.3 Informe de rendición de cuentas a los ciudadanos](#793-informe-de-rendición-de-cuentas-a-los-ciudadanos)
+      - [7.9.3.1 Criterio de Éxito - Nivel A](#7931-criterio-de-éxito---nivel-a)
+      - [7.9.3.2 Criterio de Éxito - Nivel AA](#7932-criterio-de-éxito---nivel-aa)
+      - [7.9.3.3 Criterio de Éxito - Nivel AAA](#7933-criterio-de-éxito---nivel-aaa)
+    - [7.9.4 Informes de Auditoría](#794-informes-de-auditoría)
+      - [7.9.4.1 Criterio de Éxito - Nivel A](#7941-criterio-de-éxito---nivel-a)
+      - [7.9.4.2 Criterio de Éxito - Nivel AA](#7942-criterio-de-éxito---nivel-aa)
+      - [7.9.4.3 Criterio de Éxito - Nivel AAA](#7943-criterio-de-éxito---nivel-aaa)
+    - [7.10. Mecanismos internos de supervisión](#710-mecanismos-internos-de-supervisión)
       - [7.10.1. Criterio de Éxito - Nivel A](#7101-criterio-de-éxito---nivel-a)
       - [7.10.2. Criterio de Éxito - Nivel AA](#7102-criterio-de-éxito---nivel-aa)
       - [7.10.3. Criterio de Éxito - Nivel AAA](#7103-criterio-de-éxito---nivel-aaa)
-    - [7.11. Informes de Auditoría](#711-informes-de-auditoría)
+    - [7.11. Mecanismos externos de supervisión](#711-mecanismos-externos-de-supervisión)
       - [7.11.1. Criterio de Éxito - Nivel A](#7111-criterio-de-éxito---nivel-a)
       - [7.11.2. Criterio de Éxito - Nivel AA](#7112-criterio-de-éxito---nivel-aa)
       - [7.11.3. Criterio de Éxito - Nivel AAA](#7113-criterio-de-éxito---nivel-aaa)
-    - [7.12. Mecanismos internos de supervisión](#712-mecanismos-internos-de-supervisión)
-      - [7.12.1. Criterio de Éxito - Nivel A](#7121-criterio-de-éxito---nivel-a)
-      - [7.12.2. Criterio de Éxito - Nivel AA](#7122-criterio-de-éxito---nivel-aa)
-      - [7.12.3. Criterio de Éxito - Nivel AAA](#7123-criterio-de-éxito---nivel-aaa)
-    - [7.13. Mecanismos externos de supervisión](#713-mecanismos-externos-de-supervisión)
-      - [7.13.1. Criterio de Éxito - Nivel A](#7131-criterio-de-éxito---nivel-a)
-      - [7.13.2. Criterio de Éxito - Nivel AA](#7132-criterio-de-éxito---nivel-aa)
-      - [7.13.3. Criterio de Éxito - Nivel AAA](#7133-criterio-de-éxito---nivel-aaa)
     - [7.14. Correo electrónico para notificaciones judiciales](#714-correo-electrónico-para-notificaciones-judiciales)
       - [7.14.1. Criterio de Éxito - Nivel A](#7141-criterio-de-éxito---nivel-a)
       - [7.14.2. Criterio de Éxito - Nivel AA](#7142-criterio-de-éxito---nivel-aa)
@@ -1394,9 +1399,7 @@ Correo electrónico institucional para la recepción de solicitudes de informaci
 Correo físico o postal para la recepción de solicitudes de información.
 Link al formulario electrónico de solicitudes, peticiones, quejas, reclamos.
 
-Además, el sujeto obligado ofrece una lista de preguntas frecuentes con las respectivas respuestas, relacionadas con su gestión y los servicios y trámites que presta.
-
-Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+Además, el sujeto obligado ofrece una lista de preguntas frecuentes con las respectivas respuestas, relacionadas con su gestión y los servicios y trámites que presta en páginas web.
 
 
 #### 7.6.1. Criterio de Éxito - Nivel A
@@ -1422,6 +1425,8 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 11, literal h).
 Decreto 103 de 2015, artículo 52.
 Resolución 3564 de 2015, anexo 1, punto 10.10.
+
+> **Resumen:** El sitio de la entidad debe contener informe de todas las peticiones, quejas, reclamos, denuncias y solicitudes de acceso a información pública recibidas, los tiempos de respuesta del sujeto obligado y un análisis resumido de este tema. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sujeto obligado publica un informe de todas las peticiones, quejas, reclamos, denuncias y solicitudes de acceso a información pública recibidas, los tiempos de respuesta del sujeto obligado y un análisis resumido de este tema. Respecto de las solicitudes de acceso a información pública, el informe debe discriminar la siguiente información mínima agregada:
 
@@ -1455,6 +1460,8 @@ Ley 1712 de 2014, artículo 11, literal i).
 Decreto 103 de 2015, artículo 15.
 Resolución 3564 de 2015, anexo 1, punto 6.5.
 
+> **Resumen:** El sitio de la entidad debe contener información sobre todo mecanismo o procedimiento al que deben sujetarse los ciudadanos, usuarios o interesados en participar en la formulación de la política, en el ejercicio de las facultades de ese sujeto obligado, o en el control o evaluación de la gestión institucional. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+
 El sujeto obligado publica información sobre todo mecanismo o procedimiento al que deben sujetarse los ciudadanos, usuarios o interesados en participar en la formulación de la política, en el ejercicio de las facultades de ese sujeto obligado, o en el control o evaluación de la gestión institucional, indicando:
 - Los sujetos que pueden participar
 - Los medios presenciales y electrónicos
@@ -1478,6 +1485,8 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 11, literal e).
 Resolución 3564 de 2015, anexo 1, punto 7.1.
 
+> **Resumen:** La entidad publica todos los informes de gestión, evaluación y auditoría: Informe enviado al Congreso / Asamblea / Consejo; Informe de rendición de la cuenta fiscal; Informe de rendición de cuentas a los ciudadanos; Informes a organismos de inspección, vigilancia y control; Informe de la auditoría al ejercicio presupuestal. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+
 El sujeto obligado publica todos los informes de gestión, evaluación y auditoría. Para los sujetos obligados que aplique. Como mínimo, deben publicar -dentro del mes en el que se envió o realizó el evento, según corresponda- los siguientes informes:
 
 - Informe enviado al Congreso / Asamblea / Consejo.
@@ -1485,90 +1494,102 @@ El sujeto obligado publica todos los informes de gestión, evaluación y auditor
 - Informe de rendición de cuentas a los ciudadanos, incluyendo la respuesta a las solicitudes de los ciudadanos antes y durante el ejercicio de rendición.
 - Informes a organismos de inspección, vigilancia y control. Informe de la auditoría al ejercicio presupuestal.
 
-Idealmente, los informes deben ser presentados en páginas HTML. Archivos también son válidos.
+**Nota:** Idealmente, los informes deben ser presentados en dos formatos: página web y archivos en formato estructurado y abierto. Cada uno de los informes mencionados se evalúa por separado, como se describe a continuación.
 
-#### 7.9.1. Criterio de Éxito - Nivel A
-
-El sitio contiene una página de informes de gestión, evaluación y auditoría con listado o tabla de links para descargar los reportes en archivos PDF, PPT o DOC del periodo vigente y de anteriores.
-
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia.
-
-#### 7.9.2. Criterio de Éxito - Nivel AA
-
-El sitio contiene una página Informes de gestión, evaluación y auditoría con listado o tabla de links para descargar los reportes en archivos PDF, PPT o DOC del periodo vigente y de anteriores.
-
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
-
-#### 7.9.3. Criterio de Éxito - Nivel AAA
-
-El sitio contiene una página Informes de gestión, evaluación y auditoría con listado o tabla de links para descargar los reportes en archivos PDF, PPT o DOC del  período vigente y de los anteriores.
-
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencilla y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
-
-La misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
-
-### 7.10. Informes de evaluación
+### 7.9.1 Informes de gestión
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 11, literal e).
 Resolución 3564 de 2015, anexo 1, punto 7.1.
 
-El sitio web de la entidad debe contener Informes de Evaluación del periodo vigente y de los períodos anteriores, sobre contratación, entre otros.
+> **Resumen:** La entidad publica todos los informes de gestión enviado al Congreso / Asamblea / Consejo. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
-Idealmente, los informes deben ser presentarnos en páginas HTML, pero archivos también son válidos.
+El sujeto obligado publica todos los informes de gestión enviado al Congreso / Asamblea / Consejo, dentro del mes en el que se envió o realizó el evento. Idealmente, los informes deben ser presentados en dos formatos: página web y archivos en formato estructurado y abierto.
 
-#### 7.10.1. Criterio de Éxito - Nivel A
+**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
 
-El sitio contiene una página de informes de evaluación con listado o tabla de links para descargar los reportes en archivos PDF, PPT o DOC del periodo vigente y de los anteriores.
+#### 7.9.1.1 Criterio de Éxito - Nivel A
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. Alternativamente, un enlace a sitios externos (e.g. SIGEP, SECOP, es válido, pero i) sólo si se especifica que ahí se puede entrar y encontrar esta información ii) y cuando se abre el enlace, se abre directamente una página la información disponible o el archivo.
 
-#### 7.10.2. Criterio de Éxito - Nivel AA
+#### 7.9.1.2 Criterio de Éxito - Nivel AA
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
-El sitio contiene una página de informes de evaluación con listado o tabla de links para descargar los reportes en archivos PDF, PPT o DOC del periodo vigente y de los anteriores.
+#### 7.9.1.3 Criterio de Éxito - Nivel AAA
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
+Además de conformidad con el nivel AA, la misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
-#### 7.10.3. Criterio de Éxito - Nivel AAA
-
-El sitio contiene una página de informes de evaluación con listado o tabla de links para descargar los reportes en archivos PDF, PPT o DOC del período vigente y de los anteriores.
-
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
-
-La misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
-
-### 7.11. Informes de Auditoría
+### 7.9.2.1 Informe de rendición de la cuenta fiscal
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 11, literal e).
 Resolución 3564 de 2015, anexo 1, punto 7.1.
 
-El sitio web de la entidad debe contener Informes de Auditoría del período vigente y de los anteriores, sobre contratación, entre otros.
+> **Resumen:** La entidad publica todos los informes de rendición de la cuenta fiscal a la Contraloría General de la República o a las Contralorías Territoriales, según corresponda. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
-Idealmente, los informes deben ser presentados en páginas HTML, pero archivos también son válidos.
+El sujeto obligado publica todos los informes de rendición de la cuenta fiscal a la Contraloría General de la República o a las Contralorías Territoriales, según corresponda, dentro del mes en el que se envió o realizó el evento. Idealmente, los informes deben ser presentados en dos formatos: página web y archivos en formato estructurado y abierto.
 
-#### 7.11.1. Criterio de Éxito - Nivel A
+**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
 
-El sitio contiene una página de informes de auditoría con listado o tabla de links para reportes en archivos PDF, PPT o DOC del periodo vigente y de los anteriores.
+#### 7.9.2.1 Criterio de Éxito - Nivel A
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia.
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. Alternativamente, un enlace a sitios externos (e.g. SIGEP, SECOP, es válido, pero i) sólo si se especifica que ahí se puede entrar y encontrar esta información ii) y cuando se abre el enlace, se abre directamente una página la información disponible o el archivo.
 
-#### 7.11.2. Criterio de Éxito - Nivel AA
+#### 7.9.2.2 Criterio de Éxito - Nivel AA
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
 
-El sitio contiene una página de informes de auditoría con listado o tabla de links para reportes en archivos PDF, PPT o DOC del periodo vigente y de los anteriores.
+#### 7.9.2.3 Criterio de Éxito - Nivel AAA
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencillo y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
+Además de conformidad con el nivel AA, la misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
-#### 7.11.3. Criterio de Éxito - Nivel AAA
+### 7.9.3 Informe de rendición de cuentas a los ciudadanos
+Tipo: OBLIGACIÓN.
+Ley 1712 de 2014, artículo 11, literal e).
+Resolución 3564 de 2015, anexo 1, punto 7.1.
 
-El sitio contiene una página de informes de auditoría con listado o tabla de links para reportes en archivos PDF, PPT o DOC del periodo vigente y de los anteriores.
+> **Resumen:** La entidad publica todos los informes de rendición de cuentas a los ciudadanos, incluyendo la respuesta a las solicitudes de los ciudadanos antes y durante el ejercicio de rendición. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
-Esta página está estructurada semánticamente (i.e. elementos HTML5 apropiados), con descripción textual en lenguaje sencilla y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con modelos de formularios y formatos disponibles en archivos, formatos abiertos (e.g. .odf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
+El sujeto obligado publica todos los informes de rendición de la cuenta fiscal a la Contraloría General de la República o a las Contralorías Territoriales, según corresponda, dentro del mes en el que se envió o realizó el evento. Idealmente, los informes deben ser presentados en dos formatos: página web y archivos en formato estructurado y abierto.
 
-La misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
+**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
 
-### 7.12. Mecanismos internos de supervisión
+#### 7.9.3.1 Criterio de Éxito - Nivel A
+
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. Alternativamente, un enlace a sitios externos (e.g. SIGEP, SECOP, es válido, pero i) sólo si se especifica que ahí se puede entrar y encontrar esta información ii) y cuando se abre el enlace, se abre directamente una página la información disponible o el archivo.
+
+#### 7.9.3.2 Criterio de Éxito - Nivel AA
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
+
+#### 7.9.3.3 Criterio de Éxito - Nivel AAA
+
+Además de conformidad con el nivel AA, la misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
+
+### 7.9.4 Informes de Auditoría
+Tipo: OBLIGACIÓN.
+Ley 1712 de 2014, artículo 11, literal e).
+Resolución 3564 de 2015, anexo 1, punto 7.1.
+
+> **Resumen:** La entidad publica todos los informes de la auditoría al ejercicio presupuestal enviados a organismos de inspección, vigilancia y control. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+
+El sujeto obligado publica todos los informes a organismos de inspección, vigilancia y control -Informe de la auditoría al ejercicio presupuestal-, dentro del mes en el que se envió o realizó el evento. Idealmente, los informes deben ser presentados en dos formatos: página web y archivos en formato estructurado y abierto.
+
+**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
+
+#### 7.9.4.1 Criterio de Éxito - Nivel A
+
+Datos disponibles en archivos, formatos propietarios (e.g. .docx, .xlsx, .pdf). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión. Alternativamente, un enlace a sitios externos (e.g. SIGEP, SECOP, es válido, pero i) sólo si se especifica que ahí se puede entrar y encontrar esta información ii) y cuando se abre el enlace, se abre directamente una página la información disponible o el archivo.
+
+#### 7.9.4.2 Criterio de Éxito - Nivel AA
+Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la página en HTML. (e.g. tablas). Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión.
+
+#### 7.9.4.3 Criterio de Éxito - Nivel AAA
+
+Además de conformidad con el nivel AA, la misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
+
+### 7.10. Mecanismos internos de supervisión
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 10, literal d) y artículo 11, literal f).
 Resolución 3564 de 2015, anexo 1, puntos 7.2, 7.3, y 7.4.
+
+> **Resumen:** La entidad publica información relacionada con los informes, planes de mejoramiento, entes y mecanismos de supervisión y control que existen al interior del sujeto obligado, incluyendo como mínimo: ente de control interno que vigila al sujeto obligado y reportes de control interno. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sujeto obligado publica información relacionada con los informes, planes de mejoramiento, entes y mecanismos de supervisión y control que existen al interior del sujeto obligado, incluyendo como mínimo:
 
@@ -1576,24 +1597,27 @@ Ente de control interno que vigila al sujeto obligado: El sitio web de la entida
 
 Reportes de control interno: el sujeto obligado publica como mínimo el informe pormenorizado del estado del control interno. Dicho informe se debe publicar cada cuatro (4) meses. Planes de mejoramiento: el sujeto obligado publica los planes de mejoramiento vigentes exigidos por el ente de control interno.
 
-#### 7.12.1. Criterio de Éxito - Nivel A
+#### 7.10.1. Criterio de Éxito - Nivel A
 
 Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf non-accesible.
 
-#### 7.12.2. Criterio de Éxito - Nivel AA
+#### 7.10.2. Criterio de Éxito - Nivel AA
 
 Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
-#### 7.12.3. Criterio de Éxito - Nivel AAA
+#### 7.10.3. Criterio de Éxito - Nivel AAA
 
 Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
 Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
-### 7.13. Mecanismos externos de supervisión
+### 7.11. Mecanismos externos de supervisión
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 10, literal d) y artículo 11, literal f).
 Resolución 3564 de 2015, anexo 1, puntos 7.3 y 7.4.
+
+> **Resumen:** La entidad publica información relacionada con los informes, planes de mejoramiento, entes y mecanismos de supervisión y control externo, incluyendo como mínimo: Entes de control externo que vigilan al sujeto obligado,  mecanismos de supervisión y la manera como un particular puede comunicar una irregularidad ante los entes que ejercen supervisión y control. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+
 
 El sujeto obligado publica información relacionada con los informes, planes de mejoramiento, entes y mecanismos de supervisión y control externo, incluyendo como mínimo:
 
@@ -1604,15 +1628,15 @@ Entes de control externo que vigilan al sujeto obligado y mecanismos de supervis
 
 El sujeto obligado informa sobre la manera como un particular puede comunicar una irregularidad ante los entes que ejercen supervisión y control sobre el sujeto obligado.
 
-#### 7.13.1. Criterio de Éxito - Nivel A
+#### 7.11.1. Criterio de Éxito - Nivel A
 
 Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .doc, .ppt o .pdf non-accesible.
 
-#### 7.13.2. Criterio de Éxito - Nivel AA
+#### 7.11.2. Criterio de Éxito - Nivel AA
 
 Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
-#### 7.13.3. Criterio de Éxito - Nivel AAA
+#### 7.11.3. Criterio de Éxito - Nivel AAA
 
 Información disponible en una o más páginas interligadas, estructuradas semánticamente (i.e. elementos HTML5 apropiados) y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión, y modelos de formatos disponibles en archivos .odf o **.pdf accesible**.
 
