@@ -1,18 +1,22 @@
 # Changelog
 Project: Active Transparency for Governmental Entities Specification - MOTA Initiative
 Description: a specification of the obligations and good practices for the publication and disclosure of information on active transparency in Colombia.
-Version: 0.4.3
+Version: 0.5.0
 
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) convention and is also available in [spanish](CHANGELOG_ES-CO.md) and [portuguese](CHANGELOG_PT-BR.md).
 
 ## Unreleased
 
+## [0.5.0] - 2020-07-03
+
 ### Changed
-- Total rules increased to .
+- Total rules changed to 48.
 - Merged `Directorio de funcionarios - Básico` and `Directorio de funcionarios - Completo` rules into `Directorio de servidores públicos, empleados (i.e. funcionários)`, originally created to allow more flexibility for obligated entities, because of its potential to generate confusion and discourage the compliance to the legal rule (i.e. a full directory with complete information).
 - Reorganized `Reporte de Auditorias` and `Informes de gestión, evaluación y auditoría` into 4 separated rules for allowing gradual evaluation and allowing more flexibility for obligated entities, encouraging gradual compliance to the legal requirements).
 - Removed `Información Publicada Antes De La Ley 1712 De 2014`, redundant in relation with `Respuestas A Solicitudes De Información Recibidas`
+- Updated some criteria success level descriptions
+- Improved copy
 
 ## [0.4.3] - 2020-06-07
 Retroactive commit
