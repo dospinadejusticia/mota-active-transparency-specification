@@ -1,5 +1,5 @@
-# MOTA - Especificación de transparencia activa para entidades gubernamentales 0.4.3
-Borrador de editores 07 de junio de 2020
+# MOTA - Especificación de transparencia activa para entidades gubernamentales 0.5.0
+Borrador de editores 07 de julio de 2020
 
 Esta versión:
 - https://github.com/Dejusticia/mota-active-transparency-specification/
@@ -56,7 +56,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
 
 ## Tabla de contenido
 
-- [MOTA - Especificación de transparencia activa para entidades gubernamentales 0.4.3](#mota---especificación-de-transparencia-activa-para-entidades-gubernamentales-043)
+- [MOTA - Especificación de transparencia activa para entidades gubernamentales 0.5.0](#mota---especificación-de-transparencia-activa-para-entidades-gubernamentales-050)
   - [Abstract](#abstract)
   - [Estado y tipología del documento](#estado-y-tipología-del-documento)
   - [Tabla de contenido](#tabla-de-contenido)
@@ -81,7 +81,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [WCAG2.1 y Acessibilidad](#wcag21-y-acessibilidad)
   - [4. Términos importantes (vocabulario)](#4-términos-importantes-vocabulario)
   - [5. Categoría - Disponibilidad de Acceso](#5-categoría---disponibilidad-de-acceso)
-    - [5.1 Existencia de sitio Web](#51-existencia-de-sitio-web)
+    - [5.1 Existencia de sitio web](#51-existencia-de-sitio-web)
       - [5.1.1 Criterio de Éxito - Nivel AAA](#511-criterio-de-éxito---nivel-aaa)
     - [5.2 Gratuidad](#52-gratuidad)
       - [5.2.1. Criterio de Éxito - Nivel AA](#521-criterio-de-éxito---nivel-aa)
@@ -173,7 +173,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [6.15.1. Criterio de Éxito - Nivel A](#6151-criterio-de-éxito---nivel-a)
       - [6.15.2. Criterio de Éxito - Nivel AA](#6152-criterio-de-éxito---nivel-aa)
       - [6.15.3. Criterio de Éxito - Nivel AAA](#6153-criterio-de-éxito---nivel-aaa)
-    - [6.16. Políticas, lineamientos o manuales](#616-políticas-lineamientos-o-manuales)
+    - [6.16.](#616)
       - [6.16.1. Criterio de Éxito - Nivel A](#6161-criterio-de-éxito---nivel-a)
       - [6.16.2. Criterio de Éxito - Nivel AA](#6162-criterio-de-éxito---nivel-aa)
       - [6.16.3. Criterio de Éxito - Nivel AAA](#6163-criterio-de-éxito---nivel-aaa)
@@ -382,7 +382,7 @@ Un sitio web que no cumple com al menos 1 los critérios de evaluación, se cons
 
 Clasificamos cada criterio como OBLIGACIÓN o RECOMENDACIÓN. El primero significa que el criterio de evaluación es obligatorio y DEBE ser implementado, pués es REQUERIDO de acuerdo con el marco legal colombiano. Mientras que el segundo significa que el criterio no es OPCIONAL, y el sujeto obligado DEBERÍA implementarlo para que i) el acceso y la comprensión de la información sean efectivos y/o ii) se mejore la experiencia del usuario, especialmente aquellos en condiciones donde el acceso a la información es más difícil debido a discapacidades físicas, cognitivas, neuronales o condiciones técnicas y económicas tales como acceso restringido a conexiones de datos, o baja velocidad de conexiones, o dispositivos con capacidades de procesamiento más bajas.
 
-### 3.3 - Nivel de Éxito en Critérios de Evaluación
+### 3.3. - Nivel de Éxito en Critérios de Evaluación
 
 **Nivel A:** el sitio web satisface lo especificado para nivel A en cada criterio de evaluación adelante. Si el criterio de evaluación no especifica una puntuación diferente, el cumplimiento del criterio en nivel A equivale a **50 puntos**.
 
@@ -445,7 +445,7 @@ Para directrices no relacionadas con la disponibilidad de informacción, como po
 
 ##### Observaciones sobre Criterios de Éxito
 
-Nota 1: A pesar de que la conformidad sólo puede lograrse en los niveles indicados, se anima a los autores a notificar en sus declaraciones cualquier progreso que se realice para satisfacer los criterios de éxito de todo nivel más allá del nivel de conformidad alcanzado.\
+Nota 1: A pesar de que la conformidad sólo puede lograrse en los niveles indicados, se anima a los autores a notificar en sus declaraciones cualquier progreso que se realice para satisfacer los criterios de éxito de todo nivel más allá del nivel de conformidad alcanzado.
 
 Nota 2: No se recomienda como política general exigir el nivel de conformidad AAA para sitios enteros porque es posible casos de sitios que no puedan satisfacer todos los criterios de éxito de nivel AAA.
 
@@ -457,16 +457,13 @@ Nota 2: No se recomienda como política general exigir el nivel de conformidad A
 - Taw Web accessibility test: [https://www.tawdis.net/index](https://www.tawdis.net/index)
 
 ## 4. Términos importantes (vocabulario)
-({PORHACER})
-
 
 ## 5. Categoría - Disponibilidad de Acceso
 
 Esta categoría reúne criterios de evaluación sobre la disponibilidad de acceso al sitio web del sujeto obligado. Incluye obligaciones y recomendaciones básicas como la existencia de un sitio web, acceso gratuito, uso de contraseñas para acceder y seguimiento de buenas prácticas de accesibilidad que permiten el acceso a personas con discapacidades físicas, cognitivas o que no tienen conexiones o dispositivos rápidos baja capacidad.
 
-### 5.1 Existencia de sitio Web
+### 5.1 Existencia de sitio web
 <span class="criteria-type">Tipo: OBLIGACIÓN. - Artículo 7 de la Ley 1712 de 2014</span>
-{{TODO: add span class with critery type for all criteria}}
 
 > **Resumen:** Para fomentar la transparencia activa y la participación ciudadana, y cumplir con las obligaciones legales colombianas, la entidade deberá mantener um sítio web, que deberá estar disponible para acesso via una URL oficial por personas y sistemas automáticos (e.g. robots). Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
@@ -985,7 +982,7 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [employees](https://schema.org/employees) y [GovernmentOrganization](https://schema.org/GovernmentOrganization). Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 ### 6.12. Sanciones aplicadas a servidores públicos
-Tipo: RECOMENDACIÓN
+Tipo: OBLIGACIÓN
 
 > **Resumen:** Es posible encontrar información sobre sanciones disciplinarias o de otro tipo que hayan sido impuestas a funcionarios de la entidad, así como estadísticas sobre las sanciones impuestas. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
@@ -1060,7 +1057,7 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 4.
 
-> **Resumen:** El sujeto obligado publica el decreto único reglamentario sectorial, que compila todas las normas reglamentarias vigentes del sector administrativo del que hace parte. Por medio de este decreto se debe generar el acceso a las normas compiladas a través de hipervínculos. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** La entidad publica el decreto único reglamentario sectorial, que compila todas las normas reglamentarias vigentes del sector administrativo del que hace parte. Por medio de este decreto se debe generar el acceso a las normas compiladas a través de hipervínculos. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sujeto obligado publica el decreto único reglamentario sectorial, que compila todas las normas reglamentarias vigentes del sector administrativo del que hace parte. Por medio de este decreto se debe generar el acceso a las normas compiladas a través de hipervínculos. Esta información debe ser descargable y en un formato que facilite la búsqueda del texto dentro del documento, así como su continua actualización. Asimismo, el sujeto obligado agrega a través de hipervínculos la referencia a todos los actos que adicionen, modifiquen o deroguen cualquiera de las disposiciones del decreto único reglamentario sectorial, así como a las decisiones judiciales que declaren la nulidad de apartes del decreto.
 
@@ -1089,7 +1086,7 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 Texto disponible en la página, estructurado semánticamente (i.e. elementos HTML5 apropiados) y disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org segundo esquema [ServiceChannel](https://schema.org/ServiceChannel), y [ContactPoint](https://schema.org/ContactPointOption), [DayOfWeek](https://schema.org/DayOfWeek) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
 
-### 6.16. Políticas, lineamientos o manuales
+### 6.16.
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 6.1.
@@ -1782,19 +1779,15 @@ El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 a
 
 #### 8.3.2. Criterio de Éxito - Nivel AA
 
-El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título "Tabla de retención documental", Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
+El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y de conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título "Tabla de retención documental", Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia.
 
-También es aceptable un archivo de formato abierto (.odf) o **.pdf accesible**, que contiene {PORHACER} similar a el ejemplo en {PORHACER}.
-
+También es aceptable un archivo de formato abierto (.odf) o **.pdf accesible**.
 
 #### 8.3.3. Criterio de Éxito - Nivel AAA
 
-El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y en conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título "Tabla de retención documental", Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y {PORHACER} HTML5 describiendo {PORHACER}.
+El sitio ofrece una página estructurada semánticamente (i.e. elementos HTML5 apropiados)  y en conformidad con directrices Nivel A y AA de [WCAG 2.1](https://w3c.github.io/wcag/21/guidelines/), con el título "Tabla de retención documental", Accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia.
 
-También es aceptable un archivo de formato abierto (.odf) o **.pdf accesible**, que contiene {PORHACER} similar a el ejemplo en {PORHACER}.
-
-Los mismos datos son encontrado como datos estructurados en sintaxis LD+JSON y vocabulario schema.org {PORHACER}: definir schemas requeridos.
-
+También es aceptable un archivo de formato abierto (.odf) o **.pdf accesible**.
 
 ### 8.4. Respuestas a solicitudes de información recibidas
 Tipo: OBLIGACIÓN.
@@ -1806,7 +1799,7 @@ El sitio del sujeto obligado debe contener una o más páginas con Respuestas a 
 
 #### 8.4.1. Criterio de Éxito - Nivel A
 
-El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados) ,accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y link para un archivo de formato propietario (.doc, .ppt) o .pdf non-accesible. Este archivo contiene una tabla describiendo esquema de publicación de información similar all ejemplo en {PORHACER}.
+El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 apropiados) ,accesible por elemento de navegación secundario (i.e. submenu) o en el cuerpo de la capa de sesión transparencia, que contiene una introducción y link para un archivo de formato propietario (.doc, .ppt) o .pdf non-accesible.
 
 
 #### 8.4.2. Criterio de Éxito - Nivel AA
