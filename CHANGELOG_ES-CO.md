@@ -1,7 +1,7 @@
 # Changelog
 Project: Especificación de Transparencia Activa para entidades Gubernamentales -- Iniciativa MOTA
 Description: especificación de los obligaciones y buenas prácticas para publicación y divulgación de información de transparencia activa en Colombia.
-Version: 0.5.0
+Version: 0.5.1
 
 Todos los cambios notables a este proyecto serán documentados en este archivo.
 
@@ -9,9 +9,18 @@ Este proyecto se adhiere a [Versionado Semántico 2.0.0](http://semver.org/), la
 
 ## No Publicado
 
+## [0.5.1] - 2020-07-07
+
+### Reparado
+- codificación de caracteres en algunos archivos
+- versión cambiada
+
+### cambiado
+- redacción mejorada
+
 ## [0.5.0] - 2020-07-03
 
-### Changed
+### Cambiado
 - Reglas fusionadas de `Directorio de funcionarios - Básico` y` Directorio de funcionarios - Completo` en `Directorio de servidores públicos, empleados (es decir, funciones)`, creado originalmente para permitir una mayor flexibilidad para las entidades obligadas, debido a su potencial para generar confusión y desalentar el cumplimiento de la norma legal (es decir, un directorio completo con información completa).
 - Se reorganizó el `Reporte de Auditorias` e` Informes de gestión, evaluación y auditoría` en 4 reglas separadas para permitir una evaluación gradual y permitir una mayor flexibilidad para las entidades obligadas, fomentando el cumplimiento gradual de los requisitos legales).
 - Se eliminó `Información Publicada Antes De La Ley 1712 De 2014`, redundante en relación con` Respuestas A Solicitudes De Información Recibidas`
