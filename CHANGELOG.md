@@ -1,20 +1,30 @@
 # Changelog
 Project: Active Transparency for Governmental Entities Specification - MOTA Initiative
 Description: a specification of the obligations and good practices for the publication and disclosure of information on active transparency in Colombia.
-Version: 0.5.0
+Version: 0.5.1
 
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) convention and is also available in [spanish](CHANGELOG_ES-CO.md) and [portuguese](CHANGELOG_PT-BR.md).
 
 ## Unreleased
 
+## [0.5.1] - 2020-07-07
+
+### Fixed
+- character encoding on some files
+- bumped version
+
+### Changed
+- improved copy
+
+
 ## [0.5.0] - 2020-07-03
 
 ### Changed
 - Total rules changed to 48.
-- Merged `Directorio de funcionarios - Básico` and `Directorio de funcionarios - Completo` rules into `Directorio de servidores públicos, empleados (i.e. funcionários)`, originally created to allow more flexibility for obligated entities, because of its potential to generate confusion and discourage the compliance to the legal rule (i.e. a full directory with complete information).
-- Reorganized `Reporte de Auditorias` and `Informes de gestión, evaluación y auditoría` into 4 separated rules for allowing gradual evaluation and allowing more flexibility for obligated entities, encouraging gradual compliance to the legal requirements).
-- Removed `Información Publicada Antes De La Ley 1712 De 2014`, redundant in relation with `Respuestas A Solicitudes De Información Recibidas`
+- Merged `Directorio de funcionarios - Bï¿½sico` and `Directorio de funcionarios - Completo` rules into `Directorio de servidores pï¿½blicos, empleados (i.e. funcionï¿½rios)`, originally created to allow more flexibility for obligated entities, because of its potential to generate confusion and discourage the compliance to the legal rule (i.e. a full directory with complete information).
+- Reorganized `Reporte de Auditorias` and `Informes de gestiï¿½n, evaluaciï¿½n y auditorï¿½a` into 4 separated rules for allowing gradual evaluation and allowing more flexibility for obligated entities, encouraging gradual compliance to the legal requirements).
+- Removed `Informaciï¿½n Publicada Antes De La Ley 1712 De 2014`, redundant in relation with `Respuestas A Solicitudes De Informaciï¿½n Recibidas`
 - Updated some criteria success level descriptions
 - Improved copy
 
@@ -29,11 +39,11 @@ Retroactive commit
 retroactive commit
 
 ### Added
-- text for section 1.1 Transparencia, Rendición de Cuentas y lucha contra la corrupción;
-- text for section 1.2 Público objetivo
-- text for section 1.3 Filosofía y Presupuestos
+- text for section 1.1 Transparencia, Rendiciï¿½n de Cuentas y lucha contra la corrupciï¿½n;
+- text for section 1.2 Pï¿½blico objetivo
+- text for section 1.3 Filosofï¿½a y Presupuestos
 - text for section 1.4 Interdisciplinaridad
-- text for section 1.5 Regulación
+- text for section 1.5 Regulaciï¿½n
 
 ### Changed
 - added some missing information (by Juan Carlos Upegui);

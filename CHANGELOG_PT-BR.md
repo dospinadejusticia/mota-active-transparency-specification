@@ -1,15 +1,25 @@
 # Changelog
 Project: Especificação de Transparência Activa para Entidades Governamentais - Iniciativa MOTA
 Description: especificação das obrigações e boas práticas para publicação e divulgação de informações ativas de transparência na Colômbia.
-Version: 0.5.0
+Version: 0.5.1
 
 Todas as mudanças importantes do projeto estão documentadas neste arquivo.
 Este projeto segue [Versionamento Semântico](http://semver.org/) e convenções do [Mantenha um Changelog](https://keepachangelog.com/pt-BR/1.0.0/) está disponível também em [espanhol](CHANGELOG_ES-CO.md) e [inglés](CHANGELOG.md).
 
 ## Não Lançado
 
+## [0.5.1] - 2020-07-07
+
+### Corrigido
+- codificação de caracteres em alguns arquivos
+- versão atualizada
+
+### Modificado
+- redação melhorada
+
 ## [0.5.0] - 2020-07-03
 
+### Modificado
 - Regras totais alteradas para 48.
 - Mesclou as regras do `Diretório de Serviços - Básico` e ` Diretório de Serviços - Completo` no `Diretório de servidores públicos (funcionários)`, criado originalmente para permitir mais flexibilidade às entidades obrigadas, devido ao seu potencial de gerar confusão e desencorajar a conformidade com a regra legal (ou seja, um diretório completo com informações completas).
 - Reorganizado o `Reporte de Auditorias` e `Informes de gestão, avaliação e auditoria`em 4 regras separadas para permitir uma avaliação gradual e mais flexibilidade para as entidades obrigadas, incentivando o cumprimento gradual dos requisitos legais.
