@@ -19,7 +19,7 @@ Editores:
 
 ## Abstract
 
-Este documento especifica los criterios de evaluación de obligaciones y de buenas prácticas para la publicación y divulgación de la información pública en Internet, por parte de entidades gubernamentales en Colombia (obligaciones de transparencia activa).
+Este documento especifica los criterios de evaluación de obligaciones y de buenas prácticas para la publicación y divulgación de la información pública en Internet por parte de entidades gubernamentales en Colombia (obligaciones de transparencia activa según la Ley 1712 de 2014).
 
 Su principal y primer objetivo es servir de foro para reunir a las partes interesadas en la transparencia activa en Colombia, al habilitar un proceso público, participativo y recurrente de estandarización de las obligaciones y de las buenas prácticas sobre publicación y divulgación de información pública en Internet. Esto con el propósito de que la transparencia activa desplegada por las entidades gubernamentales en Colombia sea lo más completa y eficiente posible.
 
@@ -27,7 +27,7 @@ Por estas razones, aunque esta especificación es originalmente un proyecto crea
 
 Esta especificación es, por lo tanto, también un llamado a la construcción colectiva de la política y la práctica y evaluación de la transparencia activa gubernamental en Colombia.
 
-Cabe destacar que en Colombia ya existen varios instrumentos e iniciativas de transparencia y datos abiertos muy buenas. La iniciativa MOTA no reemplaza estas iniciativas; busca sumarse a ellas y complementarlas. Además, busca ser un punto de encuentro para el debate y la actualización de la forma de caracterizar las obligaciones de transparencia activa y sobre todo de medir su concreción. Esto, ante el hecho innegable de que la tecnología y la sociedad están en constante transformación.
+Cabe destacar que en Colombia ya existen varios instrumentos e iniciativas de transparencia y datos abiertos muy buenas. La iniciativa MOTA no reemplaza estas iniciativas, busca sumarse a ellas y complementarlas. Además, busca ser un punto de encuentro para el debate y la actualización de la forma de caracterizar las obligaciones de transparencia activa y sobre todo de medir su concreción. Esto, ante el hecho innegable de que la tecnología y la sociedad están en constante transformación.
 
 El segundo objetivo es ofrecer una visión general de los objetivos y de la filosofía de la iniciativa MOTA--Monitoreo de Obligaciones de Transparencia Activa--.  La iniciativa MOTA busca incentivar el cumplimiento de las obligaciones de transparencia activa de las entidades gubernamentales, con la esperanza de que esto redunde en una mejor rendición de cuentas de las entidades gubernamentales, y sirva como una herramienta más en la lucha contra corrupción.  Esto, a través de incentivar ejercicios de transparencia activa de la información en formatos abiertos, estandarizados y fácilmente legibles por máquinas en los sitios web de los sujetos obligados (información mínima obligatoria de los arts. 9, 10 y 11 de la Ley 1712 de 2014).
 
@@ -129,7 +129,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [6.4.1. Criterio de Éxito - Nivel A](#641-criterio-de-éxito---nivel-a)
       - [6.4.2. Criterio de Éxito - Nivel AA](#642-criterio-de-éxito---nivel-aa)
       - [6.4.3. Criterio de Éxito - Nivel AAA](#643-criterio-de-éxito---nivel-aaa)
-    - [6.5. Horario de Atención al Público](#65-horario-de-atención-al-público)
+    - [6.5. Horario de atención al público](#65-horario-de-atención-al-público)
       - [6.5.1. Criterio de Éxito - Nivel A](#651-criterio-de-éxito---nivel-a)
       - [6.5.2. Criterio de Éxito - Nivel AA](#652-criterio-de-éxito---nivel-aa)
       - [6.5.3. Criterio de Éxito - Nivel AAA](#653-criterio-de-éxito---nivel-aaa)
@@ -177,7 +177,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [6.16.1. Criterio de Éxito - Nivel A](#6161-criterio-de-éxito---nivel-a)
       - [6.16.2. Criterio de Éxito - Nivel AA](#6162-criterio-de-éxito---nivel-aa)
       - [6.16.3. Criterio de Éxito - Nivel AAA](#6163-criterio-de-éxito---nivel-aaa)
-    - [6.17. Metas y Objetivos](#617-metas-y-objetivos)
+    - [6.17. Metas y objetivos](#617-metas-y-objetivos)
       - [6.17.1. Criterio de Éxito - Nivel A](#6171-criterio-de-éxito---nivel-a)
       - [6.17.2. Criterio de Éxito - Nivel AA](#6172-criterio-de-éxito---nivel-aa)
       - [6.17.3. Criterio de Éxito - Nivel AAA](#6173-criterio-de-éxito---nivel-aaa)
@@ -255,7 +255,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [7.12.2. Criterio de Éxito - Nivel A](#7122-criterio-de-éxito---nivel-a)
       - [7.12.2. Criterio de Éxito - Nivel AA](#7122-criterio-de-éxito---nivel-aa)
       - [7.12.3. Criterio de Éxito - Nivel AAA](#7123-criterio-de-éxito---nivel-aaa)
-    - [7.13. Procedimientos y Lineamientos de Contratación](#713-procedimientos-y-lineamientos-de-contratación)
+    - [7.13. Procedimientos y lineamientos de contratación](#713-procedimientos-y-lineamientos-de-contratación)
       - [7.13.1. Criterio de Éxito - Nivel A](#7131-criterio-de-éxito---nivel-a)
       - [7.13.2. Criterio de Éxito - Nivel AA](#7132-criterio-de-éxito---nivel-aa)
       - [7.13.3. Criterio de Éxito - Nivel AAA](#7133-criterio-de-éxito---nivel-aaa)
@@ -268,7 +268,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
       - [8.1.1. Criterio de Éxito - Nivel A](#811-criterio-de-éxito---nivel-a)
       - [8.1.2. Criterio de Éxito - Nivel AA](#812-criterio-de-éxito---nivel-aa)
       - [8.1.3. Criterio de Éxito - Nivel AAA](#813-criterio-de-éxito---nivel-aaa)
-    - [8.2. Programa de Gestión Documental](#82-programa-de-gestión-documental)
+    - [8.2. Programa de gestión documental](#82-programa-de-gestión-documental)
       - [8.2.1. Criterio de Éxito - Nivel A](#821-criterio-de-éxito---nivel-a)
       - [8.2.2. Criterio de Éxito - Nivel AA](#822-criterio-de-éxito---nivel-aa)
       - [8.2.3. Criterio de Éxito - Nivel AAA](#823-criterio-de-éxito---nivel-aaa)
@@ -283,7 +283,7 @@ Aunque esta especificación fue inspirada por el trabajo de grupos como W3C, la 
 
 ## 1. Introducción
 
-Esta sección no es normativa
+Esta sección no es normativa.
 
 Esta especificación tiene el propósito de generar una herramienta (que sea a la vez un foro público) sobre la forma de categorizar y de evaluar la transparencia activa de las entidades gubernamentales en Colombia.
 
@@ -297,7 +297,7 @@ Esta especificación está pensada para generar un lugar de debate y de mejora s
 
 ### 1.1 Transparencia, Rendición de Cuentas y lucha contra la corrupción
 
-Esta especificación está alineada con los principios de la Ley 1712 de 2014, en materia de transparencia y acceso a la información pública.  Toma nota de las demandas de distintos actores, tanto nacionales, como internacionales, del público especializado y de la ciudadanía en general sobre la importancia de optimizar los recursos y la funcion de las entidades gubernamentales.  Ya desde los foros que afinan las mejores prácticas de la gobernanza del sector público, como desde aquellos que claman por políticas eficaces de lucha contra la corrupción. Esta especificación intenta ser un modesto aporte en estas materias.
+Esta especificación se alimenta de los principios de la Ley 1712 de 2014 en materia de transparencia y acceso a la información pública. Toma nota de las demandas de distintos actores, tanto nacionales, como internacionales, del público especializado y de la ciudadanía en general sobre la importancia de optimizar los recursos y la funcion de las entidades gubernamentales.  Ya desde los foros que afinan las mejores prácticas de la gobernanza del sector público, como desde aquellos que claman por políticas eficaces de lucha contra la corrupción. Esta especificación intenta ser un modesto aporte en estas materias.
 
 Esta especificación tiene como propósito concretar las demandas sobre transparencia activa mediante la definición de ciertas categorías y de ciertos criterios que puedan ser empleados para la medición del cumplimiento de las obligaciones de transparencia activa por parte de las entidades estatales en el entorno digital a través de las páginas web o los sitios web oficiales de dichas entidades en la Internet.
 
@@ -366,9 +366,9 @@ Las palabras clave ("DEBE"), ("NO DEBE"), ("REQUERIDO"), ("DEBERÍA"), ("NO DEBE
 
 ### 3.1 Conformidad
 
-Para que un sitio web esté en conformidad con esta especificación, debe cumplir con todos y cada uno de los critérios de evaluación en, cada uno de los criterios en al menos el nivel A. La categoria de conformidad (A, AA o AAA) es determinada de acuerdo con los grados obtenidos en la evaluación. Es decir, un sitio web obtiene Conformidad A si ha obtenido el grado A en todos los criterios de evaluación. Del mismo modo, cumple con AA solo si obtiene la calificación AA en todos los criterios, etc.
+Para que un sitio web esté en conformidad con esta especificación, debe cumplir con todos y cada uno de los critérios de evaluación en cada uno de los criterios en al menos el nivel A. La categoria de conformidad (A, AA o AAA) es determinada de acuerdo con los grados obtenidos en la evaluación. Es decir, un sitio web obtiene Conformidad A si ha obtenido el grado A en todos los criterios de evaluación. Del mismo modo, cumple con AA solo si obtiene la calificación AA en todos los criterios, etc.
 
-Para que un sitio web esté en conformidad con esta especificación, debe cumplir con todos y cada uno de los critérios de evaluación en, cada uno de los criterios en al menos el nivel A y obtner ao menos 50 puntos en la escala de conformidad general, cuyos valores varían entre 0 y 100:
+Para que un sitio web esté en conformidad con esta especificación, debe cumplir con todos y cada uno de los critérios de evaluación en cada uno de los criterios en al menos el nivel A y obtener no menos de 50 puntos en la escala de conformidad general, cuyos valores varían entre 0 y 100:
 
 - 90-100 (Conformidad)
 - 50-89 (Conformidad parcial)
@@ -376,23 +376,23 @@ Para que un sitio web esté en conformidad con esta especificación, debe cumpli
 - 1-19 (Deficiente)
 - 0 (No conformidad)
 
-Un sitio web que no cumple com al menos 1 los critérios de evaluación, se considera en no conformidad.
+Un sitio web que no cumple con al menos 1 de los critérios de evaluación, se considera en no conformidad.
 
 ### 3.2. OBLIGACIÓN y RECOMENDACIÓN
 
-Clasificamos cada criterio como OBLIGACIÓN o RECOMENDACIÓN. El primero significa que el criterio de evaluación es obligatorio y DEBE ser implementado, pués es REQUERIDO de acuerdo con el marco legal colombiano. Mientras que el segundo significa que el criterio no es OPCIONAL, y el sujeto obligado DEBERÍA implementarlo para que i) el acceso y la comprensión de la información sean efectivos y/o ii) se mejore la experiencia del usuario, especialmente aquellos en condiciones donde el acceso a la información es más difícil debido a discapacidades físicas, cognitivas, neuronales o condiciones técnicas y económicas tales como acceso restringido a conexiones de datos, o baja velocidad de conexiones, o dispositivos con capacidades de procesamiento más bajas.
+Clasificamos cada criterio como OBLIGACIÓN o RECOMENDACIÓN. El primero significa que el criterio de evaluación es obligatorio y DEBE ser implementado, pues es REQUERIDO de acuerdo con el marco legal colombiano. Mientras que el segundo significa que el criterio es OPCIONAL, y el sujeto obligado DEBERÍA implementarlo para que: i) el acceso y la comprensión de la información sean efectivos; y/o ii) se mejore la experiencia del usuario, especialmente aquellos en condiciones donde el acceso a la información es más difícil debido a discapacidades físicas, cognitivas, neuronales o condiciones técnicas y económicas tales como acceso restringido a conexiones de datos, o baja velocidad de conexiones, o dispositivos con capacidades de procesamiento más bajas.
 
 ### 3.3. - Nivel de Éxito en Critérios de Evaluación
 
 **Nivel A:** el sitio web satisface lo especificado para nivel A en cada criterio de evaluación adelante. Si el criterio de evaluación no especifica una puntuación diferente, el cumplimiento del criterio en nivel A equivale a **50 puntos**.
 
-Este es el nivel mínimo aceptable dentro en el contexto de las entidades públicas colombianas a partir de julio de 2019.
+Este es el nivel mínimo aceptable dentro del contexto de las entidades públicas colombianas a partir de julio de 2019.
 
-**Nivel AA:** el sitio web satisface lo especificado para nivel AA y A en cada criterio de evaluación adelante. Si el criterio de evaluación no especifica una puntuación diferente, el cumplimiento del criterio en nivel A equivale a **80 puntos**, no cumulativos con los pontos del nivel A.
+**Nivel AA:** el sitio web satisface lo especificado para nivel AA y A en cada criterio de evaluación adelante. Si el criterio de evaluación no especifica una puntuación diferente, el cumplimiento del criterio en nivel AA equivale a **80 puntos**, no cumulativos con los puntos del nivel A.
 
 Este es el nivel deseado de forma inmediata o a corto plazo, considerando el contexto de las entidades públicas colombianas en julio de 2019.
 
-**Nivel AAA:** el sitio web satisface *lo especificado para nivel AAA y también DEBE satisfacer lo especificado en nivel AA y A* en cada criterio de evaluación adelante. Si el criterio de evaluación no especifica una puntuación diferente, el cumplimiento del criterio en nivel A equivale a **100 puntos**, no cumulativos con los pontos del nivel A.
+**Nivel AAA:** el sitio web satisface *lo especificado para nivel AAA y también DEBE satisfacer lo especificado en nivel AA y A* en cada criterio de evaluación adelante. Si el criterio de evaluación no especifica una puntuación diferente, el cumplimiento del criterio en nivel A equivale a **100 puntos**, no cumulativos con los puntos del nivel A.
 
 Este es el nivel ideal, el objetivo a medio y largo plazo a partir de agosto de 2019.
 
@@ -418,12 +418,12 @@ Los puntos no son acumulativos.
 
 > *Observación**: aproximadamente igual a los grados 2 o 3 estrellas en el marco [5 estrellas para Datos Abiertos](https://5stardata.info/es/).
 
-**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
+**Importante:** si los datos están solamente en otros sitios (e.g. SECOP, Datos Abiertos, etc.), la puntuación es reducida a la mitad.
 
 
 #### Nivel AA: Información disponible para personas disponibles en la misma página
 
-La información está disponibles en la sitio web, de acuerdo a una de las opciones a seguir:
+La información está disponibles en el sitio web, de acuerdo a una de las opciones a seguir:
 
    - en formato HTML en la misma página: 15 puntos
    - en HTML5 estructurado, semántico y en la misma página: 30 puntos
@@ -447,7 +447,7 @@ Para directrices no relacionadas con la disponibilidad de informacción, como po
 
 Nota 1: A pesar de que la conformidad sólo puede lograrse en los niveles indicados, se anima a los autores a notificar en sus declaraciones cualquier progreso que se realice para satisfacer los criterios de éxito de todo nivel más allá del nivel de conformidad alcanzado.
 
-Nota 2: No se recomienda como política general exigir el nivel de conformidad AAA para sitios enteros porque es posible casos de sitios que no puedan satisfacer todos los criterios de éxito de nivel AAA.
+Nota 2: No se recomienda como política general exigir el nivel de conformidad AAA para sitios enteros porque es posible que haya casos de sitios que no puedan satisfacer todos los criterios de éxito de nivel AAA.
 
 ### 3.1 Herramientas para examen de conformidad
 
@@ -458,18 +458,18 @@ Nota 2: No se recomienda como política general exigir el nivel de conformidad A
 
 ## 4. Términos importantes (vocabulario)
 
-## 5. Categoría - Disponibilidad de Acceso
+## 5. Categoría - Disponibilidad de acceso
 
-Esta categoría reúne criterios de evaluación sobre la disponibilidad de acceso al sitio web del sujeto obligado. Incluye obligaciones y recomendaciones básicas como la existencia de un sitio web, acceso gratuito, uso de contraseñas para acceder y seguimiento de buenas prácticas de accesibilidad que permiten el acceso a personas con discapacidades físicas, cognitivas o que no tienen conexiones o dispositivos rápidos baja capacidad.
+Esta categoría reúne los criterios de evaluación sobre la disponibilidad de acceso al sitio web del sujeto obligado. Incluye obligaciones y recomendaciones básicas como la existencia de un sitio web, acceso gratuito, uso de contraseñas para acceder y el seguimiento de buenas prácticas de accesibilidad que permiten el acceso a personas con discapacidades físicas, cognitivas o que tienen conexiones o dispositivos de baja capacidad.
 
 ### 5.1 Existencia de sitio web
 <span class="criteria-type">Tipo: OBLIGACIÓN. - Artículo 7 de la Ley 1712 de 2014</span>
 
-> **Resumen:** Para fomentar la transparencia activa y la participación ciudadana, y cumplir con las obligaciones legales colombianas, la entidade deberá mantener um sítio web, que deberá estar disponible para acesso via una URL oficial por personas y sistemas automáticos (e.g. robots). Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** La entidad deberá mantener un sitio web que deberá estar disponible para acesso via una URL oficial por personas y sistemas automáticos (e.g. robots). Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
-Para fomentar la transparencia activa y la participación ciudadana, y cumplir con las obligaciones legales colombianas, la entidade deberá mantener um sítio web, que deberá estar disponible para acesso via una URL oficial por personas y sistemas automáticos (e.g. robots).
+La entidad deberá mantener un sitio web que deberá estar disponible para acesso via una URL oficial por personas y sistemas automáticos (e.g. robots).
 
-Este critério de evaluación tiene solo un nivel de exito (AAA).
+Este criterio de evaluación tiene solo un nivel de exito (AAA).
 
 #### 5.1.1 Criterio de Éxito - Nivel AAA
 
@@ -480,7 +480,7 @@ Nota: se aceptan redireccionamientos con códigos HTTP 301 y 302, siempre que i)
 ### 5.2 Gratuidad
 Tipo: OBLIGACIÓN.
 
-> **Resumen:** El sítio debe tener aceso gratuito a los servicios judiciales informáticos que presta la entidad, exceto para casos previstos en ley e reglamentos.
+> **Resumen:** El sítio debe tener acceso gratuito a los servicios informáticos que presta la entidad excepto para los casos previstos en la ley o en los reglamentos.
 
 El sitio web debe tener acceso gratuito a los servicios informáticos que presta la entidad excepto para casos previstos en ley o en los reglamentos.
 
@@ -497,9 +497,9 @@ Todos los servicios son accesibles sin contrapartida financiera, botones u otros
 ### 5.3. - Universalidad: Acceso directo
 Tipo: RECOMENDACIÓN
 
-> **Resumen:** El sitio web debe tener aceso gratuito a los servicios judiciales informáticos que presta la entidad, y no deben estar restringidos a ciertos usuarios previo registro y recepción de una clave de acceso, exceto para casos previstos en ley e reglamentos.
+> **Resumen:** Los servicios informáticos que presta la entidad en su sitio web deben ser abiertos a todo el público que desee acceder a ellos y no deben estar restringidos a ciertos usuarios previo registro y recepción de una clave de acceso, exceto para casos previstos en ley y en reglamentos.
 
-Los servicios informáticos que presta la Corte en su sitio web deben ser abiertos a todo el público que desee acceder a ellos y no deben estar restringidos a ciertos usuarios previo registro y recepción de una clave de acceso, exceto para casos previstos en ley e reglamentos.
+Los servicios informáticos que presta la entidad en su sitio web deben ser abiertos a todo el público que desee acceder a ellos y no deben estar restringidos a ciertos usuarios previo registro y recepción de una clave de acceso, exceto para casos previstos en ley y en reglamentos.
 
 #### 5.3.1. Criterio de Éxito - Nivel A
 
@@ -516,7 +516,7 @@ Todos los servicios son accesibles sin registro previo ni clave de acceso.
 ### 5.4 - Universalidad: Patrones de accesibilidad y web standards
 Tipo: RECOMENDACIÓN
 
-> **Resumen:** Para garantizar el acceso a la mayor cantidad posible de ciudadanos, independientemente de sus circunstancias físicas, cognitivas, sociales o económicas, los sitios web deben desarrollarse siguiendo los estándares web y las mejores prácticas de accesibilidadlos sitios deben permitir acesso tecnologias asistivas como lectores de tela, asistentes por voz, etc; Así como desde dispositivos de baja capacidad y conexión de baja velocidad.
+> **Resumen:** Para garantizar el acceso a la mayor cantidad posible de ciudadanos, independientemente de sus circunstancias físicas, cognitivas, sociales o económicas, los sitios web deben desarrollarse siguiendo los estándares web y las mejores prácticas de accesibilidad. Los sitios deben permitir acesso de tecnologias asistivas como lectores de tela, asistentes por voz, etc., así como desde dispositivos de baja capacidad y conexión de baja velocidad.
 
 Los sitios deben permitir acceso igualitario por:
 
@@ -556,7 +556,7 @@ El sitio utiliza de forma adequada las prácticas [wai-aria-1.2](https://w3c.git
 ### 5.5 - Universalidad: Rendimiento
 Tipo: RECOMENDACIÓN
 
-> **Resumen:** Para garantizar el acceso del mayor número de ciudadanos, incluidos aquellos con dispositivos de baja capacidad y conexiones de baja velocidad, los sitios web deben desarrollarse siguiendo los estándares web y con velocidade rasonable y estable mismo em malas condiciones de aceso, como conexión por dispositivos móbiles en conexión de baja velocidad o inestables.
+> **Resumen:** Los sitios deben permitir acceso con velocidad razonable y estable incluso en malas condiciones de acceso, como conexión por dispositivos móviles en redes de bajo rendimiento.
 
 Los sitios deben permitir acceso con velocidad razonable y estable incluso en malas condiciones de acceso, como conexión por dispositivos móviles en redes de bajo rendimiento. Los sitios deben obtener grados mínimos en la herramientas [Webpagetest](http://webpagetest.org/result/190506_KG_29de3021baf30242013b8f58843cd7df/) y [Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/), de acuerdo con lo descrito a continuación.
 
@@ -633,7 +633,7 @@ El sitio es accesible solo en conexión encriptada, utilizando protocolos 1.3.
 ### 5.7 - Dados Abiertos: Acceso vía API REST
 Tipo: RECOMENDACIÓN
 
-> **Resumen:** Los contenidos del sitio son acesibles por una API REST con datos estructurados, incluso meta-dados. Esta recomendación busca facilitar acesso a información por robots y sistemas automatizados, aumentando las capacidades de veeduría ciudadana.
+> **Resumen:** Los contenidos del sitio son acesibles por una API REST con datos estructurados, incluso meta-dados. Esta recomendación busca facilitar el acesso a la información por robots y sistemas automatizados, aumentando las capacidades de veeduría ciudadana.
 
 Para facilitar acesso a información por robots y sistemas automatizados, aumentando las capacidades de veeduría ciudadana, los contenidos del sitio como páginas, noticias o secciones son accesibles por máquinas utilizando [API](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) [REST](https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional) [web](https://es.wikipedia.org/wiki/Web_API) con [datos estructurados](https://es.wikipedia.org/wiki/Modelo_de_datos), incluso [meta-dados](https://es.wikipedia.org/wiki/Metadatos), seguindo las mejores prácticas de datos abiertos como delineados por Open Knowledge Foundation en El manual de Open Data [(Open Data Handbook)](http://opendatahandbook.org/guide/es/) y las recomendaciones de W3C en [publicación de datos de gobierno abierto](https://www.w3.org/TR/gov-data/) para que cumplan com los requisitos del grado 4 estrellas del marco [5 estrellas para Datos Abiertos](https://5stardata.info/es/).
 
@@ -658,7 +658,7 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal a).
 Resolución 3564 de 201 5, anexo 1, punto 3.4.
 
-> **Resumen:** Para que la ciudadanía conozca la jerarquía de empleados y departamentos disponibles en la entidad, esta publica su estructura orgánica de manera gráfica (ejemplo: organigrama), y tambíen publica una descripción de la estructura orgánica, donde se ofrezca información general de cada división o dependencia, y no tan sólo la cabeza o principal órgano que se trate.  Preferencialmente en dos formatos: description textual en la página y imagem o archivos en formato estructurado y abierto.
+> **Resumen:** Para que la ciudadanía conozca la jerarquía de empleados y departamentos disponibles en la entidad, esta publica su estructura orgánica de manera gráfica (ejemplo: organigrama), y tambíen publica una descripción de la estructura orgánica, donde se ofrezca información general de cada división o dependencia.  Preferiblemente en dos formatos: descripción textual en la página e imagem o archivos en formato estructurado y abierto.
 
 El sujeto obligado publica su estructura orgánica de manera gráfica y legible (ejemplo: organigrama), en un formato accesible y usable. Asimismo, publica una descripción de la estructura orgánica, donde se ofrezca información general de cada división o dependencia. Para que la ciudadanía conozca la jerarquía de empleados y departamentos disponibles en la entidad, y pueda llevar a cabo procedimientos de manera asertiva, el sitio web del sujeito obligado debe contener descripción de la forma en que se compone y se organiza la entidade y no tan sólo la cabeza o principal órgano que se trate.
 
@@ -695,7 +695,7 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal a).
 Resolución 3564 de 2015, anexo 1, punto 3.2.
 
-> **Resumen:** Para que la población tenga claridad sobre el papel y qué esperar de la entidad, el sujeto obligado publica una descripción de funciones y deberes de la entidad en general y no tan sólo la cabeza o principal órgano que lo compone. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** Para que la población tenga claridad sobre el papel y qué esperar de la entidad, el sujeto obligado publica una descripción de funciones y deberes de la entidad en general y no tan sólo la cabeza o principal órgano que lo compone. Preferiblemente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 Para que la población tenga claridad sobre el papel y qué esperar de la entidad, el sujeto obligado publica una descripción de funciones y deberes de la entidad en general y no tan sólo la cabeza o principal órgano que lo compone. El sujeto obligado publica sus funciones y deberes de acuerdo con su norma de creación o reestructuración. Si alguna norma le asigna funciones adicionales, éstas también están incluidas.
 
@@ -716,7 +716,7 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal a).
 Resolución 3564 de 2015, anexo 1, punto 1.2.
 
-> **Resumen:** Ubicación física del sujeto obligado, de sus sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, incluyendo ciudad y departamento de ubicación. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** Ubicación física del sujeto obligado, de sus sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, incluyendo ciudad y departamento de ubicación. Preferiblemente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 Ubicación física del sujeto obligado, de sus sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, incluyendo ciudad y departamento de ubicación.
 
@@ -737,7 +737,7 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal a).
 Resolución 3564 de 2015, anexo 1, punto 1.2.
 
-> **Resumen:** Información general sobre las divisiones territoriales de el sujeto obligado: indicación de cuales son las divisiones, direcciones, etc. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** Información general sobre las divisiones territoriales del sujeto obligado: indicación cáales son las divisiones, direcciones, etc. Preferiblemente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 Información sobre la totalidad de divisiones territoriales. Para considerar como positiva esta pauta, basta con que la información sea general (indicación de cuales son, direcciones, etc.) y no es necesario que todo el contenido del sitio sea el mismo para todas las divisiones territoriales.
 
@@ -758,7 +758,7 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal a).
 Resolución 3564 de 2015, anexo 1, punto 1.2.
 
-> **Resumen:**: La entidade debe publicar información sobre horarios y días de atención al público de la entidad y sus divisiones o sucursales en diferentes medios: en la sede, teléfono, correo electrónico, etc.
+> **Resumen:**: La entidad debe publicar información sobre horarios y días de atención al público de la entidad y de sus divisiones o sucursales en diferentes medios: en la sede, teléfono, correo electrónico, etc.
 
 La entidade debe publica información sobre horarios y días de atención al público de la entidad y sus divisiones en diferentes medios: en la sede, teléfono, correo electrónico, etc. Enlace a los datos de contacto de las sucursales que tenga el sujeto obligado.
 
@@ -779,7 +779,7 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal b).
 Resolución 3564 de 2015, anexo 1, punto 5.1.
 
-> **Resumen:** El presupuesto de la entidad para la respectiva vigencia debe estar disponible para verificación del público. Puede ser el presupuesto inicial o final. Eo presupuesto debe ofrecer datos (valores, ingresos, gastos) de forma clara, organizada y desagregado. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** El presupuesto de la entidad para la respectiva vigencia debe estar disponible para verificación del público. Puede ser el presupuesto inicial o final. Eo presupuesto debe ofrecer datos (valores, ingresos, gastos) de forma clara, organizada y desagregada. Preferiblemente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sujeto obligado publica su presupuesto general para cada año fiscal. Puede ser el presupuesto inicial o final. El presupuesto debe ofrecer datos (valores, ingresos, gastos) de forma clara, organizada y debe estar desagregado conforme se describe a continuación, con encabezados o títulos en paréntesis:
 
@@ -812,7 +812,7 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal b).
 Resolución 3564 de 2015, anexo 1, punto 5.2.
 
-> **Resumen:** El sujeto obligado publica la información histórica detallada de la ejecución presupuestal aprobada y ejecutada de ingresos y gastos anuales, idealmente con porcentajes de ejecución, y deben ofrecer datos (gastos, valores, ingresos) de forma clara, organizada. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** El sujeto obligado publica la información histórica detallada de la ejecución presupuestal aprobada y ejecutada de ingresos y gastos anuales, idealmente con porcentajes de ejecución. Debe ofrecer datos (gastos, valores, ingresos) de forma clara y organizada. Preferiblemente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sujeto obligado publica la información histórica detallada de la ejecución presupuestal aprobada y ejecutada de ingresos y gastos anuales. La información que reposa debe ser al menos de los últimos dos (2) años anteriores al año en ejercicio, con corte a diciembre del período respectivo y debe ser acorde con el reporte enviado al Sistema Integrado de Información Financiera (SIIF), para lo sujetos que aplique.  Los datos pueden ser agregados mensualmente o trimestralmente, idealmente con porcentajes de ejecución, y deben ofrecer datos (gastos, valores, ingresos) de forma clara, organizada y encontrarse desagregados conforme se describe a continuación, con encabezados o títulos en paréntesis:
 
@@ -847,7 +847,7 @@ Ley 1712 de 2014, artículo 9, literal b).
 Resolución 3564 de 2015, anexo 1, punto 6.2.
 Ley 1474 de 2011, artículo 74.
 
-> **Resumem:** El sujeto obligado publica su plan de gasto público para cada año fiscal, en el cual se especifican los objetivos, las estrategias, los proyectos, las metas, los responsables, los planes generales de compras y la distribución presupuestal de sus proyectos de inversión junto a los indicadores de gestión. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumem:** El sujeto obligado publica su plan de gasto público para cada año fiscal, en el cual se especifican los objetivos, las estrategias, los proyectos, las metas, los responsables, los planes generales de compras y la distribución presupuestal de sus proyectos de inversión junto a los indicadores de gestión. Preferiblemente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sujeto obligado publica su plan de gasto público para cada año fiscal, en el cual se especifican los objetivos, las estrategias, los proyectos, las metas, los responsables, los planes generales de compras y la distribución presupuestal de sus proyectos de inversión junto a los indicadores de gestión. Asimismo, el plan deberá estar acompañado del informe de gestión del año inmediatamente anterior.
 
@@ -916,7 +916,7 @@ Ley 1712 de 2014, artículo 9, literal c) y parágrafo 2.
 Decreto 103 de 2015, artículo 5.
 Resolución 3564 de 2015, anexo 1, punto 3.5.
 
-> **Resumen:** El sujeto obligado publica en formato accesible y reutilizable el directorio de información de los servidores públicos contratistas(incluyendo el objeto del contrato), incluyendo aquellos que laboran en las sedes, áreas, divisiones, departamentos y/o regionales.
+> **Resumen:** El sujeto obligado publica en formato accesible y reutilizable el directorio de información de los servidores públicos contratistas (incluyendo el objeto del contrato), incluyendo aquellos que laboran en las sedes, áreas, divisiones, departamentos y/o regionales.
 
 El sujeto obligado publica en formato accesible y reutilizable el directorio de información de los servidores públicos contratistas, incluyendo aquellos que laboran en las sedes, áreas, divisiones, departamentos y/o regionales, según corresponda, con la siguiente información:
 
@@ -959,13 +959,13 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal c).
 Resolución 3564 de 2015, anexo 1, punto 3.5.
 
-> **Resumen:** Es posible encontrar una tabla con los rangos de salarios de la entidad, identificado por el título "Rangos de salario por nivel", y el decreto de asignaciones salariales de la entidad en un lugar visible. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** Es posible encontrar una tabla con los rangos de salarios de la entidad, identificado por el título "Rangos de salario por nivel", y el decreto de asignaciones salariales de la entidad en un lugar visible. Preferiblemente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 Es posible encontrar una tabla con los rangos de salarios de la entidad, identificado por el título "Rangos de salario por nivel", y el decreto de asignaciones salariales de la entidad en un lugar visible.
 
 La tabla debe estar actualizada al menos al último año concluido y contener información sobre el salario base por jerarquía y/o categoría ocupacional, de acuerdo con la categoría, tipo y otras especificidades de la entidad. Ejemplo, en el sitio web de la Fiscalía General de la Nación se espera encontrar datos separados por jerarquía y/o categoría de fiscales y también por jerarquía y/o categoría ocupacional de otros funcionarios no fiscales.
 
-**Importante:** si los datos están solamente en otros sitios (e.g. SICOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
+**Importante:** si los datos están solamente en otros sitios (e.g. SECOP, Datos Abiertos, etc), la puntuación es reducida a la mitad.
 
 #### 6.11.1. Criterio de Éxito - Nivel A
 
@@ -1092,7 +1092,7 @@ Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 6.1.
 Ley 1474 de 2011, artículo 73.
 
-> **Resumen:** Para que a cidadania esteja bem informada sobre o funcionamento institucional. El sujeto obligado publica sus lineamientos, manuales y toda política que haya adoptado y afecte al público, junto con sus fundamentos y toda interpretación autorizada de ellas. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** El sujeto obligado publica sus lineamientos, manuales y toda política que haya adoptado y afecte al público, junto con sus fundamentos y toda interpretación autorizada de ellas. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sujeto obligado publica sus lineamientos, manuales y toda política que haya adoptado y afecte al público, junto con sus fundamentos y toda interpretación autorizada de ellas. Entre las políticas, lineamientos y manuales pueden estar (lista ilustrativa, no taxativa):
 
@@ -1124,7 +1124,7 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 6.4.
 
-> **Resumen:** La entidad y sus unidades administrativas publican la información relacionada con sus metas y objetivos, de conformidad con sus programas operativos y los demás planes exigidos, y publicar su estado de avance, mínimo cada tres (3) meses. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** La entidad y sus unidades administrativas publican la información relacionada con sus metas y objetivos, de conformidad con sus programas operativos y los demás planes exigidos. También publica su estado de avance, mínimo cada tres (3) meses. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sujeto obligado y sus unidades administrativas publican la información relacionada con sus metas y objetivos, de conformidad con sus programas operativos y los demás planes exigidos por la normatividad.
 
@@ -1148,7 +1148,7 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal d).
 Resolución 3564 de 2015, anexo 1, punto 6.4.
 
-> **Resumen:** Las entidades deben proveer información sobre los indicadores de gestión o desempeño que utilizan, así como reportes con estadísticas y análisis del desempeño en relación con sus programas operativos y los demás planes. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** La entidad publica información sobre los indicadores de gestión o desempeño que utiliza, así como reportes con estadísticas y análisis del desempeño en relación con sus programas operativos y los demás planes. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 Las entidades deben proveer información sobre los indicadores de gestión y/o desempeño que utilizan, deben publicar también reportes con estadísticas y análisis del desempeño de la entidad en relación con sus programas operativos y los demás planes exigidos por la normatividad.
 
@@ -1169,7 +1169,7 @@ Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 9, literal g).
 Ley 1474 de 2011, artículo 73.
 
-> **Resumen:** El sujeto obligado publica anualmente una estrategia de lucha contra la corrupción y de atención al ciudadano contemplando mapa de riesgos de corrupción, estrategias y medidas concretas para mitigar esos riesgos y mejorar atención al ciudadano. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** El sujeto obligado publica anualmente una estrategia de lucha contra la corrupción y de atención al ciudadano. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sujeto obligado publica anualmente una estrategia de lucha contra la corrupción y de atención al ciudadano. Dicha estrategia contempla, entre otras cosas:
 - el mapa de riesgos de corrupción en la respectiva entidad;
@@ -1198,7 +1198,7 @@ Resolución 3564 de 2015, anexo 1, punto 8.4.
 Ley 1474 de 2011, artículo 74.
 Decreto 1510 de 2013, artículos 3, 4, 5, 6 y 7.
 
-> **Resumen:** La entidad publica en su sitio web y en el sistema SECOP su plan general de compras, entendido como un instrumento de planeación contractual que las entidades estatales deben diligenciar, publicar y actualizar por lo menos una vez durante su vigencia y hay ajustes según lo establecido en la ley y otras normativas. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** La entidad publica en su sitio web y en el sistema SECOP su plan general de compras, entendido como un instrumento de planeación contractual que las entidades estatales deben diligenciar, publicar y actualizar por lo menos una vez durante su vigencia y hacer ajustes según lo establecido en la ley y otras normativas. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sujeto obligado que contrata con cargo a recursos públicos publica en su sitio web y en el Sistema Electrónico de Contratación Pública (SECOP) su plan general de compras, entendido como un instrumento de planeación contractual que las entidades estatales deben diligenciar, publicar y actualizar por lo menos una vez durante su vigencia y: (i) cuando haya ajustes en los cronogramas de adquisición, valores, modalidad de selección, origen de los recursos; (ii) para incluir nuevas obras, bienes y/o servicios; (iii) excluir obras, bienes y/o servicios; o (iv) modificar el presupuesto anual de adquisiciones. El plan debe compreender:
 
@@ -1221,9 +1221,9 @@ Contenido del Plan disponible en la página, estructurado semánticamente (i.e. 
 #### 6.20.3. Criterio de Éxito - Nivel AAA
 Proceso de Gestión Contractual y lista de documentos disponibles en la página, estructurados semánticamente (i.e. elementos HTML5 apropiados), información de contratos disponible en archivos, en formatos abiertos (e.g. .odf), incluyendo links para el SECOP. Meta-dados de la colección de documentos contienen nombre del documento, autor, data de actualización, URI y enlace para el SECOP) en sintaxis LD+JSON y vocabulario schema.org según esquema [Collection](https://schema.org/Collection), [DigitalDocument](https://schema.org/DigitalDocument) y relacionados. Accesible por elemento de navegación principal o en el cuerpo de la capa de sesión.
 
-## 7. Información Mínima Obligatoria respecto a Servicios, Procedimientos y Funcionamiento
+## 7. Información mínima obligatoria respecto a servicios, procedimientos y funcionamiento
 
-Información Mínima Obligatoria respecto a servicios, procedimientos y funcionamiento, de acuerdo con el artículo 11 de la Ley 1712 de 2014.
+Información mínima obligatoria respecto a servicios, procedimientos y funcionamiento, de acuerdo con el artículo 11 de la Ley 1712 de 2014.
 
 ### 7.1. Servicios
 Tipo: OBLIGACIÓN.
@@ -1231,7 +1231,7 @@ Ley 1712 de 2014, artículo 11, literal a).
 Decreto 103 de 2015, artículo 6.
 Resolución 3564 de 2015, anexo 1, punto 9.
 
-> **Resumen:** El sitio web de la entidad obligado contiene una o más páginas con información de los servicios que brinda directamente al público, incluyendo i) normas ii) formularios y formatos y, iii) protocolos de atención a diferentes públicos. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** El sitio web de la entidad  contiene una o más páginas con información de los servicios que brinda directamente al público, incluyendo i) normas ii) formularios y formatos y iii) protocolos de atención a diferentes públicos. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sitio web del sujeto obligado contiene una o más páginas con información de los servicios que brinda directamente al público, incluyendo:
 - La norma que los sustenta
@@ -1260,7 +1260,7 @@ Ley 1712 de 2014, artículo 11, literal b).
 Decreto 103 de 2015, artículo 6.
 Resolución 3564 de 2015, anexo 1, punto 9.
 
-> **Resumen:** El sitio web contiene informaciones de los trámites que se pueden agotar en la entidad, incluyendo i) normativa(s) relacionada(s) ii) proceso a seguir, incluso formularios y formatos y, iii) costos asociados. iv) aquellos que se encuentren disponibles en línea. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** El sitio web contiene información de los trámites que se pueden agotar en la entidad, incluyendo i) normativa(s) relacionada(s); ii) proceso a seguir, incluso formularios y formatos; iii) costos asociados; y iv) aquellos que se encuentren disponibles en línea. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sujeto obligado publica toda la información correspondiente a los trámites que se pueden agotar en la entidad, incluyendo:
 - La norma que los sustenta
@@ -1419,7 +1419,7 @@ Ley 1712 de 2014, artículo 11, literal h).
 Decreto 103 de 2015, artículo 52.
 Resolución 3564 de 2015, anexo 1, punto 10.10.
 
-> **Resumen:** El sitio de la entidad debe contener informe de todas las peticiones, quejas, reclamos, denuncias y solicitudes de acceso a información pública recibidas, los tiempos de respuesta del sujeto obligado y un análisis resumido de este tema. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** El sitio de la entidad debe contener un informe de todas las peticiones, quejas, reclamos, denuncias y solicitudes de acceso a información pública recibidas, los tiempos de respuesta del sujeto obligado y un análisis resumido de este tema. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sujeto obligado publica un informe de todas las peticiones, quejas, reclamos, denuncias y solicitudes de acceso a información pública recibidas, los tiempos de respuesta del sujeto obligado y un análisis resumido de este tema. Respecto de las solicitudes de acceso a información pública, el informe debe discriminar la siguiente información mínima agregada:
 
@@ -1555,7 +1555,7 @@ Datos disponibles en archivos, formatos abiertos (e.g. .odf) y disponibles en la
 
 Además de conformidad con el nivel AA, la misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://schema.org/Report), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
-#### 7.9.4 Informes de Auditoría
+#### 7.9.4 Informes de auditoría
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 11, literal e).
 Resolución 3564 de 2015, anexo 1, punto 7.1.
@@ -1638,7 +1638,7 @@ Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [Report](https://sch
 Tipo: OBLIGACIÓN.
 Resolución 3564 de 2015, anexo 1, punto 1.3.
 
-> **Resumen:** La entidad publica la dirección de correo electrónico para notificaciones judiciales. Idealmente en el pie de página de todas las páginas del sitio web, y al menos en la página principal del sitio web del sujeto obligado  así como en la sección de atención al ciudadano.
+> **Resumen:** La entidad publica la dirección de correo electrónico para notificaciones judiciales. Idealmente en el pie de página de todas las páginas del sitio web, y al menos en la página principal del sitio web del sujeto obligado así como en la sección de atención al ciudadano.
 
 El sujeto obligado publica la dirección de correo electrónico para notificaciones judiciales, la cual debe estar disponible en el pie de página de la página principal del sitio web del sujeto obligado, así como en la sección de atención al ciudadano. El correo para notificaciones judiciales debe estar configurado de forma tal que envíe acuse de recibo al remitente de forma automática.
 
@@ -1652,12 +1652,12 @@ Información disponibleen el pie de página  del sujeto obligado, así como en l
 
 Además de conformidad con el nivel AA, la misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org of types [GovernmentOrganization](https://schema.org/GovernmentOrganization) y [ContactPoint](https://schema.org/ContactPoint).
 
-### 7.13. Procedimientos y Lineamientos de Contratación
+### 7.13. Procedimientos y lineamientos de contratación
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 11, literal g).
 Resolución 3564 de 2015, anexo 1, punto 8.3.
 
-> **Resumen**: El sitio web de la entidad debe contener información de procedimientos y lineamientos de contratación. Documentos ex - ante(de planeación o tipo manual) que den guía sobre cómo se va a proceder para hacer algo, formulado por la entidad. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen**: El sitio web de la entidad debe contener información de procedimientos y lineamientos de contratación. Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sitio web del sujeto obligado debe contener información de procedimientos y lineamientos de contratación. Documentos ex-ante (de planeación o tipo manual) que den guía sobre cómo se va a proceder para hacer algo), formulado por la entidad. Puede que el que esté disponible haya sido formulado en una vigencia diferente a la actual. Publicación de documentos que den guía sobre cómo se maneja la contratación en la entidad según cada modalidad. En la mayoría de casos, estos lineamientos se consolidan en un documento llamado "Manual de Contratación".
 
@@ -1702,7 +1702,7 @@ Información disponible en una o más páginas interligadas, estructuradas semá
 
 Los meta-datos en sintaxis LD+JSON y vocabulario schema.org [DigitalDocument](https://schema.org/DigitalDocument), [GovernmentOrganization](https://schema.org/GovernmentOrganization) y relacionados.
 
-## 8. Instrumentos De Gestión De la Información Pública
+## 8. Instrumentos de gestión de la información pública
 
 Información respecto a instrumentos de gestión de la información pública requeridos por la Ley 1712 de 2014.
 
@@ -1710,7 +1710,7 @@ Información respecto a instrumentos de gestión de la información pública req
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 12.
 
-> **Resumen:** El sitio de la entidad debe contener una o más páginas con informaciones de Esquemas de Publicación de información, publicadas en una página denominada \"Acceso a información pública\". Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
+> **Resumen:** El sitio de la entidad debe contener una o más páginas con información del Esquemas de Publicación de información, publicada en una página denominada \"Acceso a información pública\". Preferencialmente en dos formatos: página web y archivos en formato estructurado y abierto.
 
 El sitio web de la entidad debe contener una o más páginas con información de Esquemas de Publicación de información, publicadas en una página denominada "Acceso a información pública"  que incluya: i) qué tipo de información está publicada en el sitio web ii) qué información se publicará de manera proactiva iii) formatos de publicación iv) idioma v) responsable de la producción de información vi) la periodicidad en la divulgación, entre otros.
 
@@ -1736,12 +1736,12 @@ El sitio ofrece página estructurada semánticamente (i.e. elementos HTML5 aprop
 
 Además de conformidad con el nivel AA, la misma información disponible en el listado está disponible como meta-datos en sintaxis LD+JSON y vocabulario schema.org, según esquema [ItemList](https://schema.org/ItemList)y [DigitalDocument](https://schema.org/DigitalDocument) y relacionados.
 
-### 8.2. Programa de Gestión Documental
+### 8.2. Programa de gestión documental
 Tipo: OBLIGACIÓN.
 Ley 1712 de 2014, artículo 15.
 Resolución 3564 de 2015, anexo 1, punto 10.5.
 
-> **Resumen:** El sitio de la entidad debe contener una o más páginas con informaciones del Programa de Gestión Documental, publicadas en una página denominada \"Gestión Documental\" y informar procedimientos y lineamientos necesarios para la producción, distribución, organización, consulta y conservación de los documentos públicos.
+> **Resumen:** El sitio de la entidad debe contener una o más páginas con información del Programa de Gestión Documental, publicada en una página denominada \"Gestión Documental\" e informar procedimientos y lineamientos necesarios para la producción, distribución, organización, consulta y conservación de los documentos públicos.
 
 El sitio web de la entidad debe contener una o más páginas con información acerca del Programa de Gestión Documental, publicadas en una página denominada "Gestión Documental" e informar "procedimientos y lineamientos necesarios para la producción, distribución, organización, consulta y conservación de los documentos públicos". Comprende la vida del documento desde su creación hasta su disposición final.
 
